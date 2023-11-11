@@ -9,7 +9,7 @@ Este repositório reúne os **casos de teste criados por estudantes** para verif
 
 O **diff** facilita a identificação de diferenças entre o resultado correto e o resultado obtido:
 
-**juccompiler -l &lt; factorial.c | diff factorial.out -**
+**./uccompiler -l &lt; first.c | diff first.out -**
 
 **Nota 1:** devem ter espírito crítico relativamente aos ficheiros **.out** com os resultados esperados.
 
