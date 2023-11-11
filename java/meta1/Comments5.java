@@ -1,3 +1,0 @@
-//************//*\n\r
-**/
-/**/ /*unterminated	comment
