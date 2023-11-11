@@ -1,0 +1,73 @@
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(main)
+Unrecognized character: (
+IDENTIFIER(void)
+Unrecognized character: )
+Unrecognized character:  
+Unrecognized character: {
+
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(char)
+Unrecognized character:  
+IDENTIFIER(i)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+CHRLIT('A)
+CHRLIT(';)
+
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(while)
+Unrecognized character:  
+Unrecognized character: (
+IDENTIFIER(i)
+Unrecognized character:  
+Unrecognized character: <
+Unrecognized character: =
+Unrecognized character:  
+CHRLIT('Z)
+CHRLIT('))
+Unrecognized character:  
+Unrecognized character: {
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(putchar)
+Unrecognized character: (
+IDENTIFIER(i)
+Unrecognized character: )
+Unrecognized character: ;
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(i)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+IDENTIFIER(i)
+Unrecognized character:  
+Unrecognized character: +
+Unrecognized character:  
+NATURAL(1)
+Unrecognized character: ;
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character: }
+
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(return)
+Unrecognized character:  
+NATURAL(0)
+Unrecognized character: ;
+
+Unrecognized character: }
+

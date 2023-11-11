@@ -1,0 +1,238 @@
+Unrecognized character: /
+Unrecognized character: *
+Unrecognized character:  
+IDENTIFIER(Meta)
+Unrecognized character:  
+NATURAL(1)
+Unrecognized character:  
+IDENTIFIER(compiladores)
+Unrecognized character:  
+Unrecognized character: 
+
+Unrecognized character: *
+Unrecognized character: /
+Unrecognized character: 
+
+Unrecognized character: /
+IDENTIFIER(exemplo)
+Unrecognized character: 
+
+Unrecognized character:  
+Unrecognized character: 
+
+Unrecognized character:  
+Unrecognized character: 
+
+CHRLIT('/)
+NATURAL(0123)
+CHRLIT(')
+
+Unrecognized character: '
+CHRLIT(\\)
+CHRLIT(\n)
+CHRLIT(')
+
+Unrecognized character: '
+Unrecognized character: \
+NATURAL(1239)
+CHRLIT(')
+
+Unrecognized character: '
+Unrecognized character: '
+Unrecognized character: '
+CHRLIT(\113')
+Unrecognized character: '
+CHRLIT(')
+
+CHRLIT('q)
+IDENTIFIER(werty)
+Unrecognized character: 
+
+Unrecognized character:  
+Unrecognized character: 
+
+Unrecognized character:  
+Unrecognized character: 
+
+Unrecognized character:  
+Unrecognized character: 
+
+Unrecognized character:  
+Unrecognized character: 
+
+Unrecognized character: /
+Unrecognized character: /
+IDENTIFIER(esta)
+Unrecognized character:  
+IDENTIFIER(fun)
+Unrecognized character: Ã
+Unrecognized character: §
+Unrecognized character: Ã
+Unrecognized character: £
+IDENTIFIER(o)
+Unrecognized character:  
+IDENTIFIER(vai)
+Unrecognized character:  
+IDENTIFIER(fazer)
+Unrecognized character:  
+IDENTIFIER(algo)
+Unrecognized character: 
+
+IDENTIFIER(float)
+Unrecognized character:  
+IDENTIFIER(exemplo_1)
+Unrecognized character: (
+IDENTIFIER(void)
+Unrecognized character: )
+Unrecognized character: {
+Unrecognized character: 
+
+Unrecognized character: 	
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(numero)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+NATURAL(1)
+Unrecognized character: ;
+Unrecognized character: 
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character: 	
+Unrecognized character:  
+IDENTIFIER(if)
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character: (
+IDENTIFIER(numbero)
+Unrecognized character:  
+Unrecognized character: !
+Unrecognized character: =
+Unrecognized character:  
+NATURAL(1)
+Unrecognized character: )
+Unrecognized character:  
+Unrecognized character: {
+Unrecognized character: 
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character: 	
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(numero)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+NATURAL(1)
+Unrecognized character: ;
+Unrecognized character: 
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character: 	
+Unrecognized character: }
+Unrecognized character: 
+
+Unrecognized character: 	
+IDENTIFIER(char)
+Unrecognized character:  
+IDENTIFIER(nome)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+Unrecognized character: "
+IDENTIFIER(O_O)
+Unrecognized character: "
+Unrecognized character: ;
+Unrecognized character: 
+
+Unrecognized character: 	
+IDENTIFIER(double)
+Unrecognized character:  
+IDENTIFIER(x)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+DECIMAL(12.2)
+Unrecognized character: ;
+Unrecognized character: 
+
+Unrecognized character: 	
+IDENTIFIER(return)
+Unrecognized character:  
+IDENTIFIER(numero)
+Unrecognized character: 
+
+Unrecognized character: }
+Unrecognized character: 
+
+Unrecognized character:  
+Unrecognized character: 
+
+Unrecognized character: /
+Unrecognized character: /
+IDENTIFIER(esta)
+Unrecognized character:  
+IDENTIFIER(fun)
+Unrecognized character: Ã
+Unrecognized character: §
+Unrecognized character: Ã
+Unrecognized character: £
+IDENTIFIER(o)
+Unrecognized character:  
+IDENTIFIER(n)
+Unrecognized character: Ã
+Unrecognized character: £
+IDENTIFIER(o)
+Unrecognized character:  
+IDENTIFIER(vai)
+Unrecognized character:  
+IDENTIFIER(fazer)
+Unrecognized character:  
+IDENTIFIER(algo)
+Unrecognized character: 
+
+IDENTIFIER(void)
+Unrecognized character:  
+IDENTIFIER(exemplo_2)
+Unrecognized character: (
+IDENTIFIER(void)
+Unrecognized character: )
+Unrecognized character: {
+Unrecognized character: 
+
+Unrecognized character: }
+Unrecognized character: 
+
+Unrecognized character:  
+Unrecognized character: 
+
+Unrecognized character: /
+Unrecognized character: *
+Unrecognized character: 
+
+Unrecognized character: /
+Unrecognized character: *
+Unrecognized character: 
+
+Unrecognized character:  
+Unrecognized character: 
+
+Unrecognized character:  
+Unrecognized character: 
+
+Unrecognized character: 
+
+Unrecognized character: 
+
+Unrecognized character: 	

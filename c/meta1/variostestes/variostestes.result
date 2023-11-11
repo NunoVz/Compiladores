@@ -1,0 +1,31 @@
+CHRLIT('a)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\12')
+
+Unrecognized character: '
+CHRLIT(\n)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\177')
+
+Unrecognized character: <
+
+Unrecognized character: =
+
+Unrecognized character: +
+Unrecognized character: +
+
+Unrecognized character: -
+Unrecognized character: -
+
+IDENTIFIER(j)
+Unrecognized character: +
+Unrecognized character: +
+Unrecognized character: ;
+
+IDENTIFIER(a)
+
+IDENTIFIER(fg)

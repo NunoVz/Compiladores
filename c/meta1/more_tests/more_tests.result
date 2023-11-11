@@ -1,0 +1,64 @@
+Unrecognized character: '
+CHRLIT(\\)
+CHRLIT('3)
+IDENTIFIER(o)
+Unrecognized character:  
+Unrecognized character: '
+
+NATURAL(1)
+IDENTIFIER(o)
+CHRLIT(' )
+Unrecognized character:  
+CHRLIT(\')
+Unrecognized character: '
+CHRLIT(\')
+Unrecognized character: '
+
+CHRLIT('c)
+IDENTIFIER(har)
+Unrecognized character: '
+
+Unrecognized character: ?
+NATURAL(123)
+Unrecognized character: '
+CHRLIT('c)
+IDENTIFIER(omp)
+Unrecognized character: '
+Unrecognized character: '
+
+Unrecognized character: /
+Unrecognized character: *
+Unrecognized character: /
+Unrecognized character: *
+Unrecognized character: *
+Unrecognized character: /
+Unrecognized character: *
+Unrecognized character: /
+
+CHRLIT('=)
+Unrecognized character: =
+Unrecognized character: '
+CHRLIT(\')
+Unrecognized character: '
+
+IDENTIFIER(__int_)
+Unrecognized character:  
+IDENTIFIER(_)
+
+Unrecognized character: \
+NATURAL(999)
+
+CHRLIT(\')
+Unrecognized character: #
+Unrecognized character: #
+Unrecognized character: #
+Unrecognized character: #
+CHRLIT(\')
+
+DECIMAL(1.e9)
+
+Unrecognized character: '
+
+NATURAL(0)
+IDENTIFIER(z)
+Unrecognized character: '

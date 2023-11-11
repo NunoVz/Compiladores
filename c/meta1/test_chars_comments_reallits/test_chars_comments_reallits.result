@@ -1,0 +1,152 @@
+Unrecognized character: /
+Unrecognized character: *
+Unrecognized character:  
+IDENTIFIER(TESTES)
+Unrecognized character:  
+IDENTIFIER(CHARLITS)
+Unrecognized character:  
+Unrecognized character: *
+Unrecognized character: /
+Unrecognized character: 
+
+Unrecognized character: '
+CHRLIT(')
+
+CHRLIT(')
+
+CHRLIT(')
+
+Unrecognized character: '
+CHRLIT(\')
+Unrecognized character: 
+
+Unrecognized character: '
+CHRLIT(\\)
+CHRLIT(\')
+Unrecognized character: 
+
+Unrecognized character: '
+CHRLIT(\')
+CHRLIT(\')
+CHRLIT(\\)
+CHRLIT(')
+
+CHRLIT('	)
+CHRLIT(')
+
+Unrecognized character: '
+CHRLIT(\n)
+CHRLIT(')
+
+Unrecognized character: '
+CHRLIT(\120')
+Unrecognized character: 
+
+Unrecognized character: '
+Unrecognized character: \
+NATURAL(129)
+CHRLIT(')
+
+Unrecognized character: 
+
+Unrecognized character: /
+Unrecognized character: *
+Unrecognized character:  
+IDENTIFIER(TESTES)
+Unrecognized character:  
+IDENTIFIER(REALITS)
+Unrecognized character:  
+Unrecognized character: *
+Unrecognized character: /
+Unrecognized character: 
+
+DECIMAL(1.1E12)
+Unrecognized character: 
+
+DECIMAL(1.1e12)
+Unrecognized character: 
+
+DECIMAL(1.E12)
+Unrecognized character: 
+
+DECIMAL(1.)
+IDENTIFIER(E)
+Unrecognized character: 
+
+DECIMAL(.1e12)
+Unrecognized character: 
+
+Unrecognized character: .
+IDENTIFIER(e12)
+Unrecognized character: 
+
+Unrecognized character: .
+IDENTIFIER(e)
+Unrecognized character: 
+
+DECIMAL(.023)
+IDENTIFIER(eE)
+Unrecognized character: 
+
+Unrecognized character: 
+
+Unrecognized character: /
+Unrecognized character: *
+Unrecognized character:  
+IDENTIFIER(TESTES)
+Unrecognized character:  
+IDENTIFIER(COMMENTS)
+Unrecognized character:  
+Unrecognized character: *
+Unrecognized character: /
+Unrecognized character: 
+
+Unrecognized character: 
+
+Unrecognized character: /
+Unrecognized character: *
+Unrecognized character:  
+IDENTIFIER(teste)
+Unrecognized character:  
+IDENTIFIER(teste)
+Unrecognized character:  
+NATURAL(123454)
+Unrecognized character: 
+
+IDENTIFIER(apsdsaono)
+Unrecognized character: /
+Unrecognized character: *
+Unrecognized character:  
+Unrecognized character: *
+Unrecognized character: /
+Unrecognized character:  
+CHRLIT('a)
+Unrecognized character: '
+CHRLIT('v)
+Unrecognized character: '
+CHRLIT('/)
+CHRLIT('/)
+Unrecognized character: 
+
+Unrecognized character: /
+Unrecognized character: *
+Unrecognized character: /
+Unrecognized character: *
+Unrecognized character: *
+CHRLIT('/)
+NATURAL(0)
+Unrecognized character: *
+Unrecognized character: /
+Unrecognized character: 
+
+Unrecognized character: /
+Unrecognized character: /
+IDENTIFIER(teste)
+Unrecognized character:  
+IDENTIFIER(comment)
+Unrecognized character:  
+IDENTIFIER(single)
+Unrecognized character: -
+IDENTIFIER(line)
+Unrecognized character:  
+IDENTIFIER(EOF)

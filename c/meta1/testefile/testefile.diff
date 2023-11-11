@@ -1,0 +1,222 @@
+1,2c1
+< IDENTIFIER(int)
+< Unrecognized character:  
+---
+> INT
+4,11c3,7
+< Unrecognized character: (
+< IDENTIFIER(void)
+< Unrecognized character: )
+< Unrecognized character: {
+< 
+< Unrecognized character: 	
+< IDENTIFIER(char)
+< Unrecognized character:  
+---
+> LPAR
+> VOID
+> RPAR
+> LBRACE
+> CHAR
+13,21c9,12
+< Unrecognized character:  
+< Unrecognized character: =
+< Unrecognized character:  
+< CHRLIT('i)
+< CHRLIT(';)
+< 
+< Unrecognized character: 	
+< IDENTIFIER(char)
+< Unrecognized character:  
+---
+> ASSIGN
+> CHRLIT('i')
+> SEMI
+> CHAR
+23,32c14,17
+< Unrecognized character:  
+< Unrecognized character: =
+< Unrecognized character:  
+< CHRLIT('i)
+< IDENTIFIER(i)
+< CHRLIT(';)
+< 
+< Unrecognized character: 	
+< IDENTIFIER(char)
+< Unrecognized character:  
+---
+> ASSIGN
+> Line 3, column 24: invalid char constant ('ii')
+> SEMI
+> CHAR
+34,42c19,21
+< Unrecognized character:  
+< Unrecognized character: =
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character: '
+< 
+< Unrecognized character: 	
+< IDENTIFIER(int)
+< Unrecognized character:  
+---
+> ASSIGN
+> Line 4, column 16: unterminated char constant
+> INT
+44,46c23
+< Unrecognized character:  
+< Unrecognized character: =
+< Unrecognized character:  
+---
+> ASSIGN
+48,50c25
+< Unrecognized character: ;
+< 
+< Unrecognized character: 	
+---
+> SEMI
+52,54c27
+< Unrecognized character: ;
+< 
+< Unrecognized character: 	
+---
+> SEMI
+56,58c29
+< Unrecognized character: ;
+< 
+< Unrecognized character: 	
+---
+> SEMI
+60,62c31
+< Unrecognized character:  
+< Unrecognized character: =
+< Unrecognized character:  
+---
+> ASSIGN
+64,66c33
+< Unrecognized character:  
+< Unrecognized character: -
+< Unrecognized character:  
+---
+> MINUS
+68,70c35
+< Unrecognized character:  
+< Unrecognized character: +
+< Unrecognized character:  
+---
+> PLUS
+72c37
+< Unrecognized character: /
+---
+> DIV
+74,76c39
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character:  
+---
+> MUL
+78,150c41,47
+< Unrecognized character: ;
+< 
+< Unrecognized character: 	
+< Unrecognized character: /
+< Unrecognized character: /
+< Unrecognized character:  
+< IDENTIFIER(comentario)
+< Unrecognized character:  
+< Unrecognized character: /
+< Unrecognized character: /
+< Unrecognized character:  
+< Unrecognized character: /
+< Unrecognized character: /
+< Unrecognized character:  
+< Unrecognized character: /
+< Unrecognized character: /
+< Unrecognized character:  
+< Unrecognized character: /
+< Unrecognized character: /
+< 
+< Unrecognized character: 	
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character:  
+< IDENTIFIER(asdasdas)
+< 
+< Unrecognized character: 	
+< IDENTIFIER(asdasdadas)
+< 
+< Unrecognized character: 	
+< IDENTIFIER(asdadadasd)
+< 
+< Unrecognized character: 	
+< IDENTIFIER(asdasd)
+< Unrecognized character:  
+< 
+< Unrecognized character: 	
+< Unrecognized character: *
+< Unrecognized character: /
+< 
+< Unrecognized character: 	
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: /
+< Unrecognized character:  
+< 
+< Unrecognized character: 	
+< Unrecognized character: '
+< CHRLIT('	)
+< CHRLIT(' )
+< CHRLIT('	)
+< Unrecognized character:  
+< CHRLIT(' )
+< CHRLIT(\')
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character: '
+< Unrecognized character: '
+< Unrecognized character: '
+< 
+< Unrecognized character: 	
+< CHRLIT('_)
+< Unrecognized character: '
+< 
+< Unrecognized character: 	
+< CHRLIT('	)
+< Unrecognized character: '
+< 
+< Unrecognized character: 	
+---
+> SEMI
+> Line 16, column 2: invalid char constant ('')
+> CHRLIT(' ')
+> Line 16, column 10: invalid char constant (' \'  ')
+> Line 16, column 17: invalid char constant ('')
+> CHRLIT('_')
+> CHRLIT('	')
+152,170c49,50
+< 
+< Unrecognized character: }
+< 
+< Unrecognized character: /
+< Unrecognized character: *
+< IDENTIFIER(endless)
+< Unrecognized character:  
+< IDENTIFIER(comentario)
+< 
+< 
+< 
+< 
+< 
+< 
+< IDENTIFIER(asd)
+< 
+< IDENTIFIER(aasd)
+< 
+< IDENTIFIER(asd)
+---
+> RBRACE
+> Line 21, column 1: unterminated comment

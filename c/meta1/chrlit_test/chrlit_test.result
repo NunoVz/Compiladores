@@ -1,0 +1,88 @@
+CHRLIT('A)
+Unrecognized character: '
+
+CHRLIT('))
+Unrecognized character: '
+
+CHRLIT('|)
+Unrecognized character: '
+
+CHRLIT('?)
+Unrecognized character: '
+
+CHRLIT('z)
+Unrecognized character: '
+
+CHRLIT('9)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\n)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\t)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\')
+Unrecognized character:  
+
+Unrecognized character: '
+CHRLIT(\\)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\\)
+CHRLIT(\')
+
+Unrecognized character: '
+CHRLIT(\\)
+CHRLIT(\\)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\\)
+CHRLIT(\\)
+CHRLIT(\')
+
+Unrecognized character: '
+Unrecognized character: \
+Unrecognized character:  
+
+Unrecognized character: '
+CHRLIT(\\)
+
+Unrecognized character: '
+CHRLIT(\\)
+Unrecognized character: \
+
+Unrecognized character: '
+CHRLIT(\\)
+CHRLIT(\\)
+
+Unrecognized character: '
+CHRLIT(\\)
+CHRLIT(\\)
+Unrecognized character: \
+
+Unrecognized character: '
+CHRLIT(\')
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\")
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\0')
+
+Unrecognized character: '
+CHRLIT(\10')
+
+Unrecognized character: '
+CHRLIT(\157')
+
+CHRLIT('	)
+Unrecognized character: '
+

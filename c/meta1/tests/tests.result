@@ -1,0 +1,59 @@
+Unrecognized character: !
+
+CHRLIT('2)
+Unrecognized character: '
+Unrecognized character: '
+CHRLIT(\\)
+Unrecognized character: '
+Unrecognized character: '
+CHRLIT(\\)
+CHRLIT(\')
+Unrecognized character: '
+
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\n)
+Unrecognized character: '
+
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(main)
+Unrecognized character: (
+Unrecognized character: )
+
+Unrecognized character: '
+Unrecognized character: \
+IDENTIFIER(d)
+Unrecognized character: '
+Unrecognized character: '
+Unrecognized character: \
+IDENTIFIER(asdas)
+Unrecognized character: '
+Unrecognized character: '
+CHRLIT(\\)
+Unrecognized character: '
+Unrecognized character: '
+CHRLIT(\r)
+Unrecognized character: '
+CHRLIT(\r)
+
+CHRLIT(\r)
+CHRLIT(\n)
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+CHRLIT(\r)
+CHRLIT(\n)
+
+Unrecognized character: '
+CHRLIT(\\)
+Unrecognized character: '
+Unrecognized character: '
+CHRLIT(\')
+Unrecognized character: '
+Unrecognized character: '
+CHRLIT(\")
+Unrecognized character: '

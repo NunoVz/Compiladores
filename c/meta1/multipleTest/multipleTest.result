@@ -1,0 +1,106 @@
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(main)
+Unrecognized character: (
+IDENTIFIER(void)
+Unrecognized character: )
+Unrecognized character: {
+
+Unrecognized character: 	
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(i)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+NATURAL(0)
+Unrecognized character: ;
+
+Unrecognized character: 	
+IDENTIFIER(char)
+Unrecognized character:  
+IDENTIFIER(a)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+Unrecognized character: '
+CHRLIT(\')
+Unrecognized character: <
+Unrecognized character: =
+Unrecognized character: '
+
+Unrecognized character: 	
+IDENTIFIER(char)
+Unrecognized character:  
+IDENTIFIER(b)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+Unrecognized character: '
+CHRLIT(\')
+
+
+Unrecognized character: 	
+IDENTIFIER(if)
+Unrecognized character: (
+IDENTIFIER(i)
+Unrecognized character: =
+Unrecognized character: =
+NATURAL(0)
+Unrecognized character: )
+Unrecognized character: {
+
+Unrecognized character: 	
+Unrecognized character: 	
+IDENTIFIER(printf)
+Unrecognized character: (
+Unrecognized character: "
+IDENTIFIER(ola)
+Unrecognized character:  
+IDENTIFIER(o)
+Unrecognized character:  
+IDENTIFIER(meu)
+Unrecognized character:  
+IDENTIFIER(nome)
+Unrecognized character:  
+Unrecognized character: Ã
+Unrecognized character: ©
+Unrecognized character:  
+IDENTIFIER(miguel)
+Unrecognized character: )
+Unrecognized character: ;
+
+Unrecognized character: 	
+Unrecognized character: }
+
+
+Unrecognized character: 	
+IDENTIFIER(double)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+DECIMAL(2.0)
+Unrecognized character: ;
+
+Unrecognized character: 	
+CHRLIT('A)
+Unrecognized character: '
+
+Unrecognized character: 	
+CHRLIT('o)
+IDENTIFIER(la)
+
+Unrecognized character: 	
+IDENTIFIER(adeus)
+Unrecognized character: '
+Unrecognized character: '
+
+Unrecognized character: 	
+IDENTIFIER(nao)
+
+Unrecognized character: 	
+CHRLIT('{)
+IDENTIFIER(d)
+Unrecognized character: '
+
+Unrecognized character: }

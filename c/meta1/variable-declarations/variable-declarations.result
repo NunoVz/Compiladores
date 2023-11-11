@@ -1,0 +1,22 @@
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(a)
+Unrecognized character: =
+NATURAL(1)
+Unrecognized character: ,
+IDENTIFIER(b)
+Unrecognized character: ,
+IDENTIFIER(c)
+Unrecognized character: =
+NATURAL(2)
+Unrecognized character: ;
+
+IDENTIFIER(john)
+
+IDENTIFIER(void)
+Unrecognized character:  
+IDENTIFIER(a)
+Unrecognized character: (
+Unrecognized character: )
+Unrecognized character: ;
+

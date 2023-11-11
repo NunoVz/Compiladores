@@ -1,0 +1,49 @@
+Unrecognized character: +
+DECIMAL(1234.564)
+
+DECIMAL(234e34)
+
+DECIMAL(987.E+234)
+
+DECIMAL(0987.E-08)
+
+DECIMAL(0987.)
+IDENTIFIER(E)
+
+DECIMAL(567.e987)
+
+Unrecognized character: .
+IDENTIFIER(e)
+Unrecognized character: -
+NATURAL(847)
+
+Unrecognized character: -
+IDENTIFIER(eifnv)
+
+DECIMAL(.123E+234)
+
+DECIMAL(.7987654345678e-98765)
+
+Unrecognized character: .
+IDENTIFIER(E345)
+
+Unrecognized character: .
+IDENTIFIER(E)
+Unrecognized character: +
+NATURAL(2345)
+
+DECIMAL(234.0987)
+
+NATURAL(969867)
+
+Unrecognized character: -
+NATURAL(5678)
+
+Unrecognized character: .
+IDENTIFIER(e)
+
+Unrecognized character: .
+IDENTIFIER(e2345)
+
+DECIMAL(123.e+34)
+

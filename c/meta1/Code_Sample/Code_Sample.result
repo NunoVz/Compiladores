@@ -1,0 +1,73 @@
+Unrecognized character: /
+Unrecognized character: *
+Unrecognized character:  
+IDENTIFIER(este)
+Unrecognized character:  
+IDENTIFIER(comentario)
+Unrecognized character:  
+IDENTIFIER(vai)
+
+IDENTIFIER(ser)
+Unrecognized character:  
+IDENTIFIER(ignorado)
+Unrecognized character:  
+Unrecognized character: *
+Unrecognized character: /
+
+Unrecognized character: /
+Unrecognized character: /
+IDENTIFIER(este)
+Unrecognized character:  
+IDENTIFIER(tbm)
+
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(main)
+Unrecognized character: (
+Unrecognized character: )
+Unrecognized character: {
+
+IDENTIFIER(char)
+Unrecognized character:  
+IDENTIFIER(a)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+CHRLIT('a)
+Unrecognized character: ;
+
+IDENTIFIER(if)
+Unrecognized character: (
+IDENTIFIER(a)
+Unrecognized character: =
+Unrecognized character: =
+NATURAL(1)
+Unrecognized character: )
+Unrecognized character: {
+
+IDENTIFIER(printf)
+Unrecognized character: (
+CHRLIT('1)
+CHRLIT('))
+Unrecognized character: ;
+
+Unrecognized character: }
+
+IDENTIFIER(else)
+Unrecognized character: {
+
+Unrecognized character: #
+Unrecognized character: =
+Unrecognized character:  
+IDENTIFIER(a)
+Unrecognized character: ;
+
+Unrecognized character: }
+
+IDENTIFIER(return)
+Unrecognized character:  
+DECIMAL(0.012e-12)
+Unrecognized character: ;
+
+Unrecognized character: }
+

@@ -1,0 +1,212 @@
+1,138c1,42
+< CHRLIT('f)
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< CHRLIT(\")
+< 
+< Unrecognized character: '
+< CHRLIT(\')
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< CHRLIT(\')
+< 
+< Unrecognized character: '
+< Unrecognized character: '
+< Unrecognized character: '
+< Unrecognized character: '
+< 
+< CHRLIT('?)
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< CHRLIT(\\)
+< NATURAL(1)
+< Unrecognized character: '
+< Unrecognized character: '
+< CHRLIT(\12')
+< Unrecognized character: '
+< CHRLIT(\123')
+< Unrecognized character: '
+< Unrecognized character: \
+< NATURAL(1234)
+< CHRLIT(' )
+< CHRLIT('Â)
+< Unrecognized character: ´
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< CHRLIT(\777')
+< 
+< Unrecognized character: '
+< CHRLIT(\000')
+< 
+< Unrecognized character: '
+< CHRLIT(\007')
+< 
+< Unrecognized character: '
+< CHRLIT(\07')
+< 
+< Unrecognized character: '
+< CHRLIT(\377')
+< 
+< Unrecognized character: '
+< Unrecognized character: \
+< NATURAL(378)
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< CHRLIT(\477')
+< 
+< Unrecognized character: '
+< Unrecognized character: \
+< NATURAL(0000)
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< CHRLIT(\\)
+< IDENTIFIER(v)
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< Unrecognized character: \
+< IDENTIFIER(v)
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< CHRLIT(\\)
+< IDENTIFIER(f)
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< Unrecognized character: \
+< IDENTIFIER(f)
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< CHRLIT(\0')
+< 
+< Unrecognized character: '
+< CHRLIT(\")
+< 
+< Unrecognized character: '
+< CHRLIT(\")
+< Unrecognized character: '
+< 
+< CHRLIT('")
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< Unrecognized character: '
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< CHRLIT(\444')
+< 
+< CHRLIT('Â)
+< Unrecognized character: ´
+< Unrecognized character: '
+< 
+< CHRLIT('.)
+< Unrecognized character: '
+< 
+< CHRLIT('Â)
+< Unrecognized character: ´
+< 
+< CHRLIT('.)
+< 
+< Unrecognized character: '
+< CHRLIT(\n)
+< 
+< Unrecognized character: '
+< CHRLIT(\n)
+< Unrecognized character: '
+< 
+< Unrecognized character: "
+< 
+< CHRLIT('=)
+< Unrecognized character: '
+< 
+< CHRLIT('<)
+< Unrecognized character: '
+< 
+---
+> CHRLIT('f')
+> Line 2, column 1: invalid char constant ('')
+> Line 3, column 1: unterminated char constant
+> CHRLIT('\'')
+> Line 5, column 1: unterminated char constant
+> Line 6, column 1: invalid char constant ('')
+> Line 6, column 3: invalid char constant ('')
+> CHRLIT('?')
+> Line 8, column 1: invalid char constant ('\\1')
+> CHRLIT('\12')
+> CHRLIT('\123')
+> Line 8, column 17: invalid char constant ('\1234')
+> Line 8, column 25: invalid char constant ('Â´')
+> CHRLIT('\777')
+> CHRLIT('\000')
+> CHRLIT('\007')
+> CHRLIT('\07')
+> CHRLIT('\377')
+> Line 14, column 1: invalid char constant ('\378')
+> CHRLIT('\477')
+> Line 16, column 1: invalid char constant ('\0000')
+> Line 17, column 1: invalid char constant ('\\v')
+> Line 18, column 1: invalid char constant ('\v')
+> Line 19, column 1: invalid char constant ('\\f')
+> Line 20, column 1: invalid char constant ('\f')
+> CHRLIT('\0')
+> Line 22, column 1: unterminated char constant
+> CHRLIT('\"')
+> CHRLIT('"')
+> Line 25, column 1: invalid char constant ('')
+> Line 25, column 3: unterminated char constant
+> Line 26, column 1: invalid char constant ('')
+> CHRLIT('\444')
+> Line 28, column 1: invalid char constant ('Â´')
+> CHRLIT('.')
+> Line 30, column 1: unterminated char constant
+> Line 31, column 1: unterminated char constant
+> Line 32, column 1: unterminated char constant
+> CHRLIT('\n')
+> Line 34, column 1: unrecognized character (")
+> CHRLIT('=')
+> CHRLIT('<')
+140,141c44
+< Unrecognized character: '
+< 
+---
+> Line 37, column 4: unterminated char constant
+143d45
+< Unrecognized character:  
+145,147c47
+< Unrecognized character:  
+< Unrecognized character: '
+< CHRLIT(' )
+---
+> Line 38, column 7: invalid char constant ('')
+149,159c49,52
+< CHRLIT('a)
+< IDENTIFIER(sd)
+< Unrecognized character: '
+< Unrecognized character: '
+< 
+< CHRLIT('	)
+< Unrecognized character: '
+< 
+< CHRLIT('	)
+< Unrecognized character: 	
+< Unrecognized character: '
+---
+> Line 38, column 15: invalid char constant ('asd')
+> Line 38, column 20: unterminated char constant
+> CHRLIT('	')
+> Line 40, column 1: invalid char constant ('		')

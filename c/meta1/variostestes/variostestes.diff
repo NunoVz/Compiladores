@@ -1,0 +1,43 @@
+1,23c1,8
+< CHRLIT('a)
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< CHRLIT(\12')
+< 
+< Unrecognized character: '
+< CHRLIT(\n)
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< CHRLIT(\177')
+< 
+< Unrecognized character: <
+< 
+< Unrecognized character: =
+< 
+< Unrecognized character: +
+< Unrecognized character: +
+< 
+< Unrecognized character: -
+< Unrecognized character: -
+< 
+---
+> CHRLIT('a')
+> CHRLIT('\12')
+> CHRLIT('\n')
+> CHRLIT('\177')
+> LT
+> ASSIGN
+> RESERVED(++)
+> RESERVED(--)
+25,28c10,11
+< Unrecognized character: +
+< Unrecognized character: +
+< Unrecognized character: ;
+< 
+---
+> RESERVED(++)
+> SEMI
+30d12
+< 

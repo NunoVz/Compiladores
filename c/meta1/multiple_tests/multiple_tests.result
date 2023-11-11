@@ -1,0 +1,582 @@
+Unrecognized character: /
+Unrecognized character: *
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(This)
+Unrecognized character:  
+IDENTIFIER(is)
+Unrecognized character:  
+IDENTIFIER(a)
+Unrecognized character:  
+IDENTIFIER(test)
+Unrecognized character:  
+IDENTIFIER(file)
+Unrecognized character:  
+Unrecognized character: /
+Unrecognized character: /
+Unrecognized character:  
+IDENTIFIER(COMPILADORES)
+Unrecognized character:  
+Unrecognized character: /
+Unrecognized character: /
+Unrecognized character:  
+NATURAL(2020)
+Unrecognized character: /
+NATURAL(2021)
+
+Unrecognized character: *
+Unrecognized character: /
+
+
+IDENTIFIER(char)
+Unrecognized character:  
+IDENTIFIER(_do)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+NATURAL(0)
+Unrecognized character: ;
+
+IDENTIFIER(char)
+Unrecognized character:  
+NATURAL(0)
+IDENTIFIER(cantstartwithzero)
+Unrecognized character: ;
+
+
+Unrecognized character: /
+Unrecognized character: /
+Unrecognized character:  
+IDENTIFIER(does)
+Unrecognized character:  
+IDENTIFIER(a)
+Unrecognized character:  
+IDENTIFIER(sum)
+
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(calc)
+Unrecognized character: (
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(a)
+Unrecognized character: ,
+Unrecognized character:  
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(b)
+Unrecognized character: )
+Unrecognized character: {
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(return)
+Unrecognized character:  
+IDENTIFIER(a)
+Unrecognized character:  
+Unrecognized character: +
+Unrecognized character:  
+IDENTIFIER(b)
+Unrecognized character:  
+Unrecognized character: *
+Unrecognized character:  
+IDENTIFIER(a)
+Unrecognized character:  
+Unrecognized character: -
+Unrecognized character:  
+IDENTIFIER(b)
+Unrecognized character: ;
+
+Unrecognized character: }
+Unrecognized character:  
+
+NATURAL(4)
+IDENTIFIER(ea)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+CHRLIT('a)
+CHRLIT(';)
+
+Unrecognized character: -
+Unrecognized character: .
+
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(verify)
+Unrecognized character: (
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(value)
+Unrecognized character: )
+Unrecognized character: {
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(double)
+Unrecognized character:  
+IDENTIFIER(not_used)
+Unrecognized character: =
+DECIMAL(.5e2)
+Unrecognized character: ,
+Unrecognized character:  
+IDENTIFIER(another)
+Unrecognized character: =
+DECIMAL(2.1)
+Unrecognized character: ;
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(if)
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character: (
+IDENTIFIER(value)
+Unrecognized character:  
+Unrecognized character: >
+Unrecognized character:  
+NATURAL(0)
+Unrecognized character:  
+Unrecognized character: &
+Unrecognized character: &
+Unrecognized character:  
+IDENTIFIER(value)
+Unrecognized character:  
+Unrecognized character: %
+Unrecognized character:  
+NATURAL(2)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character: =
+Unrecognized character:  
+NATURAL(0)
+Unrecognized character:  
+IDENTIFIER(and)
+Unrecognized character:  
+IDENTIFIER(value)
+Unrecognized character:  
+Unrecognized character: !
+Unrecognized character: =
+Unrecognized character:  
+NATURAL(6)
+Unrecognized character: )
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character: {
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(return)
+Unrecognized character:  
+NATURAL(1)
+Unrecognized character: ;
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character: }
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(return)
+Unrecognized character:  
+Unrecognized character: -
+NATURAL(1)
+Unrecognized character: ;
+
+Unrecognized character: }
+
+Unrecognized character: ?
+
+IDENTIFIER(long)
+Unrecognized character:  
+IDENTIFIER(reserved_function)
+Unrecognized character: (
+IDENTIFIER(long)
+Unrecognized character:  
+IDENTIFIER(value)
+Unrecognized character: )
+Unrecognized character: {
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(for)
+Unrecognized character: (
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(i)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+NATURAL(0)
+Unrecognized character: ;
+Unrecognized character:  
+IDENTIFIER(i)
+Unrecognized character:  
+Unrecognized character: <
+Unrecognized character:  
+NATURAL(10)
+Unrecognized character: ;
+Unrecognized character:  
+IDENTIFIER(i)
+Unrecognized character: +
+Unrecognized character: +
+Unrecognized character: )
+Unrecognized character: {
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(value)
+Unrecognized character: -
+Unrecognized character: -
+Unrecognized character: ;
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character: }
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+NATURAL(5)
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character: &
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+NATURAL(2)
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character: ^
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+NATURAL(2)
+Unrecognized character: ;
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(return)
+Unrecognized character:  
+IDENTIFIER(value)
+
+Unrecognized character: }
+
+Unrecognized character: /
+Unrecognized character: /
+Unrecognized character:  
+IDENTIFIER(just)
+Unrecognized character:  
+IDENTIFIER(a)
+Unrecognized character:  
+IDENTIFIER(main)
+Unrecognized character:  
+IDENTIFIER(function)
+
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(main)
+Unrecognized character: (
+IDENTIFIER(void)
+Unrecognized character: )
+Unrecognized character: {
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+CHRLIT(' )
+CHRLIT(' )
+CHRLIT(' )
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character: '
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(a)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+IDENTIFIER(calc)
+Unrecognized character: (
+NATURAL(2)
+Unrecognized character: ,
+Unrecognized character:  
+NATURAL(3)
+Unrecognized character: )
+Unrecognized character: ;
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(char)
+Unrecognized character:  
+IDENTIFIER(this_one_works)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+CHRLIT('c)
+CHRLIT(',)
+Unrecognized character:  
+IDENTIFIER(looks_like_a_string)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+CHRLIT('i)
+IDENTIFIER(nvalid)
+CHRLIT(';)
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(char)
+Unrecognized character:  
+IDENTIFIER(low_escape)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+Unrecognized character: '
+CHRLIT(\000')
+Unrecognized character: ,
+Unrecognized character:  
+IDENTIFIER(high_escape)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+Unrecognized character: '
+CHRLIT(\777')
+Unrecognized character: ;
+Unrecognized character:  
+IDENTIFIER(wrong_escape)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+Unrecognized character: '
+Unrecognized character: \
+NATURAL(800)
+CHRLIT(' )
+Unrecognized character: '
+Unrecognized character: \
+NATURAL(1234)
+CHRLIT(';)
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(char)
+Unrecognized character:  
+IDENTIFIER(forgot_to_finish)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+CHRLIT('s)
+Unrecognized character: ;
+
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(if)
+Unrecognized character: (
+IDENTIFIER(verify)
+Unrecognized character: (
+IDENTIFIER(a)
+Unrecognized character: )
+Unrecognized character: )
+Unrecognized character: {
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(putchar)
+Unrecognized character: (
+IDENTIFIER(this_one_works)
+Unrecognized character: )
+Unrecognized character: ;
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character: }
+Unrecognized character:  
+IDENTIFIER(else)
+Unrecognized character:  
+Unrecognized character: {
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(putchar)
+Unrecognized character: (
+CHRLIT('1)
+CHRLIT('))
+Unrecognized character: ;
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(putchar)
+Unrecognized character: (
+Unrecognized character: '
+CHRLIT(\n)
+CHRLIT('))
+Unrecognized character: ;
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character: }
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character: '
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character: '
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(return)
+Unrecognized character:  
+NATURAL(0)
+Unrecognized character: ;
+
+Unrecognized character: }
+
+Unrecognized character: /
+Unrecognized character: *
+Unrecognized character:  
+IDENTIFIER(final)
+Unrecognized character:  
+IDENTIFIER(comment)

@@ -1,0 +1,132 @@
+1,93c1,37
+< Unrecognized character: 
+< 
+< Unrecognized character: }
+< Unrecognized character: 
+< 
+< Unrecognized character: !
+< Unrecognized character: =
+< Unrecognized character: 
+< 
+< Unrecognized character: !
+< Unrecognized character: 
+< 
+< Unrecognized character: =
+< Unrecognized character: 
+< 
+< Unrecognized character: =
+< Unrecognized character: =
+< Unrecognized character: 
+< 
+< Unrecognized character: <
+< Unrecognized character: 
+< 
+< Unrecognized character: >
+< Unrecognized character: 
+< 
+< Unrecognized character: <
+< Unrecognized character: <
+< Unrecognized character: 
+< 
+< Unrecognized character: >
+< Unrecognized character: >
+< Unrecognized character: 
+< 
+< Unrecognized character: -
+< Unrecognized character: >
+< Unrecognized character: 
+< 
+< Unrecognized character: /
+< Unrecognized character: 
+< 
+< Unrecognized character: /
+< Unrecognized character: /
+< Unrecognized character: 
+< 
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: 
+< 
+< Unrecognized character: +
+< Unrecognized character: +
+< Unrecognized character:  
+< Unrecognized character: -
+< Unrecognized character: -
+< Unrecognized character: 
+< 
+< Unrecognized character: +
+< Unrecognized character:  
+< Unrecognized character: -
+< Unrecognized character: 
+< 
+< Unrecognized character: &
+< Unrecognized character: &
+< Unrecognized character: &
+< Unrecognized character: &
+< Unrecognized character:  
+< Unrecognized character: &
+< Unrecognized character: 
+< 
+< Unrecognized character: |
+< Unrecognized character: |
+< Unrecognized character:  
+< Unrecognized character: |
+< Unrecognized character: 
+< 
+< Unrecognized character: ^
+< Unrecognized character: ^
+< Unrecognized character: ^
+< Unrecognized character: ^
+< Unrecognized character: 
+< 
+< Unrecognized character: ~
+< Unrecognized character: 
+< 
+< Unrecognized character: +
+< Unrecognized character: -
+< Unrecognized character: /
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: 
+< 
+< Unrecognized character: %
+---
+> RBRACE
+> NE
+> NOT
+> ASSIGN
+> EQ
+> LT
+> GT
+> LT
+> LT
+> GT
+> GT
+> MINUS
+> GT
+> DIV
+> MUL
+> MUL
+> RESERVED(++)
+> RESERVED(--)
+> PLUS
+> MINUS
+> AND
+> AND
+> BITWISEAND
+> OR
+> BITWISEOR
+> BITWISEXOR
+> BITWISEXOR
+> BITWISEXOR
+> BITWISEXOR
+> Line 20, column 1: unrecognized character (~)
+> PLUS
+> MINUS
+> DIV
+> MUL
+> MUL
+> MUL
+> MOD

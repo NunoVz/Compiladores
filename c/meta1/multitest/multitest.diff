@@ -1,0 +1,173 @@
+1,39c1,7
+< Unrecognized character: 	
+< Unrecognized character: /
+< Unrecognized character: *
+< 
+< Unrecognized character: 	
+< Unrecognized character: 	
+< Unrecognized character: 	
+< Unrecognized character: /
+< CHRLIT('1)
+< NATURAL(23)
+< CHRLIT(' )
+< IDENTIFIER(ficheiro)
+< Unrecognized character:  
+< IDENTIFIER(de)
+< Unrecognized character:  
+< IDENTIFIER(teste)
+< Unrecognized character:  
+< IDENTIFIER(meta)
+< Unrecognized character:  
+< NATURAL(1)
+< 
+< 
+< Unrecognized character: *
+< Unrecognized character: /
+< 
+< 
+< IDENTIFIER(int)
+< Unrecognized character:  
+< IDENTIFIER(register)
+< Unrecognized character: (
+< IDENTIFIER(void)
+< Unrecognized character: )
+< Unrecognized character: {
+< 
+< Unrecognized character: 	
+< 
+< Unrecognized character: 	
+< IDENTIFIER(double)
+< Unrecognized character:  
+---
+> INT
+> RESERVED(register)
+> LPAR
+> VOID
+> RPAR
+> LBRACE
+> DOUBLE
+41,43c9
+< Unrecognized character:  
+< Unrecognized character: =
+< Unrecognized character:  
+---
+> ASSIGN
+45,48c11
+< Unrecognized character: ;
+< 
+< 
+< Unrecognized character: 	
+---
+> SEMI
+50,52c13
+< Unrecognized character:  
+< Unrecognized character: =
+< Unrecognized character:  
+---
+> ASSIGN
+54c15
+< Unrecognized character: *
+---
+> MUL
+56,67c17,18
+< Unrecognized character: ;
+< 
+< Unrecognized character: 	
+< Unrecognized character: /
+< Unrecognized character: /
+< IDENTIFIER(random)
+< Unrecognized character:  
+< IDENTIFIER(comment)
+< 
+< Unrecognized character: 	
+< IDENTIFIER(char)
+< Unrecognized character:  
+---
+> SEMI
+> CHAR
+69,79c20,23
+< Unrecognized character:  
+< Unrecognized character: =
+< Unrecognized character:  
+< Unrecognized character: '
+< Unrecognized character: \
+< NATURAL(128)
+< CHRLIT(';)
+< 
+< Unrecognized character: 	
+< IDENTIFIER(char)
+< Unrecognized character:  
+---
+> ASSIGN
+> Line 12, column 17: invalid char constant ('\128')
+> SEMI
+> CHAR
+81,122c25,32
+< Unrecognized character:  
+< Unrecognized character: =
+< Unrecognized character:  
+< Unrecognized character: '
+< CHRLIT(\123')
+< Unrecognized character: ;
+< 
+< Unrecognized character: }
+< 
+< 
+< 
+< Unrecognized character: /
+< Unrecognized character: /
+< IDENTIFIER(I)
+< Unrecognized character:  
+< IDENTIFIER(don)
+< CHRLIT('t)
+< Unrecognized character:  
+< IDENTIFIER(like)
+< Unrecognized character:  
+< IDENTIFIER(illegals)
+< 
+< 
+< Unrecognized character: '
+< CHRLIT(\\)
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< CHRLIT(\')
+< CHRLIT(\')
+< 
+< Unrecognized character: '
+< CHRLIT(\n)
+< Unrecognized character: '
+< 
+< CHRLIT('1)
+< CHRLIT('1)
+< CHRLIT('1)
+< CHRLIT(\')
+< Unrecognized character: \
+< NATURAL(1)
+< CHRLIT(\')
+---
+> ASSIGN
+> CHRLIT('\123')
+> SEMI
+> RBRACE
+> CHRLIT('\\')
+> Line 20, column 1: unterminated char constant
+> CHRLIT('\n')
+> CHRLIT('1')
+124,131c34,36
+< Unrecognized character: '
+< 
+< CHRLIT('a)
+< Unrecognized character: '
+< 
+< CHRLIT('b)
+< Unrecognized character: '
+< 
+---
+> Line 22, column 5: invalid char constant ('1\'\1\'1')
+> CHRLIT('a')
+> CHRLIT('b')
+133c38
+< Unrecognized character: '
+---
+> Line 25, column 11: unterminated char constant

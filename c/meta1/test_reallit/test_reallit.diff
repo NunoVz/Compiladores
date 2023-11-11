@@ -1,0 +1,72 @@
+2d1
+< 
+4d2
+< 
+6d3
+< 
+8d4
+< 
+11d6
+< 
+14,15c9
+< Unrecognized character: +
+< 
+---
+> PLUS
+18,19c12
+< Unrecognized character: -
+< 
+---
+> MINUS
+22d14
+< 
+25,26c17
+< Unrecognized character: +
+< 
+---
+> PLUS
+29,30c20
+< Unrecognized character: -
+< 
+---
+> MINUS
+33c23
+< Unrecognized character: -
+---
+> MINUS
+35d24
+< 
+39d27
+< 
+42d29
+< 
+44d30
+< 
+46d31
+< 
+48d32
+< 
+50d33
+< 
+52d34
+< 
+54d35
+< 
+56,58c37
+< 
+< Unrecognized character: .
+< 
+---
+> Line 21, column 1: unrecognized character (.)
+61,63c40,41
+< Unrecognized character: +
+< 
+< Unrecognized character: -
+---
+> PLUS
+> MINUS
+65,66c43
+< 
+< Unrecognized character: +
+---
+> PLUS

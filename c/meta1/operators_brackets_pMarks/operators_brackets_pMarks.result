@@ -1,0 +1,280 @@
+IDENTIFIER(A)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+NATURAL(0011)
+Unrecognized character:  
+NATURAL(1100)
+
+IDENTIFIER(B)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+NATURAL(0000)
+Unrecognized character:  
+NATURAL(1101)
+
+IDENTIFIER(A)
+Unrecognized character: &
+IDENTIFIER(B)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+NATURAL(0000)
+Unrecognized character:  
+NATURAL(1100)
+
+IDENTIFIER(A)
+Unrecognized character: |
+IDENTIFIER(B)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+NATURAL(0011)
+Unrecognized character:  
+NATURAL(1101)
+
+IDENTIFIER(A)
+Unrecognized character: ^
+IDENTIFIER(B)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+NATURAL(0011)
+Unrecognized character:  
+NATURAL(0001)
+
+
+IDENTIFIER(if)
+Unrecognized character: (
+IDENTIFIER(A)
+Unrecognized character: >
+IDENTIFIER(B)
+Unrecognized character: )
+Unrecognized character: {
+
+Unrecognized character: 	
+IDENTIFIER(A)
+Unrecognized character: +
+Unrecognized character: =
+Unrecognized character:  
+NATURAL(1111)
+Unrecognized character:  
+NATURAL(0000)
+Unrecognized character: ;
+
+Unrecognized character: }
+IDENTIFIER(else)
+Unrecognized character:  
+IDENTIFIER(if)
+Unrecognized character: (
+IDENTIFIER(A)
+Unrecognized character: <
+IDENTIFIER(B)
+Unrecognized character: )
+Unrecognized character: {
+
+Unrecognized character: 	
+IDENTIFIER(B)
+Unrecognized character: -
+Unrecognized character: =
+Unrecognized character:  
+NATURAL(0011)
+Unrecognized character:  
+NATURAL(0101)
+Unrecognized character: :
+
+Unrecognized character: }
+IDENTIFIER(else)
+Unrecognized character:  
+IDENTIFIER(if)
+Unrecognized character: (
+IDENTIFIER(A)
+Unrecognized character: =
+IDENTIFIER(B)
+Unrecognized character: )
+Unrecognized character: {
+
+Unrecognized character: 	
+IDENTIFIER(A)
+Unrecognized character: /
+Unrecognized character: =
+Unrecognized character:  
+NATURAL(1010)
+Unrecognized character:  
+DECIMAL(1010.)
+
+Unrecognized character: }
+
+
+Unrecognized character: *
+Unrecognized character:  
+Unrecognized character: /
+Unrecognized character:  
+Unrecognized character: /
+Unrecognized character:  
+Unrecognized character: *
+Unrecognized character:  
+Unrecognized character: /
+Unrecognized character: /
+Unrecognized character:  
+Unrecognized character: *
+Unrecognized character: *
+Unrecognized character:  
+Unrecognized character: "
+Unrecognized character: "
+Unrecognized character:  
+CHRLIT('i)
+CHRLIT(' )
+Unrecognized character: '
+CHRLIT(\t)
+CHRLIT(' )
+Unrecognized character: '
+Unrecognized character: \
+IDENTIFIER(v)
+CHRLIT(' )
+Unrecognized character: `
+Unrecognized character:  
+Unrecognized character: ~
+
+
+IDENTIFIER(ab)
+Unrecognized character: #
+IDENTIFIER(cde)
+
+
+NATURAL(12)
+Unrecognized character: @
+NATURAL(3)
+IDENTIFIER(_31)
+Unrecognized character: $
+
+
+IDENTIFIER(ABC)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+Unrecognized character: (
+NATURAL(10)
+Unrecognized character: )
+Unrecognized character: *
+NATURAL(10)
+Unrecognized character: ;
+
+IDENTIFIER(CBD)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+Unrecognized character: (
+NATURAL(420)
+Unrecognized character: )
+Unrecognized character: /
+NATURAL(69)
+Unrecognized character: ;
+
+
+IDENTIFIER(BBB)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+NATURAL(1)
+Unrecognized character: %
+NATURAL(1)
+Unrecognized character: ;
+
+
+IDENTIFIER(ABC)
+Unrecognized character: +
+Unrecognized character: +
+Unrecognized character: ;
+
+IDENTIFIER(CBD)
+Unrecognized character: -
+Unrecognized character: -
+Unrecognized character: ;
+
+IDENTIFIER(THC)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+IDENTIFIER(BBB)
+Unrecognized character: >
+Unrecognized character: >
+IDENTIFIER(ABC)
+Unrecognized character: ;
+
+
+IDENTIFIER(if)
+Unrecognized character: (
+IDENTIFIER(THC)
+Unrecognized character: !
+Unrecognized character: =
+IDENTIFIER(CBD)
+Unrecognized character:  
+Unrecognized character: ,
+Unrecognized character: )
+Unrecognized character: {
+
+Unrecognized character: 	
+Unrecognized character: /
+Unrecognized character: *
+Unrecognized character: *
+Unrecognized character: /
+Unrecognized character: /
+Unrecognized character: *
+Unrecognized character: *
+Unrecognized character: /
+
+Unrecognized character: }
+IDENTIFIER(else)
+Unrecognized character:  
+IDENTIFIER(if)
+Unrecognized character: (
+IDENTIFIER(CBD)
+Unrecognized character: =
+Unrecognized character: =
+IDENTIFIER(ABC)
+Unrecognized character: )
+Unrecognized character: {
+
+Unrecognized character: 	
+IDENTIFIER(THC)
+Unrecognized character: *
+Unrecognized character: =
+NATURAL(2)
+Unrecognized character: ^
+NATURAL(2)
+Unrecognized character: ;
+
+Unrecognized character: }
+
+
+IDENTIFIER(a)
+Unrecognized character: ?
+IDENTIFIER(b)
+
+
+Unrecognized character: |
+Unrecognized character: |
+
+
+IDENTIFIER(char)
+Unrecognized character:  
+IDENTIFIER(c)
+Unrecognized character: [
+NATURAL(1024)
+Unrecognized character: ]
+Unrecognized character: ;
+
+
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(b)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+IDENTIFIER(sizeof)
+Unrecognized character: (
+IDENTIFIER(c)
+Unrecognized character: )
+Unrecognized character: ;

@@ -1,0 +1,29 @@
+CHRLIT('Ã)
+Unrecognized character: §
+Unrecognized character: '
+
+CHRLIT(' )
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character: '
+
+CHRLIT('Ã)
+Unrecognized character: §
+
+CHRLIT('a)
+IDENTIFIER(bc)
+Unrecognized character:  
+NATURAL(456)
+
+CHRLIT('~)
+Unrecognized character: '
+
+CHRLIT('^)
+
+
+
+Unrecognized character: /
+Unrecognized character: /
+IDENTIFIER(comentario)
+Unrecognized character:  
+IDENTIFIER(EOF)

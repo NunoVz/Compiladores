@@ -1,0 +1,71 @@
+CHRLIT('1)
+Unrecognized character: '
+
+CHRLIT('a)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\n)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\013')
+
+Unrecognized character: '
+CHRLIT(\t)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\\)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\017')
+
+Unrecognized character: '
+CHRLIT(\')
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\")
+Unrecognized character: '
+
+Unrecognized character: '
+Unrecognized character: \
+NATURAL(018)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\")
+Unrecognized character: "
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\\)
+Unrecognized character: "
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\12')
+
+CHRLIT('	)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\0')
+
+Unrecognized character: '
+CHRLIT(\000')
+
+Unrecognized character: '
+CHRLIT(\777')
+
+Unrecognized character: '
+Unrecognized character: \
+NATURAL(787)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\\)
+Unrecognized character: '
+

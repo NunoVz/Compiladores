@@ -1,0 +1,31 @@
+Unrecognized character: .
+
+DECIMAL(1.)
+
+DECIMAL(.1)
+
+Unrecognized character: .
+IDENTIFIER(e)
+Unrecognized character: -
+NATURAL(4)
+
+DECIMAL(.3E5)
+
+DECIMAL(1.2e-6)
+IDENTIFIER(T)
+
+DECIMAL(1.2e-64)
+
+Unrecognized character: -
+DECIMAL(12.0)
+
+DECIMAL(1234.1234e-1234)
+
+DECIMAL(1234.1234E-1234)
+
+DECIMAL(.02)
+IDENTIFIER(E)
+Unrecognized character: -
+Unrecognized character: -
+NATURAL(4)
+

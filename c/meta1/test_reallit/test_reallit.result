@@ -1,0 +1,67 @@
+NATURAL(1)
+
+NATURAL(12)
+
+DECIMAL(56.56E345)
+
+DECIMAL(56.56e3456)
+
+DECIMAL(56.56)
+IDENTIFIER(e)
+
+DECIMAL(56.56)
+IDENTIFIER(e)
+Unrecognized character: +
+
+DECIMAL(56.56)
+IDENTIFIER(e)
+Unrecognized character: -
+
+DECIMAL(56.56)
+IDENTIFIER(E)
+
+DECIMAL(56.56)
+IDENTIFIER(E)
+Unrecognized character: +
+
+DECIMAL(56.56)
+IDENTIFIER(E)
+Unrecognized character: -
+
+DECIMAL(56.56)
+IDENTIFIER(U)
+Unrecognized character: -
+NATURAL(345)
+
+NATURAL(5)
+IDENTIFIER(r)
+DECIMAL(.56)
+
+DECIMAL(5.5)
+IDENTIFIER(r)
+
+DECIMAL(134.)
+
+DECIMAL(546.6345)
+
+DECIMAL(56.56e+34567)
+
+DECIMAL(56.56e-34567)
+
+DECIMAL(56.56E+4567)
+
+DECIMAL(56.56E-4567)
+
+DECIMAL(.45E3)
+
+Unrecognized character: .
+
+DECIMAL(.4)
+IDENTIFIER(E)
+Unrecognized character: +
+
+Unrecognized character: -
+DECIMAL(56.56e-34567)
+
+Unrecognized character: +
+DECIMAL(56.56e-34567)

@@ -1,0 +1,103 @@
+IDENTIFIER(i)
+Unrecognized character: \
+IDENTIFIER(a)
+Unrecognized character:  
+
+IDENTIFIER(i)
+CHRLIT(\')
+CHRLIT(\')
+
+Unrecognized character: /
+IDENTIFIER(a)
+Unrecognized character:  
+Unrecognized character: /
+Unrecognized character: *
+Unrecognized character:  
+IDENTIFIER(this)
+Unrecognized character:  
+IDENTIFIER(is)
+Unrecognized character:  
+IDENTIFIER(a)
+Unrecognized character:  
+IDENTIFIER(char)
+Unrecognized character:  
+Unrecognized character: '
+CHRLIT('a)
+IDENTIFIER(ds)
+Unrecognized character:  
+Unrecognized character: *
+Unrecognized character: /
+Unrecognized character:  
+
+CHRLIT('/)
+Unrecognized character: *
+Unrecognized character:  
+IDENTIFIER(this)
+Unrecognized character:  
+IDENTIFIER(is)
+Unrecognized character:  
+IDENTIFIER(a)
+Unrecognized character:  
+IDENTIFIER(test)
+Unrecognized character:  
+Unrecognized character: *
+Unrecognized character: /
+Unrecognized character:  
+Unrecognized character: '
+
+Unrecognized character: '
+Unrecognized character: \
+Unrecognized character:  
+
+IDENTIFIER(chari)
+Unrecognized character:  
+IDENTIFIER(char)
+Unrecognized character:  
+IDENTIFIER(i)
+
+CHRLIT('a)
+IDENTIFIER(s)
+
+Unrecognized character: '
+Unrecognized character: \
+NATURAL(999)
+Unrecognized character: '
+
+CHRLIT('9)
+NATURAL(99)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\777')
+
+Unrecognized character: '
+Unrecognized character: \
+NATURAL(9)
+CHRLIT(\')
+Unrecognized character: '
+
+Unrecognized character: '
+Unrecognized character: \
+NATURAL(9)
+Unrecognized character: '
+CHRLIT(\')
+
+CHRLIT('i)
+IDENTIFIER(nt)
+Unrecognized character:  
+IDENTIFIER(i)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+NATURAL(1)
+CHRLIT(' )
+CHRLIT('b)
+IDENTIFIER(cs)
+CHRLIT(' )
+Unrecognized character: '
+CHRLIT(\')
+
+CHRLIT('/)
+Unrecognized character: *
+Unrecognized character:  
+

@@ -1,0 +1,108 @@
+1,24c1
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character:  
+< IDENTIFIER(este)
+< Unrecognized character:  
+< IDENTIFIER(comentario)
+< Unrecognized character:  
+< IDENTIFIER(vai)
+< 
+< IDENTIFIER(ser)
+< Unrecognized character:  
+< IDENTIFIER(ignorado)
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: /
+< 
+< Unrecognized character: /
+< Unrecognized character: /
+< IDENTIFIER(este)
+< Unrecognized character:  
+< IDENTIFIER(tbm)
+< 
+< IDENTIFIER(int)
+< Unrecognized character:  
+---
+> INT
+26,31c3,6
+< Unrecognized character: (
+< Unrecognized character: )
+< Unrecognized character: {
+< 
+< IDENTIFIER(char)
+< Unrecognized character:  
+---
+> LPAR
+> RPAR
+> LBRACE
+> CHAR
+33,40c8,11
+< Unrecognized character:  
+< Unrecognized character: =
+< Unrecognized character:  
+< CHRLIT('a)
+< Unrecognized character: ;
+< 
+< IDENTIFIER(if)
+< Unrecognized character: (
+---
+> ASSIGN
+> Line 5, column 10: unterminated char constant
+> IF
+> LPAR
+42,43c13
+< Unrecognized character: =
+< Unrecognized character: =
+---
+> EQ
+45,47c15,16
+< Unrecognized character: )
+< Unrecognized character: {
+< 
+---
+> RPAR
+> LBRACE
+49,61c18,26
+< Unrecognized character: (
+< CHRLIT('1)
+< CHRLIT('))
+< Unrecognized character: ;
+< 
+< Unrecognized character: }
+< 
+< IDENTIFIER(else)
+< Unrecognized character: {
+< 
+< Unrecognized character: #
+< Unrecognized character: =
+< Unrecognized character:  
+---
+> LPAR
+> CHRLIT('1')
+> RPAR
+> SEMI
+> RBRACE
+> ELSE
+> LBRACE
+> Line 10, column 1: unrecognized character (#)
+> ASSIGN
+63,68c28,30
+< Unrecognized character: ;
+< 
+< Unrecognized character: }
+< 
+< IDENTIFIER(return)
+< Unrecognized character:  
+---
+> SEMI
+> RBRACE
+> RETURN
+70,73c32,33
+< Unrecognized character: ;
+< 
+< Unrecognized character: }
+< 
+---
+> SEMI
+> RBRACE

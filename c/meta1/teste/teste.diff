@@ -1,0 +1,74 @@
+1,2c1
+< IDENTIFIER(int)
+< Unrecognized character:  
+---
+> INT
+4d2
+< Unrecognized character:  
+6,35c4,14
+< 
+< IDENTIFIER(for)
+< Unrecognized character:  
+< IDENTIFIER(while)
+< 
+< CHRLIT('f)
+< IDENTIFIER(or)
+< CHRLIT(' )
+< CHRLIT('w)
+< IDENTIFIER(hile)
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< Unrecognized character: '
+< CHRLIT('f)
+< Unrecognized character: '
+< CHRLIT('o)
+< Unrecognized character: '
+< CHRLIT('r)
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< Unrecognized character: \
+< IDENTIFIER(while)
+< Unrecognized character: '
+< 
+< Unrecognized character: =
+< Unrecognized character:  
+< Unrecognized character: +
+< Unrecognized character:  
+---
+> RESERVED(for)
+> WHILE
+> Line 3, column 1: invalid char constant ('for')
+> Line 3, column 7: invalid char constant ('while')
+> Line 4, column 1: invalid char constant ('')
+> CHRLIT('f')
+> CHRLIT('o')
+> CHRLIT('r')
+> Line 5, column 1: invalid char constant ('\while')
+> ASSIGN
+> PLUS
+37d15
+< Unrecognized character:  
+39d16
+< Unrecognized character:  
+41,57c18
+< 
+< Unrecognized character: /
+< Unrecognized character: /
+< IDENTIFIER(for)
+< 
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character:  
+< IDENTIFIER(while)
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: /
+< 
+< Unrecognized character: /
+< Unrecognized character: *
+< IDENTIFIER(break)
+< 
+---
+> Line 9, column 1: unterminated comment

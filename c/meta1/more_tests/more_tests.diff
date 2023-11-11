@@ -1,0 +1,92 @@
+1,3c1,2
+< Unrecognized character: '
+< CHRLIT(\\)
+< CHRLIT('3)
+---
+> CHRLIT('\\')
+> NATURAL(3)
+5,7c4
+< Unrecognized character:  
+< Unrecognized character: '
+< 
+---
+> Line 1, column 8: unterminated char constant
+10,21c7,11
+< CHRLIT(' )
+< Unrecognized character:  
+< CHRLIT(\')
+< Unrecognized character: '
+< CHRLIT(\')
+< Unrecognized character: '
+< 
+< CHRLIT('c)
+< IDENTIFIER(har)
+< Unrecognized character: '
+< 
+< Unrecognized character: ?
+---
+> Line 2, column 3: invalid char constant ('  \'')
+> Line 2, column 9: unrecognized character (\)
+> Line 2, column 10: invalid char constant ('')
+> Line 3, column 1: invalid char constant ('char')
+> Line 4, column 1: unrecognized character (?)
+23,43c13,20
+< Unrecognized character: '
+< CHRLIT('c)
+< IDENTIFIER(omp)
+< Unrecognized character: '
+< Unrecognized character: '
+< 
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character: /
+< 
+< CHRLIT('=)
+< Unrecognized character: =
+< Unrecognized character: '
+< CHRLIT(\')
+< Unrecognized character: '
+< 
+---
+> Line 4, column 5: invalid char constant ('')
+> IDENTIFIER(comp)
+> Line 4, column 11: invalid char constant ('')
+> MUL
+> DIV
+> Line 6, column 1: invalid char constant ('==')
+> Line 6, column 5: unrecognized character (\)
+> Line 6, column 6: invalid char constant ('')
+45d21
+< Unrecognized character:  
+47,48c23
+< 
+< Unrecognized character: \
+---
+> Line 8, column 1: unrecognized character (\)
+50,57c25,26
+< 
+< CHRLIT(\')
+< Unrecognized character: #
+< Unrecognized character: #
+< Unrecognized character: #
+< Unrecognized character: #
+< CHRLIT(\')
+< 
+---
+> Line 9, column 1: unrecognized character (\)
+> Line 9, column 2: unterminated char constant
+59,61c28
+< 
+< Unrecognized character: '
+< 
+---
+> Line 11, column 1: unterminated char constant
+64c31
+< Unrecognized character: '
+---
+> Line 12, column 3: unterminated char constant

@@ -1,0 +1,159 @@
+CHRLIT('f)
+Unrecognized character: '
+
+Unrecognized character: '
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\")
+
+Unrecognized character: '
+CHRLIT(\')
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\')
+
+Unrecognized character: '
+Unrecognized character: '
+Unrecognized character: '
+Unrecognized character: '
+
+CHRLIT('?)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\\)
+NATURAL(1)
+Unrecognized character: '
+Unrecognized character: '
+CHRLIT(\12')
+Unrecognized character: '
+CHRLIT(\123')
+Unrecognized character: '
+Unrecognized character: \
+NATURAL(1234)
+CHRLIT(' )
+CHRLIT('Â)
+Unrecognized character: ´
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\777')
+
+Unrecognized character: '
+CHRLIT(\000')
+
+Unrecognized character: '
+CHRLIT(\007')
+
+Unrecognized character: '
+CHRLIT(\07')
+
+Unrecognized character: '
+CHRLIT(\377')
+
+Unrecognized character: '
+Unrecognized character: \
+NATURAL(378)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\477')
+
+Unrecognized character: '
+Unrecognized character: \
+NATURAL(0000)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\\)
+IDENTIFIER(v)
+Unrecognized character: '
+
+Unrecognized character: '
+Unrecognized character: \
+IDENTIFIER(v)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\\)
+IDENTIFIER(f)
+Unrecognized character: '
+
+Unrecognized character: '
+Unrecognized character: \
+IDENTIFIER(f)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\0')
+
+Unrecognized character: '
+CHRLIT(\")
+
+Unrecognized character: '
+CHRLIT(\")
+Unrecognized character: '
+
+CHRLIT('")
+Unrecognized character: '
+
+Unrecognized character: '
+Unrecognized character: '
+Unrecognized character: '
+
+Unrecognized character: '
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\444')
+
+CHRLIT('Â)
+Unrecognized character: ´
+Unrecognized character: '
+
+CHRLIT('.)
+Unrecognized character: '
+
+CHRLIT('Â)
+Unrecognized character: ´
+
+CHRLIT('.)
+
+Unrecognized character: '
+CHRLIT(\n)
+
+Unrecognized character: '
+CHRLIT(\n)
+Unrecognized character: '
+
+Unrecognized character: "
+
+CHRLIT('=)
+Unrecognized character: '
+
+CHRLIT('<)
+Unrecognized character: '
+
+IDENTIFIER(ola)
+Unrecognized character: '
+
+IDENTIFIER(ola)
+Unrecognized character:  
+IDENTIFIER(e)
+Unrecognized character:  
+Unrecognized character: '
+CHRLIT(' )
+IDENTIFIER(adeus)
+CHRLIT('a)
+IDENTIFIER(sd)
+Unrecognized character: '
+Unrecognized character: '
+
+CHRLIT('	)
+Unrecognized character: '
+
+CHRLIT('	)
+Unrecognized character: 	
+Unrecognized character: '

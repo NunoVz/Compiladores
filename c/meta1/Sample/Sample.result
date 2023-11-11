@@ -1,0 +1,107 @@
+IDENTIFIER(long)
+Unrecognized character:  
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(multiplyNumbers)
+Unrecognized character: (
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(n)
+Unrecognized character: )
+Unrecognized character: ;
+
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(main)
+Unrecognized character: (
+Unrecognized character: )
+Unrecognized character:  
+Unrecognized character: {
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(n)
+Unrecognized character: ;
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(return)
+Unrecognized character:  
+NATURAL(0)
+Unrecognized character: ;
+
+Unrecognized character: }
+
+
+IDENTIFIER(long)
+Unrecognized character:  
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(multiplyNumbers)
+Unrecognized character: (
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(n)
+Unrecognized character: )
+Unrecognized character:  
+Unrecognized character: {
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(if)
+Unrecognized character:  
+Unrecognized character: (
+IDENTIFIER(n)
+Unrecognized character: >
+Unrecognized character: =
+NATURAL(1)
+Unrecognized character: )
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(return)
+Unrecognized character:  
+IDENTIFIER(n)
+Unrecognized character: *
+IDENTIFIER(multiplyNumbers)
+Unrecognized character: (
+IDENTIFIER(n)
+Unrecognized character: -
+NATURAL(1)
+Unrecognized character: )
+Unrecognized character: ;
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(else)
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(return)
+Unrecognized character:  
+NATURAL(1)
+Unrecognized character: ;
+
+Unrecognized character: }

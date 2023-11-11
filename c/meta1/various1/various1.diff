@@ -1,0 +1,1352 @@
+1,29c1
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character:  
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: 
+< 
+< Unrecognized character: /
+< Unrecognized character: /
+< Unrecognized character: 
+< 
+< Unrecognized character: *
+< Unrecognized character: /
+< Unrecognized character: 
+< 
+< Unrecognized character: 
+< 
+< Unrecognized character: 
+< 
+< Unrecognized character: 
+< 
+< IDENTIFIER(short)
+< Unrecognized character:  
+---
+> SHORT
+31,67c3,7
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character: (
+< IDENTIFIER(void)
+< Unrecognized character: )
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character: {
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(char)
+< Unrecognized character:  
+---
+> LPAR
+> VOID
+> RPAR
+> LBRACE
+> CHAR
+69,83c9,13
+< Unrecognized character: =
+< Unrecognized character:  
+< CHRLIT('a)
+< CHRLIT(';)
+< Unrecognized character: 
+< 
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(while)
+< Unrecognized character:  
+< Unrecognized character: (
+---
+> ASSIGN
+> CHRLIT('a')
+> SEMI
+> WHILE
+> LPAR
+85,100c15,18
+< Unrecognized character: )
+< Unrecognized character:  
+< Unrecognized character: {
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(while)
+< Unrecognized character:  
+< Unrecognized character: (
+---
+> RPAR
+> LBRACE
+> WHILE
+> LPAR
+102,126c20,25
+< Unrecognized character:  
+< Unrecognized character: <
+< Unrecognized character:  
+< CHRLIT('z)
+< CHRLIT('))
+< Unrecognized character:  
+< Unrecognized character: {
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(if)
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character: (
+---
+> LT
+> CHRLIT('z')
+> RPAR
+> LBRACE
+> IF
+> LPAR
+128,191c27,31
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character: =
+< Unrecognized character: =
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< CHRLIT('j)
+< CHRLIT('))
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(break)
+< Unrecognized character:  
+< Unrecognized character: ;
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+---
+> EQ
+> CHRLIT('j')
+> RPAR
+> RESERVED(break)
+> SEMI
+193,233c33,36
+< Unrecognized character:  
+< Unrecognized character: +
+< Unrecognized character: +
+< Unrecognized character: ;
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character: }
+< Unrecognized character: 
+< 
+< Unrecognized character: 
+< 
+< IDENTIFIER(return)
+< Unrecognized character:  
+---
+> RESERVED(++)
+> SEMI
+> RBRACE
+> RETURN
+235,253c38,40
+< Unrecognized character: ;
+< Unrecognized character: 
+< 
+< Unrecognized character: }
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character: 
+< 
+< Unrecognized character: 
+< 
+< IDENTIFIER(void)
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+---
+> SEMI
+> RBRACE
+> VOID
+255,291c42,51
+< Unrecognized character: (
+< IDENTIFIER(void)
+< Unrecognized character: )
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character: {
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(char)
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< Unrecognized character:  
+< Unrecognized character: '
+< Unrecognized character: '
+< CHRLIT(';)
+< Unrecognized character:  
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(int)
+< Unrecognized character:  
+---
+> LPAR
+> VOID
+> RPAR
+> LBRACE
+> CHAR
+> IDENTIFIER(a)
+> ASSIGN
+> Line 22, column 13: invalid char constant ('')
+> Line 22, column 15: unterminated char constant
+> INT
+293,296c53,54
+< Unrecognized character: ;
+< Unrecognized character:  
+< IDENTIFIER(double)
+< Unrecognized character:  
+---
+> SEMI
+> DOUBLE
+298,436c56
+< Unrecognized character: ;
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< Unrecognized character: '
+< CHRLIT(\')
+< CHRLIT(\')
+< CHRLIT(\')
+< CHRLIT(\')
+< CHRLIT(\')
+< CHRLIT(\\)
+< CHRLIT(\')
+< Unrecognized character: ;
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< Unrecognized character: '
+< CHRLIT(\\)
+< CHRLIT(\')
+< Unrecognized character: ;
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< IDENTIFIER(a)
+< CHRLIT(';)
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< CHRLIT(';)
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< IDENTIFIER(olaolaolaolaolaolaolaolaolaolaolao)
+< Unrecognized character: ;
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< Unrecognized character: '
+< CHRLIT(';)
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< CHRLIT('o)
+< IDENTIFIER(la)
+< CHRLIT(';)
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< Unrecognized character: '
+< CHRLIT(\t)
+< CHRLIT(';)
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< Unrecognized character: '
+< Unrecognized character: '
+< Unrecognized character: '
+< Unrecognized character: '
+< Unrecognized character: '
+< Unrecognized character: '
+< Unrecognized character: '
+< Unrecognized character: '
+< Unrecognized character: '
+< Unrecognized character: '
+< Unrecognized character: '
+< Unrecognized character: '
+< Unrecognized character: '
+< Unrecognized character: '
+< Unrecognized character: '
+< Unrecognized character: '
+< Unrecognized character: '
+< CHRLIT(';)
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< CHRLIT(\')
+< IDENTIFIER(c)
+< CHRLIT(';)
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< CHRLIT('c)
+< IDENTIFIER(h)
+< CHRLIT(')
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+---
+> SEMI
+438,598c58,157
+< Unrecognized character: =
+< CHRLIT('2)
+< NATURAL(0)
+< CHRLIT(';)
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< Unrecognized character: '
+< Unrecognized character: \
+< NATURAL(20)
+< Unrecognized character: ;
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< Unrecognized character: '
+< Unrecognized character: \
+< NATURAL(999)
+< CHRLIT(';)
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< CHRLIT('=)
+< Unrecognized character: =
+< CHRLIT(';)
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< Unrecognized character: '
+< CHRLIT(\\)
+< NATURAL(20)
+< CHRLIT(';)
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< Unrecognized character: '
+< CHRLIT(\0')
+< Unrecognized character: ;
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< Unrecognized character: '
+< CHRLIT(\\)
+< IDENTIFIER(n)
+< CHRLIT(';)
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< Unrecognized character: '
+< CHRLIT(\n)
+< CHRLIT(';)
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< CHRLIT('?)
+< CHRLIT(';)
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< Unrecognized character: '
+< CHRLIT(\')
+< CHRLIT(\')
+< CHRLIT(';)
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< Unrecognized character: '
+< CHRLIT(\\)
+< CHRLIT(\t)
+< CHRLIT(\\)
+< CHRLIT(\\)
+< CHRLIT(';)
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< Unrecognized character: '
+< CHRLIT(\\)
+< CHRLIT(\t)
+< CHRLIT(\\)
+< CHRLIT(\')
+< Unrecognized character: ;
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< CHRLIT(\')
+< CHRLIT(\')
+< CHRLIT(\')
+< CHRLIT(\')
+< CHRLIT(\')
+< Unrecognized character: '
+< CHRLIT(\')
+< Unrecognized character: '
+< Unrecognized character: '
+< CHRLIT(\')
+< CHRLIT(\')
+< CHRLIT(\')
+< CHRLIT(\')
+< CHRLIT(\\)
+< CHRLIT(\\)
+< CHRLIT(';)
+< Unrecognized character:  
+< CHRLIT(\\)
+---
+> ASSIGN
+> Line 24, column 7: unterminated char constant
+> IDENTIFIER(a)
+> ASSIGN
+> Line 25, column 7: unterminated char constant
+> IDENTIFIER(a)
+> ASSIGN
+> IDENTIFIER(a)
+> Line 26, column 8: unterminated char constant
+> IDENTIFIER(a)
+> ASSIGN
+> Line 27, column 7: unterminated char constant
+> IDENTIFIER(a)
+> ASSIGN
+> Line 28, column 7: invalid char constant ('')
+> SEMI
+> IDENTIFIER(a)
+> ASSIGN
+> Line 29, column 7: invalid char constant ('ola')
+> SEMI
+> IDENTIFIER(a)
+> ASSIGN
+> CHRLIT('\t')
+> SEMI
+> IDENTIFIER(a)
+> ASSIGN
+> Line 31, column 7: invalid char constant ('')
+> Line 31, column 9: invalid char constant ('')
+> Line 31, column 11: invalid char constant ('')
+> Line 31, column 13: invalid char constant ('')
+> Line 31, column 15: invalid char constant ('')
+> Line 31, column 17: invalid char constant ('')
+> Line 31, column 19: invalid char constant ('')
+> Line 31, column 21: invalid char constant ('')
+> Line 31, column 23: invalid char constant ('')
+> SEMI
+> IDENTIFIER(a)
+> ASSIGN
+> Line 32, column 7: unrecognized character (\)
+> CHRLIT('c')
+> SEMI
+> IDENTIFIER(a)
+> ASSIGN
+> Line 33, column 7: invalid char constant ('ch')
+> IDENTIFIER(a)
+> ASSIGN
+> Line 34, column 7: invalid char constant ('20')
+> SEMI
+> IDENTIFIER(a)
+> ASSIGN
+> Line 35, column 7: unterminated char constant
+> IDENTIFIER(a)
+> ASSIGN
+> Line 36, column 7: invalid char constant ('\999')
+> SEMI
+> IDENTIFIER(a)
+> ASSIGN
+> Line 37, column 7: invalid char constant ('==')
+> SEMI
+> IDENTIFIER(a)
+> ASSIGN
+> Line 38, column 7: invalid char constant ('\\20')
+> SEMI
+> IDENTIFIER(a)
+> ASSIGN
+> CHRLIT('\0')
+> SEMI
+> IDENTIFIER(a)
+> ASSIGN
+> Line 40, column 7: invalid char constant ('\\n')
+> SEMI
+> IDENTIFIER(a)
+> ASSIGN
+> CHRLIT('\n')
+> SEMI
+> IDENTIFIER(a)
+> ASSIGN
+> CHRLIT('?')
+> SEMI
+> IDENTIFIER(a)
+> ASSIGN
+> Line 43, column 7: invalid char constant ('\'\'')
+> SEMI
+> IDENTIFIER(a)
+> ASSIGN
+> Line 44, column 7: invalid char constant ('\\\t\\\\')
+> SEMI
+> IDENTIFIER(a)
+> ASSIGN
+> Line 45, column 7: unterminated char constant
+> IDENTIFIER(a)
+> ASSIGN
+> Line 46, column 7: unrecognized character (\)
+> Line 46, column 8: invalid char constant ('\'\'\'\'')
+> Line 46, column 18: unrecognized character (\)
+> Line 46, column 19: invalid char constant ('')
+> Line 46, column 21: invalid char constant ('\'\'\'\'\\\\')
+> SEMI
+> Line 46, column 37: unrecognized character (\)
+> Line 46, column 38: unrecognized character (\)
+600,758d158
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< CHRLIT(\n)
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< CHRLIT(\')
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< CHRLIT(\t)
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< CHRLIT('o)
+< IDENTIFIER(la)
+< CHRLIT('*)
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< CHRLIT(\t)
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< CHRLIT(\n)
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: /
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+760c160
+< Unrecognized character: =
+---
+> ASSIGN
+762,767c162
+< Unrecognized character: ;
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+---
+> SEMI
+769c164
+< Unrecognized character: =
+---
+> ASSIGN
+771,775c166
+< Unrecognized character: ;
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+---
+> SEMI
+777c168
+< Unrecognized character: =
+---
+> ASSIGN
+779,780c170
+< Unrecognized character: ;
+< Unrecognized character:  
+---
+> SEMI
+782c172
+< Unrecognized character: =
+---
+> ASSIGN
+784,792c174,175
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(if)
+< Unrecognized character: (
+< Unrecognized character:  
+---
+> IF
+> LPAR
+794,795c177
+< Unrecognized character: !
+< Unrecognized character: =
+---
+> NE
+797,809c179,180
+< Unrecognized character:  
+< Unrecognized character: )
+< Unrecognized character: {
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+---
+> RPAR
+> LBRACE
+811,829c182,185
+< Unrecognized character: (
+< Unrecognized character: '
+< CHRLIT(\\)
+< Unrecognized character: '
+< CHRLIT('))
+< Unrecognized character: ;
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character: }
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+---
+> LPAR
+> CHRLIT('\\')
+> Line 53, column 21: unterminated char constant
+> RBRACE
+831c187
+< Unrecognized character: =
+---
+> ASSIGN
+833,839c189
+< Unrecognized character: ;
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+---
+> SEMI
+841,843c191,193
+< Unrecognized character: =
+< Unrecognized character: .
+< Unrecognized character: +
+---
+> ASSIGN
+> Line 56, column 7: unrecognized character (.)
+> PLUS
+845,851c195
+< Unrecognized character: ;
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+---
+> SEMI
+853c197
+< Unrecognized character: =
+---
+> ASSIGN
+855c199
+< Unrecognized character: -
+---
+> MINUS
+857,863c201
+< Unrecognized character: ;
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+---
+> SEMI
+865,866c203,204
+< Unrecognized character: =
+< Unrecognized character: -
+---
+> ASSIGN
+> MINUS
+868c206
+< Unrecognized character: -
+---
+> MINUS
+870,876c208
+< Unrecognized character: ;
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+---
+> SEMI
+878c210
+< Unrecognized character: =
+---
+> ASSIGN
+880,886c212
+< Unrecognized character: ;
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+---
+> SEMI
+888c214
+< Unrecognized character: =
+---
+> ASSIGN
+890,1060c216,291
+< Unrecognized character: ;
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< IDENTIFIER(return)
+< Unrecognized character:  
+< IDENTIFIER(void)
+< Unrecognized character: ;
+< Unrecognized character: 
+< 
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character: /
+< Unrecognized character: /
+< NATURAL(9)
+< Unrecognized character: *
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: !
+< Unrecognized character: =
+< Unrecognized character: =
+< Unrecognized character: =
+< Unrecognized character:  
+< Unrecognized character: &
+< Unrecognized character: &
+< Unrecognized character: &
+< Unrecognized character:  
+< Unrecognized character: +
+< Unrecognized character: +
+< Unrecognized character: -
+< Unrecognized character: -
+< Unrecognized character: [
+< Unrecognized character: ]
+< IDENTIFIER(auto)
+< Unrecognized character:  
+< IDENTIFIER(break)
+< Unrecognized character:  
+< IDENTIFIER(case)
+< Unrecognized character:  
+< IDENTIFIER(const)
+< Unrecognized character:  
+< IDENTIFIER(continue)
+< Unrecognized character: *
+< Unrecognized character: *
+< IDENTIFIER(default)
+< Unrecognized character:  
+< IDENTIFIER(do)
+< Unrecognized character:  
+< IDENTIFIER(enum)
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: *
+< IDENTIFIER(extern)
+< Unrecognized character:  
+< IDENTIFIER(for)
+< Unrecognized character:  
+< IDENTIFIER(inline)
+< Unrecognized character:  
+< IDENTIFIER(volatile)
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character:  
+< IDENTIFIER(_Bool)
+< Unrecognized character:  
+< IDENTIFIER(_Complex)
+< Unrecognized character: "
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: '
+< CHRLIT(\t)
+< CHRLIT(')
+< 
+< Unrecognized character: '
+< CHRLIT(\\)
+< IDENTIFIER(t)
+< CHRLIT(' )
+< Unrecognized character: '
+< CHRLIT(\\)
+< CHRLIT(' )
+< CHRLIT('l)
+< IDENTIFIER(l)
+< Unrecognized character: '
+< CHRLIT('o)
+< Unrecognized character: '
+< CHRLIT(' )
+< IDENTIFIER(o)
+< Unrecognized character: '
+< Unrecognized character: '
+< CHRLIT(\\)
+< CHRLIT(\\)
+< CHRLIT(')
+< 
+< Unrecognized character: &
+< Unrecognized character:  
+< Unrecognized character: |
+< Unrecognized character:  
+< Unrecognized character: ^
+< Unrecognized character:  
+< Unrecognized character: &
+< Unrecognized character: &
+< Unrecognized character:  
+< Unrecognized character: =
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character:  
+< Unrecognized character: ,
+< Unrecognized character:  
+< Unrecognized character: /
+< Unrecognized character:  
+< Unrecognized character: =
+< Unrecognized character: =
+< Unrecognized character:  
+< Unrecognized character: >
+< Unrecognized character: =
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character: >
+< Unrecognized character:  
+< Unrecognized character: {
+< Unrecognized character:  
+< Unrecognized character: <
+< Unrecognized character: =
+< Unrecognized character:  
+< Unrecognized character: (
+< Unrecognized character: )
+< Unrecognized character:  
+< Unrecognized character: <
+< Unrecognized character:  
+< Unrecognized character: -
+< Unrecognized character:  
+< Unrecognized character: %
+< Unrecognized character:  
+< Unrecognized character: !
+< Unrecognized character: =
+< Unrecognized character:  
+< Unrecognized character: !
+< Unrecognized character:  
+< Unrecognized character: |
+< Unrecognized character: |
+< Unrecognized character:  
+< Unrecognized character: +
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character:  
+< Unrecognized character: /
+< Unrecognized character: /
+< Unrecognized character: 
+< 
+< Unrecognized character: }
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character: 
+< 
+< NATURAL(202020202020202020202020202020202020220022020)
+---
+> SEMI
+> RETURN
+> VOID
+> SEMI
+> MUL
+> MUL
+> MUL
+> MUL
+> MUL
+> MUL
+> MUL
+> MUL
+> MUL
+> MUL
+> NE
+> EQ
+> AND
+> BITWISEAND
+> RESERVED(++)
+> RESERVED(--)
+> RESERVED([)
+> RESERVED(])
+> RESERVED(auto)
+> RESERVED(break)
+> RESERVED(case)
+> RESERVED(const)
+> RESERVED(continue)
+> MUL
+> MUL
+> RESERVED(default)
+> RESERVED(do)
+> RESERVED(enum)
+> MUL
+> MUL
+> RESERVED(extern)
+> RESERVED(for)
+> RESERVED(inline)
+> RESERVED(volatile)
+> MUL
+> MUL
+> RESERVED(_Bool)
+> RESERVED(_Complex)
+> Line 62, column 131: unrecognized character (")
+> MUL
+> MUL
+> CHRLIT('\t')
+> Line 63, column 1: invalid char constant ('\\t')
+> CHRLIT('\\')
+> Line 63, column 12: invalid char constant ('ll')
+> CHRLIT('o')
+> Line 63, column 19: invalid char constant (' o')
+> Line 63, column 23: invalid char constant ('\\\\')
+> BITWISEAND
+> BITWISEOR
+> BITWISEXOR
+> AND
+> ASSIGN
+> MUL
+> COMMA
+> DIV
+> EQ
+> GE
+> GT
+> LBRACE
+> LE
+> LPAR
+> RPAR
+> LT
+> MINUS
+> MOD
+> NE
+> NOT
+> OR
+> PLUS
+> RBRACE
+> Line 65, column 2: unterminated comment

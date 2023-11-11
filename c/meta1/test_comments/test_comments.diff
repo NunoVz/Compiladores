@@ -1,0 +1,270 @@
+1,43c1,2
+< Unrecognized character: /
+< Unrecognized character: /
+< IDENTIFIER(asdfghjkl)
+< 
+< Unrecognized character: /
+< Unrecognized character: *
+< IDENTIFIER(dsfg)
+< Unrecognized character: *
+< Unrecognized character: /
+< 
+< Unrecognized character: /
+< Unrecognized character: *
+< IDENTIFIER(SDvbsdfbrst)
+< 
+< IDENTIFIER(aaaaaa)
+< Unrecognized character:  
+< DECIMAL(5.6)
+< 
+< Unrecognized character: *
+< Unrecognized character: /
+< 
+< 
+< Unrecognized character: /
+< Unrecognized character: *
+< IDENTIFIER(sdfghj)
+< Unrecognized character:  
+< DECIMAL(34.5)
+< Unrecognized character:  
+< NATURAL(3)
+< IDENTIFIER(rwer)
+< DECIMAL(.5)
+< 
+< 
+< IDENTIFIER(hdhf)
+< Unrecognized character:  
+< DECIMAL(34235342.35)
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: /
+< 
+< 
+< Unrecognized character: *
+< Unrecognized character: /
+---
+> MUL
+> DIV
+45,93d3
+< 
+< 
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character:  
+< IDENTIFIER(chat)
+< Unrecognized character:  
+< IDENTIFIER(i)
+< Unrecognized character:  
+< Unrecognized character: =
+< Unrecognized character:  
+< CHRLIT('A)
+< CHRLIT(';)
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: /
+< 
+< 
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character:  
+< IDENTIFIER(void)
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character:  
+< IDENTIFIER(char)
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: /
+95,130d4
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character:  
+< IDENTIFIER(int)
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: /
+< 
+< 
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: /
+< 
+< 
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character:  
+< Unrecognized character: /
+< Unrecognized character: /
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: /
+< Unrecognized character:  
+< 
+132,187d5
+< 
+< Unrecognized character: /
+< Unrecognized character: *
+< 
+< 
+< Unrecognized character: /
+< Unrecognized character: /
+< Unrecognized character:  
+< IDENTIFIER(if)
+< Unrecognized character: (
+< IDENTIFIER(i)
+< Unrecognized character: =
+< Unrecognized character: =
+< NATURAL(1)
+< Unrecognized character: )
+< Unrecognized character: {
+< Unrecognized character: ;
+< Unrecognized character: }
+< 
+< 
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character:  
+< IDENTIFIER(auto)
+< 
+< 
+< IDENTIFIER(short)
+< 
+< 
+< Unrecognized character: *
+< Unrecognized character:  
+< Unrecognized character: /
+< Unrecognized character:  
+< IDENTIFIER(return)
+< Unrecognized character:  
+< NATURAL(0)
+< Unrecognized character: ;
+< 
+< 
+< Unrecognized character: /
+< Unrecognized character: /
+< Unrecognized character:  
+< IDENTIFIER(double)
+< Unrecognized character:  
+< IDENTIFIER(a)
+< Unrecognized character: =
+< NATURAL(0)
+< Unrecognized character: ;
+< 
+< 
+< Unrecognized character: /
+< Unrecognized character: /
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: /
+< 
+189,191c7
+< 
+< 
+< Unrecognized character: "
+---
+> Line 36, column 1: unrecognized character (")
+193,203d8
+< Unrecognized character: /
+< Unrecognized character: /
+< IDENTIFIER(b)
+< Unrecognized character: "
+< 
+< Unrecognized character: /
+< Unrecognized character: /
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: /
+< 
+205,209c10
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: /
+< Unrecognized character: /
+---
+> DIV
+211,214c12,13
+< 
+< Unrecognized character: /
+< Unrecognized character: \
+< 
+---
+> DIV
+> Line 39, column 2: unrecognized character (\)
+216,257c15
+< Unrecognized character: /
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character: *
+< Unrecognized character: /
+< IDENTIFIER(o)
+< 
+< 
+< Unrecognized character: /
+< Unrecognized character: *
+< IDENTIFIER(dsfg)
+< 
+< IDENTIFIER(sdfgs)
+< 
+< IDENTIFIER(fgsdfg)
+< 
+< IDENTIFIER(dsfg)
+< 
+< IDENTIFIER(pdf)
+< 
+< IDENTIFIER(gs)
+< 
+< IDENTIFIER(dag)
+< 
+< IDENTIFIER(pdf)
+< 
+< IDENTIFIER(gcd)
+< 
+< IDENTIFIER(fg)
+< 
+< IDENTIFIER(sdfg)
+< 
+< IDENTIFIER(pdf)
+< 
+< IDENTIFIER(gcd)
+< 
+< IDENTIFIER(fg)
+< 
+< IDENTIFIER(sd)
+< 
+< 
+< 
+---
+> Line 42, column 1: unterminated comment

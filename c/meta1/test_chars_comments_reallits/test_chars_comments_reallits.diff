@@ -1,0 +1,171 @@
+1,62c1,10
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character:  
+< IDENTIFIER(TESTES)
+< Unrecognized character:  
+< IDENTIFIER(CHARLITS)
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: /
+< Unrecognized character: 
+< 
+< Unrecognized character: '
+< CHRLIT(')
+< 
+< CHRLIT(')
+< 
+< CHRLIT(')
+< 
+< Unrecognized character: '
+< CHRLIT(\')
+< Unrecognized character: 
+< 
+< Unrecognized character: '
+< CHRLIT(\\)
+< CHRLIT(\')
+< Unrecognized character: 
+< 
+< Unrecognized character: '
+< CHRLIT(\')
+< CHRLIT(\')
+< CHRLIT(\\)
+< CHRLIT(')
+< 
+< CHRLIT('	)
+< CHRLIT(')
+< 
+< Unrecognized character: '
+< CHRLIT(\n)
+< CHRLIT(')
+< 
+< Unrecognized character: '
+< CHRLIT(\120')
+< Unrecognized character: 
+< 
+< Unrecognized character: '
+< Unrecognized character: \
+< NATURAL(129)
+< CHRLIT(')
+< 
+< Unrecognized character: 
+< 
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character:  
+< IDENTIFIER(TESTES)
+< Unrecognized character:  
+< IDENTIFIER(REALITS)
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: /
+< Unrecognized character: 
+< 
+---
+> Line 2, column 1: invalid char constant ('')
+> Line 3, column 1: unterminated char constant
+> Line 4, column 1: unterminated char constant
+> Line 5, column 1: unterminated char constant
+> Line 6, column 1: unterminated char constant
+> Line 7, column 1: invalid char constant ('\'\'\\')
+> CHRLIT('	')
+> CHRLIT('\n')
+> CHRLIT('\120')
+> Line 11, column 1: invalid char constant ('\129')
+64,65d11
+< Unrecognized character: 
+< 
+67,68d12
+< Unrecognized character: 
+< 
+70,71d13
+< Unrecognized character: 
+< 
+74,75d15
+< Unrecognized character: 
+< 
+77,79c17
+< Unrecognized character: 
+< 
+< Unrecognized character: .
+---
+> Line 19, column 1: unrecognized character (.)
+81,83c19
+< Unrecognized character: 
+< 
+< Unrecognized character: .
+---
+> Line 20, column 1: unrecognized character (.)
+85,86d20
+< Unrecognized character: 
+< 
+89,152c23,26
+< Unrecognized character: 
+< 
+< Unrecognized character: 
+< 
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character:  
+< IDENTIFIER(TESTES)
+< Unrecognized character:  
+< IDENTIFIER(COMMENTS)
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: /
+< Unrecognized character: 
+< 
+< Unrecognized character: 
+< 
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character:  
+< IDENTIFIER(teste)
+< Unrecognized character:  
+< IDENTIFIER(teste)
+< Unrecognized character:  
+< NATURAL(123454)
+< Unrecognized character: 
+< 
+< IDENTIFIER(apsdsaono)
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character:  
+< Unrecognized character: *
+< Unrecognized character: /
+< Unrecognized character:  
+< CHRLIT('a)
+< Unrecognized character: '
+< CHRLIT('v)
+< Unrecognized character: '
+< CHRLIT('/)
+< CHRLIT('/)
+< Unrecognized character: 
+< 
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character: /
+< Unrecognized character: *
+< Unrecognized character: *
+< CHRLIT('/)
+< NATURAL(0)
+< Unrecognized character: *
+< Unrecognized character: /
+< Unrecognized character: 
+< 
+< Unrecognized character: /
+< Unrecognized character: /
+< IDENTIFIER(teste)
+< Unrecognized character:  
+< IDENTIFIER(comment)
+< Unrecognized character:  
+< IDENTIFIER(single)
+< Unrecognized character: -
+< IDENTIFIER(line)
+< Unrecognized character:  
+< IDENTIFIER(EOF)
+---
+> CHRLIT('a')
+> CHRLIT('v')
+> CHRLIT('/')
+> DIV

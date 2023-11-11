@@ -1,0 +1,91 @@
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(main)
+Unrecognized character: (
+IDENTIFIER(void)
+Unrecognized character: )
+Unrecognized character: {
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(int)
+Unrecognized character:  
+Unrecognized character: #
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+NATURAL(223)
+Unrecognized character: ;
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(var)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+NATURAL(0)
+Unrecognized character: ;
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(if)
+Unrecognized character: (
+IDENTIFIER(var)
+Unrecognized character: <
+NATURAL(1)
+Unrecognized character: )
+Unrecognized character: {
+Unrecognized character:  
+Unrecognized character: /
+Unrecognized character: *
+
+Unrecognized character:  
+Unrecognized character: *
+Unrecognized character: /
+Unrecognized character:  
+Unrecognized character: #
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(return)
+Unrecognized character:  
+NATURAL(0)
+Unrecognized character: ;
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character: }
+IDENTIFIER(else)
+Unrecognized character: {
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+IDENTIFIER(return)
+Unrecognized character:  
+NATURAL(1)
+Unrecognized character: ;
+
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character:  
+Unrecognized character: }
+
+Unrecognized character: }
+

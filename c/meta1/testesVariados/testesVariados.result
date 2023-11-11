@@ -1,0 +1,191 @@
+Unrecognized character: /
+Unrecognized character: /
+IDENTIFIER(teste)
+Unrecognized character:  
+IDENTIFIER(de)
+Unrecognized character:  
+IDENTIFIER(charlit)
+
+CHRLIT('a)
+Unrecognized character: '
+
+CHRLIT('_)
+Unrecognized character: '
+
+CHRLIT('")
+Unrecognized character: '
+
+CHRLIT('Â)
+Unrecognized character: ´
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\\)
+Unrecognized character: '
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\")
+Unrecognized character: '
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\1')
+
+Unrecognized character: '
+CHRLIT(\12')
+
+Unrecognized character: '
+Unrecognized character: \
+NATURAL(1234)
+Unrecognized character: '
+
+Unrecognized character: '
+Unrecognized character: \
+NATURAL(16)
+IDENTIFIER(asdasd)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\t)
+CHRLIT(\t)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\\)
+NATURAL(1)
+Unrecognized character: '
+
+Unrecognized character: '
+Unrecognized character: \
+NATURAL(118)
+
+Unrecognized character: '
+CHRLIT(\n)
+Unrecognized character: '
+
+CHRLIT('?)
+Unrecognized character: '
+
+Unrecognized character: '
+Unrecognized character: '
+Unrecognized character: '
+
+CHRLIT('#)
+Unrecognized character: '
+
+Unrecognized character: '
+CHRLIT(\123')
+
+CHRLIT('z)
+Unrecognized character: '
+
+CHRLIT('Z)
+Unrecognized character: '
+
+CHRLIT('	)
+Unrecognized character: '
+
+CHRLIT(' )
+Unrecognized character: '
+
+
+Unrecognized character: /
+Unrecognized character: /
+IDENTIFIER(teste)
+Unrecognized character:  
+IDENTIFIER(de)
+Unrecognized character:  
+IDENTIFIER(reallit)
+
+DECIMAL(2.)
+
+DECIMAL(2.2)
+
+NATURAL(2)
+Unrecognized character: +
+IDENTIFIER(E2)
+
+DECIMAL(2.2)
+Unrecognized character: +
+IDENTIFIER(e5)
+
+DECIMAL(0.0e0)
+
+DECIMAL(.2)
+Unrecognized character: -
+IDENTIFIER(e1)
+
+DECIMAL(.2)
+
+
+Unrecognized character: /
+Unrecognized character: *
+Unrecognized character:  
+IDENTIFIER(este)
+Unrecognized character:  
+IDENTIFIER(de)
+Unrecognized character:  
+IDENTIFIER(algo)
+Unrecognized character:  
+IDENTIFIER(simples)
+Unrecognized character: *
+Unrecognized character: /
+
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(main)
+Unrecognized character: (
+Unrecognized character: )
+Unrecognized character: {
+
+Unrecognized character: 	
+Unrecognized character: #
+
+Unrecognized character: 	
+Unrecognized character: <
+Unrecognized character: <
+
+Unrecognized character: 	
+Unrecognized character: >
+Unrecognized character: <
+
+Unrecognized character: 	
+IDENTIFIER(for)
+
+Unrecognized character: 	
+IDENTIFIER(int)
+Unrecognized character:  
+IDENTIFIER(a)
+Unrecognized character: =
+Unrecognized character:  
+NATURAL(5)
+Unrecognized character: ;
+
+Unrecognized character: 	
+IDENTIFIER(a)
+Unrecognized character:  
+Unrecognized character: =
+Unrecognized character:  
+IDENTIFIER(a)
+Unrecognized character:  
+Unrecognized character: +
+NATURAL(1)
+Unrecognized character: ;
+
+Unrecognized character: 	
+IDENTIFIER(return)
+Unrecognized character:  
+IDENTIFIER(a)
+Unrecognized character: +
+Unrecognized character: +
+Unrecognized character: ;
+
+Unrecognized character: }
+
+Unrecognized character: /
+Unrecognized character: *
+Unrecognized character:  
+IDENTIFIER(Comentario)
+Unrecognized character:  
+IDENTIFIER(incompleto)

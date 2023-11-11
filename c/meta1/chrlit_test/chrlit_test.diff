@@ -1,0 +1,114 @@
+1,88c1,24
+< CHRLIT('A)
+< Unrecognized character: '
+< 
+< CHRLIT('))
+< Unrecognized character: '
+< 
+< CHRLIT('|)
+< Unrecognized character: '
+< 
+< CHRLIT('?)
+< Unrecognized character: '
+< 
+< CHRLIT('z)
+< Unrecognized character: '
+< 
+< CHRLIT('9)
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< CHRLIT(\n)
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< CHRLIT(\t)
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< CHRLIT(\')
+< Unrecognized character:  
+< 
+< Unrecognized character: '
+< CHRLIT(\\)
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< CHRLIT(\\)
+< CHRLIT(\')
+< 
+< Unrecognized character: '
+< CHRLIT(\\)
+< CHRLIT(\\)
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< CHRLIT(\\)
+< CHRLIT(\\)
+< CHRLIT(\')
+< 
+< Unrecognized character: '
+< Unrecognized character: \
+< Unrecognized character:  
+< 
+< Unrecognized character: '
+< CHRLIT(\\)
+< 
+< Unrecognized character: '
+< CHRLIT(\\)
+< Unrecognized character: \
+< 
+< Unrecognized character: '
+< CHRLIT(\\)
+< CHRLIT(\\)
+< 
+< Unrecognized character: '
+< CHRLIT(\\)
+< CHRLIT(\\)
+< Unrecognized character: \
+< 
+< Unrecognized character: '
+< CHRLIT(\')
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< CHRLIT(\")
+< Unrecognized character: '
+< 
+< Unrecognized character: '
+< CHRLIT(\0')
+< 
+< Unrecognized character: '
+< CHRLIT(\10')
+< 
+< Unrecognized character: '
+< CHRLIT(\157')
+< 
+< CHRLIT('	)
+< Unrecognized character: '
+< 
+---
+> CHRLIT('A')
+> CHRLIT(')')
+> CHRLIT('|')
+> CHRLIT('?')
+> CHRLIT('z')
+> CHRLIT('9')
+> CHRLIT('\n')
+> CHRLIT('\t')
+> Line 9, column 1: unterminated char constant
+> CHRLIT('\\')
+> Line 11, column 1: unterminated char constant
+> Line 12, column 1: invalid char constant ('\\\\')
+> Line 13, column 1: unterminated char constant
+> Line 14, column 1: unterminated char constant
+> Line 15, column 1: unterminated char constant
+> Line 16, column 1: unterminated char constant
+> Line 17, column 1: unterminated char constant
+> Line 18, column 1: unterminated char constant
+> CHRLIT('\'')
+> CHRLIT('\"')
+> CHRLIT('\0')
+> CHRLIT('\10')
+> CHRLIT('\157')
+> CHRLIT('	')
