@@ -1,18 +1,11 @@
-CHRLIT(')
-
-Unrecognized character: '
-CHRLIT('	)
-Unrecognized character: '
-CHRLIT('")
-Unrecognized character: '
-Unrecognized character: '
-CHRLIT(\\)
-Unrecognized character: '
-Unrecognized character: '
-Unrecognized character: \
+Line 1, col 1: unterminated char constant
+Line 2, col 1: invalid char constant ('')
+Line 2, col 4: invalid char constant ('')
+Line 2, column 6: unrecognized character (")
+Line 2, col 7: invalid char constant ('')
+Line 2, column 9: unrecognized character (\)
+Line 2, column 10: unrecognized character (\)
+Line 2, col 11: invalid char constant ('')
+Line 2, column 13: unrecognized character (\)
 IDENTIFIER(o)
-CHRLIT(')
-
-
-Unrecognized character: 
-
+Line 2, col 15: unterminated char constant

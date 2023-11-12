@@ -1,57 +1,17 @@
 IDENTIFIER(int)
-Unrecognized character:  
 IDENTIFIER(main)
-Unrecognized character:  
 IDENTIFIER(forwhile)
-
 IDENTIFIER(for)
-Unrecognized character:  
 IDENTIFIER(while)
-
-CHRLIT('f)
-IDENTIFIER(or)
-CHRLIT(' )
-CHRLIT('w)
-IDENTIFIER(hile)
-Unrecognized character: '
-
-Unrecognized character: '
-Unrecognized character: '
-CHRLIT('f)
-Unrecognized character: '
-CHRLIT('o)
-Unrecognized character: '
-CHRLIT('r)
-Unrecognized character: '
-
-Unrecognized character: '
-Unrecognized character: \
-IDENTIFIER(while)
-Unrecognized character: '
-
-Unrecognized character: =
-Unrecognized character:  
-Unrecognized character: +
-Unrecognized character:  
+Line 3, col 1: invalid char constant ('for')
+Line 3, col 7: invalid char constant ('while')
+Line 4, col 1: invalid char constant ('')
+CHRLIT('f')
+CHRLIT('o')
+CHRLIT('r')
+Line 5, col 1: invalid char constant ('\while')
+ASSIGN
+PLUS
 IDENTIFIER(a2)
-Unrecognized character:  
 NATURAL(2)
-Unrecognized character:  
 DECIMAL(2.1e-1)
-
-Unrecognized character: /
-Unrecognized character: /
-IDENTIFIER(for)
-
-Unrecognized character: /
-Unrecognized character: *
-Unrecognized character:  
-IDENTIFIER(while)
-Unrecognized character:  
-Unrecognized character: *
-Unrecognized character: /
-
-Unrecognized character: /
-Unrecognized character: *
-IDENTIFIER(break)
-

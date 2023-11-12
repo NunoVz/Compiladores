@@ -1,125 +1,38 @@
-2c2
-< Unrecognized character: \
+6c6
+< Line 2, col 3: unterminated char constant
 ---
-> Line 1, column 2: unrecognized character (\)
-4,5d3
-< Unrecognized character:  
-< 
-7,10c5,7
-< CHRLIT(\')
-< CHRLIT(\')
-< 
-< Unrecognized character: /
----
-> Line 2, column 2: unrecognized character (\)
 > Line 2, column 3: unterminated char constant
-> DIV
-12,51c9,10
-< Unrecognized character:  
-< Unrecognized character: /
-< Unrecognized character: *
-< Unrecognized character:  
-< IDENTIFIER(this)
-< Unrecognized character:  
-< IDENTIFIER(is)
-< Unrecognized character:  
-< IDENTIFIER(a)
-< Unrecognized character:  
-< IDENTIFIER(char)
-< Unrecognized character:  
-< Unrecognized character: '
-< CHRLIT('a)
-< IDENTIFIER(ds)
-< Unrecognized character:  
-< Unrecognized character: *
-< Unrecognized character: /
-< Unrecognized character:  
-< 
-< CHRLIT('/)
-< Unrecognized character: *
-< Unrecognized character:  
-< IDENTIFIER(this)
-< Unrecognized character:  
-< IDENTIFIER(is)
-< Unrecognized character:  
-< IDENTIFIER(a)
-< Unrecognized character:  
-< IDENTIFIER(test)
-< Unrecognized character:  
-< Unrecognized character: *
-< Unrecognized character: /
-< Unrecognized character:  
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< Unrecognized character:  
-< 
+9,10c9,10
+< Line 4, col 1: invalid char constant ('/* this is a test */ ')
+< Line 5, col 1: unterminated char constant
 ---
 > Line 4, column 1: invalid char constant ('/* this is a test */ ')
 > Line 5, column 1: unterminated char constant
-53,87c12
-< Unrecognized character:  
+12c12
 < IDENTIFIER(char)
-< Unrecognized character:  
-< IDENTIFIER(i)
-< 
-< CHRLIT('a)
-< IDENTIFIER(s)
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< NATURAL(999)
-< Unrecognized character: '
-< 
-< CHRLIT('9)
-< NATURAL(99)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\777')
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< NATURAL(9)
-< CHRLIT(\')
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< NATURAL(9)
-< Unrecognized character: '
-< CHRLIT(\')
-< 
-< CHRLIT('i)
-< IDENTIFIER(nt)
-< Unrecognized character:  
 ---
 > CHAR
-89,103c14,25
-< Unrecognized character:  
-< Unrecognized character: =
-< Unrecognized character:  
-< NATURAL(1)
-< CHRLIT(' )
-< CHRLIT('b)
-< IDENTIFIER(cs)
-< CHRLIT(' )
-< Unrecognized character: '
-< CHRLIT(\')
-< 
-< CHRLIT('/)
-< Unrecognized character: *
-< Unrecognized character:  
-< 
+14,16c14,16
+< Line 7, col 1: unterminated char constant
+< Line 8, col 1: invalid char constant ('\999')
+< Line 9, col 1: invalid char constant ('999')
 ---
 > Line 7, column 1: unterminated char constant
 > Line 8, column 1: invalid char constant ('\999')
 > Line 9, column 1: invalid char constant ('999')
-> CHRLIT('\777')
+18,19c18,19
+< Line 11, col 1: invalid char constant ('\9\'')
+< Line 12, col 1: invalid char constant ('\9')
+---
 > Line 11, column 1: invalid char constant ('\9\'')
 > Line 12, column 1: invalid char constant ('\9')
-> Line 12, column 5: unrecognized character (\)
+21,25c21,25
+< Line 12, col 6: unterminated char constant
+< Line 13, col 1: invalid char constant ('int i = 1')
+< Line 13, col 13: invalid char constant ('bcs')
+< Line 13, col 19: unterminated char constant
+< Line 14, col 1: unterminated char constant
+---
 > Line 12, column 6: unterminated char constant
 > Line 13, column 1: invalid char constant ('int i = 1')
 > Line 13, column 13: invalid char constant ('bcs')

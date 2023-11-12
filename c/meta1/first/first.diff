@@ -1,109 +1,20 @@
-1,2c1
+1c1
 < IDENTIFIER(int)
-< Unrecognized character:  
 ---
 > INT
-4,13c3,7
-< Unrecognized character: (
+4c4
 < IDENTIFIER(void)
-< Unrecognized character: )
-< Unrecognized character:  
-< Unrecognized character: {
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< IDENTIFIER(char)
-< Unrecognized character:  
 ---
-> LPAR
 > VOID
-> RPAR
-> LBRACE
+7c7
+< IDENTIFIER(char)
+---
 > CHAR
-15,25c9,13
-< Unrecognized character:  
-< Unrecognized character: =
-< Unrecognized character:  
-< CHRLIT('A)
-< CHRLIT(';)
-< 
-< Unrecognized character:  
-< Unrecognized character:  
+12c12
 < IDENTIFIER(while)
-< Unrecognized character:  
-< Unrecognized character: (
 ---
-> ASSIGN
-> CHRLIT('A')
-> SEMI
 > WHILE
-> LPAR
-27,39c15,18
-< Unrecognized character:  
-< Unrecognized character: <
-< Unrecognized character: =
-< Unrecognized character:  
-< CHRLIT('Z)
-< CHRLIT('))
-< Unrecognized character:  
-< Unrecognized character: {
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
----
-> LE
-> CHRLIT('Z')
-> RPAR
-> LBRACE
-41c20
-< Unrecognized character: (
----
-> LPAR
-43,49c22,23
-< Unrecognized character: )
-< Unrecognized character: ;
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
----
-> RPAR
-> SEMI
-51,53c25
-< Unrecognized character:  
-< Unrecognized character: =
-< Unrecognized character:  
----
-> ASSIGN
-55,57c27
-< Unrecognized character:  
-< Unrecognized character: +
-< Unrecognized character:  
----
-> PLUS
-59,68c29,31
-< Unrecognized character: ;
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character: }
-< 
-< Unrecognized character:  
-< Unrecognized character:  
+31c31
 < IDENTIFIER(return)
-< Unrecognized character:  
 ---
-> SEMI
-> RBRACE
 > RETURN
-70,73c33,34
-< Unrecognized character: ;
-< 
-< Unrecognized character: }
-< 
----
-> SEMI
-> RBRACE

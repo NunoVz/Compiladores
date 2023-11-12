@@ -1,22 +1,17 @@
 IDENTIFIER(int)
-Unrecognized character:  
 IDENTIFIER(a)
-Unrecognized character: =
+ASSIGN
 NATURAL(1)
-Unrecognized character: ,
+COMMA
 IDENTIFIER(b)
-Unrecognized character: ,
+COMMA
 IDENTIFIER(c)
-Unrecognized character: =
+ASSIGN
 NATURAL(2)
-Unrecognized character: ;
-
+SEMI
 IDENTIFIER(john)
-
 IDENTIFIER(void)
-Unrecognized character:  
 IDENTIFIER(a)
-Unrecognized character: (
-Unrecognized character: )
-Unrecognized character: ;
-
+LPAR
+RPAR
+SEMI

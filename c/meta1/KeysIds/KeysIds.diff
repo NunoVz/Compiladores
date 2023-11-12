@@ -1,100 +1,22 @@
-1,2c1
+1c1
 < IDENTIFIER(auto)
-< 
 ---
 > RESERVED(auto)
-4,6c3
-< 
+3c3
 < IDENTIFIER(break)
-< 
 ---
 > RESERVED(break)
-8,10c5
-< 
+5c5
 < IDENTIFIER(case)
-< 
 ---
 > RESERVED(case)
-12d6
-< 
-14,90c8,46
-< 
+8,13c8,13
 < IDENTIFIER(const)
-< 
 < IDENTIFIER(continue)
-< 
 < IDENTIFIER(default)
-< 
 < IDENTIFIER(do)
-< 
 < IDENTIFIER(while)
-< 
 < IDENTIFIER(do)
-< Unrecognized character: -
-< IDENTIFIER(while)
-< 
-< IDENTIFIER(do)
-< Unrecognized character:  
-< IDENTIFIER(while)
-< 
-< IDENTIFIER(double)
-< 
-< IDENTIFIER(else)
-< 
-< IDENTIFIER(enum)
-< 
-< IDENTIFIER(extern)
-< 
-< IDENTIFIER(float)
-< 
-< IDENTIFIER(for)
-< 
-< IDENTIFIER(goto)
-< 
-< IDENTIFIER(if)
-< 
-< IDENTIFIER(inline)
-< 
-< IDENTIFIER(int)
-< 
-< IDENTIFIER(long)
-< 
-< IDENTIFIER(register)
-< 
-< IDENTIFIER(restrict)
-< 
-< IDENTIFIER(return)
-< 
-< IDENTIFIER(short)
-< 
-< IDENTIFIER(signed)
-< 
-< IDENTIFIER(sizeof)
-< 
-< IDENTIFIER(static)
-< 
-< IDENTIFIER(struct)
-< 
-< IDENTIFIER(switch)
-< 
-< IDENTIFIER(typedef)
-< 
-< IDENTIFIER(union)
-< 
-< IDENTIFIER(unsigned)
-< 
-< IDENTIFIER(void)
-< 
-< IDENTIFIER(volatile)
-< 
-< IDENTIFIER(while)
-< 
-< IDENTIFIER(_Bool)
-< 
-< IDENTIFIER(_Complex)
-< 
-< IDENTIFIER(_Imaginary)
-< 
 ---
 > RESERVED(const)
 > RESERVED(continue)
@@ -102,7 +24,40 @@
 > RESERVED(do)
 > WHILE
 > RESERVED(do)
-> MINUS
+15,46c15,46
+< IDENTIFIER(while)
+< IDENTIFIER(do)
+< IDENTIFIER(while)
+< IDENTIFIER(double)
+< IDENTIFIER(else)
+< IDENTIFIER(enum)
+< IDENTIFIER(extern)
+< IDENTIFIER(float)
+< IDENTIFIER(for)
+< IDENTIFIER(goto)
+< IDENTIFIER(if)
+< IDENTIFIER(inline)
+< IDENTIFIER(int)
+< IDENTIFIER(long)
+< IDENTIFIER(register)
+< IDENTIFIER(restrict)
+< IDENTIFIER(return)
+< IDENTIFIER(short)
+< IDENTIFIER(signed)
+< IDENTIFIER(sizeof)
+< IDENTIFIER(static)
+< IDENTIFIER(struct)
+< IDENTIFIER(switch)
+< IDENTIFIER(typedef)
+< IDENTIFIER(union)
+< IDENTIFIER(unsigned)
+< IDENTIFIER(void)
+< IDENTIFIER(volatile)
+< IDENTIFIER(while)
+< IDENTIFIER(_Bool)
+< IDENTIFIER(_Complex)
+< IDENTIFIER(_Imaginary)
+---
 > WHILE
 > RESERVED(do)
 > WHILE
@@ -135,5 +90,3 @@
 > RESERVED(_Bool)
 > RESERVED(_Complex)
 > RESERVED(_Imaginary)
-92d47
-< 

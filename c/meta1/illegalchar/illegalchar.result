@@ -1,124 +1,60 @@
-Unrecognized character: <
-Unrecognized character: >
+LT
+GT
 IDENTIFIER(qwertyuiop)
-Unrecognized character: Ã
-Unrecognized character: ¡
+Line 1, column 13: unrecognized character (Ã)
+Line 1, column 14: unrecognized character (¡)
 IDENTIFIER(sdfghjkl)
-Unrecognized character: Ã
-Unrecognized character: §
-Unrecognized character: ~
-Unrecognized character: \
+Line 1, column 23: unrecognized character (Ã)
+Line 1, column 24: unrecognized character (§)
+Line 1, column 25: unrecognized character (~)
+Line 1, column 26: unrecognized character (\)
 IDENTIFIER(zxcvbnm)
-Unrecognized character: ,
-Unrecognized character: .
-Unrecognized character: -
+COMMA
+Line 1, column 35: unrecognized character (.)
+MINUS
 IDENTIFIER(______j)
-Unrecognized character: !
-Unrecognized character: "
-Unrecognized character: #
-Unrecognized character: $
-Unrecognized character: %
-Unrecognized character: &
-Unrecognized character: /
-Unrecognized character: (
-Unrecognized character: =
-Unrecognized character: =
-Unrecognized character: ?
-Unrecognized character: *
-Unrecognized character: Â
-Unrecognized character: ´
-Unrecognized character: \
-Unrecognized character: ~
-Unrecognized character: @
-
-Unrecognized character: |
-Unrecognized character: |
-Unrecognized character:  
-Unrecognized character: |
+NOT
+Line 1, column 45: unrecognized character (")
+Line 1, column 46: unrecognized character (#)
+Line 1, column 47: unrecognized character ($)
+MOD
+BITWISEAND
+DIV
+LPAR
+EQ
+Line 1, column 54: unrecognized character (?)
+MUL
+Line 1, column 56: unrecognized character (Â)
+Line 1, column 57: unrecognized character (´)
+Line 1, column 58: unrecognized character (\)
+Line 1, column 59: unrecognized character (~)
+Line 1, column 60: unrecognized character (@)
+OR
+BITWISEOR
 IDENTIFIER(char)
-
 IDENTIFIER(elsewhileifshort)
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
 IDENTIFIER(inT)
-Unrecognized character:  
 IDENTIFIER(intdoublereturnvoid)
-Unrecognized character: ^
-Unrecognized character: &
-Unrecognized character: &
-Unrecognized character: <
-Unrecognized character: =
-Unrecognized character: >
-Unrecognized character: =
-
-Unrecognized character: {
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character: [
-Unrecognized character: #
-Unrecognized character: }
-Unrecognized character: !
-Unrecognized character: =
-Unrecognized character: +
-Unrecognized character: +
-Unrecognized character: -
-Unrecognized character: -
-
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
+BITWISEXOR
+AND
+LE
+GE
+LBRACE
+RESERVED([)
+Line 4, column 7: unrecognized character (#)
+RBRACE
+NE
+RESERVED(++)
+RESERVED(--)
 IDENTIFIER(int)
-Unrecognized character:  
 IDENTIFIER(double)
-Unrecognized character:  
-Unrecognized character:  
 IDENTIFIER(return)
-Unrecognized character:  
-Unrecognized character:  
 IDENTIFIER(void)
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
 IDENTIFIER(short)
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
 IDENTIFIER(while)
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
 IDENTIFIER(else)
-
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-CHRLIT(\t)
-IDENTIFIER(olelele)
-
-Unrecognized character: /
-Unrecognized character: *
-IDENTIFIER(lll)
-
-IDENTIFIER(kkk)
-Unrecognized character: *
-Unrecognized character: /
-Unrecognized character: ?
-
+Line 6, column 7: unrecognized character (\)
+IDENTIFIER(tolelele)
+Line 8, column 6: unrecognized character (?)
 IDENTIFIER(wtf)
-Unrecognized character: /
-Unrecognized character: /
-IDENTIFIER(gefggt)
-
-Unrecognized character: #
-
+Line 10, column 1: unrecognized character (#)

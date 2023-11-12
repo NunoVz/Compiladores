@@ -1,158 +1,46 @@
-1,4c1,2
+1,2c1,2
 < IDENTIFIER(long)
-< Unrecognized character:  
 < IDENTIFIER(int)
-< Unrecognized character:  
 ---
 > RESERVED(long)
 > INT
-6,14c4,9
-< Unrecognized character: (
+5c5
 < IDENTIFIER(int)
-< Unrecognized character:  
-< IDENTIFIER(n)
-< Unrecognized character: )
-< Unrecognized character: ;
-< 
-< IDENTIFIER(int)
-< Unrecognized character:  
 ---
-> LPAR
 > INT
-> IDENTIFIER(n)
-> RPAR
-> SEMI
-> INT
-16,35c11,17
-< Unrecognized character: (
-< Unrecognized character: )
-< Unrecognized character:  
-< Unrecognized character: {
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
+9c9
 < IDENTIFIER(int)
-< Unrecognized character:  
-< IDENTIFIER(n)
-< Unrecognized character: ;
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
+---
+> INT
+14c14
+< IDENTIFIER(int)
+---
+> INT
+17c17
 < IDENTIFIER(return)
-< Unrecognized character:  
 ---
-> LPAR
-> RPAR
-> LBRACE
-> INT
-> IDENTIFIER(n)
-> SEMI
 > RETURN
-37,45c19,22
-< Unrecognized character: ;
-< 
-< Unrecognized character: }
-< 
-< 
+21,22c21,22
 < IDENTIFIER(long)
-< Unrecognized character:  
 < IDENTIFIER(int)
-< Unrecognized character:  
 ---
-> SEMI
-> RBRACE
 > RESERVED(long)
 > INT
-47,61c24,30
-< Unrecognized character: (
+25c25
 < IDENTIFIER(int)
-< Unrecognized character:  
-< IDENTIFIER(n)
-< Unrecognized character: )
-< Unrecognized character:  
-< Unrecognized character: {
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
+---
+> INT
+29c29
 < IDENTIFIER(if)
-< Unrecognized character:  
-< Unrecognized character: (
 ---
-> LPAR
-> INT
-> IDENTIFIER(n)
-> RPAR
-> LBRACE
 > IF
-> LPAR
-63,64c32
-< Unrecognized character: >
-< Unrecognized character: =
----
-> GE
-66,77c34,35
-< Unrecognized character: )
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
+35c35
 < IDENTIFIER(return)
-< Unrecognized character:  
 ---
-> RPAR
 > RETURN
-79c37
-< Unrecognized character: *
----
-> MUL
-81c39
-< Unrecognized character: (
----
-> LPAR
-83c41
-< Unrecognized character: -
----
-> MINUS
-85,103c43,46
-< Unrecognized character: )
-< Unrecognized character: ;
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
+45,46c45,46
 < IDENTIFIER(else)
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
 < IDENTIFIER(return)
-< Unrecognized character:  
 ---
-> RPAR
-> SEMI
 > ELSE
 > RETURN
-105,107c48,49
-< Unrecognized character: ;
-< 
-< Unrecognized character: }
----
-> SEMI
-> RBRACE

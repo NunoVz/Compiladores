@@ -1,31 +1,13 @@
-CHRLIT('a)
-Unrecognized character: '
-
-Unrecognized character: '
-CHRLIT(\12')
-
-Unrecognized character: '
-CHRLIT(\n)
-Unrecognized character: '
-
-Unrecognized character: '
-CHRLIT(\177')
-
-Unrecognized character: <
-
-Unrecognized character: =
-
-Unrecognized character: +
-Unrecognized character: +
-
-Unrecognized character: -
-Unrecognized character: -
-
+CHRLIT('a')
+CHRLIT('\12')
+CHRLIT('\n')
+CHRLIT('\177')
+LT
+ASSIGN
+RESERVED(++)
+RESERVED(--)
 IDENTIFIER(j)
-Unrecognized character: +
-Unrecognized character: +
-Unrecognized character: ;
-
+RESERVED(++)
+SEMI
 IDENTIFIER(a)
-
 IDENTIFIER(fg)

@@ -1,128 +1,32 @@
-1,2c1
+1c1
 < IDENTIFIER(int)
-< Unrecognized character:  
 ---
 > INT
-4,18c3,9
-< Unrecognized character: (
+4c4
 < IDENTIFIER(void)
-< Unrecognized character: )
-< Unrecognized character: {
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< IDENTIFIER(int)
-< Unrecognized character:  
-< Unrecognized character: #
-< Unrecognized character:  
-< Unrecognized character: =
-< Unrecognized character:  
 ---
-> LPAR
 > VOID
-> RPAR
-> LBRACE
-> INT
-> Line 2, column 9: unrecognized character (#)
-> ASSIGN
-20,27c11,12
-< Unrecognized character: ;
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
+7c7
 < IDENTIFIER(int)
-< Unrecognized character:  
 ---
-> SEMI
 > INT
-29,31c14
-< Unrecognized character:  
-< Unrecognized character: =
-< Unrecognized character:  
+12c12
+< IDENTIFIER(int)
 ---
-> ASSIGN
-33,40c16,18
-< Unrecognized character: ;
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
+> INT
+17c17
 < IDENTIFIER(if)
-< Unrecognized character: (
 ---
-> SEMI
 > IF
-> LPAR
-42c20
-< Unrecognized character: <
----
-> LT
-44,59c22,25
-< Unrecognized character: )
-< Unrecognized character: {
-< Unrecognized character:  
-< Unrecognized character: /
-< Unrecognized character: *
-< 
-< Unrecognized character:  
-< Unrecognized character: *
-< Unrecognized character: /
-< Unrecognized character:  
-< Unrecognized character: #
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
+25c25
 < IDENTIFIER(return)
-< Unrecognized character:  
 ---
-> RPAR
-> LBRACE
-> Line 5, column 5: unrecognized character (#)
 > RETURN
-61,80c27,31
-< Unrecognized character: ;
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character: }
+29c29
 < IDENTIFIER(else)
-< Unrecognized character: {
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< IDENTIFIER(return)
-< Unrecognized character:  
 ---
-> SEMI
-> RBRACE
 > ELSE
-> LBRACE
-> RETURN
-82,91c33,35
-< Unrecognized character: ;
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character: }
-< 
-< Unrecognized character: }
-< 
+31c31
+< IDENTIFIER(return)
 ---
-> SEMI
-> RBRACE
-> RBRACE
+> RETURN

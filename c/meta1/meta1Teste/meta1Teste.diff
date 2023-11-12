@@ -1,295 +1,52 @@
-1,16c1
-< Unrecognized character: /
-< Unrecognized character: *
-< Unrecognized character:  
-< IDENTIFIER(Meta)
-< Unrecognized character:  
-< NATURAL(1)
-< Unrecognized character:  
-< IDENTIFIER(compiladores)
-< Unrecognized character:  
-< Unrecognized character: 
-< 
-< Unrecognized character: *
-< Unrecognized character: /
-< Unrecognized character: 
-< 
-< Unrecognized character: /
----
-> DIV
-18,82c3,10
-< Unrecognized character: 
-< 
-< Unrecognized character:  
-< Unrecognized character: 
-< 
-< Unrecognized character:  
-< Unrecognized character: 
-< 
-< CHRLIT('/)
-< NATURAL(0123)
-< CHRLIT(')
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< CHRLIT(\n)
-< CHRLIT(')
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< NATURAL(1239)
-< CHRLIT(')
-< 
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< CHRLIT(\113')
-< Unrecognized character: '
-< CHRLIT(')
-< 
-< CHRLIT('q)
-< IDENTIFIER(werty)
-< Unrecognized character: 
-< 
-< Unrecognized character:  
-< Unrecognized character: 
-< 
-< Unrecognized character:  
-< Unrecognized character: 
-< 
-< Unrecognized character:  
-< Unrecognized character: 
-< 
-< Unrecognized character:  
-< Unrecognized character: 
-< 
-< Unrecognized character: /
-< Unrecognized character: /
-< IDENTIFIER(esta)
-< Unrecognized character:  
-< IDENTIFIER(fun)
-< Unrecognized character: Ã
-< Unrecognized character: §
-< Unrecognized character: Ã
-< Unrecognized character: £
-< IDENTIFIER(o)
-< Unrecognized character:  
-< IDENTIFIER(vai)
-< Unrecognized character:  
-< IDENTIFIER(fazer)
-< Unrecognized character:  
-< IDENTIFIER(algo)
-< Unrecognized character: 
-< 
-< IDENTIFIER(float)
-< Unrecognized character:  
+3,6c3,6
+< Line 6, col 1: invalid char constant ('/0123')
+< Line 7, col 1: invalid char constant ('\\\n')
+< Line 8, col 1: invalid char constant ('\1239')
+< Line 9, col 1: invalid char constant ('')
 ---
 > Line 6, column 1: invalid char constant ('/0123')
 > Line 7, column 1: invalid char constant ('\\\n')
 > Line 8, column 1: invalid char constant ('\1239')
 > Line 9, column 1: invalid char constant ('')
-> CHRLIT('\113')
+8,10c8,10
+< Line 9, col 9: invalid char constant ('')
+< Line 10, col 1: unterminated char constant
+< IDENTIFIER(float)
+---
 > Line 9, column 9: invalid char constant ('')
 > Line 10, column 1: unterminated char constant
 > RESERVED(float)
-84,92c12,16
-< Unrecognized character: (
+13c13
 < IDENTIFIER(void)
-< Unrecognized character: )
-< Unrecognized character: {
-< Unrecognized character: 
-< 
-< Unrecognized character: 	
+---
+> VOID
+16c16
 < IDENTIFIER(int)
-< Unrecognized character:  
 ---
-> LPAR
-> VOID
-> RPAR
-> LBRACE
 > INT
-94,96c18
-< Unrecognized character:  
-< Unrecognized character: =
-< Unrecognized character:  
----
-> ASSIGN
-98,109c20,22
-< Unrecognized character: ;
-< Unrecognized character: 
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character: 	
-< Unrecognized character:  
+21c21
 < IDENTIFIER(if)
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character: (
 ---
-> SEMI
 > IF
-> LPAR
-111,114c24
-< Unrecognized character:  
-< Unrecognized character: !
-< Unrecognized character: =
-< Unrecognized character:  
----
-> NE
-116,129c26,27
-< Unrecognized character: )
-< Unrecognized character:  
-< Unrecognized character: {
-< Unrecognized character: 
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character: 	
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
----
-> RPAR
-> LBRACE
-131,133c29
-< Unrecognized character:  
-< Unrecognized character: =
-< Unrecognized character:  
----
-> ASSIGN
-135,148c31,33
-< Unrecognized character: ;
-< Unrecognized character: 
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character: 	
-< Unrecognized character: }
-< Unrecognized character: 
-< 
-< Unrecognized character: 	
+33c33
 < IDENTIFIER(char)
-< Unrecognized character:  
 ---
-> SEMI
-> RBRACE
 > CHAR
-150,153c35,36
-< Unrecognized character:  
-< Unrecognized character: =
-< Unrecognized character:  
-< Unrecognized character: "
----
-> ASSIGN
-> Line 21, column 14: unrecognized character (")
-155,161c38,40
-< Unrecognized character: "
-< Unrecognized character: ;
-< Unrecognized character: 
-< 
-< Unrecognized character: 	
+40c40
 < IDENTIFIER(double)
-< Unrecognized character:  
 ---
-> Line 21, column 18: unrecognized character (")
-> SEMI
 > DOUBLE
-163,165c42
-< Unrecognized character:  
-< Unrecognized character: =
-< Unrecognized character:  
----
-> ASSIGN
-167,172c44,45
-< Unrecognized character: ;
-< Unrecognized character: 
-< 
-< Unrecognized character: 	
+45c45
 < IDENTIFIER(return)
-< Unrecognized character:  
 ---
-> SEMI
 > RETURN
-174,206c47,48
-< Unrecognized character: 
-< 
-< Unrecognized character: }
-< Unrecognized character: 
-< 
-< Unrecognized character:  
-< Unrecognized character: 
-< 
-< Unrecognized character: /
-< Unrecognized character: /
-< IDENTIFIER(esta)
-< Unrecognized character:  
-< IDENTIFIER(fun)
-< Unrecognized character: Ã
-< Unrecognized character: §
-< Unrecognized character: Ã
-< Unrecognized character: £
-< IDENTIFIER(o)
-< Unrecognized character:  
-< IDENTIFIER(n)
-< Unrecognized character: Ã
-< Unrecognized character: £
-< IDENTIFIER(o)
-< Unrecognized character:  
-< IDENTIFIER(vai)
-< Unrecognized character:  
-< IDENTIFIER(fazer)
-< Unrecognized character:  
-< IDENTIFIER(algo)
-< Unrecognized character: 
-< 
+48c48
 < IDENTIFIER(void)
-< Unrecognized character:  
 ---
-> RBRACE
 > VOID
-208,238c50,55
-< Unrecognized character: (
+51c51
 < IDENTIFIER(void)
-< Unrecognized character: )
-< Unrecognized character: {
-< Unrecognized character: 
-< 
-< Unrecognized character: }
-< Unrecognized character: 
-< 
-< Unrecognized character:  
-< Unrecognized character: 
-< 
-< Unrecognized character: /
-< Unrecognized character: *
-< Unrecognized character: 
-< 
-< Unrecognized character: /
-< Unrecognized character: *
-< Unrecognized character: 
-< 
-< Unrecognized character:  
-< Unrecognized character: 
-< 
-< Unrecognized character:  
-< Unrecognized character: 
-< 
-< Unrecognized character: 
-< 
-< Unrecognized character: 
-< 
-< Unrecognized character: 	
 ---
-> LPAR
 > VOID
-> RPAR
-> LBRACE
-> RBRACE
+54a55
 > Line 30, column 1: unterminated comment

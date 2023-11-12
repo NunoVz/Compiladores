@@ -1,126 +1,26 @@
-1,115c1,31
-< Unrecognized character: '
-< CHRLIT(\\)
-< CHRLIT(\')
-< Unrecognized character: 
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< CHRLIT(')
-< 
-< Unrecognized character: '
-< CHRLIT(\')
-< Unrecognized character: 
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< CHRLIT(\\)
-< CHRLIT(')
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< CHRLIT(\\)
-< CHRLIT(\\)
-< CHRLIT(\')
-< Unrecognized character: 
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< CHRLIT(')
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< Unrecognized character: 
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< Unrecognized character: \
-< Unrecognized character: 
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< Unrecognized character: 
-< 
-< Unrecognized character: 
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< Unrecognized character: 
-< 
-< Unrecognized character: '
-< Unrecognized character: '
-< CHRLIT(')
-< 
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< CHRLIT(')
-< 
-< Unrecognized character: '
-< CHRLIT(\')
-< CHRLIT(\')
-< CHRLIT(\\)
-< CHRLIT(\')
-< Unrecognized character: '
-< CHRLIT(\')
-< Unrecognized character: '
-< Unrecognized character: \
-< Unrecognized character: 
-< 
-< Unrecognized character: 
-< 
-< Unrecognized character: '
-< CHRLIT(\n)
-< CHRLIT(')
-< 
-< Unrecognized character: '
-< CHRLIT(\')
-< CHRLIT(')
-< 
-< Unrecognized character: 
-< 
-< Unrecognized character: '
-< CHRLIT(\t)
-< CHRLIT(\t)
-< CHRLIT(\t)
-< CHRLIT(\t)
-< CHRLIT(' )
-< Unrecognized character: '
-< CHRLIT(\n)
-< CHRLIT(' )
-< Unrecognized character: '
-< CHRLIT(\\)
-< CHRLIT(\\)
-< CHRLIT(\')
-< Unrecognized character:  
-< Unrecognized character: '
-< CHRLIT(\\)
-< CHRLIT(' )
-< Unrecognized character: '
-< CHRLIT(\')
-< Unrecognized character: 
-< 
-< Unrecognized character: 
-< 
-< Unrecognized character: '
-< CHRLIT(\")
-< Unrecognized character: 
-< 
-< Unrecognized character: 
-< 
-< CHRLIT('")
-< CHRLIT(')
-< 
-< Unrecognized character: '
-< CHRLIT(\")
-< Unrecognized character: '
+1c1
+< Line 1, col 1: unterminated char constant
 ---
 > Line 1, column 1: unterminated char constant
-> CHRLIT('\\')
+3,5c3,5
+< Line 3, col 1: unterminated char constant
+< Line 4, col 1: invalid char constant ('\\\\')
+< Line 5, col 1: unterminated char constant
+---
 > Line 3, column 1: unterminated char constant
 > Line 4, column 1: invalid char constant ('\\\\')
 > Line 5, column 1: unterminated char constant
-> CHRLIT('\\')
+7,15c7,15
+< Line 7, col 1: unterminated char constant
+< Line 8, col 1: unterminated char constant
+< Line 9, col 1: unterminated char constant
+< Line 11, col 1: unterminated char constant
+< Line 12, col 1: invalid char constant ('')
+< Line 12, col 3: unterminated char constant
+< Line 13, col 1: invalid char constant ('')
+< Line 13, col 3: invalid char constant ('')
+< Line 14, col 1: invalid char constant ('\'\'\\\'')
+---
 > Line 7, column 1: unterminated char constant
 > Line 8, column 1: unterminated char constant
 > Line 9, column 1: unterminated char constant
@@ -130,19 +30,21 @@
 > Line 13, column 1: invalid char constant ('')
 > Line 13, column 3: invalid char constant ('')
 > Line 14, column 1: invalid char constant ('\'\'\\\'')
-> Line 14, column 11: unrecognized character (\)
+17c17
+< Line 14, col 12: invalid char constant ('')
+---
 > Line 14, column 12: invalid char constant ('')
-> Line 14, column 14: unrecognized character (\)
-> CHRLIT('\n')
-> CHRLIT('\'')
+21c21
+< Line 19, col 1: invalid char constant ('\t\t\t\t')
+---
 > Line 19, column 1: invalid char constant ('\t\t\t\t')
-> CHRLIT('\n')
+23c23
+< Line 19, col 17: invalid char constant ('\\\\\' ')
+---
 > Line 19, column 17: invalid char constant ('\\\\\' ')
-> Line 19, column 26: unrecognized character (\)
-> Line 19, column 27: unrecognized character (\)
-> CHRLIT(' ')
-> Line 19, column 31: unrecognized character (\)
+28,29c28,29
+< Line 19, col 32: unterminated char constant
+< Line 21, col 1: unterminated char constant
+---
 > Line 19, column 32: unterminated char constant
 > Line 21, column 1: unterminated char constant
-> CHRLIT('"')
-> CHRLIT('\"')

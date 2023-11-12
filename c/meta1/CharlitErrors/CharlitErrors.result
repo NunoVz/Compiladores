@@ -1,159 +1,52 @@
-CHRLIT('f)
-Unrecognized character: '
-
-Unrecognized character: '
-Unrecognized character: '
-
-Unrecognized character: '
-CHRLIT(\")
-
-Unrecognized character: '
-CHRLIT(\')
-Unrecognized character: '
-
-Unrecognized character: '
-CHRLIT(\')
-
-Unrecognized character: '
-Unrecognized character: '
-Unrecognized character: '
-Unrecognized character: '
-
-CHRLIT('?)
-Unrecognized character: '
-
-Unrecognized character: '
-CHRLIT(\\)
-NATURAL(1)
-Unrecognized character: '
-Unrecognized character: '
-CHRLIT(\12')
-Unrecognized character: '
-CHRLIT(\123')
-Unrecognized character: '
-Unrecognized character: \
-NATURAL(1234)
-CHRLIT(' )
-CHRLIT('Â)
-Unrecognized character: ´
-Unrecognized character: '
-
-Unrecognized character: '
-CHRLIT(\777')
-
-Unrecognized character: '
-CHRLIT(\000')
-
-Unrecognized character: '
-CHRLIT(\007')
-
-Unrecognized character: '
-CHRLIT(\07')
-
-Unrecognized character: '
-CHRLIT(\377')
-
-Unrecognized character: '
-Unrecognized character: \
-NATURAL(378)
-Unrecognized character: '
-
-Unrecognized character: '
-CHRLIT(\477')
-
-Unrecognized character: '
-Unrecognized character: \
-NATURAL(0000)
-Unrecognized character: '
-
-Unrecognized character: '
-CHRLIT(\\)
-IDENTIFIER(v)
-Unrecognized character: '
-
-Unrecognized character: '
-Unrecognized character: \
-IDENTIFIER(v)
-Unrecognized character: '
-
-Unrecognized character: '
-CHRLIT(\\)
-IDENTIFIER(f)
-Unrecognized character: '
-
-Unrecognized character: '
-Unrecognized character: \
-IDENTIFIER(f)
-Unrecognized character: '
-
-Unrecognized character: '
-CHRLIT(\0')
-
-Unrecognized character: '
-CHRLIT(\")
-
-Unrecognized character: '
-CHRLIT(\")
-Unrecognized character: '
-
-CHRLIT('")
-Unrecognized character: '
-
-Unrecognized character: '
-Unrecognized character: '
-Unrecognized character: '
-
-Unrecognized character: '
-Unrecognized character: '
-
-Unrecognized character: '
-CHRLIT(\444')
-
-CHRLIT('Â)
-Unrecognized character: ´
-Unrecognized character: '
-
-CHRLIT('.)
-Unrecognized character: '
-
-CHRLIT('Â)
-Unrecognized character: ´
-
-CHRLIT('.)
-
-Unrecognized character: '
-CHRLIT(\n)
-
-Unrecognized character: '
-CHRLIT(\n)
-Unrecognized character: '
-
-Unrecognized character: "
-
-CHRLIT('=)
-Unrecognized character: '
-
-CHRLIT('<)
-Unrecognized character: '
-
+CHRLIT('f')
+Line 2, col 1: invalid char constant ('')
+Line 3, col 1: unterminated char constant
+CHRLIT('\'')
+Line 5, col 1: unterminated char constant
+Line 6, col 1: invalid char constant ('')
+Line 6, col 3: invalid char constant ('')
+CHRLIT('?')
+Line 8, col 1: invalid char constant ('\\1')
+CHRLIT('\12')
+CHRLIT('\123')
+Line 8, col 17: invalid char constant ('\1234')
+Line 8, col 25: invalid char constant ('Â´')
+CHRLIT('\777')
+CHRLIT('\000')
+CHRLIT('\007')
+CHRLIT('\07')
+CHRLIT('\377')
+Line 14, col 1: invalid char constant ('\378')
+CHRLIT('\477')
+Line 16, col 1: invalid char constant ('\0000')
+Line 17, col 1: invalid char constant ('\\v')
+Line 18, col 1: invalid char constant ('\v')
+Line 19, col 1: invalid char constant ('\\f')
+Line 20, col 1: invalid char constant ('\f')
+CHRLIT('\0')
+Line 22, col 1: unterminated char constant
+CHRLIT('\"')
+CHRLIT('"')
+Line 25, col 1: invalid char constant ('')
+Line 25, col 3: unterminated char constant
+Line 26, col 1: invalid char constant ('')
+CHRLIT('\444')
+Line 28, col 1: invalid char constant ('Â´')
+CHRLIT('.')
+Line 30, col 1: unterminated char constant
+Line 31, col 1: unterminated char constant
+Line 32, col 1: unterminated char constant
+CHRLIT('\n')
+Line 34, column 1: unrecognized character (")
+CHRLIT('=')
+CHRLIT('<')
 IDENTIFIER(ola)
-Unrecognized character: '
-
+Line 37, col 4: unterminated char constant
 IDENTIFIER(ola)
-Unrecognized character:  
 IDENTIFIER(e)
-Unrecognized character:  
-Unrecognized character: '
-CHRLIT(' )
+Line 38, col 7: invalid char constant ('')
 IDENTIFIER(adeus)
-CHRLIT('a)
-IDENTIFIER(sd)
-Unrecognized character: '
-Unrecognized character: '
-
-CHRLIT('	)
-Unrecognized character: '
-
-CHRLIT('	)
-Unrecognized character: 	
-Unrecognized character: '
+Line 38, col 15: invalid char constant ('asd')
+Line 38, col 20: unterminated char constant
+CHRLIT('	')
+Line 40, col 1: invalid char constant ('		')

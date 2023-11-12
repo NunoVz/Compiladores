@@ -1,78 +1,38 @@
 IDENTIFIER(simple)
-Unrecognized character:  
 IDENTIFIER(char)
-Unrecognized character:  
 IDENTIFIER(else)
-Unrecognized character:  
 IDENTIFIER(while)
-Unrecognized character:  
 IDENTIFIER(if)
-Unrecognized character:  
 IDENTIFIER(int)
-Unrecognized character:  
 IDENTIFIER(short)
-Unrecognized character:  
 IDENTIFIER(double)
-Unrecognized character:  
 IDENTIFIER(return)
-Unrecognized character:  
 IDENTIFIER(void)
-
 IDENTIFIER(reserved)
-Unrecognized character:  
-Unrecognized character: +
-Unrecognized character: +
-Unrecognized character:  
-Unrecognized character: -
-Unrecognized character: -
-Unrecognized character:  
-Unrecognized character: [
-Unrecognized character:  
-Unrecognized character: ]
-Unrecognized character:  
+RESERVED(++)
+RESERVED(--)
+RESERVED([)
+RESERVED(])
 IDENTIFIER(auto)
-Unrecognized character:  
 IDENTIFIER(break)
-Unrecognized character:  
 IDENTIFIER(case)
-Unrecognized character:  
 IDENTIFIER(const)
-Unrecognized character:  
 IDENTIFIER(continue)
-Unrecognized character:  
 IDENTIFIER(default)
-Unrecognized character:  
 IDENTIFIER(do)
-Unrecognized character:  
 IDENTIFIER(long)
-Unrecognized character:  
 IDENTIFIER(register)
-Unrecognized character:  
 IDENTIFIER(signed)
-Unrecognized character:  
 IDENTIFIER(sizeof)
-Unrecognized character:  
 IDENTIFIER(static)
-Unrecognized character:  
 IDENTIFIER(struct)
-Unrecognized character:  
 IDENTIFIER(switch)
-Unrecognized character:  
 IDENTIFIER(typedef)
-Unrecognized character:  
 IDENTIFIER(union)
-Unrecognized character:  
 IDENTIFIER(unsigned)
-Unrecognized character:  
 IDENTIFIER(volatile)
-Unrecognized character:  
 IDENTIFIER(enum)
-Unrecognized character:  
 IDENTIFIER(extern)
-Unrecognized character:  
 IDENTIFIER(float)
-Unrecognized character:  
 IDENTIFIER(for)
-Unrecognized character:  
 IDENTIFIER(goto)
-

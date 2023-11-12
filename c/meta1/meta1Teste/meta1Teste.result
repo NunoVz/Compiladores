@@ -1,238 +1,54 @@
-Unrecognized character: /
-Unrecognized character: *
-Unrecognized character:  
-IDENTIFIER(Meta)
-Unrecognized character:  
-NATURAL(1)
-Unrecognized character:  
-IDENTIFIER(compiladores)
-Unrecognized character:  
-Unrecognized character: 
-
-Unrecognized character: *
-Unrecognized character: /
-Unrecognized character: 
-
-Unrecognized character: /
+DIV
 IDENTIFIER(exemplo)
-Unrecognized character: 
-
-Unrecognized character:  
-Unrecognized character: 
-
-Unrecognized character:  
-Unrecognized character: 
-
-CHRLIT('/)
-NATURAL(0123)
-CHRLIT(')
-
-Unrecognized character: '
-CHRLIT(\\)
-CHRLIT(\n)
-CHRLIT(')
-
-Unrecognized character: '
-Unrecognized character: \
-NATURAL(1239)
-CHRLIT(')
-
-Unrecognized character: '
-Unrecognized character: '
-Unrecognized character: '
-CHRLIT(\113')
-Unrecognized character: '
-CHRLIT(')
-
-CHRLIT('q)
-IDENTIFIER(werty)
-Unrecognized character: 
-
-Unrecognized character:  
-Unrecognized character: 
-
-Unrecognized character:  
-Unrecognized character: 
-
-Unrecognized character:  
-Unrecognized character: 
-
-Unrecognized character:  
-Unrecognized character: 
-
-Unrecognized character: /
-Unrecognized character: /
-IDENTIFIER(esta)
-Unrecognized character:  
-IDENTIFIER(fun)
-Unrecognized character: Ã
-Unrecognized character: §
-Unrecognized character: Ã
-Unrecognized character: £
-IDENTIFIER(o)
-Unrecognized character:  
-IDENTIFIER(vai)
-Unrecognized character:  
-IDENTIFIER(fazer)
-Unrecognized character:  
-IDENTIFIER(algo)
-Unrecognized character: 
-
+Line 6, col 1: invalid char constant ('/0123')
+Line 7, col 1: invalid char constant ('\\\n')
+Line 8, col 1: invalid char constant ('\1239')
+Line 9, col 1: invalid char constant ('')
+CHRLIT('\113')
+Line 9, col 9: invalid char constant ('')
+Line 10, col 1: unterminated char constant
 IDENTIFIER(float)
-Unrecognized character:  
 IDENTIFIER(exemplo_1)
-Unrecognized character: (
+LPAR
 IDENTIFIER(void)
-Unrecognized character: )
-Unrecognized character: {
-Unrecognized character: 
-
-Unrecognized character: 	
+RPAR
+LBRACE
 IDENTIFIER(int)
-Unrecognized character:  
 IDENTIFIER(numero)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
+ASSIGN
 NATURAL(1)
-Unrecognized character: ;
-Unrecognized character: 
-
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character: 	
-Unrecognized character:  
+SEMI
 IDENTIFIER(if)
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character: (
+LPAR
 IDENTIFIER(numbero)
-Unrecognized character:  
-Unrecognized character: !
-Unrecognized character: =
-Unrecognized character:  
+NE
 NATURAL(1)
-Unrecognized character: )
-Unrecognized character:  
-Unrecognized character: {
-Unrecognized character: 
-
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character: 	
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
+RPAR
+LBRACE
 IDENTIFIER(numero)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
+ASSIGN
 NATURAL(1)
-Unrecognized character: ;
-Unrecognized character: 
-
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character: 	
-Unrecognized character: }
-Unrecognized character: 
-
-Unrecognized character: 	
+SEMI
+RBRACE
 IDENTIFIER(char)
-Unrecognized character:  
 IDENTIFIER(nome)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
-Unrecognized character: "
+ASSIGN
+Line 21, column 14: unrecognized character (")
 IDENTIFIER(O_O)
-Unrecognized character: "
-Unrecognized character: ;
-Unrecognized character: 
-
-Unrecognized character: 	
+Line 21, column 18: unrecognized character (")
+SEMI
 IDENTIFIER(double)
-Unrecognized character:  
 IDENTIFIER(x)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
+ASSIGN
 DECIMAL(12.2)
-Unrecognized character: ;
-Unrecognized character: 
-
-Unrecognized character: 	
+SEMI
 IDENTIFIER(return)
-Unrecognized character:  
 IDENTIFIER(numero)
-Unrecognized character: 
-
-Unrecognized character: }
-Unrecognized character: 
-
-Unrecognized character:  
-Unrecognized character: 
-
-Unrecognized character: /
-Unrecognized character: /
-IDENTIFIER(esta)
-Unrecognized character:  
-IDENTIFIER(fun)
-Unrecognized character: Ã
-Unrecognized character: §
-Unrecognized character: Ã
-Unrecognized character: £
-IDENTIFIER(o)
-Unrecognized character:  
-IDENTIFIER(n)
-Unrecognized character: Ã
-Unrecognized character: £
-IDENTIFIER(o)
-Unrecognized character:  
-IDENTIFIER(vai)
-Unrecognized character:  
-IDENTIFIER(fazer)
-Unrecognized character:  
-IDENTIFIER(algo)
-Unrecognized character: 
-
+RBRACE
 IDENTIFIER(void)
-Unrecognized character:  
 IDENTIFIER(exemplo_2)
-Unrecognized character: (
+LPAR
 IDENTIFIER(void)
-Unrecognized character: )
-Unrecognized character: {
-Unrecognized character: 
-
-Unrecognized character: }
-Unrecognized character: 
-
-Unrecognized character:  
-Unrecognized character: 
-
-Unrecognized character: /
-Unrecognized character: *
-Unrecognized character: 
-
-Unrecognized character: /
-Unrecognized character: *
-Unrecognized character: 
-
-Unrecognized character:  
-Unrecognized character: 
-
-Unrecognized character:  
-Unrecognized character: 
-
-Unrecognized character: 
-
-Unrecognized character: 
-
-Unrecognized character: 	
+RPAR
+LBRACE
+RBRACE

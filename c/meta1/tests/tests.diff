@@ -1,88 +1,20 @@
-1,20c1,7
-< Unrecognized character: !
-< 
-< CHRLIT('2)
-< Unrecognized character: '
-< Unrecognized character: '
-< CHRLIT(\\)
-< Unrecognized character: '
-< Unrecognized character: '
-< CHRLIT(\\)
-< CHRLIT(\')
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\n)
-< Unrecognized character: '
-< 
-< IDENTIFIER(int)
-< Unrecognized character:  
+4,5c4,5
+< Line 2, col 8: invalid char constant ('\\\'')
+< Line 3, col 1: unterminated char constant
 ---
-> NOT
-> CHRLIT('2')
-> CHRLIT('\\')
 > Line 2, column 8: invalid char constant ('\\\'')
 > Line 3, column 1: unterminated char constant
-> CHRLIT('\n')
-> INT
-22,59c9,27
-< Unrecognized character: (
-< Unrecognized character: )
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< IDENTIFIER(d)
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: \
-< IDENTIFIER(asdas)
-< Unrecognized character: '
-< Unrecognized character: '
-< CHRLIT(\\)
-< Unrecognized character: '
-< Unrecognized character: '
-< CHRLIT(\r)
-< Unrecognized character: '
-< CHRLIT(\r)
-< 
-< CHRLIT(\r)
-< CHRLIT(\n)
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< CHRLIT(\r)
-< CHRLIT(\n)
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< Unrecognized character: '
-< Unrecognized character: '
-< CHRLIT(\')
-< Unrecognized character: '
-< Unrecognized character: '
-< CHRLIT(\")
-< Unrecognized character: '
+7c7
+< IDENTIFIER(int)
 ---
-> LPAR
-> RPAR
+> INT
+11,12c11,12
+< Line 6, col 1: invalid char constant ('\d')
+< Line 6, col 5: invalid char constant ('\asdas')
+---
 > Line 6, column 1: invalid char constant ('\d')
 > Line 6, column 5: invalid char constant ('\asdas')
-> CHRLIT('\\')
+14c14
+< Line 6, col 17: invalid char constant ('\r')
+---
 > Line 6, column 17: invalid char constant ('\r')
-> Line 6, column 21: unrecognized character (\)
-> IDENTIFIER(r)
-> Line 7, column 1: unrecognized character (\)
-> IDENTIFIER(r)
-> Line 7, column 3: unrecognized character (\)
-> IDENTIFIER(n)
-> Line 8, column 5: unrecognized character (\)
-> IDENTIFIER(r)
-> Line 8, column 7: unrecognized character (\)
-> IDENTIFIER(n)
-> CHRLIT('\\')
-> CHRLIT('\'')
-> CHRLIT('\"')

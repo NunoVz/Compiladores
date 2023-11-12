@@ -1,128 +1,24 @@
-1,2c1
+1c1
 < IDENTIFIER(void)
-< Unrecognized character:  
 ---
 > VOID
-4,6c3,4
-< Unrecognized character: (
+4c4
 < IDENTIFIER(char)
-< Unrecognized character:  
 ---
-> LPAR
 > CHAR
-8,16c6,9
-< Unrecognized character: )
-< Unrecognized character:  
-< Unrecognized character: {
-< 
-< Unrecognized character:  
-< Unrecognized character:  
+8c8
 < IDENTIFIER(while)
-< Unrecognized character:  
-< Unrecognized character: (
 ---
-> RPAR
-> LBRACE
 > WHILE
-> LPAR
-18,30c11,14
-< Unrecognized character:  
-< Unrecognized character: <
-< Unrecognized character: =
-< Unrecognized character:  
-< CHRLIT('Z)
-< CHRLIT('))
-< Unrecognized character:  
-< Unrecognized character: {
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
----
-> LE
-> CHRLIT('Z')
-> RPAR
-> LBRACE
-32c16
-< Unrecognized character: (
----
-> LPAR
-34,40c18,19
-< Unrecognized character: )
-< Unrecognized character: ;
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
----
-> RPAR
-> SEMI
-42,44c21
-< Unrecognized character:  
-< Unrecognized character: =
-< Unrecognized character:  
----
-> ASSIGN
-46,48c23
-< Unrecognized character:  
-< Unrecognized character: +
-< Unrecognized character:  
----
-> PLUS
-50,60c25,28
-< Unrecognized character: ;
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character: }
-< 
-< Unrecognized character: }
-< 
-< 
+28c28
 < IDENTIFIER(int)
-< Unrecognized character:  
 ---
-> SEMI
-> RBRACE
-> RBRACE
 > INT
-62,69c30,33
-< Unrecognized character: (
+31c31
 < IDENTIFIER(void)
-< Unrecognized character: )
-< Unrecognized character:  
-< Unrecognized character: {
-< 
-< Unrecognized character:  
-< Unrecognized character:  
 ---
-> LPAR
 > VOID
-> RPAR
-> LBRACE
-71,79c35,39
-< Unrecognized character: (
-< CHRLIT('A)
-< CHRLIT('))
-< Unrecognized character: ;
-< 
-< Unrecognized character:  
-< Unrecognized character:  
+39c39
 < IDENTIFIER(return)
-< Unrecognized character:  
 ---
-> LPAR
-> CHRLIT('A')
-> RPAR
-> SEMI
 > RETURN
-81,84c41,42
-< Unrecognized character: ;
-< 
-< Unrecognized character: }
-< 
----
-> SEMI
-> RBRACE

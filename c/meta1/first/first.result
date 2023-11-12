@@ -1,73 +1,34 @@
 IDENTIFIER(int)
-Unrecognized character:  
 IDENTIFIER(main)
-Unrecognized character: (
+LPAR
 IDENTIFIER(void)
-Unrecognized character: )
-Unrecognized character:  
-Unrecognized character: {
-
-Unrecognized character:  
-Unrecognized character:  
+RPAR
+LBRACE
 IDENTIFIER(char)
-Unrecognized character:  
 IDENTIFIER(i)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
-CHRLIT('A)
-CHRLIT(';)
-
-Unrecognized character:  
-Unrecognized character:  
+ASSIGN
+CHRLIT('A')
+SEMI
 IDENTIFIER(while)
-Unrecognized character:  
-Unrecognized character: (
+LPAR
 IDENTIFIER(i)
-Unrecognized character:  
-Unrecognized character: <
-Unrecognized character: =
-Unrecognized character:  
-CHRLIT('Z)
-CHRLIT('))
-Unrecognized character:  
-Unrecognized character: {
-
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
+LE
+CHRLIT('Z')
+RPAR
+LBRACE
 IDENTIFIER(putchar)
-Unrecognized character: (
+LPAR
 IDENTIFIER(i)
-Unrecognized character: )
-Unrecognized character: ;
-
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
+RPAR
+SEMI
 IDENTIFIER(i)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
+ASSIGN
 IDENTIFIER(i)
-Unrecognized character:  
-Unrecognized character: +
-Unrecognized character:  
+PLUS
 NATURAL(1)
-Unrecognized character: ;
-
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character: }
-
-Unrecognized character:  
-Unrecognized character:  
+SEMI
+RBRACE
 IDENTIFIER(return)
-Unrecognized character:  
 NATURAL(0)
-Unrecognized character: ;
-
-Unrecognized character: }
-
+SEMI
+RBRACE

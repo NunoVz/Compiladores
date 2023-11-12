@@ -1,106 +1,50 @@
 IDENTIFIER(int)
-Unrecognized character:  
 IDENTIFIER(main)
-Unrecognized character: (
+LPAR
 IDENTIFIER(void)
-Unrecognized character: )
-Unrecognized character: {
-
-Unrecognized character: 	
+RPAR
+LBRACE
 IDENTIFIER(int)
-Unrecognized character:  
 IDENTIFIER(i)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
+ASSIGN
 NATURAL(0)
-Unrecognized character: ;
-
-Unrecognized character: 	
+SEMI
 IDENTIFIER(char)
-Unrecognized character:  
 IDENTIFIER(a)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
-Unrecognized character: '
-CHRLIT(\')
-Unrecognized character: <
-Unrecognized character: =
-Unrecognized character: '
-
-Unrecognized character: 	
+ASSIGN
+Line 3, col 11: invalid char constant ('\'<=')
 IDENTIFIER(char)
-Unrecognized character:  
 IDENTIFIER(b)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
-Unrecognized character: '
-CHRLIT(\')
-
-
-Unrecognized character: 	
+ASSIGN
+Line 4, col 11: unterminated char constant
 IDENTIFIER(if)
-Unrecognized character: (
+LPAR
 IDENTIFIER(i)
-Unrecognized character: =
-Unrecognized character: =
+EQ
 NATURAL(0)
-Unrecognized character: )
-Unrecognized character: {
-
-Unrecognized character: 	
-Unrecognized character: 	
+RPAR
+LBRACE
 IDENTIFIER(printf)
-Unrecognized character: (
-Unrecognized character: "
+LPAR
+Line 7, column 10: unrecognized character (")
 IDENTIFIER(ola)
-Unrecognized character:  
 IDENTIFIER(o)
-Unrecognized character:  
 IDENTIFIER(meu)
-Unrecognized character:  
 IDENTIFIER(nome)
-Unrecognized character:  
-Unrecognized character: Ã
-Unrecognized character: ©
-Unrecognized character:  
+Line 7, column 26: unrecognized character (Ã)
+Line 7, column 27: unrecognized character (©)
 IDENTIFIER(miguel)
-Unrecognized character: )
-Unrecognized character: ;
-
-Unrecognized character: 	
-Unrecognized character: }
-
-
-Unrecognized character: 	
+RPAR
+SEMI
+RBRACE
 IDENTIFIER(double)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
+ASSIGN
 DECIMAL(2.0)
-Unrecognized character: ;
-
-Unrecognized character: 	
-CHRLIT('A)
-Unrecognized character: '
-
-Unrecognized character: 	
-CHRLIT('o)
-IDENTIFIER(la)
-
-Unrecognized character: 	
+SEMI
+CHRLIT('A')
+Line 12, col 2: unterminated char constant
 IDENTIFIER(adeus)
-Unrecognized character: '
-Unrecognized character: '
-
-Unrecognized character: 	
+Line 13, col 7: invalid char constant ('')
 IDENTIFIER(nao)
-
-Unrecognized character: 	
-CHRLIT('{)
-IDENTIFIER(d)
-Unrecognized character: '
-
-Unrecognized character: }
+Line 15, col 2: invalid char constant ('{d')
+RBRACE

@@ -1,280 +1,159 @@
 IDENTIFIER(A)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
+ASSIGN
 NATURAL(0011)
-Unrecognized character:  
 NATURAL(1100)
-
 IDENTIFIER(B)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
+ASSIGN
 NATURAL(0000)
-Unrecognized character:  
 NATURAL(1101)
-
 IDENTIFIER(A)
-Unrecognized character: &
+BITWISEAND
 IDENTIFIER(B)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
+ASSIGN
 NATURAL(0000)
-Unrecognized character:  
 NATURAL(1100)
-
 IDENTIFIER(A)
-Unrecognized character: |
+BITWISEOR
 IDENTIFIER(B)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
+ASSIGN
 NATURAL(0011)
-Unrecognized character:  
 NATURAL(1101)
-
 IDENTIFIER(A)
-Unrecognized character: ^
+BITWISEXOR
 IDENTIFIER(B)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
+ASSIGN
 NATURAL(0011)
-Unrecognized character:  
 NATURAL(0001)
-
-
 IDENTIFIER(if)
-Unrecognized character: (
+LPAR
 IDENTIFIER(A)
-Unrecognized character: >
+GT
 IDENTIFIER(B)
-Unrecognized character: )
-Unrecognized character: {
-
-Unrecognized character: 	
+RPAR
+LBRACE
 IDENTIFIER(A)
-Unrecognized character: +
-Unrecognized character: =
-Unrecognized character:  
+PLUS
+ASSIGN
 NATURAL(1111)
-Unrecognized character:  
 NATURAL(0000)
-Unrecognized character: ;
-
-Unrecognized character: }
+SEMI
+RBRACE
 IDENTIFIER(else)
-Unrecognized character:  
 IDENTIFIER(if)
-Unrecognized character: (
+LPAR
 IDENTIFIER(A)
-Unrecognized character: <
+LT
 IDENTIFIER(B)
-Unrecognized character: )
-Unrecognized character: {
-
-Unrecognized character: 	
+RPAR
+LBRACE
 IDENTIFIER(B)
-Unrecognized character: -
-Unrecognized character: =
-Unrecognized character:  
+MINUS
+ASSIGN
 NATURAL(0011)
-Unrecognized character:  
 NATURAL(0101)
-Unrecognized character: :
-
-Unrecognized character: }
+Line 10, column 15: unrecognized character (:)
+RBRACE
 IDENTIFIER(else)
-Unrecognized character:  
 IDENTIFIER(if)
-Unrecognized character: (
+LPAR
 IDENTIFIER(A)
-Unrecognized character: =
+ASSIGN
 IDENTIFIER(B)
-Unrecognized character: )
-Unrecognized character: {
-
-Unrecognized character: 	
+RPAR
+LBRACE
 IDENTIFIER(A)
-Unrecognized character: /
-Unrecognized character: =
-Unrecognized character:  
+DIV
+ASSIGN
 NATURAL(1010)
-Unrecognized character:  
 DECIMAL(1010.)
-
-Unrecognized character: }
-
-
-Unrecognized character: *
-Unrecognized character:  
-Unrecognized character: /
-Unrecognized character:  
-Unrecognized character: /
-Unrecognized character:  
-Unrecognized character: *
-Unrecognized character:  
-Unrecognized character: /
-Unrecognized character: /
-Unrecognized character:  
-Unrecognized character: *
-Unrecognized character: *
-Unrecognized character:  
-Unrecognized character: "
-Unrecognized character: "
-Unrecognized character:  
-CHRLIT('i)
-CHRLIT(' )
-Unrecognized character: '
-CHRLIT(\t)
-CHRLIT(' )
-Unrecognized character: '
-Unrecognized character: \
-IDENTIFIER(v)
-CHRLIT(' )
-Unrecognized character: `
-Unrecognized character:  
-Unrecognized character: ~
-
-
+RBRACE
+MUL
+DIV
+DIV
+MUL
 IDENTIFIER(ab)
-Unrecognized character: #
+Line 17, column 3: unrecognized character (#)
 IDENTIFIER(cde)
-
-
 NATURAL(12)
-Unrecognized character: @
+Line 19, column 3: unrecognized character (@)
 NATURAL(3)
 IDENTIFIER(_31)
-Unrecognized character: $
-
-
+Line 19, column 8: unrecognized character ($)
 IDENTIFIER(ABC)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
-Unrecognized character: (
+ASSIGN
+LPAR
 NATURAL(10)
-Unrecognized character: )
-Unrecognized character: *
+RPAR
+MUL
 NATURAL(10)
-Unrecognized character: ;
-
+SEMI
 IDENTIFIER(CBD)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
-Unrecognized character: (
+ASSIGN
+LPAR
 NATURAL(420)
-Unrecognized character: )
-Unrecognized character: /
+RPAR
+DIV
 NATURAL(69)
-Unrecognized character: ;
-
-
+SEMI
 IDENTIFIER(BBB)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
+ASSIGN
 NATURAL(1)
-Unrecognized character: %
+MOD
 NATURAL(1)
-Unrecognized character: ;
-
-
+SEMI
 IDENTIFIER(ABC)
-Unrecognized character: +
-Unrecognized character: +
-Unrecognized character: ;
-
+RESERVED(++)
+SEMI
 IDENTIFIER(CBD)
-Unrecognized character: -
-Unrecognized character: -
-Unrecognized character: ;
-
+RESERVED(--)
+SEMI
 IDENTIFIER(THC)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
+ASSIGN
 IDENTIFIER(BBB)
-Unrecognized character: >
-Unrecognized character: >
+GT
+GT
 IDENTIFIER(ABC)
-Unrecognized character: ;
-
-
+SEMI
 IDENTIFIER(if)
-Unrecognized character: (
+LPAR
 IDENTIFIER(THC)
-Unrecognized character: !
-Unrecognized character: =
+NE
 IDENTIFIER(CBD)
-Unrecognized character:  
-Unrecognized character: ,
-Unrecognized character: )
-Unrecognized character: {
-
-Unrecognized character: 	
-Unrecognized character: /
-Unrecognized character: *
-Unrecognized character: *
-Unrecognized character: /
-Unrecognized character: /
-Unrecognized character: *
-Unrecognized character: *
-Unrecognized character: /
-
-Unrecognized character: }
+COMMA
+RPAR
+LBRACE
+RBRACE
 IDENTIFIER(else)
-Unrecognized character:  
 IDENTIFIER(if)
-Unrecognized character: (
+LPAR
 IDENTIFIER(CBD)
-Unrecognized character: =
-Unrecognized character: =
+EQ
 IDENTIFIER(ABC)
-Unrecognized character: )
-Unrecognized character: {
-
-Unrecognized character: 	
+RPAR
+LBRACE
 IDENTIFIER(THC)
-Unrecognized character: *
-Unrecognized character: =
+MUL
+ASSIGN
 NATURAL(2)
-Unrecognized character: ^
+BITWISEXOR
 NATURAL(2)
-Unrecognized character: ;
-
-Unrecognized character: }
-
-
+SEMI
+RBRACE
 IDENTIFIER(a)
-Unrecognized character: ?
+Line 36, column 2: unrecognized character (?)
 IDENTIFIER(b)
-
-
-Unrecognized character: |
-Unrecognized character: |
-
-
+OR
 IDENTIFIER(char)
-Unrecognized character:  
 IDENTIFIER(c)
-Unrecognized character: [
+RESERVED([)
 NATURAL(1024)
-Unrecognized character: ]
-Unrecognized character: ;
-
-
+RESERVED(])
+SEMI
 IDENTIFIER(int)
-Unrecognized character:  
 IDENTIFIER(b)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
+ASSIGN
 IDENTIFIER(sizeof)
-Unrecognized character: (
+LPAR
 IDENTIFIER(c)
-Unrecognized character: )
-Unrecognized character: ;
+RPAR
+SEMI

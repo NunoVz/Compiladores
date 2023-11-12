@@ -1,191 +1,65 @@
-Unrecognized character: /
-Unrecognized character: /
-IDENTIFIER(teste)
-Unrecognized character:  
-IDENTIFIER(de)
-Unrecognized character:  
-IDENTIFIER(charlit)
-
-CHRLIT('a)
-Unrecognized character: '
-
-CHRLIT('_)
-Unrecognized character: '
-
-CHRLIT('")
-Unrecognized character: '
-
-CHRLIT('Â)
-Unrecognized character: ´
-Unrecognized character: '
-
-Unrecognized character: '
-CHRLIT(\\)
-Unrecognized character: '
-Unrecognized character: '
-
-Unrecognized character: '
-CHRLIT(\")
-Unrecognized character: '
-Unrecognized character: '
-
-Unrecognized character: '
-CHRLIT(\1')
-
-Unrecognized character: '
-CHRLIT(\12')
-
-Unrecognized character: '
-Unrecognized character: \
-NATURAL(1234)
-Unrecognized character: '
-
-Unrecognized character: '
-Unrecognized character: \
-NATURAL(16)
-IDENTIFIER(asdasd)
-Unrecognized character: '
-
-Unrecognized character: '
-CHRLIT(\t)
-CHRLIT(\t)
-Unrecognized character: '
-
-Unrecognized character: '
-CHRLIT(\\)
-NATURAL(1)
-Unrecognized character: '
-
-Unrecognized character: '
-Unrecognized character: \
-NATURAL(118)
-
-Unrecognized character: '
-CHRLIT(\n)
-Unrecognized character: '
-
-CHRLIT('?)
-Unrecognized character: '
-
-Unrecognized character: '
-Unrecognized character: '
-Unrecognized character: '
-
-CHRLIT('#)
-Unrecognized character: '
-
-Unrecognized character: '
-CHRLIT(\123')
-
-CHRLIT('z)
-Unrecognized character: '
-
-CHRLIT('Z)
-Unrecognized character: '
-
-CHRLIT('	)
-Unrecognized character: '
-
-CHRLIT(' )
-Unrecognized character: '
-
-
-Unrecognized character: /
-Unrecognized character: /
-IDENTIFIER(teste)
-Unrecognized character:  
-IDENTIFIER(de)
-Unrecognized character:  
-IDENTIFIER(reallit)
-
+CHRLIT('a')
+CHRLIT('_')
+CHRLIT('"')
+Line 5, col 1: invalid char constant ('Â´')
+CHRLIT('\\')
+Line 6, col 5: unterminated char constant
+CHRLIT('\"')
+Line 7, col 5: unterminated char constant
+CHRLIT('\1')
+CHRLIT('\12')
+Line 10, col 1: invalid char constant ('\1234')
+Line 11, col 1: invalid char constant ('\16asdasd')
+Line 12, col 1: invalid char constant ('\t\t')
+Line 13, col 1: invalid char constant ('\\1')
+Line 14, col 1: unterminated char constant
+CHRLIT('\n')
+CHRLIT('?')
+Line 17, col 1: invalid char constant ('')
+Line 17, col 3: unterminated char constant
+CHRLIT('#')
+CHRLIT('\123')
+CHRLIT('z')
+CHRLIT('Z')
+CHRLIT('	')
+CHRLIT(' ')
 DECIMAL(2.)
-
 DECIMAL(2.2)
-
 NATURAL(2)
-Unrecognized character: +
+PLUS
 IDENTIFIER(E2)
-
 DECIMAL(2.2)
-Unrecognized character: +
+PLUS
 IDENTIFIER(e5)
-
 DECIMAL(0.0e0)
-
 DECIMAL(.2)
-Unrecognized character: -
+MINUS
 IDENTIFIER(e1)
-
 DECIMAL(.2)
-
-
-Unrecognized character: /
-Unrecognized character: *
-Unrecognized character:  
-IDENTIFIER(este)
-Unrecognized character:  
-IDENTIFIER(de)
-Unrecognized character:  
-IDENTIFIER(algo)
-Unrecognized character:  
-IDENTIFIER(simples)
-Unrecognized character: *
-Unrecognized character: /
-
 IDENTIFIER(int)
-Unrecognized character:  
 IDENTIFIER(main)
-Unrecognized character: (
-Unrecognized character: )
-Unrecognized character: {
-
-Unrecognized character: 	
-Unrecognized character: #
-
-Unrecognized character: 	
-Unrecognized character: <
-Unrecognized character: <
-
-Unrecognized character: 	
-Unrecognized character: >
-Unrecognized character: <
-
-Unrecognized character: 	
+LPAR
+RPAR
+LBRACE
+Line 36, column 2: unrecognized character (#)
+LT
+LT
+GT
+LT
 IDENTIFIER(for)
-
-Unrecognized character: 	
 IDENTIFIER(int)
-Unrecognized character:  
 IDENTIFIER(a)
-Unrecognized character: =
-Unrecognized character:  
+ASSIGN
 NATURAL(5)
-Unrecognized character: ;
-
-Unrecognized character: 	
+SEMI
 IDENTIFIER(a)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
+ASSIGN
 IDENTIFIER(a)
-Unrecognized character:  
-Unrecognized character: +
+PLUS
 NATURAL(1)
-Unrecognized character: ;
-
-Unrecognized character: 	
+SEMI
 IDENTIFIER(return)
-Unrecognized character:  
 IDENTIFIER(a)
-Unrecognized character: +
-Unrecognized character: +
-Unrecognized character: ;
-
-Unrecognized character: }
-
-Unrecognized character: /
-Unrecognized character: *
-Unrecognized character:  
-IDENTIFIER(Comentario)
-Unrecognized character:  
-IDENTIFIER(incompleto)
+RESERVED(++)
+SEMI
+RBRACE

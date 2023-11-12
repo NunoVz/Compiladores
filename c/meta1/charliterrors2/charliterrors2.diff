@@ -1,168 +1,44 @@
-1,145c1,28
-< CHRLIT(\')
-< Unrecognized character: 
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< Unrecognized character: 
-< 
-< Unrecognized character: '
-< CHRLIT(\')
-< Unrecognized character: 
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< CHRLIT(\')
-< Unrecognized character: 
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< CHRLIT(\')
-< CHRLIT(')
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< CHRLIT(\\)
-< CHRLIT(')
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< CHRLIT(')
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< Unrecognized character:  
-< IDENTIFIER(ola)
-< Unrecognized character:  
-< IDENTIFIER(ola)
-< Unrecognized character:  
-< Unrecognized character: 
-< 
-< Unrecognized character: '
-< CHRLIT(\')
-< CHRLIT(' )
-< IDENTIFIER(ola)
-< Unrecognized character:  
-< IDENTIFIER(ola)
-< Unrecognized character: 
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< IDENTIFIER(ola)
-< Unrecognized character:  
-< IDENTIFIER(ola)
-< CHRLIT(' )
-< Unrecognized character: 
-< 
-< CHRLIT(\')
-< Unrecognized character:  
-< IDENTIFIER(ola)
-< Unrecognized character:  
-< IDENTIFIER(ola)
-< Unrecognized character: 
-< 
-< CHRLIT('i)
-< IDENTIFIER(d)
-< Unrecognized character:  
-< CHRLIT(\\)
-< Unrecognized character:  
-< IDENTIFIER(ola)
-< Unrecognized character: 
-< 
-< CHRLIT('i)
-< IDENTIFIER(d)
-< Unrecognized character:  
-< CHRLIT(\\)
-< Unrecognized character:  
-< IDENTIFIER(ola)
-< Unrecognized character:  
-< CHRLIT(' )
-< IDENTIFIER(ola)
-< Unrecognized character:  
-< CHRLIT(')
-< 
-< CHRLIT(' )
-< IDENTIFIER(awf)
-< Unrecognized character:  
-< CHRLIT(\')
-< Unrecognized character:  
-< IDENTIFIER(aef)
-< Unrecognized character:  
-< Unrecognized character: 
-< 
-< Unrecognized character: '
-< Unrecognized character: '
-< CHRLIT(')
-< 
-< Unrecognized character: '
-< CHRLIT(')
-< 
-< CHRLIT('a)
-< IDENTIFIER(ecaec)
-< Unrecognized character:  
-< Unrecognized character: \
-< Unrecognized character: 
-< 
-< Unrecognized character: 
-< 
-< Unrecognized character: 
-< 
-< CHRLIT('e)
-< IDENTIFIER(eee)
-< CHRLIT(')
-< 
-< Unrecognized character: 
-< 
-< CHRLIT('a)
-< IDENTIFIER(sdad)
-< Unrecognized character:  
-< Unrecognized character: \
-< Unrecognized character: 
-< 
-< Unrecognized character: 
-< 
-< Unrecognized character: 
-< 
-< Unrecognized character: 
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< CHRLIT('a)
-< IDENTIFIER(sd)
-< CHRLIT(')
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character: '
-< CHRLIT(\\)
-< CHRLIT(')
-< 
+2,7c2,7
+< Line 1, col 2: unterminated char constant
+< Line 2, col 1: unterminated char constant
+< Line 3, col 1: unterminated char constant
+< Line 4, col 1: unterminated char constant
+< Line 5, col 1: invalid char constant ('\\\'')
+< Line 6, col 1: invalid char constant ('\\\\')
 ---
-> Line 1, column 1: unrecognized character (\)
 > Line 1, column 2: unterminated char constant
 > Line 2, column 1: unterminated char constant
 > Line 3, column 1: unterminated char constant
 > Line 4, column 1: unterminated char constant
 > Line 5, column 1: invalid char constant ('\\\'')
 > Line 6, column 1: invalid char constant ('\\\\')
-> CHRLIT('\\')
+9c9
+< Line 8, col 1: unterminated char constant
+---
 > Line 8, column 1: unterminated char constant
-> CHRLIT('\'')
-> IDENTIFIER(ola)
-> IDENTIFIER(ola)
+13c13
+< Line 10, col 1: invalid char constant ('\   ola ola')
+---
 > Line 10, column 1: invalid char constant ('\   ola ola')
-> Line 11, column 1: unrecognized character (\)
+15,17c15,17
+< Line 11, col 2: unterminated char constant
+< Line 12, col 1: unterminated char constant
+< Line 13, col 1: invalid char constant ('id \\ ola ')
+---
 > Line 11, column 2: unterminated char constant
 > Line 12, column 1: unterminated char constant
 > Line 13, column 1: invalid char constant ('id \\ ola ')
-> IDENTIFIER(ola)
+19,27c19,27
+< Line 13, col 18: unterminated char constant
+< Line 14, col 1: unterminated char constant
+< Line 15, col 1: invalid char constant ('')
+< Line 15, col 3: unterminated char constant
+< Line 16, col 1: invalid char constant ('')
+< Line 17, col 1: unterminated char constant
+< Line 20, col 1: invalid char constant ('eeee')
+< Line 22, col 1: unterminated char constant
+< Line 26, col 5: invalid char constant ('asd')
+---
 > Line 13, column 18: unterminated char constant
 > Line 14, column 1: unterminated char constant
 > Line 15, column 1: invalid char constant ('')
@@ -172,4 +48,3 @@
 > Line 20, column 1: invalid char constant ('eeee')
 > Line 22, column 1: unterminated char constant
 > Line 26, column 5: invalid char constant ('asd')
-> CHRLIT('\\')

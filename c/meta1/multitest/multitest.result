@@ -1,133 +1,38 @@
-Unrecognized character: 	
-Unrecognized character: /
-Unrecognized character: *
-
-Unrecognized character: 	
-Unrecognized character: 	
-Unrecognized character: 	
-Unrecognized character: /
-CHRLIT('1)
-NATURAL(23)
-CHRLIT(' )
-IDENTIFIER(ficheiro)
-Unrecognized character:  
-IDENTIFIER(de)
-Unrecognized character:  
-IDENTIFIER(teste)
-Unrecognized character:  
-IDENTIFIER(meta)
-Unrecognized character:  
-NATURAL(1)
-
-
-Unrecognized character: *
-Unrecognized character: /
-
-
 IDENTIFIER(int)
-Unrecognized character:  
 IDENTIFIER(register)
-Unrecognized character: (
+LPAR
 IDENTIFIER(void)
-Unrecognized character: )
-Unrecognized character: {
-
-Unrecognized character: 	
-
-Unrecognized character: 	
+RPAR
+LBRACE
 IDENTIFIER(double)
-Unrecognized character:  
 IDENTIFIER(variablename)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
+ASSIGN
 DECIMAL(123.2e-1)
-Unrecognized character: ;
-
-
-Unrecognized character: 	
+SEMI
 IDENTIFIER(variablename)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
+ASSIGN
 IDENTIFIER(variablename)
-Unrecognized character: *
+MUL
 NATURAL(2)
-Unrecognized character: ;
-
-Unrecognized character: 	
-Unrecognized character: /
-Unrecognized character: /
-IDENTIFIER(random)
-Unrecognized character:  
-IDENTIFIER(comment)
-
-Unrecognized character: 	
+SEMI
 IDENTIFIER(char)
-Unrecognized character:  
 IDENTIFIER(illegal)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
-Unrecognized character: '
-Unrecognized character: \
-NATURAL(128)
-CHRLIT(';)
-
-Unrecognized character: 	
+ASSIGN
+Line 12, col 17: invalid char constant ('\128')
+SEMI
 IDENTIFIER(char)
-Unrecognized character:  
 IDENTIFIER(legalescape)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
-Unrecognized character: '
-CHRLIT(\123')
-Unrecognized character: ;
-
-Unrecognized character: }
-
-
-
-Unrecognized character: /
-Unrecognized character: /
-IDENTIFIER(I)
-Unrecognized character:  
-IDENTIFIER(don)
-CHRLIT('t)
-Unrecognized character:  
-IDENTIFIER(like)
-Unrecognized character:  
-IDENTIFIER(illegals)
-
-
-Unrecognized character: '
-CHRLIT(\\)
-Unrecognized character: '
-
-Unrecognized character: '
-CHRLIT(\')
-CHRLIT(\')
-
-Unrecognized character: '
-CHRLIT(\n)
-Unrecognized character: '
-
-CHRLIT('1)
-CHRLIT('1)
-CHRLIT('1)
-CHRLIT(\')
-Unrecognized character: \
+ASSIGN
+CHRLIT('\123')
+SEMI
+RBRACE
+CHRLIT('\\')
+Line 20, col 1: unterminated char constant
+CHRLIT('\n')
+CHRLIT('1')
 NATURAL(1)
-CHRLIT(\')
-NATURAL(1)
-Unrecognized character: '
-
-CHRLIT('a)
-Unrecognized character: '
-
-CHRLIT('b)
-Unrecognized character: '
-
+Line 22, col 5: invalid char constant ('1\'\1\'1')
+CHRLIT('a')
+CHRLIT('b')
 DECIMAL(123124.e-1)
-Unrecognized character: '
+Line 25, column 11: unrecognized character (')

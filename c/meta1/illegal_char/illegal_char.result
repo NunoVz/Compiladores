@@ -1,91 +1,35 @@
 IDENTIFIER(int)
-Unrecognized character:  
 IDENTIFIER(main)
-Unrecognized character: (
+LPAR
 IDENTIFIER(void)
-Unrecognized character: )
-Unrecognized character: {
-
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
+RPAR
+LBRACE
 IDENTIFIER(int)
-Unrecognized character:  
-Unrecognized character: #
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
+Line 2, column 9: unrecognized character (#)
+ASSIGN
 NATURAL(223)
-Unrecognized character: ;
-
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
+SEMI
 IDENTIFIER(int)
-Unrecognized character:  
 IDENTIFIER(var)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
+ASSIGN
 NATURAL(0)
-Unrecognized character: ;
-
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
+SEMI
 IDENTIFIER(if)
-Unrecognized character: (
+LPAR
 IDENTIFIER(var)
-Unrecognized character: <
+LT
 NATURAL(1)
-Unrecognized character: )
-Unrecognized character: {
-Unrecognized character:  
-Unrecognized character: /
-Unrecognized character: *
-
-Unrecognized character:  
-Unrecognized character: *
-Unrecognized character: /
-Unrecognized character:  
-Unrecognized character: #
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
+RPAR
+LBRACE
+Line 5, column 5: unrecognized character (#)
 IDENTIFIER(return)
-Unrecognized character:  
 NATURAL(0)
-Unrecognized character: ;
-
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character: }
+SEMI
+RBRACE
 IDENTIFIER(else)
-Unrecognized character: {
-
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
+LBRACE
 IDENTIFIER(return)
-Unrecognized character:  
 NATURAL(1)
-Unrecognized character: ;
-
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character: }
-
-Unrecognized character: }
-
+SEMI
+RBRACE
+RBRACE

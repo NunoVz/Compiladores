@@ -1,476 +1,141 @@
-1,381c1,104
-< CHRLIT('a)
-< IDENTIFIER(sdasdasdasdasdasdasd)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\0')
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< NATURAL(0000)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< NATURAL(00)
-< Unrecognized character:  
-< NATURAL(0)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\002')
-< 
-< CHRLIT(' )
-< CHRLIT(\0')
-< 
-< Unrecognized character: '
-< CHRLIT(\0')
-< 
-< Unrecognized character: '
-< 
-< CHRLIT(' )
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\n)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\t)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\')
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< IDENTIFIER(h)
-< Unrecognized character: '
-< 
-< Unrecognized character: /
-< Unrecognized character: *
-< Unrecognized character:  
-< IDENTIFIER(asdasd)
-< 
-< IDENTIFIER(asdasd)
-< Unrecognized character:  
-< Unrecognized character: *
-< Unrecognized character: /
-< 
-< Unrecognized character: '
-< CHRLIT(\")
-< Unrecognized character: '
-< CHRLIT('a)
-< Unrecognized character: '
-< Unrecognized character: '
-< CHRLIT(\\)
-< Unrecognized character: '
-< Unrecognized character: '
-< CHRLIT(\')
-< CHRLIT(' )
-< CHRLIT('a)
-< IDENTIFIER(sdasd)
-< CHRLIT(' )
-< Unrecognized character: '
-< CHRLIT(\n)
-< CHRLIT(\n)
-< CHRLIT(' )
-< Unrecognized character: '
-< CHRLIT(\r)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\t)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\")
-< Unrecognized character: '
-< 
-< CHRLIT(' )
-< CHRLIT(\t)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\t)
-< CHRLIT(\n)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\')
-< Unrecognized character:  
-< IDENTIFIER(asasd)
-< Unrecognized character:  
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\')
-< Unrecognized character: '
-< 
-< CHRLIT('a)
-< IDENTIFIER(sd)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\')
-< Unrecognized character:  
-< Unrecognized character:  
-< IDENTIFIER(asdasd)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\123')
-< 
-< Unrecognized character: '
-< CHRLIT(\t)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\")
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\")
-< Unrecognized character:  
-< IDENTIFIER(asd)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\n)
-< Unrecognized character:  
-< IDENTIFIER(asd)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\n)
-< Unrecognized character:  
-< IDENTIFIER(asd)
-< Unrecognized character: '
-< CHRLIT(' )
-< Unrecognized character: '
-< Unrecognized character: '
-< CHRLIT(\t)
-< CHRLIT(\n)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< 
-< CHRLIT('a)
-< IDENTIFIER(sdasd)
-< Unrecognized character: '
-< 
-< CHRLIT('/)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< NATURAL(123)
-< IDENTIFIER(jasdjasdjasdja)
-< CHRLIT(\')
-< Unrecognized character:  
-< IDENTIFIER(asdasd)
-< Unrecognized character:  
-< CHRLIT(\')
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\123')
-< 
-< Unrecognized character: '
-< CHRLIT(\00')
-< Unrecognized character:  
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< CHRLIT(' )
-< Unrecognized character:  
-< CHRLIT(' )
-< CHRLIT(\')
-< Unrecognized character:  
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< 
-< IDENTIFIER(asd)
-< 
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\n)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\t)
-< Unrecognized character: '
-< Unrecognized character: '
-< CHRLIT(\n)
-< Unrecognized character: '
-< Unrecognized character: '
-< CHRLIT(\t)
-< IDENTIFIER(t)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\')
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\")
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\1')
-< 
-< Unrecognized character: '
-< CHRLIT(\11')
-< 
-< CHRLIT('F)
-< IDENTIFIER(OFA)
-< Unrecognized character: :
-< IDENTIFIER(SE)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\111')
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< IDENTIFIER(a)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< CHRLIT(' )
-< Unrecognized character:  
-< IDENTIFIER(sdasd)
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character: '
-< CHRLIT(\')
-< Unrecognized character:  
-< IDENTIFIER(asdasdasd)
-< Unrecognized character:  
-< Unrecognized character: '
-< Unrecognized character: '
-< 
-< CHRLIT(\')
-< 
-< Unrecognized character: '
-< CHRLIT(\t)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\n)
-< Unrecognized character: \
-< IDENTIFIER(m)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< IDENTIFIER(m)
-< CHRLIT('1)
-< NATURAL(11)
-< 
-< CHRLIT('a)
-< IDENTIFIER(sdasd)
-< Unrecognized character: '
-< 
-< CHRLIT('#)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< NATURAL(0000)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\')
-< 
-< IDENTIFIER(asd)
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< Unrecognized character:  
-< IDENTIFIER(asdjasd)
-< Unrecognized character:  
-< IDENTIFIER(asdajsda)
-< Unrecognized character:  
-< IDENTIFIER(asd)
-< Unrecognized character:  
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< CHRLIT(\')
-< IDENTIFIER(asdasd)
-< Unrecognized character: \
-< Unrecognized character:  
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\777')
-< 
-< Unrecognized character: '
-< CHRLIT(\n)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< NATURAL(7)
-< CHRLIT(\234')
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< NATURAL(7)
-< CHRLIT(\")
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\')
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\")
-< Unrecognized character: '
-< 
-< CHRLIT('4)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\')
-< CHRLIT('a)
-< IDENTIFIER(sddasd)
-< Unrecognized character: '
-< Unrecognized character: '
-< CHRLIT(\')
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< Unrecognized character: '
-< CHRLIT('a)
-< IDENTIFIER(sdasd)
-< Unrecognized character:  
-< CHRLIT(\')
-< 
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< CHRLIT(\')
-< Unrecognized character: \
-< NATURAL(0)
+1c1
+< Line 1, col 1: invalid char constant ('asdasdasdasdasdasdasd')
 ---
 > Line 1, column 1: invalid char constant ('asdasdasdasdasdasdasd')
-> CHRLIT('\0')
+3,4c3,4
+< Line 3, col 1: invalid char constant ('\0000')
+< Line 4, col 1: invalid char constant ('\00 0')
+---
 > Line 3, column 1: invalid char constant ('\0000')
 > Line 4, column 1: invalid char constant ('\00 0')
-> CHRLIT('\002')
+6c6
+< Line 6, col 1: invalid char constant (' \0')
+---
 > Line 6, column 1: invalid char constant (' \0')
-> CHRLIT('\0')
+8c8
+< Line 8, col 1: unterminated char constant
+---
 > Line 8, column 1: unterminated char constant
-> CHRLIT(' ')
-> CHRLIT('\n')
-> CHRLIT('\t')
-> CHRLIT('\\')
-> CHRLIT('\\')
-> CHRLIT('\'')
+15c15
+< Line 15, col 1: invalid char constant ('\h')
+---
 > Line 15, column 1: invalid char constant ('\h')
-> CHRLIT('\"')
-> CHRLIT('a')
-> CHRLIT('\\')
-> CHRLIT('\'')
+20,22c20,22
+< Line 18, col 17: invalid char constant ('asdasd')
+< Line 18, col 26: invalid char constant ('\n\n')
+< Line 18, col 33: invalid char constant ('\r')
+---
 > Line 18, column 17: invalid char constant ('asdasd')
 > Line 18, column 26: invalid char constant ('\n\n')
 > Line 18, column 33: invalid char constant ('\r')
-> CHRLIT('\\')
-> CHRLIT('\t')
-> CHRLIT('\"')
+26,28c26,28
+< Line 22, col 1: invalid char constant (' \t')
+< Line 23, col 1: invalid char constant ('\t\n')
+< Line 24, col 1: invalid char constant ('\' asasd ')
+---
 > Line 22, column 1: invalid char constant (' \t')
 > Line 23, column 1: invalid char constant ('\t\n')
 > Line 24, column 1: invalid char constant ('\' asasd ')
-> CHRLIT('\'')
+30,31c30,31
+< Line 26, col 1: invalid char constant ('asd')
+< Line 27, col 1: invalid char constant ('\'  asdasd')
+---
 > Line 26, column 1: invalid char constant ('asd')
 > Line 27, column 1: invalid char constant ('\'  asdasd')
-> CHRLIT('\123')
-> CHRLIT('\t')
-> CHRLIT('\"')
+35,37c35,37
+< Line 31, col 1: invalid char constant ('\" asd')
+< Line 32, col 1: invalid char constant ('\n asd')
+< Line 33, col 1: invalid char constant ('\n asd')
+---
 > Line 31, column 1: invalid char constant ('\" asd')
 > Line 32, column 1: invalid char constant ('\n asd')
 > Line 33, column 1: invalid char constant ('\n asd')
-> CHRLIT(' ')
+39,41c39,41
+< Line 33, col 12: invalid char constant ('\t\n')
+< Line 34, col 1: unterminated char constant
+< Line 35, col 1: invalid char constant ('asdasd')
+---
 > Line 33, column 12: invalid char constant ('\t\n')
 > Line 34, column 1: unterminated char constant
 > Line 35, column 1: invalid char constant ('asdasd')
-> CHRLIT('/')
+43c43
+< Line 37, col 1: invalid char constant ('\123jasdjasdjasdja\' asdasd \'')
+---
 > Line 37, column 1: invalid char constant ('\123jasdjasdjasdja\' asdasd \'')
-> CHRLIT('\123')
-> CHRLIT('\00')
-> CHRLIT('\\')
+47,48c47,48
+< Line 40, col 7: invalid char constant (' \' ')
+< Line 41, col 1: unterminated char constant
+---
 > Line 40, column 7: invalid char constant (' \' ')
 > Line 41, column 1: unterminated char constant
-> IDENTIFIER(asd)
+50c50
+< Line 43, col 1: unterminated char constant
+---
 > Line 43, column 1: unterminated char constant
-> CHRLIT('\\')
-> CHRLIT('\n')
-> CHRLIT('\t')
-> CHRLIT('\n')
+55c55
+< Line 46, col 9: invalid char constant ('\tt')
+---
 > Line 46, column 9: invalid char constant ('\tt')
-> CHRLIT('\'')
-> CHRLIT('\"')
-> CHRLIT('\1')
-> CHRLIT('\11')
+60c60
+< Line 51, col 1: invalid char constant ('FOFA:SE')
+---
 > Line 51, column 1: invalid char constant ('FOFA:SE')
-> CHRLIT('\111')
+62c62
+< Line 53, col 1: invalid char constant ('\a')
+---
 > Line 53, column 1: invalid char constant ('\a')
-> CHRLIT('\\')
-> IDENTIFIER(sdasd)
+65,66c65,66
+< Line 54, col 14: invalid char constant ('\' asdasdasd ')
+< Line 54, col 29: unterminated char constant
+---
 > Line 54, column 14: invalid char constant ('\' asdasdasd ')
 > Line 54, column 29: unterminated char constant
-> Line 55, column 1: unrecognized character (\)
+68c68
+< Line 55, col 2: unterminated char constant
+---
 > Line 55, column 2: unterminated char constant
-> CHRLIT('\t')
+70,71c70,71
+< Line 57, col 1: invalid char constant ('\n\m')
+< Line 58, col 1: invalid char constant ('\m')
+---
 > Line 57, column 1: invalid char constant ('\n\m')
 > Line 58, column 1: invalid char constant ('\m')
-> NATURAL(111)
+73c73
+< Line 59, col 1: invalid char constant ('asdasd')
+---
 > Line 59, column 1: invalid char constant ('asdasd')
-> CHRLIT('#')
+75,76c75,76
+< Line 61, col 1: invalid char constant ('\0000')
+< Line 62, col 1: unterminated char constant
+---
 > Line 61, column 1: invalid char constant ('\0000')
 > Line 62, column 1: unterminated char constant
-> IDENTIFIER(asd)
+78,79c78,79
+< Line 64, col 1: invalid char constant ('\ asdjasd asdajsda asd ')
+< Line 65, col 1: invalid char constant ('\\\'asdasd\ ')
+---
 > Line 64, column 1: invalid char constant ('\ asdjasd asdajsda asd ')
 > Line 65, column 1: invalid char constant ('\\\'asdasd\ ')
-> CHRLIT('\777')
-> CHRLIT('\n')
+82,83c82,83
+< Line 68, col 1: invalid char constant ('\7\234')
+< Line 69, col 1: invalid char constant ('\7\"')
+---
 > Line 68, column 1: invalid char constant ('\7\234')
 > Line 69, column 1: invalid char constant ('\7\"')
-> CHRLIT('\'')
-> CHRLIT('\"')
-> CHRLIT('4')
-> CHRLIT('\'')
-> IDENTIFIER(asddasd)
+89c89
+< Line 73, col 12: invalid char constant ('')
+---
 > Line 73, column 12: invalid char constant ('')
-> Line 73, column 14: unrecognized character (\)
+91,98c91,98
+< Line 73, col 15: invalid char constant ('')
+< Line 73, col 17: invalid char constant ('')
+< Line 73, col 19: invalid char constant ('')
+< Line 74, col 1: invalid char constant ('')
+< Line 74, col 3: unterminated char constant
+< Line 75, col 1: invalid char constant ('')
+< Line 75, col 3: invalid char constant ('\'\0n')
+< Line 76, col 1: invalid char constant ('asdasdasdasd')
+---
 > Line 73, column 15: invalid char constant ('')
 > Line 73, column 17: invalid char constant ('')
 > Line 73, column 19: invalid char constant ('')
@@ -479,194 +144,37 @@
 > Line 75, column 1: invalid char constant ('')
 > Line 75, column 3: invalid char constant ('\'\0n')
 > Line 76, column 1: invalid char constant ('asdasdasdasd')
-> CHRLIT('\\')
-> Line 76, column 20: unrecognized character (?)
+101c101
+< Line 76, col 21: invalid char constant ('\nnnn')
+---
 > Line 76, column 21: invalid char constant ('\nnnn')
-> CHRLIT('!')
+103c103
+< Line 77, col 1: invalid char constant ('\asjdasd\'0')
+---
 > Line 77, column 1: invalid char constant ('\asjdasd\'0')
-> Line 77, column 14: unrecognized character (\)
-383,550c106,130
-< Unrecognized character: '
-< 
-< CHRLIT('a)
-< IDENTIFIER(sdasdasdasd)
-< CHRLIT(' )
-< Unrecognized character: '
-< CHRLIT(\\)
-< CHRLIT('?)
-< Unrecognized character: '
-< CHRLIT(\n)
-< IDENTIFIER(nnn)
-< Unrecognized character: '
-< CHRLIT('!)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< IDENTIFIER(asjdasd)
-< CHRLIT(\')
-< NATURAL(0)
-< Unrecognized character: '
-< CHRLIT(\n)
-< 
-< CHRLIT('()
-< Unrecognized character: )
-< Unrecognized character: '
-< 
-< CHRLIT('()
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\")
-< Unrecognized character: '
-< 
-< CHRLIT(' )
-< Unrecognized character:  
-< CHRLIT(\t)
-< Unrecognized character: 	
-< Unrecognized character: )
-< Unrecognized character: '
-< 
-< CHRLIT('	)
-< Unrecognized character: '
-< 
-< CHRLIT('	)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< Unrecognized character: '
-< Unrecognized character: '
-< CHRLIT(\n)
-< Unrecognized character: '
-< 
-< CHRLIT('a)
-< IDENTIFIER(sjdajsd)
-< Unrecognized character: '
-< 
-< CHRLIT('a)
-< Unrecognized character: '
-< 
-< CHRLIT('A)
-< Unrecognized character: '
-< 
-< CHRLIT('!)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\n)
-< IDENTIFIER(asd)
-< Unrecognized character: '
-< 
-< CHRLIT('a)
-< IDENTIFIER(sdasd)
-< Unrecognized character:  
-< CHRLIT(' )
-< CHRLIT('a)
-< IDENTIFIER(asdasd)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< 
-< 
-< 
-< 
-< 
-< 
-< 
-< 
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\n)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< IDENTIFIER(asdasd)
-< Unrecognized character:  
-< IDENTIFIER(asd)
-< Unrecognized character:  
-< IDENTIFIER(asd)
-< Unrecognized character:  
-< Unrecognized character: \
-< Unrecognized character:  
-< CHRLIT(' )
-< Unrecognized character: '
-< CHRLIT(\\)
-< CHRLIT(\\)
-< CHRLIT(\\)
-< CHRLIT(\')
-< CHRLIT(' )
-< CHRLIT('")
-< IDENTIFIER(asdasd)
-< CHRLIT(\")
-< CHRLIT(' )
-< 
-< CHRLIT('	)
-< CHRLIT(' )
-< CHRLIT('a)
-< IDENTIFIER(sd)
-< Unrecognized character: '
-< 
-< CHRLIT('a)
-< IDENTIFIER(sdasd)
-< Unrecognized character:  
-< IDENTIFIER(asd)
-< Unrecognized character:  
-< IDENTIFIER(asd)
-< Unrecognized character:  
-< IDENTIFIER(as)
-< Unrecognized character:  
-< IDENTIFIER(dasd)
-< Unrecognized character:  
-< IDENTIFIER(as)
-< Unrecognized character:  
-< IDENTIFIER(da)
-< Unrecognized character:  
-< IDENTIFIER(sd)
-< Unrecognized character:  
-< IDENTIFIER(asd)
-< Unrecognized character:  
-< IDENTIFIER(as)
-< Unrecognized character:  
-< IDENTIFIER(da)
-< Unrecognized character:  
-< IDENTIFIER(sda)
-< Unrecognized character:  
-< IDENTIFIER(sda)
-< Unrecognized character:  
-< IDENTIFIER(sd)
-< Unrecognized character:  
-< IDENTIFIER(asd)
-< Unrecognized character:  
-< IDENTIFIER(asd)
-< Unrecognized character:  
-< IDENTIFIER(as)
-< Unrecognized character:  
-< IDENTIFIER(da)
-< Unrecognized character:  
-< IDENTIFIER(sdas)
-< Unrecognized character:  
-< IDENTIFIER(dasd)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\')
-< 
+106c106
+< Line 78, col 1: invalid char constant ('()')
 ---
 > Line 78, column 1: invalid char constant ('()')
-> CHRLIT('(')
-> CHRLIT('\"')
+109c109
+< Line 81, col 1: invalid char constant ('  \t	)')
+---
 > Line 81, column 1: invalid char constant ('  \t	)')
-> CHRLIT('	')
-> CHRLIT('	')
-> CHRLIT('\\')
-> CHRLIT('\n')
+114c114
+< Line 85, col 1: invalid char constant ('asjdajsd')
+---
 > Line 85, column 1: invalid char constant ('asjdajsd')
-> CHRLIT('a')
-> CHRLIT('A')
-> CHRLIT('!')
+118,126c118,126
+< Line 89, col 1: invalid char constant ('\nasd')
+< Line 90, col 1: invalid char constant ('asdasd ')
+< Line 90, col 11: invalid char constant ('aasdasd')
+< Line 91, col 1: unterminated char constant
+< Line 99, col 1: unterminated char constant
+< CHRLIT('\n')
+< Line 101, col 1: invalid char constant ('\asdasd asd asd \ ')
+< Line 101, col 22: invalid char constant ('\\\\\\\'')
+< Line 101, col 33: invalid char constant ('"asdasd\"')
+---
 > Line 89, column 1: invalid char constant ('\nasd')
 > Line 90, column 1: invalid char constant ('asdasd ')
 > Line 90, column 11: invalid char constant ('aasdasd')
@@ -676,149 +184,49 @@
 > Line 101, column 1: invalid char constant ('\asdasd asd asd \ ')
 > Line 101, column 22: invalid char constant ('\\\\\\\'')
 > Line 101, column 33: invalid char constant ('"asdasd\"')
-> CHRLIT('	')
+128,130c128,130
+< Line 102, col 5: invalid char constant ('asd')
+< Line 103, col 1: invalid char constant ('asdasd asd asd as dasd as da sd asd as da sda sda sd asd asd as da sdas dasd')
+< Line 104, col 1: unterminated char constant
+---
 > Line 102, column 5: invalid char constant ('asd')
 > Line 103, column 1: invalid char constant ('asdasd asd asd as dasd as da sd asd as da sda sda sd asd asd as da sdas dasd')
 > Line 104, column 1: unterminated char constant
-552d131
-< 
-554d132
-< 
-556,579c134,138
-< 
-< Unrecognized character: '
-< CHRLIT(\001')
-< 
-< CHRLIT('/)
-< Unrecognized character: *
-< CHRLIT(\')
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\n)
-< Unrecognized character: \
-< IDENTIFIER(asdasd)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\n)
-< CHRLIT(\n)
-< Unrecognized character: '
-< 
-< CHRLIT('	)
-< Unrecognized character: 	
-< Unrecognized character: '
-< 
+135,138c135,138
+< Line 109, col 1: invalid char constant ('/*\'')
+< Line 110, col 1: invalid char constant ('\n\asdasd')
+< Line 111, col 1: invalid char constant ('\n\n')
+< Line 112, col 1: invalid char constant ('		')
 ---
-> CHRLIT('\001')
 > Line 109, column 1: invalid char constant ('/*\'')
 > Line 110, column 1: invalid char constant ('\n\asdasd')
 > Line 111, column 1: invalid char constant ('\n\n')
 > Line 112, column 1: invalid char constant ('		')
-581,584c140
-< 
-< CHRLIT('a)
-< IDENTIFIER(sdasd)
-< 
+140c140
+< Line 114, col 1: unterminated char constant
 ---
 > Line 114, column 1: unterminated char constant
-586d141
-< 
-588d142
-< 
-590d143
-< 
-592d144
-< 
-594d145
-< 
-596,677c147,177
-< Unrecognized character: '
-< CHRLIT(\')
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< CHRLIT(\')
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< 
-< CHRLIT('a)
-< IDENTIFIER(sdasda)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< IDENTIFIER(asdjasd)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< Unrecognized character: =
-< Unrecognized character: '
-< 
-< CHRLIT('g)
-< Unrecognized character: '
-< 
-< CHRLIT('1)
-< NATURAL(23123123123)
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< CHRLIT(\')
-< Unrecognized character: '
-< CHRLIT(\\)
-< Unrecognized character: '
-< 
-< CHRLIT(\')
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< CHRLIT(\\)
-< Unrecognized character: '
-< 
-< Unrecognized character: '
-< Unrecognized character: \
-< Unrecognized character:  
-< IDENTIFIER(asdasd)
-< 
-< Unrecognized character: '
-< CHRLIT(\\)
-< 
-< CHRLIT('a)
-< IDENTIFIER(sdasd)
-< Unrecognized character:  
-< Unrecognized character: \
-< 
+148c148
+< Line 120, col 8: invalid char constant ('')
 ---
-> CHRLIT('\'')
 > Line 120, column 8: invalid char constant ('')
-> CHRLIT('\'')
+150,164c150,164
+< Line 120, col 14: invalid char constant ('')
+< Line 120, col 16: invalid char constant ('')
+< Line 120, col 18: invalid char constant ('')
+< Line 120, col 20: invalid char constant ('')
+< Line 120, col 22: invalid char constant ('')
+< Line 120, col 24: invalid char constant ('')
+< Line 120, col 26: invalid char constant ('')
+< Line 120, col 28: invalid char constant ('')
+< Line 120, col 30: invalid char constant ('')
+< Line 120, col 32: invalid char constant ('')
+< Line 120, col 34: invalid char constant ('')
+< Line 120, col 36: invalid char constant ('')
+< Line 121, col 1: invalid char constant ('asdasda')
+< Line 122, col 1: invalid char constant ('\asdjasd')
+< Line 123, col 1: invalid char constant ('\=')
+---
 > Line 120, column 14: invalid char constant ('')
 > Line 120, column 16: invalid char constant ('')
 > Line 120, column 18: invalid char constant ('')
@@ -834,14 +242,23 @@
 > Line 121, column 1: invalid char constant ('asdasda')
 > Line 122, column 1: invalid char constant ('\asdjasd')
 > Line 123, column 1: invalid char constant ('\=')
-> CHRLIT('g')
+166,167c166,167
+< Line 125, col 1: invalid char constant ('123123123123')
+< Line 125, col 15: invalid char constant ('')
+---
 > Line 125, column 1: invalid char constant ('123123123123')
 > Line 125, column 15: invalid char constant ('')
-> CHRLIT('\'')
-> Line 126, column 5: unrecognized character (\)
-> Line 126, column 6: unrecognized character (\)
+171c171
+< Line 126, col 7: unterminated char constant
+---
 > Line 126, column 7: unterminated char constant
-> Line 127, column 1: unrecognized character (\)
+173,177c173,177
+< Line 127, col 2: unterminated char constant
+< Line 128, col 1: invalid char constant ('\\\\')
+< Line 129, col 1: unterminated char constant
+< Line 130, col 1: unterminated char constant
+< Line 131, col 1: unterminated char constant
+---
 > Line 127, column 2: unterminated char constant
 > Line 128, column 1: invalid char constant ('\\\\')
 > Line 129, column 1: unterminated char constant

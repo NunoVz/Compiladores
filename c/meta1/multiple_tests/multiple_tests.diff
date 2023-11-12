@@ -1,771 +1,124 @@
-1,35c1
-< Unrecognized character: /
-< Unrecognized character: *
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< IDENTIFIER(This)
-< Unrecognized character:  
-< IDENTIFIER(is)
-< Unrecognized character:  
-< IDENTIFIER(a)
-< Unrecognized character:  
-< IDENTIFIER(test)
-< Unrecognized character:  
-< IDENTIFIER(file)
-< Unrecognized character:  
-< Unrecognized character: /
-< Unrecognized character: /
-< Unrecognized character:  
-< IDENTIFIER(COMPILADORES)
-< Unrecognized character:  
-< Unrecognized character: /
-< Unrecognized character: /
-< Unrecognized character:  
-< NATURAL(2020)
-< Unrecognized character: /
-< NATURAL(2021)
-< 
-< Unrecognized character: *
-< Unrecognized character: /
-< 
-< 
+1c1
 < IDENTIFIER(char)
-< Unrecognized character:  
 ---
 > CHAR
-37,39c3
-< Unrecognized character:  
-< Unrecognized character: =
-< Unrecognized character:  
----
-> ASSIGN
-41,44c5,6
-< Unrecognized character: ;
-< 
+6c6
 < IDENTIFIER(char)
-< Unrecognized character:  
 ---
-> SEMI
 > CHAR
-47,60c9,10
-< Unrecognized character: ;
-< 
-< 
-< Unrecognized character: /
-< Unrecognized character: /
-< Unrecognized character:  
-< IDENTIFIER(does)
-< Unrecognized character:  
-< IDENTIFIER(a)
-< Unrecognized character:  
-< IDENTIFIER(sum)
-< 
+10c10
 < IDENTIFIER(int)
-< Unrecognized character:  
 ---
-> SEMI
 > INT
-62,64c12,13
-< Unrecognized character: (
+13c13
 < IDENTIFIER(int)
-< Unrecognized character:  
 ---
-> LPAR
 > INT
-66,69c15,16
-< Unrecognized character: ,
-< Unrecognized character:  
+16c16
 < IDENTIFIER(int)
-< Unrecognized character:  
 ---
-> COMMA
 > INT
-71,79c18,20
-< Unrecognized character: )
-< Unrecognized character: {
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
+20c20
 < IDENTIFIER(return)
-< Unrecognized character:  
 ---
-> RPAR
-> LBRACE
 > RETURN
-81,83c22
-< Unrecognized character:  
-< Unrecognized character: +
-< Unrecognized character:  
----
-> PLUS
-85,87c24
-< Unrecognized character:  
-< Unrecognized character: *
-< Unrecognized character:  
----
-> MUL
-89,91c26
-< Unrecognized character:  
-< Unrecognized character: -
-< Unrecognized character:  
----
-> MINUS
-93,97c28,29
-< Unrecognized character: ;
-< 
-< Unrecognized character: }
-< Unrecognized character:  
-< 
----
-> SEMI
-> RBRACE
-100,110c32,37
-< Unrecognized character:  
-< Unrecognized character: =
-< Unrecognized character:  
-< CHRLIT('a)
-< CHRLIT(';)
-< 
-< Unrecognized character: -
-< Unrecognized character: .
-< 
+37c37
 < IDENTIFIER(int)
-< Unrecognized character:  
 ---
-> ASSIGN
-> CHRLIT('a')
-> SEMI
-> MINUS
-> Line 13, column 2: unrecognized character (.)
 > INT
-112,114c39,40
-< Unrecognized character: (
+40c40
 < IDENTIFIER(int)
-< Unrecognized character:  
 ---
-> LPAR
 > INT
-116,124c42,44
-< Unrecognized character: )
-< Unrecognized character: {
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
+44c44
 < IDENTIFIER(double)
-< Unrecognized character:  
 ---
-> RPAR
-> LBRACE
 > DOUBLE
-126c46
-< Unrecognized character: =
----
-> ASSIGN
-128,129c48
-< Unrecognized character: ,
-< Unrecognized character:  
----
-> COMMA
-131c50
-< Unrecognized character: =
----
-> ASSIGN
-133,142c52,54
-< Unrecognized character: ;
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
+53c53
 < IDENTIFIER(if)
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character: (
 ---
-> SEMI
 > IF
-> LPAR
-144,146c56
-< Unrecognized character:  
-< Unrecognized character: >
-< Unrecognized character:  
----
-> GT
-148,151c58
-< Unrecognized character:  
-< Unrecognized character: &
-< Unrecognized character: &
-< Unrecognized character:  
----
-> AND
-153,155c60
-< Unrecognized character:  
-< Unrecognized character: %
-< Unrecognized character:  
----
-> MOD
-157,160c62
-< Unrecognized character:  
-< Unrecognized character: =
-< Unrecognized character: =
-< Unrecognized character:  
----
-> EQ
-162d63
-< Unrecognized character:  
-164d64
-< Unrecognized character:  
-166,169c66
-< Unrecognized character:  
-< Unrecognized character: !
-< Unrecognized character: =
-< Unrecognized character:  
----
-> NE
-171,192c68,70
-< Unrecognized character: )
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character: {
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
+70c70
 < IDENTIFIER(return)
-< Unrecognized character:  
 ---
-> RPAR
-> LBRACE
 > RETURN
-194,265c72,75
-< Unrecognized character: ;
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character: }
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
+74c74
 < IDENTIFIER(return)
-< Unrecognized character:  
-< Unrecognized character: -
 ---
-> SEMI
-> RBRACE
 > RETURN
-> MINUS
-267,274c77,80
-< Unrecognized character: ;
-< 
-< Unrecognized character: }
-< 
-< Unrecognized character: ?
-< 
+80c80
 < IDENTIFIER(long)
-< Unrecognized character:  
 ---
-> SEMI
-> RBRACE
-> Line 22, column 1: unrecognized character (?)
 > RESERVED(long)
-276,278c82,83
-< Unrecognized character: (
+83c83
 < IDENTIFIER(long)
-< Unrecognized character:  
 ---
-> LPAR
 > RESERVED(long)
-280,290c85,89
-< Unrecognized character: )
-< Unrecognized character: {
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
+87c87
 < IDENTIFIER(for)
-< Unrecognized character: (
-< IDENTIFIER(int)
-< Unrecognized character:  
 ---
-> RPAR
-> LBRACE
 > RESERVED(for)
-> LPAR
+89c89
+< IDENTIFIER(int)
+---
 > INT
-292,294c91
-< Unrecognized character:  
-< Unrecognized character: =
-< Unrecognized character:  
----
-> ASSIGN
-296,297c93
-< Unrecognized character: ;
-< Unrecognized character:  
----
-> SEMI
-299,301c95
-< Unrecognized character:  
-< Unrecognized character: <
-< Unrecognized character:  
----
-> LT
-303,304c97
-< Unrecognized character: ;
-< Unrecognized character:  
----
-> SEMI
-306,333c99,105
-< Unrecognized character: +
-< Unrecognized character: +
-< Unrecognized character: )
-< Unrecognized character: {
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< IDENTIFIER(value)
-< Unrecognized character: -
-< Unrecognized character: -
-< Unrecognized character: ;
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character: }
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
----
-> RESERVED(++)
-> RPAR
-> LBRACE
-> IDENTIFIER(value)
-> RESERVED(--)
-> SEMI
-> RBRACE
-335,342c107
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character: &
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
----
-> BITWISEAND
-344,349c109
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character: ^
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
----
-> BITWISEXOR
-351,358c111,112
-< Unrecognized character: ;
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
+112c112
 < IDENTIFIER(return)
-< Unrecognized character:  
 ---
-> SEMI
 > RETURN
-360,375c114,115
-< 
-< Unrecognized character: }
-< 
-< Unrecognized character: /
-< Unrecognized character: /
-< Unrecognized character:  
-< IDENTIFIER(just)
-< Unrecognized character:  
-< IDENTIFIER(a)
-< Unrecognized character:  
-< IDENTIFIER(main)
-< Unrecognized character:  
-< IDENTIFIER(function)
-< 
+115c115
 < IDENTIFIER(int)
-< Unrecognized character:  
 ---
-> RBRACE
 > INT
-377,398c117,123
-< Unrecognized character: (
+118c118
 < IDENTIFIER(void)
-< Unrecognized character: )
-< Unrecognized character: {
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< CHRLIT(' )
-< CHRLIT(' )
-< CHRLIT(' )
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character: '
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< IDENTIFIER(int)
-< Unrecognized character:  
 ---
-> LPAR
 > VOID
-> RPAR
-> LBRACE
-> CHRLIT(' ')
+122,123c122,123
+< Line 32, col 9: invalid char constant ('   ')
+< IDENTIFIER(int)
+---
 > Line 32, column 9: invalid char constant ('   ')
 > INT
-400,402c125
-< Unrecognized character:  
-< Unrecognized character: =
-< Unrecognized character:  
----
-> ASSIGN
-404c127
-< Unrecognized character: (
----
-> LPAR
-406,407c129
-< Unrecognized character: ,
-< Unrecognized character:  
----
-> COMMA
-409,417c131,133
-< Unrecognized character: )
-< Unrecognized character: ;
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
+133c133
 < IDENTIFIER(char)
-< Unrecognized character:  
 ---
-> RPAR
-> SEMI
 > CHAR
-419,424c135,137
-< Unrecognized character:  
-< Unrecognized character: =
-< Unrecognized character:  
-< CHRLIT('c)
-< CHRLIT(',)
-< Unrecognized character:  
+140c140
+< Line 34, col 54: invalid char constant ('invalid')
 ---
-> ASSIGN
-> CHRLIT('c')
-> COMMA
-426,438c139,142
-< Unrecognized character:  
-< Unrecognized character: =
-< Unrecognized character:  
-< CHRLIT('i)
-< IDENTIFIER(nvalid)
-< CHRLIT(';)
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< IDENTIFIER(char)
-< Unrecognized character:  
----
-> ASSIGN
 > Line 34, column 54: invalid char constant ('invalid')
-> SEMI
-> CHAR
-440,446c144,146
-< Unrecognized character:  
-< Unrecognized character: =
-< Unrecognized character:  
-< Unrecognized character: '
-< CHRLIT(\000')
-< Unrecognized character: ,
-< Unrecognized character:  
----
-> ASSIGN
-> CHRLIT('\000')
-> COMMA
-448,454c148,150
-< Unrecognized character:  
-< Unrecognized character: =
-< Unrecognized character:  
-< Unrecognized character: '
-< CHRLIT(\777')
-< Unrecognized character: ;
-< Unrecognized character:  
----
-> ASSIGN
-> CHRLIT('\777')
-> SEMI
-456,473c152,156
-< Unrecognized character:  
-< Unrecognized character: =
-< Unrecognized character:  
-< Unrecognized character: '
-< Unrecognized character: \
-< NATURAL(800)
-< CHRLIT(' )
-< Unrecognized character: '
-< Unrecognized character: \
-< NATURAL(1234)
-< CHRLIT(';)
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
+142c142
 < IDENTIFIER(char)
-< Unrecognized character:  
 ---
-> ASSIGN
+> CHAR
+153,154c153,154
+< Line 35, col 68: invalid char constant ('\800')
+< Line 35, col 75: invalid char constant ('\1234')
+---
 > Line 35, column 68: invalid char constant ('\800')
 > Line 35, column 75: invalid char constant ('\1234')
-> SEMI
-> CHAR
-475,487c158,161
-< Unrecognized character:  
-< Unrecognized character: =
-< Unrecognized character:  
-< CHRLIT('s)
-< Unrecognized character: ;
-< 
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< IDENTIFIER(if)
-< Unrecognized character: (
+156c156
+< IDENTIFIER(char)
 ---
-> ASSIGN
+> CHAR
+159,160c159,160
+< Line 36, col 29: unterminated char constant
+< IDENTIFIER(if)
+---
 > Line 36, column 29: unterminated char constant
 > IF
-> LPAR
-489c163
-< Unrecognized character: (
----
-> LPAR
-491,502c165,167
-< Unrecognized character: )
-< Unrecognized character: )
-< Unrecognized character: {
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
----
-> RPAR
-> RPAR
-> LBRACE
-504c169
-< Unrecognized character: (
----
-> LPAR
-506,526c171,175
-< Unrecognized character: )
-< Unrecognized character: ;
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character: }
-< Unrecognized character:  
+174c174
 < IDENTIFIER(else)
-< Unrecognized character:  
-< Unrecognized character: {
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
 ---
-> RPAR
-> SEMI
-> RBRACE
 > ELSE
-> LBRACE
-528,540c177,180
-< Unrecognized character: (
-< CHRLIT('1)
-< CHRLIT('))
-< Unrecognized character: ;
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
----
-> LPAR
-> CHRLIT('1')
-> RPAR
-> SEMI
-542,582c182,193
-< Unrecognized character: (
-< Unrecognized character: '
-< CHRLIT(\n)
-< CHRLIT('))
-< Unrecognized character: ;
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character: }
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character: '
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character: '
-< 
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
-< Unrecognized character:  
+187,189c187,189
+< Line 44, col 5: unterminated char constant
+< Line 45, col 5: unterminated char constant
 < IDENTIFIER(return)
-< Unrecognized character:  
-< NATURAL(0)
-< Unrecognized character: ;
-< 
-< Unrecognized character: }
-< 
-< Unrecognized character: /
-< Unrecognized character: *
-< Unrecognized character:  
-< IDENTIFIER(final)
-< Unrecognized character:  
-< IDENTIFIER(comment)
 ---
-> LPAR
-> CHRLIT('\n')
-> RPAR
-> SEMI
-> RBRACE
 > Line 44, column 5: unterminated char constant
 > Line 45, column 5: unterminated char constant
 > RETURN
-> NATURAL(0)
-> SEMI
-> RBRACE
+192a193
 > Line 48, column 1: unterminated comment

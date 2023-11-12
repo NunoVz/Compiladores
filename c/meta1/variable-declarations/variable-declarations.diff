@@ -1,41 +1,8 @@
-1,2c1
+1c1
 < IDENTIFIER(int)
-< Unrecognized character:  
 ---
 > INT
-4c3
-< Unrecognized character: =
----
-> ASSIGN
-6c5
-< Unrecognized character: ,
----
-> COMMA
-8c7
-< Unrecognized character: ,
----
-> COMMA
-10c9
-< Unrecognized character: =
----
-> ASSIGN
-12,13c11
-< Unrecognized character: ;
-< 
----
-> SEMI
-15,17c13
-< 
+13c13
 < IDENTIFIER(void)
-< Unrecognized character:  
 ---
 > VOID
-19,22c15,17
-< Unrecognized character: (
-< Unrecognized character: )
-< Unrecognized character: ;
-< 
----
-> LPAR
-> RPAR
-> SEMI

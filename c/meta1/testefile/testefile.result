@@ -1,170 +1,49 @@
 IDENTIFIER(int)
-Unrecognized character:  
 IDENTIFIER(main)
-Unrecognized character: (
+LPAR
 IDENTIFIER(void)
-Unrecognized character: )
-Unrecognized character: {
-
-Unrecognized character: 	
+RPAR
+LBRACE
 IDENTIFIER(char)
-Unrecognized character:  
 IDENTIFIER(identificador)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
-CHRLIT('i)
-CHRLIT(';)
-
-Unrecognized character: 	
+ASSIGN
+CHRLIT('i')
+SEMI
 IDENTIFIER(char)
-Unrecognized character:  
 IDENTIFIER(_identificador)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
-CHRLIT('i)
-IDENTIFIER(i)
-CHRLIT(';)
-
-Unrecognized character: 	
+ASSIGN
+Line 3, col 24: invalid char constant ('ii')
+SEMI
 IDENTIFIER(char)
-Unrecognized character:  
 IDENTIFIER(_____)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character: '
-
-Unrecognized character: 	
+ASSIGN
+Line 4, col 16: unterminated char constant
 IDENTIFIER(int)
-Unrecognized character:  
 IDENTIFIER(inteiro)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
+ASSIGN
 NATURAL(102)
-Unrecognized character: ;
-
-Unrecognized character: 	
+SEMI
 DECIMAL(109.12)
-Unrecognized character: ;
-
-Unrecognized character: 	
+SEMI
 DECIMAL(1.e20)
-Unrecognized character: ;
-
-Unrecognized character: 	
+SEMI
 IDENTIFIER(inteiro)
-Unrecognized character:  
-Unrecognized character: =
-Unrecognized character:  
+ASSIGN
 NATURAL(1)
-Unrecognized character:  
-Unrecognized character: -
-Unrecognized character:  
+MINUS
 NATURAL(2)
-Unrecognized character:  
-Unrecognized character: +
-Unrecognized character:  
+PLUS
 NATURAL(3)
-Unrecognized character: /
+DIV
 NATURAL(3)
-Unrecognized character:  
-Unrecognized character: *
-Unrecognized character:  
+MUL
 NATURAL(4)
-Unrecognized character: ;
-
-Unrecognized character: 	
-Unrecognized character: /
-Unrecognized character: /
-Unrecognized character:  
-IDENTIFIER(comentario)
-Unrecognized character:  
-Unrecognized character: /
-Unrecognized character: /
-Unrecognized character:  
-Unrecognized character: /
-Unrecognized character: /
-Unrecognized character:  
-Unrecognized character: /
-Unrecognized character: /
-Unrecognized character:  
-Unrecognized character: /
-Unrecognized character: /
-
-Unrecognized character: 	
-Unrecognized character: /
-Unrecognized character: *
-Unrecognized character:  
-IDENTIFIER(asdasdas)
-
-Unrecognized character: 	
-IDENTIFIER(asdasdadas)
-
-Unrecognized character: 	
-IDENTIFIER(asdadadasd)
-
-Unrecognized character: 	
-IDENTIFIER(asdasd)
-Unrecognized character:  
-
-Unrecognized character: 	
-Unrecognized character: *
-Unrecognized character: /
-
-Unrecognized character: 	
-Unrecognized character: /
-Unrecognized character: *
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character: *
-Unrecognized character: /
-Unrecognized character:  
-
-Unrecognized character: 	
-Unrecognized character: '
-CHRLIT('	)
-CHRLIT(' )
-CHRLIT('	)
-Unrecognized character:  
-CHRLIT(' )
-CHRLIT(\')
-Unrecognized character:  
-Unrecognized character:  
-Unrecognized character: '
-Unrecognized character: '
-Unrecognized character: '
-
-Unrecognized character: 	
-CHRLIT('_)
-Unrecognized character: '
-
-Unrecognized character: 	
-CHRLIT('	)
-Unrecognized character: '
-
-Unrecognized character: 	
+SEMI
+Line 16, col 2: invalid char constant ('')
+CHRLIT(' ')
+Line 16, col 10: invalid char constant (' \'  ')
+Line 16, col 17: invalid char constant ('')
+CHRLIT('_')
+CHRLIT('	')
 DECIMAL(.1e-12)
-
-Unrecognized character: }
-
-Unrecognized character: /
-Unrecognized character: *
-IDENTIFIER(endless)
-Unrecognized character:  
-IDENTIFIER(comentario)
-
-
-
-
-
-
-IDENTIFIER(asd)
-
-IDENTIFIER(aasd)
-
-IDENTIFIER(asd)
+RBRACE

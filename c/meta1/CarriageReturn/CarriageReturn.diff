@@ -1,31 +1,20 @@
-1,12c1,9
-< CHRLIT(')
-< 
-< Unrecognized character: '
-< CHRLIT('	)
-< Unrecognized character: '
-< CHRLIT('")
-< Unrecognized character: '
-< Unrecognized character: '
-< CHRLIT(\\)
-< Unrecognized character: '
-< Unrecognized character: '
-< Unrecognized character: \
+1,3c1,3
+< Line 1, col 1: unterminated char constant
+< Line 2, col 1: invalid char constant ('')
+< Line 2, col 4: invalid char constant ('')
 ---
 > Line 1, column 1: unterminated char constant
 > Line 2, column 1: invalid char constant ('')
 > Line 2, column 4: invalid char constant ('')
-> Line 2, column 6: unrecognized character (")
+5c5
+< Line 2, col 7: invalid char constant ('')
+---
 > Line 2, column 7: invalid char constant ('')
-> Line 2, column 9: unrecognized character (\)
-> Line 2, column 10: unrecognized character (\)
+8c8
+< Line 2, col 11: invalid char constant ('')
+---
 > Line 2, column 11: invalid char constant ('')
-> Line 2, column 13: unrecognized character (\)
-14,18c11
-< CHRLIT(')
-< 
-< 
-< Unrecognized character: 
-< 
+11c11
+< Line 2, col 15: unterminated char constant
 ---
 > Line 2, column 15: unterminated char constant
