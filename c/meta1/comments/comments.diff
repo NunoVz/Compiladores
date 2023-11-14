@@ -1,6 +1,0 @@
-1,2c1,2
-< IDENTIFIER(int)
-< IDENTIFIER(char)
----
-> INT
-> CHAR

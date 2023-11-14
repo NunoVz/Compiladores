@@ -1,22 +1,4 @@
-1c1
-< IDENTIFIER(int)
+18c18
+< Line 9, column 0: unterminated comment
 ---
-> INT
-4,8c4,8
-< IDENTIFIER(for)
-< IDENTIFIER(while)
-< Line 3, col 1: invalid char constant ('for')
-< Line 3, col 7: invalid char constant ('while')
-< Line 4, col 1: invalid char constant ('')
----
-> RESERVED(for)
-> WHILE
-> Line 3, column 1: invalid char constant ('for')
-> Line 3, column 7: invalid char constant ('while')
-> Line 4, column 1: invalid char constant ('')
-12c12
-< Line 5, col 1: invalid char constant ('\while')
----
-> Line 5, column 1: invalid char constant ('\while')
-17a18
 > Line 9, column 1: unterminated comment

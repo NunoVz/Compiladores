@@ -31,7 +31,7 @@ Line 1, column 59: unrecognized character (~)
 Line 1, column 60: unrecognized character (@)
 OR
 BITWISEOR
-IDENTIFIER(char)
+CHAR
 IDENTIFIER(elsewhileifshort)
 IDENTIFIER(inT)
 IDENTIFIER(intdoublereturnvoid)
@@ -46,13 +46,13 @@ RBRACE
 NE
 RESERVED(++)
 RESERVED(--)
-IDENTIFIER(int)
-IDENTIFIER(double)
-IDENTIFIER(return)
-IDENTIFIER(void)
-IDENTIFIER(short)
-IDENTIFIER(while)
-IDENTIFIER(else)
+INT
+DOUBLE
+RETURN
+VOID
+SHORT
+WHILE
+ELSE
 Line 6, column 7: unrecognized character (\)
 IDENTIFIER(tolelele)
 Line 8, column 6: unrecognized character (?)

@@ -1,18 +1,4 @@
-1,6c1,6
-< Line 2, col 1: invalid char constant ('')
-< Line 3, col 1: unterminated char constant
-< Line 4, col 1: unterminated char constant
-< Line 5, col 1: unterminated char constant
-< Line 6, col 1: unterminated char constant
-< Line 7, col 1: invalid char constant ('\'\'\\')
+20c20
+< E(e)
 ---
-> Line 2, column 1: invalid char constant ('')
-> Line 3, column 1: unterminated char constant
-> Line 4, column 1: unterminated char constant
-> Line 5, column 1: unterminated char constant
-> Line 6, column 1: unterminated char constant
-> Line 7, column 1: invalid char constant ('\'\'\\')
-10c10
-< Line 11, col 1: invalid char constant ('\129')
----
-> Line 11, column 1: invalid char constant ('\129')
+> IDENTIFIER(e)

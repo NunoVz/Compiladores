@@ -1,4 +1,0 @@
-4c4
-< Line 14, col 1: invalid char constant ('o\n')
----
-> Line 14, column 1: invalid char constant ('o\n')

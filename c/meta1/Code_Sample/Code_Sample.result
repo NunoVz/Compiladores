@@ -1,13 +1,13 @@
-IDENTIFIER(int)
+INT
 IDENTIFIER(main)
 LPAR
 RPAR
 LBRACE
-IDENTIFIER(char)
+CHAR
 IDENTIFIER(a)
 ASSIGN
-Line 5, col 10: unterminated char constant
-IDENTIFIER(if)
+Line 5, column 10: unterminated char constant
+IF
 LPAR
 IDENTIFIER(a)
 EQ
@@ -20,14 +20,14 @@ CHRLIT('1')
 RPAR
 SEMI
 RBRACE
-IDENTIFIER(else)
+ELSE
 LBRACE
 Line 10, column 1: unrecognized character (#)
 ASSIGN
 IDENTIFIER(a)
 SEMI
 RBRACE
-IDENTIFIER(return)
+RETURN
 DECIMAL(0.012e-12)
 SEMI
 RBRACE

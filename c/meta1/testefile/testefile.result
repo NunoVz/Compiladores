@@ -1,24 +1,24 @@
-IDENTIFIER(int)
+INT
 IDENTIFIER(main)
 LPAR
-IDENTIFIER(void)
+VOID
 RPAR
 LBRACE
-IDENTIFIER(char)
+CHAR
 IDENTIFIER(identificador)
 ASSIGN
 CHRLIT('i')
 SEMI
-IDENTIFIER(char)
+CHAR
 IDENTIFIER(_identificador)
 ASSIGN
-Line 3, col 24: invalid char constant ('ii')
+Line 3, column 24: invalid char constant ('ii')
 SEMI
-IDENTIFIER(char)
+CHAR
 IDENTIFIER(_____)
 ASSIGN
-Line 4, col 16: unterminated char constant
-IDENTIFIER(int)
+Line 4, column 16: unterminated char constant
+INT
 IDENTIFIER(inteiro)
 ASSIGN
 NATURAL(102)
@@ -39,11 +39,12 @@ NATURAL(3)
 MUL
 NATURAL(4)
 SEMI
-Line 16, col 2: invalid char constant ('')
+Line 16, column 2: invalid char constant ('')
 CHRLIT(' ')
-Line 16, col 10: invalid char constant (' \'  ')
-Line 16, col 17: invalid char constant ('')
+Line 16, column 10: invalid char constant (' \'  ')
+Line 16, column 17: invalid char constant ('')
 CHRLIT('_')
 CHRLIT('	')
 DECIMAL(.1e-12)
 RBRACE
+Line 21, column 0: unterminated comment

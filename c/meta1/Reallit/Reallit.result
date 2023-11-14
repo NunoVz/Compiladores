@@ -7,7 +7,7 @@ DECIMAL(0987.)
 IDENTIFIER(E)
 DECIMAL(567.e987)
 Line 7, column 1: unrecognized character (.)
-IDENTIFIER(e)
+E(e)
 MINUS
 NATURAL(847)
 MINUS
@@ -25,7 +25,7 @@ NATURAL(969867)
 MINUS
 NATURAL(5678)
 Line 16, column 1: unrecognized character (.)
-IDENTIFIER(e)
+E(e)
 Line 17, column 1: unrecognized character (.)
 IDENTIFIER(e2345)
 DECIMAL(123.e+34)

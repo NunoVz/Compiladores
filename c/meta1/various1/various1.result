@@ -1,79 +1,88 @@
-IDENTIFIER(short)
+SHORT
 IDENTIFIER(main)
 LPAR
-IDENTIFIER(void)
+VOID
 RPAR
 LBRACE
-IDENTIFIER(char)
+CHAR
 IDENTIFIER(letra_abc_1)
 ASSIGN
 CHRLIT('a')
 SEMI
-IDENTIFIER(while)
+WHILE
 LPAR
 NATURAL(1)
 RPAR
 LBRACE
-IDENTIFIER(while)
+WHILE
 LPAR
 IDENTIFIER(letra_abc_1)
 LT
 CHRLIT('z')
 RPAR
 LBRACE
-IDENTIFIER(if)
+IF
 LPAR
 IDENTIFIER(letra_abc_1)
 EQ
 CHRLIT('j')
 RPAR
-IDENTIFIER(break)
+RESERVED(break)
 SEMI
 IDENTIFIER(letra_abc_1)
 RESERVED(++)
 SEMI
 RBRACE
-IDENTIFIER(return)
+RETURN
 NATURAL(0)
 SEMI
 RBRACE
-IDENTIFIER(void)
+VOID
 IDENTIFIER(check_err0s)
 LPAR
-IDENTIFIER(void)
+VOID
 RPAR
 LBRACE
-IDENTIFIER(char)
+CHAR
 IDENTIFIER(a)
 ASSIGN
-Line 22, col 13: invalid char constant ('')
-Line 22, col 15: unterminated char constant
-IDENTIFIER(int)
+Line 22, column 13: invalid char constant ('')
+Line 22, column 15: unterminated char constant
+INT
 IDENTIFIER(i)
 SEMI
-IDENTIFIER(double)
+DOUBLE
 IDENTIFIER(j)
 SEMI
 IDENTIFIER(a)
 ASSIGN
-Line 24, col 7: unterminated char constant
+Line 24, column 7: unterminated char constant
+Line 24, column 7: unrecognized character (\)
+Line 24, column 8: unterminated char constant
+Line 24, column 8: unrecognized character (\)
+Line 24, column 9: unterminated char constant
+Line 24, column 9: unrecognized character (\)
+Line 24, column 10: unrecognized character (\)
+Line 24, column 11: unrecognized character (\)
+Line 24, column 12: unterminated char constant
 IDENTIFIER(a)
 ASSIGN
-Line 25, col 7: unterminated char constant
-IDENTIFIER(a)
-ASSIGN
-IDENTIFIER(a)
-Line 26, col 8: unterminated char constant
-IDENTIFIER(a)
-ASSIGN
-Line 27, col 7: unterminated char constant
-IDENTIFIER(a)
-ASSIGN
-Line 28, col 7: invalid char constant ('')
+Line 25, column 7: unterminated char constant
 SEMI
 IDENTIFIER(a)
 ASSIGN
-Line 29, col 7: invalid char constant ('ola')
+IDENTIFIER(a)
+Line 26, column 8: unterminated char constant
+IDENTIFIER(a)
+ASSIGN
+Line 27, column 7: unterminated char constant
+IDENTIFIER(a)
+ASSIGN
+Line 28, column 7: invalid char constant ('')
+SEMI
+IDENTIFIER(a)
+ASSIGN
+Line 29, column 7: invalid char constant ('ola')
 SEMI
 IDENTIFIER(a)
 ASSIGN
@@ -81,15 +90,15 @@ CHRLIT('\t')
 SEMI
 IDENTIFIER(a)
 ASSIGN
-Line 31, col 7: invalid char constant ('')
-Line 31, col 9: invalid char constant ('')
-Line 31, col 11: invalid char constant ('')
-Line 31, col 13: invalid char constant ('')
-Line 31, col 15: invalid char constant ('')
-Line 31, col 17: invalid char constant ('')
-Line 31, col 19: invalid char constant ('')
-Line 31, col 21: invalid char constant ('')
-Line 31, col 23: invalid char constant ('')
+Line 31, column 7: invalid char constant ('')
+Line 31, column 9: invalid char constant ('')
+Line 31, column 11: invalid char constant ('')
+Line 31, column 13: invalid char constant ('')
+Line 31, column 15: invalid char constant ('')
+Line 31, column 17: invalid char constant ('')
+Line 31, column 19: invalid char constant ('')
+Line 31, column 21: invalid char constant ('')
+Line 31, column 23: invalid char constant ('')
 SEMI
 IDENTIFIER(a)
 ASSIGN
@@ -98,25 +107,25 @@ CHRLIT('c')
 SEMI
 IDENTIFIER(a)
 ASSIGN
-Line 33, col 7: invalid char constant ('ch')
+Line 33, column 7: invalid char constant ('ch')
 IDENTIFIER(a)
 ASSIGN
-Line 34, col 7: invalid char constant ('20')
+Line 34, column 7: invalid char constant ('20')
 SEMI
 IDENTIFIER(a)
 ASSIGN
-Line 35, col 7: unterminated char constant
+Line 35, column 7: unterminated char constant
 IDENTIFIER(a)
 ASSIGN
-Line 36, col 7: invalid char constant ('\999')
+Line 36, column 7: invalid char constant ('\999')
 SEMI
 IDENTIFIER(a)
 ASSIGN
-Line 37, col 7: invalid char constant ('==')
+Line 37, column 7: invalid char constant ('==')
 SEMI
 IDENTIFIER(a)
 ASSIGN
-Line 38, col 7: invalid char constant ('\\20')
+Line 38, column 7: invalid char constant ('\\20')
 SEMI
 IDENTIFIER(a)
 ASSIGN
@@ -124,7 +133,7 @@ CHRLIT('\0')
 SEMI
 IDENTIFIER(a)
 ASSIGN
-Line 40, col 7: invalid char constant ('\\n')
+Line 40, column 7: invalid char constant ('\\n')
 SEMI
 IDENTIFIER(a)
 ASSIGN
@@ -136,22 +145,23 @@ CHRLIT('?')
 SEMI
 IDENTIFIER(a)
 ASSIGN
-Line 43, col 7: invalid char constant ('\'\'')
+Line 43, column 7: invalid char constant ('\'\'')
 SEMI
 IDENTIFIER(a)
 ASSIGN
-Line 44, col 7: invalid char constant ('\\\t\\\\')
+Line 44, column 7: invalid char constant ('\\\t\\\\')
 SEMI
 IDENTIFIER(a)
 ASSIGN
-Line 45, col 7: unterminated char constant
+Line 45, column 7: unterminated char constant
+SEMI
 IDENTIFIER(a)
 ASSIGN
 Line 46, column 7: unrecognized character (\)
-Line 46, col 8: invalid char constant ('\'\'\'\'')
+Line 46, column 8: invalid char constant ('\'\'\'\'')
 Line 46, column 18: unrecognized character (\)
-Line 46, col 19: invalid char constant ('')
-Line 46, col 21: invalid char constant ('\'\'\'\'\\\\')
+Line 46, column 19: invalid char constant ('')
+Line 46, column 21: invalid char constant ('\'\'\'\'\\\\')
 SEMI
 Line 46, column 37: unrecognized character (\)
 Line 46, column 38: unrecognized character (\)
@@ -171,7 +181,7 @@ SEMI
 IDENTIFIER(i)
 ASSIGN
 NATURAL(0123456789)
-IDENTIFIER(if)
+IF
 LPAR
 IDENTIFIER(i)
 NE
@@ -181,7 +191,7 @@ LBRACE
 IDENTIFIER(putchar)
 LPAR
 CHRLIT('\\')
-Line 53, col 21: unterminated char constant
+Line 53, column 21: unterminated char constant
 RBRACE
 IDENTIFIER(j)
 ASSIGN
@@ -214,8 +224,8 @@ IDENTIFIER(j)
 ASSIGN
 DECIMAL(02.02e+02)
 SEMI
-IDENTIFIER(return)
-IDENTIFIER(void)
+RETURN
+VOID
 SEMI
 MUL
 MUL
@@ -235,36 +245,36 @@ RESERVED(++)
 RESERVED(--)
 RESERVED([)
 RESERVED(])
-IDENTIFIER(auto)
-IDENTIFIER(break)
-IDENTIFIER(case)
-IDENTIFIER(const)
-IDENTIFIER(continue)
+RESERVED(auto)
+RESERVED(break)
+RESERVED(case)
+RESERVED(const)
+RESERVED(continue)
 MUL
 MUL
-IDENTIFIER(default)
-IDENTIFIER(do)
-IDENTIFIER(enum)
+RESERVED(default)
+RESERVED(do)
+RESERVED(enum)
 MUL
 MUL
-IDENTIFIER(extern)
-IDENTIFIER(for)
-IDENTIFIER(inline)
-IDENTIFIER(volatile)
+RESERVED(extern)
+RESERVED(for)
+RESERVED(inline)
+RESERVED(volatile)
 MUL
 MUL
-IDENTIFIER(_Bool)
-IDENTIFIER(_Complex)
+RESERVED(_Bool)
+RESERVED(_Complex)
 Line 62, column 131: unrecognized character (")
 MUL
 MUL
 CHRLIT('\t')
-Line 63, col 1: invalid char constant ('\\t')
+Line 63, column 1: invalid char constant ('\\t')
 CHRLIT('\\')
-Line 63, col 12: invalid char constant ('ll')
+Line 63, column 12: invalid char constant ('ll')
 CHRLIT('o')
-Line 63, col 19: invalid char constant (' o')
-Line 63, col 23: invalid char constant ('\\\\')
+Line 63, column 19: invalid char constant (' o')
+Line 63, column 23: invalid char constant ('\\\\')
 BITWISEAND
 BITWISEOR
 BITWISEXOR
@@ -288,3 +298,4 @@ NOT
 OR
 PLUS
 RBRACE
+Line 65, column 1: unterminated comment

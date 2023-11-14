@@ -1,22 +1,22 @@
 CHRLIT('a')
 CHRLIT('_')
 CHRLIT('"')
-Line 5, col 1: invalid char constant ('´')
+Line 5, column 1: invalid char constant ('´')
 CHRLIT('\\')
-Line 6, col 5: unterminated char constant
+Line 6, column 5: unterminated char constant
 CHRLIT('\"')
-Line 7, col 5: unterminated char constant
+Line 7, column 5: unterminated char constant
 CHRLIT('\1')
 CHRLIT('\12')
-Line 10, col 1: invalid char constant ('\1234')
-Line 11, col 1: invalid char constant ('\16asdasd')
-Line 12, col 1: invalid char constant ('\t\t')
-Line 13, col 1: invalid char constant ('\\1')
-Line 14, col 1: unterminated char constant
+Line 10, column 1: invalid char constant ('\1234')
+Line 11, column 1: invalid char constant ('\16asdasd')
+Line 12, column 1: invalid char constant ('\t\t')
+Line 13, column 1: invalid char constant ('\\1')
+Line 14, column 1: unterminated char constant
 CHRLIT('\n')
 CHRLIT('?')
-Line 17, col 1: invalid char constant ('')
-Line 17, col 3: unterminated char constant
+Line 17, column 1: invalid char constant ('')
+Line 17, column 3: unterminated char constant
 CHRLIT('#')
 CHRLIT('\123')
 CHRLIT('z')
@@ -36,7 +36,7 @@ DECIMAL(.2)
 MINUS
 IDENTIFIER(e1)
 DECIMAL(.2)
-IDENTIFIER(int)
+INT
 IDENTIFIER(main)
 LPAR
 RPAR
@@ -46,8 +46,8 @@ LT
 LT
 GT
 LT
-IDENTIFIER(for)
-IDENTIFIER(int)
+RESERVED(for)
+INT
 IDENTIFIER(a)
 ASSIGN
 NATURAL(5)
@@ -58,8 +58,9 @@ IDENTIFIER(a)
 PLUS
 NATURAL(1)
 SEMI
-IDENTIFIER(return)
+RETURN
 IDENTIFIER(a)
 RESERVED(++)
 SEMI
 RBRACE
+Line 44, column 0: unterminated comment

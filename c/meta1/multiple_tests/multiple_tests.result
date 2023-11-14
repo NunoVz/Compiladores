@@ -1,23 +1,23 @@
-IDENTIFIER(char)
+CHAR
 IDENTIFIER(_do)
 ASSIGN
 NATURAL(0)
 SEMI
-IDENTIFIER(char)
+CHAR
 NATURAL(0)
 IDENTIFIER(cantstartwithzero)
 SEMI
-IDENTIFIER(int)
+INT
 IDENTIFIER(calc)
 LPAR
-IDENTIFIER(int)
+INT
 IDENTIFIER(a)
 COMMA
-IDENTIFIER(int)
+INT
 IDENTIFIER(b)
 RPAR
 LBRACE
-IDENTIFIER(return)
+RETURN
 IDENTIFIER(a)
 PLUS
 IDENTIFIER(b)
@@ -34,14 +34,14 @@ CHRLIT('a')
 SEMI
 MINUS
 Line 13, column 2: unrecognized character (.)
-IDENTIFIER(int)
+INT
 IDENTIFIER(verify)
 LPAR
-IDENTIFIER(int)
+INT
 IDENTIFIER(value)
 RPAR
 LBRACE
-IDENTIFIER(double)
+DOUBLE
 IDENTIFIER(not_used)
 ASSIGN
 DECIMAL(.5e2)
@@ -50,7 +50,7 @@ IDENTIFIER(another)
 ASSIGN
 DECIMAL(2.1)
 SEMI
-IDENTIFIER(if)
+IF
 LPAR
 IDENTIFIER(value)
 GT
@@ -67,26 +67,26 @@ NE
 NATURAL(6)
 RPAR
 LBRACE
-IDENTIFIER(return)
+RETURN
 NATURAL(1)
 SEMI
 RBRACE
-IDENTIFIER(return)
+RETURN
 MINUS
 NATURAL(1)
 SEMI
 RBRACE
 Line 22, column 1: unrecognized character (?)
-IDENTIFIER(long)
+RESERVED(long)
 IDENTIFIER(reserved_function)
 LPAR
-IDENTIFIER(long)
+RESERVED(long)
 IDENTIFIER(value)
 RPAR
 LBRACE
-IDENTIFIER(for)
+RESERVED(for)
 LPAR
-IDENTIFIER(int)
+INT
 IDENTIFIER(i)
 ASSIGN
 NATURAL(0)
@@ -109,18 +109,18 @@ NATURAL(2)
 BITWISEXOR
 NATURAL(2)
 SEMI
-IDENTIFIER(return)
+RETURN
 IDENTIFIER(value)
 RBRACE
-IDENTIFIER(int)
+INT
 IDENTIFIER(main)
 LPAR
-IDENTIFIER(void)
+VOID
 RPAR
 LBRACE
 CHRLIT(' ')
-Line 32, col 9: invalid char constant ('   ')
-IDENTIFIER(int)
+Line 32, column 9: invalid char constant ('   ')
+INT
 IDENTIFIER(a)
 ASSIGN
 IDENTIFIER(calc)
@@ -130,16 +130,16 @@ COMMA
 NATURAL(3)
 RPAR
 SEMI
-IDENTIFIER(char)
+CHAR
 IDENTIFIER(this_one_works)
 ASSIGN
 CHRLIT('c')
 COMMA
 IDENTIFIER(looks_like_a_string)
 ASSIGN
-Line 34, col 54: invalid char constant ('invalid')
+Line 34, column 54: invalid char constant ('invalid')
 SEMI
-IDENTIFIER(char)
+CHAR
 IDENTIFIER(low_escape)
 ASSIGN
 CHRLIT('\000')
@@ -150,14 +150,14 @@ CHRLIT('\777')
 SEMI
 IDENTIFIER(wrong_escape)
 ASSIGN
-Line 35, col 68: invalid char constant ('\800')
-Line 35, col 75: invalid char constant ('\1234')
+Line 35, column 68: invalid char constant ('\800')
+Line 35, column 75: invalid char constant ('\1234')
 SEMI
-IDENTIFIER(char)
+CHAR
 IDENTIFIER(forgot_to_finish)
 ASSIGN
-Line 36, col 29: unterminated char constant
-IDENTIFIER(if)
+Line 36, column 29: unterminated char constant
+IF
 LPAR
 IDENTIFIER(verify)
 LPAR
@@ -171,7 +171,7 @@ IDENTIFIER(this_one_works)
 RPAR
 SEMI
 RBRACE
-IDENTIFIER(else)
+ELSE
 LBRACE
 IDENTIFIER(putchar)
 LPAR
@@ -184,9 +184,10 @@ CHRLIT('\n')
 RPAR
 SEMI
 RBRACE
-Line 44, col 5: unterminated char constant
-Line 45, col 5: unterminated char constant
-IDENTIFIER(return)
+Line 44, column 5: unterminated char constant
+Line 45, column 5: unterminated char constant
+RETURN
 NATURAL(0)
 SEMI
 RBRACE
+Line 48, column 0: unterminated comment

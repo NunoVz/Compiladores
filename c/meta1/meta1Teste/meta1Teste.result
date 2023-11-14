@@ -1,24 +1,24 @@
 DIV
 IDENTIFIER(exemplo)
-Line 6, col 1: invalid char constant ('/0123')
-Line 7, col 1: invalid char constant ('\\\n')
-Line 8, col 1: invalid char constant ('\1239')
-Line 9, col 1: invalid char constant ('')
+Line 6, column 1: invalid char constant ('/0123')
+Line 7, column 1: invalid char constant ('\\\n')
+Line 8, column 1: invalid char constant ('\1239')
+Line 9, column 1: invalid char constant ('')
 CHRLIT('\113')
-Line 9, col 9: invalid char constant ('')
-Line 10, col 1: unterminated char constant
-IDENTIFIER(float)
+Line 9, column 9: invalid char constant ('')
+Line 10, column 1: unterminated char constant
+RESERVED(float)
 IDENTIFIER(exemplo_1)
 LPAR
-IDENTIFIER(void)
+VOID
 RPAR
 LBRACE
-IDENTIFIER(int)
+INT
 IDENTIFIER(numero)
 ASSIGN
 NATURAL(1)
 SEMI
-IDENTIFIER(if)
+IF
 LPAR
 IDENTIFIER(numbero)
 NE
@@ -30,25 +30,26 @@ ASSIGN
 NATURAL(1)
 SEMI
 RBRACE
-IDENTIFIER(char)
+CHAR
 IDENTIFIER(nome)
 ASSIGN
 Line 21, column 14: unrecognized character (")
 IDENTIFIER(O_O)
 Line 21, column 18: unrecognized character (")
 SEMI
-IDENTIFIER(double)
+DOUBLE
 IDENTIFIER(x)
 ASSIGN
 DECIMAL(12.2)
 SEMI
-IDENTIFIER(return)
+RETURN
 IDENTIFIER(numero)
 RBRACE
-IDENTIFIER(void)
+VOID
 IDENTIFIER(exemplo_2)
 LPAR
-IDENTIFIER(void)
+VOID
 RPAR
 LBRACE
 RBRACE
+Line 30, column 0: unterminated comment
