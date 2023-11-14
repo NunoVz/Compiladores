@@ -43,7 +43,7 @@ CHRLIT('<')
 IDENTIFIER(ola)
 Line 37, column 4: unterminated char constant
 IDENTIFIER(ola)
-E(e)
+IDENTIFIER(e)
 Line 38, column 7: invalid char constant ('')
 IDENTIFIER(adeus)
 Line 38, column 15: invalid char constant ('asd')

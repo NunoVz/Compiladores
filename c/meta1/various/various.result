@@ -48,7 +48,7 @@ DOUBLE
 IDENTIFIER(k)
 ASSIGN
 Line 14, column 14: unrecognized character (.)
-E(e)
+IDENTIFIER(e)
 MINUS
 NATURAL(23)
 COMMA

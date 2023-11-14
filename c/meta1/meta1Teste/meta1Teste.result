@@ -52,4 +52,4 @@ VOID
 RPAR
 LBRACE
 RBRACE
-Line 30, column 0: unterminated comment
+Line 30, column 1: unterminated comment

@@ -2,7 +2,7 @@ Line 1, column 1: unrecognized character (.)
 DECIMAL(1.)
 DECIMAL(.1)
 Line 4, column 1: unrecognized character (.)
-E(e)
+IDENTIFIER(e)
 MINUS
 NATURAL(4)
 DECIMAL(.3E5)

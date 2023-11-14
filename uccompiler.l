@@ -16,7 +16,6 @@ chrlit      \'([^\'\n\\]|\\n|\\t|\\\\|\\\'|\\\"|\\([0-7]{1,3}))\'
 char        "char"
 while       "while"
 else        "else"
-e           "e"
 if          "if"
 int         "int"
 short       "short"
@@ -49,7 +48,7 @@ rpar        ")"
 semi        ";"
 
 reserved    auto|break|const|continue|do|enum|extern|float|for|goto|register|long|signed|unsigned|sizeof|static|struct|switch|case|default|typedef|union|volatile|_Bool|_Imaginary|restrict|inline|_Complex|"["|"]"|"++"|"--"
-%x SCOMMENT MLCOMMENT 
+%X SCOMMENT MLCOMMENT 
 
 %%
 {reserved}      { if(flag) printf("RESERVED(%s)\n", yytext); c += yyleng;}
@@ -86,10 +85,9 @@ reserved    auto|break|const|continue|do|enum|extern|float|for|goto|register|lon
 {rbrace}        { if(flag) printf("RBRACE\n"); c+=yyleng; }
 {rpar}          { if(flag) printf("RPAR\n"); c+=yyleng; }
 {semi}          { if(flag) printf("SEMI\n"); c+=yyleng; }
-{e}             { if(flag) printf("E(%s)\n", yytext); c+=yyleng; }
-{id}            { if(flag) printf("IDENTIFIER(%s)\n", yytext); c+=yyleng; }
 {natural}       { if(flag) printf("NATURAL(%s)\n" , yytext); c+=yyleng; }
 {decimal}       { if(flag) printf("DECIMAL(%s)\n", yytext); c+=yyleng; }
+{id}            { if(flag) printf("IDENTIFIER(%s)\n", yytext); c+=yyleng; }
 {chrlit}        { if(flag) printf("CHRLIT(%s)\n", yytext); c += yyleng; }
 
 
@@ -102,7 +100,7 @@ reserved    auto|break|const|continue|do|enum|extern|float|for|goto|register|lon
 <SCOMMENT>\n        					{l++; c=1;BEGIN 0;}
 
 
-"/*"									{BEGIN MLCOMMENT;comment[0]=l; comment[1]=c-1; c+=yyleng;}
+"/*"									{comment[0]=l; comment[1]=c; c+=yyleng;BEGIN MLCOMMENT;}
 <MLCOMMENT>.							{c+=yyleng;}
 <MLCOMMENT>\r|\n|(\r\n)					{l++;c=1;}
 <MLCOMMENT><<EOF>>						{printf("Line %d, column %d: unterminated comment\n",comment[0],comment[1]); c+=yyleng;BEGIN 0;}
