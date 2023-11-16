@@ -88,9 +88,9 @@ extern int yydebug;
     RBRACE = 289,                  /* RBRACE  */
     RPAR = 290,                    /* RPAR  */
     SEMI = 291,                    /* SEMI  */
-    NATURAL = 292,                 /* NATURAL  */
-    DECIMAL = 293,                 /* DECIMAL  */
-    ID = 294,                      /* ID  */
+    ID = 292,                      /* ID  */
+    NATURAL = 293,                 /* NATURAL  */
+    DECIMAL = 294,                 /* DECIMAL  */
     CHRLIT = 295                   /* CHRLIT  */
   };
   typedef enum yytokentype yytoken_kind_t;
@@ -134,14 +134,24 @@ extern int yydebug;
 #define RBRACE 289
 #define RPAR 290
 #define SEMI 291
-#define NATURAL 292
-#define DECIMAL 293
-#define ID 294
+#define ID 292
+#define NATURAL 293
+#define DECIMAL 294
 #define CHRLIT 295
 
 /* Value type.  */
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
-typedef int YYSTYPE;
+union YYSTYPE
+{
+#line 27 "uccompiler.y"
+
+    char *value;
+   	struct node *no;
+
+#line 152 "y.tab.h"
+
+};
+typedef union YYSTYPE YYSTYPE;
 # define YYSTYPE_IS_TRIVIAL 1
 # define YYSTYPE_IS_DECLARED 1
 #endif

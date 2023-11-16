@@ -1,6 +1,8 @@
 %{
     #include <stdbool.h>
     #include "y.tab.h"
+    #include "funcoes.h"
+
 
     int yyparse(void);
 
@@ -8,6 +10,7 @@
     bool flag=false;                //-l
     int string = 0; 
     int comment[2]; 
+
 
     
 %}
@@ -116,6 +119,9 @@ RESERVED    auto|break|const|continue|do|enum|extern|float|for|goto|register|lon
 .           {printf("Line %d, column %d: unrecognized character (%s)\n",l,c,yytext); c+=yyleng; }
 
 %%
+void yyerror(char *s) {
+    printf("Line %d, column %d: %s: %s \n",l,c, s, yytext);
+}
 extern int yylex();
 int main(int argc, char *argv[]) {
     if(argc >= 2 && strcmp(argv[1], "-l") == 0){

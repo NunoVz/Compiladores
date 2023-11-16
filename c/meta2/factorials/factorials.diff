@@ -1,15 +1,4 @@
-1,10c1,184
-< Natural: 
-< Identifier
-< Natural: 
-< Not Equal
-< Identifier
-< Identifier
-< Identifier
-< Multiplication
-< Assign
-< syntax error 'number'
----
+0a1,184
 > Program
 > ..FuncDefinition
 > ....Int

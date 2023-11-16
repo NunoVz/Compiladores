@@ -1,6 +1,4 @@
-1c1,80
-< syntax error '1'
----
+0a1,80
 > Program
 > ..FuncDefinition
 > ....Int

@@ -1,6 +1,4 @@
-1c1,5
-< syntax error '*'
----
+0a1,5
 > Line 2, column 2: syntax error: *
 > Line 3, column 7: syntax error: [
 > Line 4, column 8: syntax error: ++

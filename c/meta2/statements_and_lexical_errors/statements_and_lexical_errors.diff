@@ -1,6 +1,4 @@
-1c1,137
-< syntax error '}'
----
+0a1,137
 > Line 26, column 2: unrecognized character ($)
 > Line 30, column 3: unrecognized character (:)
 > Line 35, column 2: unrecognized character (@)

@@ -1,12 +1,4 @@
-1,7c1,84
-< Identifier
-< Natural: 
-< Assign
-< Identifier
-< Natural: 
-< Assign
-< syntax error 'b'
----
+0a1,84
 > Program
 > ..FuncDefinition
 > ....Int

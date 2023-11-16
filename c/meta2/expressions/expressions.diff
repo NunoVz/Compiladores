@@ -1,8 +1,4 @@
-1,3c1,4
-< Natural: 
-< Identifier
-< syntax error '='
----
+0a1,4
 > Line 1, column 10: syntax error: )
 > Line 6, column 5: syntax error: a
 > Line 7, column 19: syntax error: 6

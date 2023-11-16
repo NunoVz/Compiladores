@@ -1,8 +1,5 @@
-1d0
-< Char Literal: 
-3c2,4
-< syntax error ')'
----
+0a1,4
+> Line 3, column 8: unrecognized character ($)
 > Line 3, column 9: syntax error: )
 > Line 5, column 9: syntax error: int
 > Line 7, column 8: syntax error: ;

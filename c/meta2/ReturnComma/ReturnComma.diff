@@ -1,6 +1,4 @@
-1c1,42
-< syntax error ','
----
+0a1,42
 > Program
 > ..Declaration
 > ....Int

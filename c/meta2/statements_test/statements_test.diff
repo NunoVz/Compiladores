@@ -1,20 +1,4 @@
-1,15c1,162
-< Natural: 
-< Identifier
-< Natural: 
-< Assign
-< Comma
-< Natural: 
-< Identifier
-< Natural: 
-< Assign
-< Comma
-< Natural: 
-< Identifier
-< Identifier
-< Equal
-< syntax error ';'
----
+0a1,162
 > Program
 > ..FuncDeclaration
 > ....Void

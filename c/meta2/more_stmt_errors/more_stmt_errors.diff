@@ -1,9 +1,4 @@
-1,4c1,62
-< Identifier
-< Natural: 
-< Equal
-< syntax error ';'
----
+0a1,62
 > Program
 > ..FuncDefinition
 > ....Int

@@ -1,48 +1,4 @@
-1,43c1,62
-< Natural: 
-< Natural: 
-< Addition
-< Natural: 
-< Natural: 
-< Addition
-< Natural: 
-< Natural: 
-< Addition
-< Addition
-< Natural: 
-< Natural: 
-< Multiplication
-< Natural: 
-< Division
-< Natural: 
-< Natural: 
-< Addition
-< Natural: 
-< Natural: 
-< Multiplication
-< Division
-< Natural: 
-< Natural: 
-< Subtraction
-< Natural: 
-< Multiplication
-< Natural: 
-< Natural: 
-< Natural: 
-< Natural: 
-< Division
-< Multiplication
-< Subtraction
-< Natural: 
-< Natural: 
-< Division
-< Subtraction
-< Unary Plus
-< Natural: 
-< Natural: 
-< Multiplication
-< Subtraction
----
+0a1,62
 > Program
 > ..Declaration
 > ....Int

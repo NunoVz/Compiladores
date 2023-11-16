@@ -1,9 +1,4 @@
-1,4c1,4
-< Identifier
-< Identifier
-< Subtraction
-< syntax error '*'
----
+0a1,4
 > Line 5, column 19: syntax error: *
 > Line 7, column 20: syntax error: 6
 > Line 13, column 1: syntax error: }

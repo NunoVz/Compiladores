@@ -1,6 +1,4 @@
-1c1,5
-< syntax error '='
----
+0a1,5
 > Line 2, column 3: syntax error: =
 > Line 9, column 3: syntax error: =
 > Line 14, column 9: syntax error: ==

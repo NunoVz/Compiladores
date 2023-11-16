@@ -1,39 +1,4 @@
-1,34c1,96
-< Natural: 
-< Natural: 
-< Natural: 
-< Addition
-< Natural: 
-< Natural: 
-< Subtraction
-< Natural: 
-< Subtraction
-< Natural: 
-< Natural: 
-< Multiplication
-< Natural: 
-< Multiplication
-< Subtraction
-< Identifier
-< Natural: 
-< Natural: 
-< Addition
-< Assign
-< Comma
-< Identifier
-< Comma
-< Natural: 
-< Identifier
-< Identifier
-< Subtraction
-< Natural: 
-< Natural: 
-< Multiplication
-< Addition
-< Subtraction
-< Identifier
-< Comma
----
+0a1,96
 > Program
 > ..FuncDeclaration
 > ....Int
