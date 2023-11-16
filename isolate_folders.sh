@@ -1,4 +1,4 @@
-meta="meta1"
+meta="meta2"
 
 for file in "./c/$meta"/*c; do
     file_name=$(basename "${file%.*}")

@@ -1,0 +1,19 @@
+24a25,42
+> SEMI
+> RBRACE
+> RBRACE
+> INT
+> IDENTIFIER(main)
+> LPAR
+> VOID
+> RPAR
+> LBRACE
+> IDENTIFIER(testFunction)
+> LPAR
+> CHRLIT('A')
+> RPAR
+> SEMI
+> RETURN
+> NATURAL(0)
+> SEMI
+> RBRACE

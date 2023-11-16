@@ -1,0 +1,123 @@
+1,49c1,72
+< Identifier
+< Natural: 
+< Equal
+< Identifier
+< Natural: 
+< Identifier
+< Natural: 
+< Less Than
+< Identifier
+< Natural: 
+< Bitwise AND
+< Logical AND
+< Logical AND
+< Assign
+< Identifier
+< Natural: 
+< Bitwise OR
+< Logical OR
+< Identifier
+< Natural: 
+< Assign
+< Identifier
+< Natural: 
+< Equal
+< Identifier
+< Natural: 
+< Less Than or Equal
+< Identifier
+< Natural: 
+< Greater Than or Equal
+< Identifier
+< Natural: 
+< Bitwise XOR
+< Logical AND
+< Identifier
+< Natural: 
+< Bitwise OR
+< Identifier
+< Natural: 
+< Bitwise AND
+< Logical AND
+< Logical OR
+< Logical AND
+< Logical OR
+< Identifier
+< Identifier
+< Logical NOT
+< Assign
+< syntax error 'c'
+---
+> Program
+> ..FuncDefinition
+> ....Int
+> ....Identifier(main)
+> ....ParamList
+> ......ParamDeclaration
+> ........Void
+> ....FuncBody
+> ......While
+> ........Eq
+> ..........Identifier(i)
+> ..........Natural(0)
+> ........If
+> ..........Or
+> ............Store
+> ..............Identifier(i)
+> ..............And
+> ................Natural(123)
+> ................And
+> ..................Lt
+> ....................Identifier(i)
+> ....................Natural(2)
+> ..................BitWiseAnd
+> ....................Identifier(i)
+> ....................Natural(1)
+> ............BitWiseOr
+> ..............Identifier(i)
+> ..............Natural(1)
+> ..........Store
+> ............Identifier(i)
+> ............Natural(0123)
+> ..........If
+> ............Or
+> ..............Eq
+> ................Identifier(a)
+> ................Natural(2)
+> ..............And
+> ................Le
+> ..................Identifier(b)
+> ..................Natural(2)
+> ................Or
+> ..................And
+> ....................Ge
+> ......................Identifier(c)
+> ......................Natural(3)
+> ....................BitWiseXor
+> ......................Identifier(d)
+> ......................Natural(0)
+> ..................And
+> ....................BitWiseOr
+> ......................Identifier(x)
+> ......................Natural(1)
+> ....................BitWiseAnd
+> ......................Identifier(x)
+> ......................Natural(0)
+> ............StatList
+> ..............Store
+> ................Identifier(b)
+> ................Not
+> ..................Identifier(b)
+> ..............Store
+> ................Identifier(c)
+> ................Minus
+> ..................Identifier(c)
+> ..............Store
+> ................Identifier(c)
+> ................Mod
+> ..................Minus
+> ....................Identifier(c)
+> ..................Minus
+> ....................Identifier(d)
+> ............Null

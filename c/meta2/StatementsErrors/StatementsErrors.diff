@@ -1,0 +1,6 @@
+1,2c1,2
+< Identifier
+< syntax error '=='
+---
+> Line 4, column 3: syntax error: ==
+> Line 9, column 8: syntax error: &

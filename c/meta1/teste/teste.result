@@ -14,5 +14,3 @@ ASSIGN
 PLUS
 IDENTIFIER(a2)
 NATURAL(2)
-DECIMAL(2.1e-1)
-Line 9, column 1: unterminated comment
