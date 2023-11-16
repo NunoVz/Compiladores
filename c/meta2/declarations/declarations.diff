@@ -1,5 +1,8 @@
-0a1,4
-> Line 5, column 19: syntax error: *
+2,3c2,3
+< Line 7, column 8: syntax error: ,
+< Line 12, column 11: syntax error: ,
+---
 > Line 7, column 20: syntax error: 6
 > Line 13, column 1: syntax error: }
-> Line 19, column 27: syntax error: (
+5d4
+< Line 21, column 36: syntax error: ;

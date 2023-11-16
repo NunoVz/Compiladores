@@ -1,4 +1,13 @@
-0a1,162
+1,8c1,162
+< Line 1, column 25: syntax error: ;
+< Line 2, column 29: syntax error: ;
+< Line 9, column 9: syntax error: ;
+< Line 11, column 13: syntax error: ;
+< Line 14, column 9: syntax error: ;
+< Line 17, column 5: syntax error: ;
+< Line 18, column 12: syntax error: 4
+< Line 29, column 9: syntax error: ;
+---
 > Program
 > ..FuncDeclaration
 > ....Void

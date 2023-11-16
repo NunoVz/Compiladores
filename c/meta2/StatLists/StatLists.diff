@@ -1,4 +1,7 @@
-0a1,84
+1,2c1,84
+< Line 8, column 3: syntax error: ;
+< Line 12, column 3: syntax error: ;
+---
 > Program
 > ..FuncDefinition
 > ....Int

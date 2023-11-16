@@ -2162,9 +2162,6 @@ void yyfree (void * ptr )
 
 #line 121 "uccompiler.l"
 
-void yyerror(char *s) {
-    printf("Line %d, column %d: %s: %s \n",l,c, s, yytext);
-}
 extern int yylex();
 int main(int argc, char *argv[]) {
     if(argc >= 2 && strcmp(argv[1], "-l") == 0){

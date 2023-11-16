@@ -1,0 +1,5 @@
+Line 1, column 26: syntax error: ,
+Line 21, column 10: syntax error: 5
+Line 26, column 7: syntax error: a
+Line 34, column 18: syntax error: a
+Line 38, column 29: syntax error: 'a'

@@ -1,4 +1,34 @@
-0a1,1054
+1,29c1,1054
+< Line 5, column 15: syntax error: ,
+< Line 6, column 19: syntax error: Number
+< Line 7, column 30: syntax error: 10
+< Line 17, column 15: syntax error: s
+< Line 17, column 34: syntax error: )
+< Line 22, column 25: syntax error: Number
+< Line 24, column 30: syntax error: 10
+< Line 47, column 18: syntax error: Sum
+< Line 51, column 30: syntax error: (
+< Line 51, column 58: syntax error: )
+< Line 53, column 27: syntax error: number
+< Line 104, column 22: syntax error: Reminder
+< Line 118, column 10: syntax error: j
+< Line 123, column 12: syntax error: (
+< Line 123, column 43: syntax error: )
+< Line 130, column 38: syntax error: 'a'
+< Line 135, column 22: syntax error: 111111.2e2
+< Line 138, column 42: syntax error: i
+< Line 138, column 56: syntax error: a
+< Line 146, column 14: syntax error: i
+< Line 154, column 34: syntax error: 3
+< Line 157, column 20: syntax error: 3
+< Line 173, column 32: syntax error: number
+< Line 184, column 16: syntax error: ,
+< Line 185, column 18: syntax error: ,
+< Line 190, column 20: syntax error: number
+< Line 209, column 24: syntax error: discriminant
+< Line 210, column 24: syntax error: discriminant
+< Line 213, column 28: syntax error: -
+---
 > Program
 > ..Declaration
 > ....Short

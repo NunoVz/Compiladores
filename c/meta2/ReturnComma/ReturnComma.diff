@@ -1,4 +1,8 @@
-0a1,42
+1,3c1,42
+< Line 1, column 6: syntax error: ,
+< Line 3, column 10: syntax error: ,
+< Line 5, column 5: syntax error: x
+---
 > Program
 > ..Declaration
 > ....Int

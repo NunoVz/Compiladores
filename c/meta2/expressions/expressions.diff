@@ -1,5 +1,11 @@
-0a1,4
+1,3c1,3
+< Line 3, column 8: syntax error: =
+< Line 4, column 8: syntax error: =
+< Line 7, column 10: syntax error: ,
+---
 > Line 1, column 10: syntax error: )
 > Line 6, column 5: syntax error: a
 > Line 7, column 19: syntax error: 6
-> Line 9, column 5: syntax error: float
+5,6d4
+< Line 11, column 9: syntax error: ;
+< Line 13, column 12: syntax error: ;

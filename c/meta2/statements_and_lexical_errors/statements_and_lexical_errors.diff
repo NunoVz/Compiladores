@@ -1,7 +1,15 @@
-0a1,137
-> Line 26, column 2: unrecognized character ($)
-> Line 30, column 3: unrecognized character (:)
-> Line 35, column 2: unrecognized character (@)
+1,3d0
+< Line 10, column 29: syntax error: ;
+< Line 13, column 7: syntax error: ,
+< Line 18, column 19: syntax error: (
+6d2
+< Line 30, column 14: syntax error: 'l'
+8,11c4,137
+< Line 36, column 4: syntax error: (
+< Line 36, column 35: syntax error: )
+< Line 39, column 16: syntax error: f
+< Line 39, column 32: syntax error: )
+---
 > Program
 > ..FuncDefinition
 > ....Void
