@@ -1,112 +1,137 @@
-1c1,109
-< Line 20, column 20: syntax error: a
----
-> Program
-> ..FuncDefinition
-> ....Int
-> ....Identifier(check_your_priorities)
-> ....ParamList
-> ......ParamDeclaration
-> ........Int
-> ........Identifier(a)
-> ......ParamDeclaration
-> ........Int
-> ........Identifier(b)
-> ......ParamDeclaration
-> ........Int
-> ........Identifier(c)
-> ......ParamDeclaration
-> ........Int
-> ........Identifier(d)
-> ....FuncBody
-> ......Return
-> ........Add
-> ..........Add
-> ............Identifier(a)
-> ............Add
-> ..............Mul
-> ................Mul
-> ..................Identifier(b)
-> ..................Add
-> ....................Div
-> ......................Minus
-> ........................Identifier(d)
-> ......................Identifier(c)
-> ....................Natural(3)
-> ................Identifier(d)
-> ..............Identifier(c)
-> ..........Identifier(d)
-> ..FuncDefinition
-> ....Char
-> ....Identifier(block)
-> ....ParamList
-> ......ParamDeclaration
-> ........Char
-> ........Identifier(a)
-> ......ParamDeclaration
-> ........Char
-> ........Identifier(b)
-> ....FuncBody
-> ......If
-> ........Lt
-> ..........Identifier(a)
-> ..........Identifier(b)
-> ........StatList
-> ..........Store
-> ............Identifier(a)
-> ............Sub
-> ..............Identifier(a)
-> ..............Natural(1)
-> ..........Return
-> ............Identifier(a)
-> ........StatList
-> ..........Store
-> ............Identifier(b)
-> ............Sub
-> ..............Identifier(b)
-> ..............Natural(1)
-> ..........Return
-> ............Identifier(b)
-> ..FuncDefinition
-> ....Char
-> ....Identifier(not_block)
-> ....ParamList
-> ......ParamDeclaration
-> ........Char
-> ........Identifier(a)
-> ......ParamDeclaration
-> ........Char
-> ........Identifier(b)
-> ....FuncBody
-> ......If
-> ........Lt
-> ..........Call
-> ............Identifier(weird_char)
-> ............Identifier(a)
-> ............Identifier(b)
-> ..........Identifier(b)
-> ........Return
-> ..........Identifier(a)
-> ........Return
-> ..........Identifier(b)
-> ..FuncDefinition
-> ....Double
-> ....Identifier(check_your_decimal_places)
-> ....ParamList
-> ......ParamDeclaration
-> ........Double
-> ........Identifier(a)
-> ......ParamDeclaration
-> ........Double
-> ........Identifier(b)
-> ....FuncBody
-> ......Declaration
-> ........Double
-> ........Identifier(PI)
-> ........Decimal(3.14)
-> ......Return
-> ........Sub
-> ..........Identifier(a)
-> ..........Mul
-> ............Identifier(b)
-> ............Identifier(PI)
+1,136d0
+< Type: int
+< Identifier (check_your_priorities)
+< Type: int
+< Parameter Declaration ID:a
+< Type: int
+< Parameter Declaration ID:b
+< Type: int
+< Parameter Declaration ID:c
+< Type: int
+< Parameter Declaration ID:d
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (a)
+< Identifier (b)
+< Identifier (d)
+< Unary Minus
+< Identifier (c)
+< Division
+< Natural: 3
+< Addition
+< Multiplication
+< Identifier (d)
+< Multiplication
+< Identifier (c)
+< Addition
+< Addition
+< Identifier (d)
+< Addition
+< Return Statement with Value
+< Statement
+< Empty Declarations and Statements
+< Declarations and Statements
+< Function Body
+< Function Definition
+< Function Definition
+< Type: char
+< Identifier (block)
+< Type: char
+< Parameter Declaration ID:a
+< Type: char
+< Parameter Declaration ID:b
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (a)
+< Identifier (b)
+< Less Than
+< Identifier (a)
+< Identifier (a)
+< Natural: 1
+< Subtraction
+< Store
+< Expression Statement
+< Identifier (a)
+< Return Statement with Value
+< Stat + StatList
+< Statlist
+< Identifier (b)
+< Identifier (b)
+< Natural: 1
+< Subtraction
+< Store
+< Expression Statement
+< Identifier (b)
+< Return Statement with Value
+< Stat + StatList
+< Statlist
+< If-Else Statement
+< Statement
+< Empty Declarations and Statements
+< Declarations and Statements
+< Function Body
+< Function Definition
+< Function Definition
+< Type: char
+< Identifier (not_block)
+< Type: char
+< Parameter Declaration ID:a
+< Type: char
+< Parameter Declaration ID:b
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (a)
+< FuncCallAUX
+< Identifier (b)
+< FuncCallAUXComma
+< FuncCall ID:weird_char
+< Identifier (b)
+< Less Than
+< Identifier (a)
+< Return Statement with Value
+< Identifier (b)
+< Return Statement with Value
+< If-Else Statement
+< Statement
+< Empty Declarations and Statements
+< Declarations and Statements
+< Function Body
+< Function Definition
+< Function Definition
+< Type: double
+< Identifier (check_your_decimal_places)
+< Type: double
+< Parameter Declaration ID:a
+< Type: double
+< Parameter Declaration ID:b
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Type: double
+< Identifier (PI)
+< Decimal: 3.14
+< Declaration4
+< Declaration3
+< Identifier (a)
+< Identifier (b)
+< Identifier (PI)
+< Multiplication
+< Subtraction
+< Return Statement with Value
+< Statement
+< Empty Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Function Body
+< Function Definition
+< Function Definition
+< Program 1

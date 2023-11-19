@@ -1,11 +1,34 @@
-1,3c1,3
-< Line 3, column 8: syntax error: =
-< Line 4, column 8: syntax error: =
-< Line 7, column 10: syntax error: ,
----
-> Line 1, column 10: syntax error: )
-> Line 6, column 5: syntax error: a
-> Line 7, column 19: syntax error: 6
-5,6d4
-< Line 11, column 9: syntax error: ;
-< Line 13, column 12: syntax error: ;
+1,2d0
+< Type: int
+< Identifier (main)
+4,13d1
+< Declaration1
+< Declaration2
+< Declaration2
+< Type: int
+< Identifier (res)
+< Natural: 5
+< Natural: 2
+< Subtraction
+< Declaration4
+< Declaration2
+15,20d2
+< Declaration2
+< Type: int
+< Identifier (a)
+< Identifier (b)
+< Identifier (c)
+< Natural: 5
+22,29d3
+< Declaration2
+< Type: int
+< Identifier (mul)
+< Natural: 5
+< Natural: 5
+< Multiplication
+< Declaration4
+< Declaration2
+31,33d4
+< Declaration2
+< Declaration2
+< Declaration2

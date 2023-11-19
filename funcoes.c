@@ -8,9 +8,9 @@
 
 
 no create(char* type, char* info) {
-    if( type==NULL || info==NULL )
+    if( type==NULL || info==NULL ){
         return NULL;
-
+    }
     no new_node = (no)malloc(sizeof(node));
 
     if (new_node != NULL) {
@@ -33,19 +33,21 @@ no create(char* type, char* info) {
         free(new_node);
         return NULL;
     }
-
+    
     return new_node;
 }
 
-void addChild(no parent, no child){
+no addChild(no parent, no child){
+
     if (parent == NULL || child == NULL) {
-        return; 
+        return NULL; 
     }
 
     child->parent = parent;
 
     if (parent->child == NULL) {
         parent->child = child;
+
     } else {
         no sibling = parent->child;
         while (sibling->brother != NULL) {
@@ -55,6 +57,9 @@ void addChild(no parent, no child){
     }
 
     parent->nchildren++;
+
+
+    return parent;
 }
 
 void addBrother(no existingNode, no newBrother) {
@@ -82,24 +87,25 @@ int countB(no root) {
 
 void printTree(no root, int size) {
 		if(root == NULL){
-
         	return;
     	}
-
 		int i = 0;
 		no aux;
-
 		if(strcmp(root->type, "Program") == 0)
 			printf("%s\n", root->type);
 		else {
+            if(strcmp(root->type, "X") == 0){}
+            else{
 			while(i < size) {
 				printf("..");
 				i++;
 			}
+            
 			if(strcmp(root->infor, "") != 0)
 				printf("%s(%s)\n", root->type, root->infor);
 			else
 				printf("%s\n", root->type);
+                }
 		}
 
 		aux = root->child;

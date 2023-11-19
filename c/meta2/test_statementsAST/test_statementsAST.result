@@ -1,0 +1,158 @@
+Type: int
+Identifier (main)
+Type: void
+Empty Parameter Declaration
+Empty Parameter List
+Parameter List
+Function Declarator
+Identifier (i)
+Natural: 0
+Equal
+Identifier (i)
+Natural: 123
+Identifier (i)
+Natural: 2
+Less Than
+Identifier (i)
+Natural: 1
+Bitwise AND
+Logical AND
+Logical AND
+Store
+Identifier (i)
+Natural: 1
+Bitwise OR
+Logical OR
+Identifier (i)
+Natural: 0123
+Store
+Expression Statement
+Statlist
+Identifier (a)
+Natural: 2
+Equal
+Identifier (b)
+Natural: 2
+Less Than or Equal
+Identifier (c)
+Natural: 3
+Greater Than or Equal
+Identifier (d)
+Natural: 0
+Bitwise XOR
+Logical AND
+Identifier (x)
+Natural: 1
+Bitwise OR
+Identifier (x)
+Natural: 0
+Bitwise AND
+Logical AND
+Logical OR
+Logical AND
+Logical OR
+Identifier (b)
+Identifier (b)
+Logical NOT
+Store
+Expression Statement
+Identifier (c)
+Identifier (c)
+Unary Minus
+Store
+Expression Statement
+Identifier (c)
+Identifier (c)
+Unary Minus
+Identifier (d)
+Unary Minus
+Modulo
+Store
+Expression Statement
+Stat + StatList
+Stat + StatList
+Statlist
+If Statement
+Statlist
+If-Else Statement
+Statlist
+While Loop
+Statement
+Empty Declarations and Statements
+Declarations and Statements
+Function Body
+Function Definition
+Function Definition
+Program 1
+Program
+..FuncDefinition
+....Int
+....Identifier(main)
+....ParamList
+......ParamDeclaration
+........Void
+....FuncBody
+......While
+........Eq
+..........Identifier(i)
+..........Natural(0)
+........If
+..........Or
+............Store
+..............Identifier(i)
+..............And
+................Natural(123)
+................And
+..................Lt
+....................Identifier(i)
+....................Natural(2)
+..................BitWiseAnd
+....................Identifier(i)
+....................Natural(1)
+............BitWiseOr
+..............Identifier(i)
+..............Natural(1)
+..........Store
+............Identifier(i)
+............Natural(0123)
+..........If
+............Or
+..............Eq
+................Identifier(a)
+................Natural(2)
+..............And
+................Le
+..................Identifier(b)
+..................Natural(2)
+................Or
+..................And
+....................Ge
+......................Identifier(c)
+......................Natural(3)
+....................BitWiseXor
+......................Identifier(d)
+......................Natural(0)
+..................And
+....................BitWiseOr
+......................Identifier(x)
+......................Natural(1)
+....................BitWiseAnd
+......................Identifier(x)
+......................Natural(0)
+............StatList
+..............Store
+................Identifier(b)
+................Not
+..................Identifier(b)
+..............Store
+................Identifier(c)
+................Minus
+..................Identifier(c)
+..............Store
+................Identifier(c)
+................Mod
+..................Minus
+....................Identifier(c)
+..................Minus
+....................Identifier(d)
+............Null3

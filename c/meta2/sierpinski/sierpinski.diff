@@ -1,58 +1,76 @@
-1,3c1,53
-< Line 10, column 17: syntax error: ' '
-< Line 12, column 17: syntax error: '+'
-< Line 16, column 13: syntax error: '\n'
----
-> Program
-> ..FuncDefinition
-> ....Int
-> ....Identifier(main)
-> ....ParamList
-> ......ParamDeclaration
-> ........Void
-> ....FuncBody
-> ......Declaration
-> ........Int
-> ........Identifier(i)
-> ........Natural(0)
-> ......Declaration
-> ........Int
-> ........Identifier(j)
-> ......While
-> ........Lt
-> ..........Identifier(i)
-> ..........Natural(32)
-> ........StatList
-> ..........Store
-> ............Identifier(j)
-> ............Natural(0)
-> ..........While
-> ............Lt
-> ..............Identifier(j)
-> ..............Natural(32)
-> ............StatList
-> ..............If
-> ................BitWiseAnd
-> ..................Identifier(i)
-> ..................Identifier(j)
-> ................Call
-> ..................Identifier(putchar)
-> ..................ChrLit(' ')
-> ................Call
-> ..................Identifier(putchar)
-> ..................ChrLit('+')
-> ..............Store
-> ................Identifier(j)
-> ................Add
-> ..................Identifier(j)
-> ..................Natural(1)
-> ..........Store
-> ............Identifier(i)
-> ............Add
-> ..............Identifier(i)
-> ..............Natural(1)
-> ..........Call
-> ............Identifier(putchar)
-> ............ChrLit('\n')
-> ......Return
-> ........Natural(0)
+1,75d0
+< Type: int
+< Identifier (main)
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Type: int
+< Identifier (i)
+< Natural: 0
+< Declaration4
+< Declaration3
+< Type: int
+< Identifier (j)
+< Declaration4
+< Declaration3
+< Identifier (i)
+< Natural: 32
+< Less Than
+< Identifier (j)
+< Natural: 0
+< Store
+< Expression Statement
+< Identifier (j)
+< Natural: 32
+< Less Than
+< Identifier (i)
+< Identifier (j)
+< Bitwise AND
+< Char Literal: ' '
+< FuncCallAUX
+< FuncCall ID:putchar
+< Expression Statement
+< Char Literal: '+'
+< FuncCallAUX
+< FuncCall ID:putchar
+< Expression Statement
+< If-Else Statement
+< Identifier (j)
+< Identifier (j)
+< Natural: 1
+< Addition
+< Store
+< Expression Statement
+< Stat + StatList
+< Statlist
+< While Loop
+< Identifier (i)
+< Identifier (i)
+< Natural: 1
+< Addition
+< Store
+< Expression Statement
+< Char Literal: '\n'
+< FuncCallAUX
+< FuncCall ID:putchar
+< Expression Statement
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< While Loop
+< Statement
+< Natural: 0
+< Return Statement with Value
+< Statement
+< Empty Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Function Body
+< Function Definition
+< Function Definition
+< Program 1

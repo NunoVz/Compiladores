@@ -1,5 +1,185 @@
+Type: void
+Identifier (soma)
+Type: int
+Parameter Declaration ID:a
+Type: char
+Parameter Declaration ID:b
 Line 1, column 26: syntax error: ,
-Line 21, column 10: syntax error: 5
-Line 26, column 7: syntax error: a
-Line 34, column 18: syntax error: a
-Line 38, column 29: syntax error: 'a'
+Declaration1
+Declaration2
+Declaration2
+Type: int
+Identifier (main)
+Type: void
+Empty Parameter Declaration
+Empty Parameter List
+Parameter List
+Function Declarator
+Type: char
+Identifier (a)
+Natural: 4
+Unary Minus
+Natural: 3
+Addition
+Natural: 3
+Unary Minus
+Subtraction
+Declaration4
+Declaration3
+Type: int
+Identifier (b)
+Identifier (a)
+Natural: 4
+Addition
+Identifier (a)
+Unary Minus
+Subtraction
+Declaration4
+Declaration3
+Identifier (a)
+Natural: 3
+Equal
+Identifier (b)
+Identifier (a)
+Less Than
+Logical AND
+Identifier (a)
+Natural: 3
+Less Than
+Logical OR
+Identifier (a)
+Identifier (b)
+Store
+Expression Statement
+Identifier (b)
+Natural: 3
+Store
+Expression Statement
+Natural: 1
+Identifier (a)
+Natural: 0
+Store
+Expression Statement
+Statlist
+While Loop
+Identifier (c)
+Natural: 5
+Store
+Expression Statement
+Stat + StatList
+Stat + StatList
+Stat + StatList
+Statlist
+While Loop
+Statement
+Natural: 5
+FuncCallAUX
+Natural: 4
+FuncCallAUXComma
+Line 21, column 15: syntax error: )
+Expression Statement
+Statement
+Identifier (a)
+Return Statement with Value
+Statement
+Empty Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Function Body
+Function Definition
+Function Definition
+Type: int
+Identifier (main)
+Type: void
+Empty Parameter Declaration
+Empty Parameter List
+Parameter List
+Function Declarator
+Identifier (a)
+Identifier (b)
+Addition
+FuncCallAUX
+Identifier (b)
+Identifier (c)
+Subtraction
+FuncCallAUXComma
+FuncCall ID:f
+Expression Statement
+Statement
+Identifier (t)
+Identifier (h)
+Line 27, column 9: syntax error: ,
+Expression Statement
+Statement
+Natural: 1
+Identifier (a)
+Identifier (b)
+Store
+Expression Statement
+Identifier (b)
+Natural: 3
+Store
+Expression Statement
+Natural: 1
+Identifier (a)
+Natural: 0
+Store
+Expression Statement
+Identifier (a)
+FuncCallAUX
+FuncCall ID:func
+Expression Statement
+Identifier (a)
+Identifier (b)
+Addition
+Expression Statement
+Natural: 1
+Natural: 2
+Char Literal: 'a'
+FuncCallAUX
+FuncCall ID:putchar
+Expression Statement
+If Statement
+If Statement
+Identifier (i)
+Identifier (i)
+Natural: 1
+Addition
+Store
+Expression Statement
+Stat + StatList
+Stat + StatList
+Stat + StatList
+Stat + StatList
+Statlist
+While Loop
+Identifier (c)
+Natural: 5
+Store
+Expression Statement
+Stat + StatList
+Stat + StatList
+Stat + StatList
+Statlist
+While Loop
+Statement
+Identifier (a)
+Natural: 1
+Store
+Expression Statement
+Statement
+Return Statement
+Statement
+Empty Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Function Body
+Function Definition
+Function Definition
+Program 1

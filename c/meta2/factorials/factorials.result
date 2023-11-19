@@ -1,23 +1,473 @@
-Line 19, column 41: syntax error: number
-Line 31, column 22: syntax error: number
-Line 35, column 13: syntax error: '#'
-Line 36, column 13: syntax error: '#'
-Line 37, column 13: syntax error: '\t'
-Line 38, column 13: syntax error: 'F'
-Line 39, column 13: syntax error: 'A'
-Line 40, column 13: syntax error: 'C'
-Line 41, column 13: syntax error: 'T'
-Line 42, column 13: syntax error: 'O'
-Line 43, column 13: syntax error: 'R'
-Line 44, column 13: syntax error: 'I'
-Line 45, column 13: syntax error: 'A'
-Line 46, column 13: syntax error: 'L'
-Line 47, column 13: syntax error: 'S'
-Line 48, column 13: syntax error: '#'
-Line 49, column 13: syntax error: '#'
-Line 50, column 13: syntax error: '\t'
-Line 51, column 13: syntax error: '\n'
-Line 64, column 18: syntax error: getchar
-Line 66, column 25: syntax error: i
-Line 67, column 30: syntax error: i
-Line 68, column 15: syntax error: i
+Type: int
+Identifier (factorial)
+Type: int
+Parameter Declaration ID:number
+Empty Parameter List
+Parameter List
+Function Declarator
+Type: int
+Identifier (answer)
+Natural: 1
+Declaration4
+Declaration3
+Identifier (number)
+Natural: 0
+Not Equal
+Identifier (answer)
+Identifier (answer)
+Identifier (number)
+Multiplication
+Store
+Expression Statement
+Identifier (number)
+Identifier (number)
+Natural: 1
+Subtraction
+Store
+Expression Statement
+Stat + StatList
+Statlist
+While Loop
+Statement
+Identifier (answer)
+Return Statement with Value
+Statement
+Empty Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Function Body
+Function Definition
+Function Definition
+Type: int
+Identifier (recursive_factorial)
+Type: int
+Parameter Declaration ID:number
+Empty Parameter List
+Parameter List
+Function Declarator
+Identifier (num)
+Natural: 0
+Equal
+Natural: 1
+Return Statement with Value
+Statlist
+If Statement
+Statement
+Identifier (number)
+Identifier (number)
+FuncCallAUX
+FuncCall ID:recursive_factorial
+Multiplication
+Return Statement with Value
+Statement
+Empty Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Function Body
+Function Definition
+Function Definition
+Type: int
+Identifier (tail_recursive_factorial)
+Type: int
+Parameter Declaration ID:number
+Type: int
+Parameter Declaration ID:k
+Empty Parameter List
+Parameter List
+Parameter List
+Function Declarator
+Identifier (number)
+Natural: 0
+Equal
+Natural: 1
+Return Statement with Value
+Statlist
+If Statement
+Statement
+Identifier (number)
+Natural: 1
+Subtraction
+FuncCallAUX
+Identifier (k)
+Identifier (number)
+Multiplication
+FuncCallAUXComma
+FuncCall ID:factorial
+Return Statement with Value
+Statement
+Empty Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Function Body
+Function Definition
+Function Definition
+Type: void
+Identifier (i_have_no_life_xD)
+Type: void
+Empty Parameter Declaration
+Empty Parameter List
+Parameter List
+Function Declarator
+Char Literal: '#'
+FuncCallAUX
+FuncCall ID:putchar
+Expression Statement
+Statement
+Char Literal: '#'
+FuncCallAUX
+FuncCall ID:putchar
+Expression Statement
+Statement
+Char Literal: '\t'
+FuncCallAUX
+FuncCall ID:putchar
+Expression Statement
+Statement
+Char Literal: 'F'
+FuncCallAUX
+FuncCall ID:putchar
+Expression Statement
+Statement
+Char Literal: 'A'
+FuncCallAUX
+FuncCall ID:putchar
+Expression Statement
+Statement
+Char Literal: 'C'
+FuncCallAUX
+FuncCall ID:putchar
+Expression Statement
+Statement
+Char Literal: 'T'
+FuncCallAUX
+FuncCall ID:putchar
+Expression Statement
+Statement
+Char Literal: 'O'
+FuncCallAUX
+FuncCall ID:putchar
+Expression Statement
+Statement
+Char Literal: 'R'
+FuncCallAUX
+FuncCall ID:putchar
+Expression Statement
+Statement
+Char Literal: 'I'
+FuncCallAUX
+FuncCall ID:putchar
+Expression Statement
+Statement
+Char Literal: 'A'
+FuncCallAUX
+FuncCall ID:putchar
+Expression Statement
+Statement
+Char Literal: 'L'
+FuncCallAUX
+FuncCall ID:putchar
+Expression Statement
+Statement
+Char Literal: 'S'
+FuncCallAUX
+FuncCall ID:putchar
+Expression Statement
+Statement
+Char Literal: '#'
+FuncCallAUX
+FuncCall ID:putchar
+Expression Statement
+Statement
+Char Literal: '#'
+FuncCallAUX
+FuncCall ID:putchar
+Expression Statement
+Statement
+Char Literal: '\t'
+FuncCallAUX
+FuncCall ID:putchar
+Expression Statement
+Statement
+Char Literal: '\n'
+FuncCallAUX
+FuncCall ID:putchar
+Expression Statement
+Statement
+Empty Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Function Body
+Function Definition
+Function Definition
+Type: int
+Identifier (ctoi)
+Type: char
+Parameter Declaration ID:c
+Empty Parameter List
+Parameter List
+Function Declarator
+Identifier (c)
+Char Literal: '0'
+Greater Than or Equal
+Identifier (c)
+Char Literal: '9'
+Less Than or Equal
+Logical AND
+Identifier (c)
+Char Literal: '0'
+Subtraction
+Return Statement with Value
+Statlist
+If Statement
+Statement
+Empty Declarations and Statements
+Declarations and Statements
+Function Body
+Function Definition
+Function Definition
+Type: int
+Identifier (main)
+Type: void
+Empty Parameter Declaration
+Empty Parameter List
+Parameter List
+Function Declarator
+FuncCall ID:i_have_no_life_xD
+Expression Statement
+Statement
+Type: int
+Identifier (i)
+FuncCall ID:getchar
+FuncCallAUX
+FuncCall ID:ctoi
+Declaration4
+Declaration3
+Identifier (i)
+FuncCallAUX
+FuncCall ID:recursive_factorial
+Expression Statement
+Statement
+Identifier (i)
+FuncCallAUX
+FuncCall ID:tail_recursive_factorial
+Expression Statement
+Statement
+Identifier (i)
+FuncCallAUX
+FuncCall ID:factorial
+Expression Statement
+Statement
+Natural: 0
+Return Statement with Value
+Statement
+Empty Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Function Body
+Function Definition
+Function Definition
+Program 1
+Program
+..FuncDefinition
+....Int
+....Identifier(factorial)
+....ParamList
+......ParamDeclaration
+........Int
+........Identifier(number)
+....FuncBody
+......Declaration
+........Int
+........Identifier(answer)
+........Natural(1)
+......While
+........Ne
+..........Identifier(number)
+..........Natural(0)
+........StatList
+..........Store
+............Identifier(answer)
+............Mul
+..............Identifier(answer)
+..............Identifier(number)
+..........Store
+............Identifier(number)
+............Sub
+..............Identifier(number)
+..............Natural(1)
+......Return
+........Identifier(answer)
+..FuncDefinition
+....Int
+....Identifier(recursive_factorial)
+....ParamList
+......ParamDeclaration
+........Int
+........Identifier(number)
+....FuncBody
+......If
+........Eq
+..........Identifier(num)
+..........Natural(0)
+........Return
+..........Natural(1)
+........Null3
+......Return
+........Mul
+..........Identifier(number)
+..........Call
+............Identifier(recursive_factorial)
+............Identifier(number)
+..FuncDefinition
+....Int
+....Identifier(tail_recursive_factorial)
+....ParamList
+......ParamDeclaration
+........Int
+........Identifier(number)
+......ParamDeclaration
+........Int
+........Identifier(k)
+....FuncBody
+......If
+........Eq
+..........Identifier(number)
+..........Natural(0)
+........Return
+..........Natural(1)
+........Null3
+......Return
+........Call
+..........Identifier(factorial)
+..........Sub
+............Identifier(number)
+............Natural(1)
+..........Mul
+............Identifier(k)
+............Identifier(number)
+..FuncDefinition
+....Void
+....Identifier(i_have_no_life_xD)
+....ParamList
+......ParamDeclaration
+........Void
+....FuncBody
+......Call
+........Identifier(putchar)
+........ChrLit('#')
+......Call
+........Identifier(putchar)
+........ChrLit('#')
+......Call
+........Identifier(putchar)
+........ChrLit('\t')
+......Call
+........Identifier(putchar)
+........ChrLit('F')
+......Call
+........Identifier(putchar)
+........ChrLit('A')
+......Call
+........Identifier(putchar)
+........ChrLit('C')
+......Call
+........Identifier(putchar)
+........ChrLit('T')
+......Call
+........Identifier(putchar)
+........ChrLit('O')
+......Call
+........Identifier(putchar)
+........ChrLit('R')
+......Call
+........Identifier(putchar)
+........ChrLit('I')
+......Call
+........Identifier(putchar)
+........ChrLit('A')
+......Call
+........Identifier(putchar)
+........ChrLit('L')
+......Call
+........Identifier(putchar)
+........ChrLit('S')
+......Call
+........Identifier(putchar)
+........ChrLit('#')
+......Call
+........Identifier(putchar)
+........ChrLit('#')
+......Call
+........Identifier(putchar)
+........ChrLit('\t')
+......Call
+........Identifier(putchar)
+........ChrLit('\n')
+..FuncDefinition
+....Int
+....Identifier(ctoi)
+....ParamList
+......ParamDeclaration
+........Char
+........Identifier(c)
+....FuncBody
+......If
+........And
+..........Ge
+............Identifier(c)
+............ChrLit('0')
+..........Le
+............Identifier(c)
+............ChrLit('9')
+........Return
+..........Sub
+............Identifier(c)
+............ChrLit('0')
+........Null3
+..FuncDefinition
+....Int
+....Identifier(main)
+....ParamList
+......ParamDeclaration
+........Void
+....FuncBody
+......Call
+........Identifier(i_have_no_life_xD)
+......Declaration
+........Int
+........Identifier(i)
+........Call
+..........Identifier(ctoi)
+..........Call
+............Identifier(getchar)
+......Call
+........Identifier(recursive_factorial)
+........Identifier(i)
+......Call
+........Identifier(tail_recursive_factorial)
+........Identifier(i)
+......Call
+........Identifier(factorial)
+........Identifier(i)
+......Return
+........Natural(0)

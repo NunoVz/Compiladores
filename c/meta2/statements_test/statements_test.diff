@@ -1,120 +1,259 @@
-1,8c1,162
-< Line 1, column 25: syntax error: ;
-< Line 2, column 29: syntax error: ;
-< Line 9, column 9: syntax error: ;
-< Line 11, column 13: syntax error: ;
-< Line 14, column 9: syntax error: ;
-< Line 17, column 5: syntax error: ;
-< Line 18, column 12: syntax error: 4
-< Line 29, column 9: syntax error: ;
+1,231d0
+< Type: void
+< Identifier (soma)
+< Type: int
+< Parameter Declaration ID:a
+< Type: char
+< Parameter Declaration ID:b
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Function Declarationt
+< Function Declaration
+< Type: void
+< Identifier (subt)
+< Type: int
+< Empty Parameter Declaration
+< Type: char
+< Empty Parameter Declaration
+< Type: double
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Function Declarationt
+< Function Declaration
+< Type: int
+< Identifier (a)
+< Natural: 3
+< Identifier (b)
+< Natural: 5
+< Declaration4
+< Declaration2
+< Type: int
+< Identifier (d)
+< Natural: 3
+< Identifier (c)
+< Natural: 5
+< Declaration4
+< Declaration2
+< Type: double
+< Identifier (t)
+< Natural: 3
+< Declaration4
+< Declaration2
+< Type: int
+< Identifier (chama)
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (o)
+< Identifier (e)
+< Equal
+< Natural: 1
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< While Loop
+< Identifier (a)
+< Return Statement with Value
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< If Statement
+< Statement
+< Identifier (c)
+< Return Statement with Value
+< Statement
+< Natural: 4
+< FuncCallAUX
+< FuncCall ID:chama
+< Expression Statement
+< Statement
+< Identifier (b)
+< Return Statement with Value
+< Statement
+< Empty Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Empty Declarations and Statements
+< Empty Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Function Body
+< Function Definition
+< Function Definition
+< Type: int
+< Identifier (main)
+< Type: void
+< Empty Parameter Declaration
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Type: char
+< Identifier (a)
+< Natural: 4
+< Unary Minus
+< Natural: 3
+< Addition
+< Natural: 3
+< Unary Minus
+< Subtraction
+< Declaration4
+< Declaration3
+< Type: int
+< Identifier (b)
+< Identifier (a)
+< Natural: 4
+< Addition
+< Identifier (a)
+< Unary Minus
+< Subtraction
+< Declaration4
+< Declaration3
+< Type: char
+< Identifier (a)
+< Natural: 5
+< Declaration4
+< Declaration3
+< Identifier (a)
+< Natural: 5
+< Store
+< Expression Statement
+< Statement
+< Identifier (a)
+< Natural: 5
+< Equal
+< Expression Statement
+< Statement
+< Identifier (a)
+< Natural: 5
+< Less Than
+< Expression Statement
+< Statement
+< Identifier (a)
+< Logical NOT
+< Natural: 2
+< Identifier (a)
+< Natural: 3
+< Natural: 3
+< Addition
+< Store
+< Expression Statement
+< Identifier (a)
+< Identifier (r)
+< Store
+< Expression Statement
+< If-Else Statement
+< While Loop
+< Statement
+< Identifier (a)
+< Natural: 3
+< Equal
+< Identifier (b)
+< Identifier (a)
+< Less Than
+< Logical AND
+< Identifier (a)
+< Natural: 3
+< Less Than
+< Logical OR
+< Identifier (a)
+< Identifier (b)
+< Store
+< Expression Statement
+< Identifier (b)
+< Natural: 3
+< Store
+< Expression Statement
+< Natural: 1
+< Identifier (a)
+< Natural: 0
+< Store
+< Expression Statement
+< Statlist
+< While Loop
+< Identifier (c)
+< Natural: 5
+< Store
+< Expression Statement
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< While Loop
+< Statement
+< Identifier (a)
+< Natural: 3
+< Equal
+< Identifier (e)
+< Natural: 3
+< Equal
+< Natural: 5
+< Bitwise AND
+< Logical AND
+< Identifier (b)
+< Return Statement with Value
+< If-Else Statement
+< Statement
+< Identifier (a)
+< Return Statement with Value
+< Statement
+< Empty Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Empty Declarations and Statements
+< Empty Declarations and Statements
+< Empty Declarations and Statements
+< Empty Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Function Body
+< Function Definition
+< Function Definition
+< Program 1
+285,287d53
+< ..........Null9
+< ..........Null9
+< ..........Null9
+290,293c56
+< ............StatList
+< ..............Null9
+< ..............Null9
+< ..............Null9
 ---
-> Program
-> ..FuncDeclaration
-> ....Void
-> ....Identifier(soma)
-> ....ParamList
-> ......ParamDeclaration
-> ........Int
-> ........Identifier(a)
-> ......ParamDeclaration
-> ........Char
-> ........Identifier(b)
-> ..FuncDeclaration
-> ....Void
-> ....Identifier(subt)
-> ....ParamList
-> ......ParamDeclaration
-> ........Int
-> ......ParamDeclaration
-> ........Char
-> ......ParamDeclaration
-> ........Double
-> ..Declaration
-> ....Int
-> ....Identifier(a)
-> ....Natural(3)
-> ..Declaration
-> ....Int
-> ....Identifier(b)
-> ....Natural(5)
-> ..Declaration
-> ....Int
-> ....Identifier(d)
-> ....Natural(3)
-> ..Declaration
-> ....Int
-> ....Identifier(c)
-> ....Natural(5)
-> ..Declaration
-> ....Double
-> ....Identifier(t)
-> ....Natural(3)
-> ..FuncDefinition
-> ....Int
-> ....Identifier(chama)
-> ....ParamList
-> ......ParamDeclaration
-> ........Void
-> ....FuncBody
-> ......If
-> ........Eq
-> ..........Identifier(o)
-> ..........Identifier(e)
-> ........StatList
-> ..........While
-> ............Natural(1)
 > ............Null
-> ..........Return
-> ............Identifier(a)
+296,298c59
+< ..........Null9
+< ..........Null9
+< ........Null3
+---
 > ........Null
-> ......Return
-> ........Identifier(c)
+300a62,66
 > ......Call
 > ........Identifier(chama)
 > ........Natural(4)
 > ......Return
 > ........Identifier(b)
-> ..FuncDefinition
-> ....Int
-> ....Identifier(main)
-> ....ParamList
-> ......ParamDeclaration
-> ........Void
-> ......ParamDeclaration
-> ........Void
-> ....FuncBody
-> ......Declaration
-> ........Char
-> ........Identifier(a)
-> ........Sub
-> ..........Add
-> ............Minus
-> ..............Natural(4)
-> ............Natural(3)
-> ..........Minus
-> ............Natural(3)
-> ......Declaration
-> ........Int
-> ........Identifier(b)
-> ........Sub
-> ..........Add
-> ............Identifier(a)
-> ............Natural(4)
-> ..........Minus
-> ............Identifier(a)
-> ......Declaration
-> ........Char
-> ........Identifier(a)
-> ........Natural(5)
-> ......Store
-> ........Identifier(a)
-> ........Natural(5)
-> ......Eq
-> ........Identifier(a)
-> ........Natural(5)
-> ......Lt
-> ........Identifier(a)
-> ........Natural(5)
+341a108,162
 > ......While
 > ........Not
 > ..........Identifier(a)

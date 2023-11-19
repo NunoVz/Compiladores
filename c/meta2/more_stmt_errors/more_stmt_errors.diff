@@ -1,68 +1,133 @@
-1,4c1,62
-< Line 3, column 10: syntax error: ;
-< Line 8, column 20: syntax error: ;
-< Line 11, column 16: syntax error: ;
-< Line 21, column 5: syntax error: ;
+1,105d0
+< Type: int
+< Identifier (main1)
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (a)
+< Natural: 1
+< Equal
+< Identifier (a)
+< Natural: 2
+< Store
+< Expression Statement
+< Stat + StatList
+< Statlist
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< Statlist
+< If Statement
+< Statement
+< Empty Declarations and Statements
+< Declarations and Statements
+< Function Body
+< Function Definition
+< Function Definition
+< Type: int
+< Identifier (main2)
+< Type: char
+< Empty Parameter Declaration
+< Type: int
+< Empty Parameter Declaration
+< Type: short
+< Parameter Declaration ID:a
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (b)
+< Natural: 2
+< Not Equal
+< Statlist
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< Statlist
+< Statlist
+< While Loop
+< Statement
+< Empty Declarations and Statements
+< Declarations and Statements
+< Function Body
+< Function Definition
+< Function Definition
+< Type: int
+< Identifier (main3)
+< Type: char
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Function Declarationt
+< Function Declaration
+< Type: int
+< Identifier (main4)
+< Type: char
+< Parameter Declaration ID:c
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Natural: 0
+< Return Statement with Value
+< Statement
+< Return Statement
+< Statement
+< Identifier (a)
+< Return Statement with Value
+< Statement
+< Char Literal: 'c'
+< Return Statement with Value
+< Statement
+< Empty Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Function Body
+< Function Definition
+< Function Definition
+< Type: int
+< Identifier (main5)
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Empty Declarations and Statements
+< Empty Declarations and Statements
+< Function Body
+< Function Definition
+< Function Definition
+< Program 1
+118,126c13,16
+< ........StatList
+< ..........Null9
+< ..........Null9
+< ..........StatList
+< ............Null9
+< ............Store
+< ..............Identifier(a)
+< ..............Natural(2)
+< ........Null3
 ---
-> Program
-> ..FuncDefinition
-> ....Int
-> ....Identifier(main1)
-> ....ParamList
-> ......ParamDeclaration
-> ........Void
-> ....FuncBody
-> ......If
-> ........Eq
-> ..........Identifier(a)
-> ..........Natural(1)
 > ........Store
 > ..........Identifier(a)
 > ..........Natural(2)
 > ........Null
-> ..FuncDefinition
-> ....Int
-> ....Identifier(main2)
-> ....ParamList
-> ......ParamDeclaration
-> ........Char
-> ......ParamDeclaration
-> ........Int
-> ......ParamDeclaration
-> ........Short
-> ........Identifier(a)
-> ....FuncBody
-> ......While
-> ........Ne
-> ..........Identifier(b)
-> ..........Natural(2)
+143,147c33
+< ........StatList
+< ..........Null9
+< ..........Null9
+< ..........Null9
+< ..........Null9
+---
 > ........Null
-> ..FuncDeclaration
-> ....Int
-> ....Identifier(main3)
-> ....ParamList
-> ......ParamDeclaration
-> ........Char
-> ..FuncDefinition
-> ....Int
-> ....Identifier(main4)
-> ....ParamList
-> ......ParamDeclaration
-> ........Char
-> ........Identifier(c)
-> ....FuncBody
-> ......Return
-> ........Natural(0)
-> ......Return
+165c51
+< ........Null6
+---
 > ........Null
-> ......Return
-> ........Identifier(a)
-> ......Return
-> ........ChrLit('c')
-> ..FuncDefinition
-> ....Int
-> ....Identifier(main5)
-> ....ParamList
-> ......ParamDeclaration
-> ........Void
-> ....FuncBody

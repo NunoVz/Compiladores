@@ -10,6 +10,11 @@
     bool flag=false;                //-l
     int string = 0; 
     int comment[2]; 
+    extern int errFlag;
+    extern no root;
+
+    
+
 
 
     
@@ -91,10 +96,10 @@ RESERVED    auto|break|const|continue|do|enum|extern|float|for|goto|register|lon
 {RBRACE}        { if(flag) printf("RBRACE\n"); c+=yyleng; return RBRACE;}
 {RPAR}          { if(flag) printf("RPAR\n"); c+=yyleng; return RPAR;}
 {SEMI}          { if(flag) printf("SEMI\n"); c+=yyleng; return SEMI;}
-{NATURAL}       { if(flag) printf("NATURAL(%s)\n" , yytext); c+=yyleng; return NATURAL;}
-{DECIMAL}       { if(flag) printf("DECIMAL(%s)\n", yytext); c+=yyleng; return DECIMAL;}
-{ID}            { if(flag) printf("IDENTIFIER(%s)\n", yytext); c+=yyleng; return ID;}
-{CHRLIT}        { if(flag) printf("CHRLIT(%s)\n", yytext); c += yyleng; return CHRLIT;}
+{NATURAL}       { if(flag) printf("NATURAL(%s)\n" , yytext); c+=yyleng; yylval.value=(char*)strdup(yytext); return NATURAL;}
+{DECIMAL}       { if(flag) printf("DECIMAL(%s)\n", yytext); c+=yyleng; yylval.value=(char*)strdup(yytext); return DECIMAL;}
+{ID}            { if(flag) printf("IDENTIFIER(%s)\n", yytext); c+=yyleng; yylval.value = strdup(yytext); return ID;}
+{CHRLIT}        { if(flag) printf("CHRLIT(%s)\n", yytext); c += yyleng; yylval.value=(char*)strdup(yytext); return CHRLIT;}
 
 
 
@@ -124,11 +129,11 @@ int main(int argc, char *argv[]) {
     if(argc >= 2 && strcmp(argv[1], "-l") == 0){
         flag = true;
         while(yylex());
-    }else if(argc >= 2 && strcmp(argv[1], "-t") == 0){
-       yyparse();
-       
+    }else if (argc >= 2 && strcmp(argv[1], "-t") == 0) {
+        yyparse();
+        
     }
-
+    
     return 0;
 }
 int yywrap() { 

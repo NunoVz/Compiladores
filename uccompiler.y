@@ -11,8 +11,9 @@
     extern int yylex(void);
     void yyerror(char * s);
     extern char *yytext;
-    int debug =0;
+    int debug =1;
     bool errorflag=false;
+    int errFlag= 0;
 
     bool flagTree=false;                //-t
 
@@ -21,6 +22,7 @@
 	no aux1;
 	no aux2;
     extern int l , c;
+    int count =1;
 
 
 %}
@@ -29,15 +31,14 @@
    	struct node *no;
 }
 
-    %token <value> RESERVED IF INT SHORT DOUBLE CHAR ELSE WHILE RETURN VOID BITWISEAND BITWISEOR BITWISEXOR AND ASSIGN MUL COMMA DIV EQ GE GT LBRACE LE LPAR LT MINUS MOD NE NOT OR PLUS RBRACE RPAR SEMI 
+    %token  RESERVED IF INT SHORT DOUBLE CHAR ELSE WHILE RETURN VOID BITWISEAND BITWISEOR BITWISEXOR AND ASSIGN MUL COMMA DIV EQ GE GT LBRACE LE LPAR LT MINUS MOD NE NOT OR PLUS RBRACE RPAR SEMI 
     %token <value> ID NATURAL DECIMAL CHRLIT
-    %type <no> Program FunctionsAndDeclarations FunctionDefinition FunctionBody DeclarationsAndStatements StatementOrDeclaration FunctionDeclaration FunctionDeclarator ParameterList ParameterListAux ParameterDeclaration Declaration StatementAux
-    %type <no> TypeSpec  Declarator DeclaratorAux Statement Expr
-
+    %type <no> Program FunctionsAndDeclarations FunctionDefinition FunctionBody StatementList DeclarationsAndStatements StatementOrDeclaration FunctionDeclaration FunctionDeclarator ParameterList ParameterListAux ParameterDeclaration Declaration  StatementAux FunctionCall FuncCallAux
+    %type <no> TypeSpec  Declarator DeclaratorAux Statement Expr IDToken
 
     
-    /* https://docs.oracle.com/javase%2Ftutorial%2F/java/nutsandbolts/operators.html */ 
-
+    
+    %left SEMI
     %left COMMA
     %right ASSIGN
     %left OR
@@ -50,9 +51,10 @@
     %left PLUS MINUS
     %left MUL DIV MOD
     %right NOT
-    %left RPAR
-    %right LPAR
-    %right ELSE
+    %nonassoc NO_ELSE
+    %nonassoc ELSE
+    %left MAX_PREC
+
 
 
     
@@ -60,313 +62,545 @@
 
 Program: FunctionsAndDeclarations {
     if (debug)
-        printf("Program\n");
+        printf("Program %d\n", count);
+    $$ = create("Program", "Program");
+    addChild($$, $1);
+    if (!errFlag) {
+            printTree($$, 0);
+        }
 
-    if ($1) {
-        root = create("Program", "");
-        addChild(root, $1);
-        $$ = root;
-    } else {
-        $$ = NULL;
+};
+
+FunctionsAndDeclarations: FunctionDefinition {
+    if (debug)
+        printf("Function Definition\n");
+    $$ = $1;
+}
+| FunctionDeclaration {
+    if (debug)
+        printf("Function Declaration\n");
+    $$ = $1;
+}
+| Declaration {
+    if (debug)
+        printf("Declaration1\n");
+    $$ = $1;
+
+}
+| FunctionsAndDeclarations FunctionDefinition {
+    if (debug)
+        printf("Function Definition\n");
+    addBrother($$, $2);
+}
+| FunctionsAndDeclarations FunctionDeclaration {
+    if (debug)
+        printf("Function Declaration\n");
+    addBrother($$, $2);
+}
+| FunctionsAndDeclarations Declaration {
+    if (debug)
+        printf("Declaration2\n");
+    addBrother($$, $2);
+};
+
+FunctionDefinition: TypeSpec FunctionDeclarator FunctionBody {
+    if (debug)
+        printf("Function Definition\n");
+    $$ = create("FuncDefinition", "");
+    addChild($$, $1); // TypeSpec
+    addChild($$, $2); // FunctionDeclarator
+    addChild($$, $3); // FunctionBody
+};
+
+FunctionBody: LBRACE DeclarationsAndStatements RBRACE {
+    if (debug)
+        printf("Function Body\n");
+     $$ = create("FuncBody", "");
+    if ($2) {
+        addChild($$, $2); // DeclarationsAndStatements
     }
 };
 
-FunctionsAndDeclarations: FunctionDefinition FunctionsAndDeclarations {
-                          $$ = $1;
-                      }
-                      | FunctionDeclaration FunctionsAndDeclarations {
-                            if (debug)
-                                printf("Function Declaration\n");
-                            $$ = create("FuncDeclaration", "");
-                            addChild($$, $1);
-                            addBrother($$, $2);
-                        }
-                      | Declaration FunctionsAndDeclarations {
-                            if (debug)
-                                printf("Declaration\n");
-                            $$ = create("Declaration", "");
-                            addChild($$, $1);
-                            addBrother($$, $2);
-                        }
-                      | {
-                            if (debug)
-                                printf("Empty\n");
-                            $$ = NULL;
-                        };
-
-FunctionDefinition: TypeSpec FunctionDeclarator FunctionBody {
-                      if (debug)
-                          printf("Function Definition\n");
-                      $$ = create("FuncDefinition", "");
-                      addChild($$, $1);
-                      addChild($$, $2);
-                      addChild($$, $3);
-                  };
-
-FunctionBody: LBRACE DeclarationsAndStatements RBRACE {
-                 if (debug)
-                     printf("Function Body\n");
-                 $$ = create("FuncBody", "");
-                 addChild($$, $2);
-             };
-
 DeclarationsAndStatements: StatementOrDeclaration DeclarationsAndStatements {
-                            if (debug)
-                                printf("Declarations and Statements\n");
-                        }
-                        | {
-                            if (debug)
-                                printf("Empty\n");
-                        };
+    if (debug)
+        printf("Declarations and Statements\n");
+
+    $$ = $1;
+    addBrother($$, $2);
+    
+}
+| SEMI DeclarationsAndStatements{
+    if (debug)
+        printf("Empty Declarations and Statements\n");
+    $$ = NULL;
+    errorflag = 1;
+}
+| /* empty */ {
+    if (debug)
+        printf("Empty Declarations and Statements\n");
+    $$ = NULL;
+};
 
 StatementOrDeclaration: Statement {
-                           if (debug)
-                               printf("Statement\n");
-                       }
-                     | Declaration {
-                           if (debug)
-                               printf("Declaration\n");
-                       };
+    if (debug)
+        printf("Statement\n");
+    $$ = $1;
+}
+| Declaration  {
+    if (debug)
+        printf("Declaration3\n");
+     $$ = $1;
+};
 
 FunctionDeclaration: TypeSpec FunctionDeclarator RBRACE {
-                       if (debug)
-                           printf("Function Declaration\n");
-                   };
+    if (debug)
+        printf("Function Declaration\n");
+    $$ = create("FuncDeclaration", "");
+    addChild($$, $1); // TypeSpec
+    addChild($$, $2); // FunctionDeclarator
+}
+| TypeSpec FunctionDeclarator SEMI {
+    if (debug)
+        printf("Function Declarationt\n");
+    $$ = create("FuncDeclaration", "");
+    addChild($$, $1); // TypeSpec
+    addChild($$, $2); // FunctionDeclarator
+};
 
+FunctionDeclarator: IDToken LPAR ParameterList RPAR {
+    if (debug)
+        printf("Function Declarator\n");
+    addBrother($$, $3);
+};
 
-FunctionDeclarator: ID LPAR ParameterList RPAR {
-                      if (debug)
-                          printf("Function Declarator\n");
-                  };
+ParameterList: ParameterListAux  {
+    if (debug)
+        printf("Parameter List\n");
+    $$ = create("ParamList", "");
+    addChild($$, $1);
+};
 
-ParameterList: ParameterDeclaration ParameterListAux {
-                   if (debug)
-                       printf("Parameter List\n");
-               }
-               | {
-                     if (debug)
-                         printf("Empty\n");
-                 };
+ParameterListAux: ParameterDeclaration COMMA ParameterListAux  {
+    if (debug)
+        printf("Parameter List\n");
+    
+    $$ = create("X", "");
+    addBrother($$, $1);
+    addBrother($$, $3);
 
-ParameterListAux: COMMA ParameterDeclaration ParameterListAux {
-                   if (debug)
-                       printf("Parameter List\n");
-               }
-               | {
-                     if (debug)
-                         printf("Empty\n");
-                 };
-
+}
+| ParameterDeclaration {
+    if (debug)
+        printf("Empty Parameter List\n");
+    $$ = $1;
+};
 
 ParameterDeclaration: TypeSpec ID {
-                        if (debug)
-                            printf("Parameter Declaration\n");
-                    }
-                  | TypeSpec {
-                        if (debug)
-                            printf("Empty Parameter Declaration\n");
-                    };
+    if (debug)
+        printf("Parameter Declaration ID:%s\n",$2);
+    $$ = create("ParamDeclaration", "");
+    addChild($$, $1); // TypeSpec
+    addChild($$, create("Identifier", $2));
+}
+| TypeSpec {
+    if (debug)
+        printf("Empty Parameter Declaration\n");
+    $$ = create("ParamDeclaration", "");
+    addChild($$, $1); // TypeSpec
+};
 
-Declaration: TypeSpec Declarator SEMI {
-                 if (debug)
-                     printf("Declaration\n");
-             }
-           | error SEMI {
-                 $$ = NULL;
-                 errorflag = 1;
-             };
+Declaration: TypeSpec DeclaratorAux  SEMI {
+    if (debug)
+        printf("Declaration4\n");
+    if($2) {
+             aux = $2;
+            while(aux) {
+                aux1 = create($1->type,"");
+                aux2 = aux->child;
+                aux->child = aux1;
+                aux1->brother = aux2;
+                aux = aux->brother;
+            }
+        }
+        $$ = $2;
+}
+| error SEMI {
+    $$ = NULL;
+    errorflag = 1;
+};
+
+DeclaratorAux: DeclaratorAux COMMA Declarator{
+    if($1) {
+        aux = $1;
+        while(aux->brother) aux = aux->brother;
+        if($3) aux->brother = addChild(create("Declaration",""), $3);
+        $$ = $1;
+    }
+    else if($3) {$$ = $3;}
+    else {$$ = NULL;}
+}
+|Declarator
+{
+    if($1) {
+            aux = create("Declaration","");
+            $$ = addChild(aux, $1);
+        }
+        else {$$ = NULL;}
+
+};
+
+
 
 TypeSpec: CHAR {
-               if (debug)
-                   printf("Type: char\n");
-           }
-         | INT {
-               if (debug)
-                   printf("Type: int\n");
-           }
-         | VOID {
-               if (debug)
-                   printf("Type: void\n");
-           }
-         | SHORT {
-               if (debug)
-                   printf("Type: short\n");
-           }
-         | DOUBLE {
-               if (debug)
-                   printf("Type: double\n");
-           };
+    if (debug)
+        printf("Type: char\n");
+    $$ = create("Char", "");
+}
+| INT {
+    if (debug)
+        printf("Type: int\n");
+    $$ = create("Int", "");
+}
+| VOID {
+    if (debug)
+        printf("Type: void\n");
+    $$ = create("Void", "");
+}
+| SHORT {
+    if (debug)
+        printf("Type: short\n");
+    $$ = create("Short", "");
+}
+| DOUBLE {
+    if (debug)
+        printf("Type: double\n");
+    $$ = create("Double", "");
+};
 
-Declarator: ID DeclaratorAux {
-                if (debug)
-                    printf("Declarator\n");
-            };
+Declarator:  IDToken             {$$ = $1;}
+          |  IDToken ASSIGN Expr {$1->brother = $3; $$ = $1;}
+          ;
+Statement: LBRACE StatementList  RBRACE {
+    $$ = $2;
 
-DeclaratorAux: ASSIGN Expr {
-                if (debug)
-                    printf("Declarator\n");
-            }
-            | {
-                if (debug)
-                    printf("Empty Declarator\n");
-            };
+    if (debug && $2)
+        printf("Statlist\n");
+    else if (debug)
+        printf("Compound Stat\n");
+
+    if ($2 && $2->brother) {
+        $$ = create("StatList", "");
+        $$ = addChild($$, $2);
+    } else if ($2) {
+        $$ = $2;
+    } else {
+        $$ = create("Null1", ""); // Handle the case of an empty statement
+    }
+}
+| IF LPAR Expr RPAR StatementAux %prec NO_ELSE {
+    if (debug)
+        printf("If Statement\n");
+     $$ = create("If", "");
+    addChild($$, $3); // Expr
+    if ($5 != NULL) addChild($$, $5); 
+    else addChild($$, create("Null2",""));
+    addChild($$,  create("Null3","")); // StatementAux
+}
+| IF LPAR Expr RPAR StatementAux ELSE StatementAux {
+    if (debug)
+        printf("If-Else Statement\n");
+    $$ = create("If", "");
+    addChild($$, $3); // Expr
+    if ($5 != NULL) addChild($$, $5); 
+    else addChild($$, create("Null4",""));
+
+    if ($7 != NULL) addChild($$, $7); 
+    else addChild($$, create("Null5",""));
+}
+| WHILE LPAR Expr RPAR StatementAux {
+    if (debug)
+        printf("While Loop\n");
+    $$ = create("While", "");
+    addChild($$, $3); // Expr
+    addChild($$, $5); // StatementAux
+}
+| RETURN SEMI {
+    if (debug)
+        printf("Return Statement\n");
+     $$ = create("Return", "");
+    addChild($$, create("Null6",""));
+}
+| RETURN Expr SEMI {
+    if (debug)
+        printf("Return Statement with Value\n");
+    $$ = create("Return", "");
+    addChild($$, $2); // Expr
+}
+| Expr SEMI {
+    if (debug)
+        printf("Expression Statement\n");
+     $$ = $1;
+}
+| LBRACE error RBRACE {
+    $$ = create("Null7", "");
 
 
-Statement: LBRACE DeclarationsAndStatements RBRACE {
-               if (debug)
-                   printf("Compound Statement\n");
-           }
-         | IF LPAR Expr RPAR StatementAux {
-               if (debug)
-                   printf("If Statement\n");
-           }
-         | IF LPAR Expr RPAR StatementAux ELSE StatementAux {
-               if (debug)
-                   printf("If-Else Statement\n");
-           }
-         | WHILE LPAR Expr RPAR StatementAux {
-               if (debug)
-                   printf("While Loop\n");
-           }
-         | RETURN SEMI {
-               if (debug)
-                   printf("Return Statement\n");
-           }
-         | RETURN Expr SEMI {
-               if (debug)
-                   printf("Return Statement with Value\n");
-           }
-         | Expr SEMI {
-               if (debug)
-                   printf("Expression Statement\n");
-           };
+};
+
+StatementList: 
+   StatementAux StatementList  {
+    if (debug)
+        printf("Stat + StatList\n");
+                                                if ($1) {
+                                                    $$ = $1;
+                                                    if ($2) {
+                                                        aux = $$;
+                                                        while (aux->brother) aux = aux->brother;
+                                                        aux->brother = $2;
+                                                    }
+                                                } else {
+                                                    $$ = $2;
+                                                }
+                                             }
+             | StatementAux                {$$ = $1;}
+            ;
 
 StatementAux: Statement {
-                 $$ = $1;
-             }
-             | SEMI {
-                 $$ = NULL;
-                 errorflag = 1;
-             };
+    $$ = $1;
+}
+| error SEMI {
+    $$ = NULL;
+    errorflag = 1;
+}
+| SEMI {
+ 
+    $$ = create("Null9", "");
+
+}
+| LBRACE  RBRACE {
+    $$ = create("Null9", "");
+}
+;
+
+FunctionCall: ID LPAR RPAR {
+    if (debug)
+        printf("FuncCall ID:%s\n",$1);
+    $$ = create("Call", "");
+    addChild($$, create("Identifier", $1));
+}
+| ID LPAR FuncCallAux RPAR {
+    if (debug)
+        printf("FuncCall ID:%s\n",$1);
+    $$ = create("Call", "");
+    addChild($$, create("Identifier",$1));
+    addChild($$, $3); // FuncCallAux
+}
+| ID LPAR error RPAR {
+    $$ = NULL;
+    errorflag = 1;
+};
+
+
+FuncCallAux: Expr {
+    if (debug)
+        printf("FuncCallAUX\n");
+    $$ = $1;
+}
+| FuncCallAux COMMA Expr {
+    if (debug)
+        printf("FuncCallAUXComma\n");
+    
+    addBrother($1, $3); 
+};
+
 
 Expr: Expr ASSIGN Expr {
-         if (debug)
-             printf("Assign\n");
-     }
-     | Expr COMMA Expr {
-         if (debug)
-             printf("Comma\n");
-     }
-     | Expr PLUS Expr {
-         if (debug)
-             printf("Addition\n");
-     }
-     | Expr MINUS Expr {
-         if (debug)
-             printf("Subtraction\n");
-     }
-     | Expr MUL Expr {
-         if (debug)
-             printf("Multiplication\n");
-     }
-     | Expr DIV Expr {
-         if (debug)
-             printf("Division\n");
-     }
-     | Expr MOD Expr {
-         if (debug)
-             printf("Modulo\n");
-     }
-     | Expr OR Expr {
-         if (debug)
-             printf("Logical OR\n");
-     }
-     | Expr AND Expr {
-         if (debug)
-             printf("Logical AND\n");
-     }
-     | Expr BITWISEAND Expr {
-         if (debug)
-             printf("Bitwise AND\n");
-     }
-     | Expr BITWISEOR Expr {
-         if (debug)
-             printf("Bitwise OR\n");
-     }
-     | Expr BITWISEXOR Expr {
-         if (debug)
-             printf("Bitwise XOR\n");
-     }
-     | Expr EQ Expr {
-         if (debug)
-             printf("Equal\n");
-     }
-     | Expr NE Expr {
-         if (debug)
-             printf("Not Equal\n");
-     }
-     | Expr LE Expr {
-         if (debug)
-             printf("Less Than or Equal\n");
-     }
-     | Expr GE Expr {
-         if (debug)
-             printf("Greater Than or Equal\n");
-     }
-     | Expr LT Expr {
-         if (debug)
-             printf("Less Than\n");
-     }
-     | Expr GT Expr {
-         if (debug)
-             printf("Greater Than\n");
-     }
-     | PLUS Expr {
-         if (debug)
-             printf("Unary Plus\n");
-     }
-     | MINUS Expr {
-         if (debug)
-             printf("Unary Minus\n");
-     }
-     | NOT Expr {
-         if (debug)
-             printf("Logical NOT\n");
-     }
-     | ID LPAR RPAR {
-         if (debug)
-             printf("Function Call with Empty Parameters\n");
-     }
-     | ID {
-         if (debug)
-             printf("Identifier\n");
-     }
-     | NATURAL {
-         if (debug)
-             printf("Natural: \n");
-     }
-     | CHRLIT {
-         if (debug)
-             printf("Char Literal: \n");
-     }
-     | DECIMAL {
-         if (debug)
-             printf("Decimal: \n");
-     }
-     | LPAR Expr RPAR {
-         $$ = $2;
-     }
-     | ID LPAR error RPAR {
-        $$ = NULL;
-         errorflag = true;
-     }
-     | LPAR error RPAR {
-         $$ = NULL;
-         errorflag = true;
-     };
+    if (debug)
+        printf("Store\n");
+     $$ = create("Store", "");
+    addChild($$, $1); // Left-hand side expression
+    addChild($$, $3);
+}
+| Expr PLUS Expr  {
+    if (debug)
+        printf("Addition\n");
+    $$ = create("Add", "");
+    addChild($$, $1); // Left operand
+    addChild($$, $3); // Right operand
+}
+| Expr MINUS Expr {
+    if (debug)
+        printf("Subtraction\n");
+    $$ = create("Sub", "");
+    addChild($$, $1); // Left operand
+    addChild($$, $3); // Right operand
+}
+| Expr MUL Expr {
+    if (debug)
+        printf("Multiplication\n");
+    $$ = create("Mul", "");
+    addChild($$, $1); // Left operand
+    addChild($$, $3); // Right operand
+}
+| Expr DIV Expr {
+    if (debug)
+        printf("Division\n");
+    $$ = create("Div", "");
+    addChild($$, $1); // Left operand
+    addChild($$, $3); // Right operand
+}
+| Expr MOD Expr {
+    if (debug)
+        printf("Modulo\n");
+    $$ = create("Mod", "");
+    addChild($$, $1); // Left operand
+    addChild($$, $3); // Right operand
+}
+| Expr OR Expr {
+    if (debug)
+        printf("Logical OR\n");
+    $$ = create("Or", "");
+    addChild($$, $1); // Left operand
+    addChild($$, $3); // Right operand
+}
+| Expr AND Expr {
+    if (debug)
+        printf("Logical AND\n");
+    $$ = create("And", "");
+    addChild($$, $1); // Left operand
+    addChild($$, $3); // Right operand
+}
+| Expr BITWISEAND Expr {
+    if (debug)
+        printf("Bitwise AND\n");
+    $$ = create("BitWiseAnd", "");
+    addChild($$, $1); // Left operand
+    addChild($$, $3); // Right operand
+}
+| Expr BITWISEOR Expr {
+    if (debug)
+        printf("Bitwise OR\n");
+    $$ = create("BitWiseOr", "");
+    addChild($$, $1); // Left operand
+    addChild($$, $3); // Right operand
+}
+| Expr BITWISEXOR Expr {
+    if (debug)
+        printf("Bitwise XOR\n");
+    $$ = create("BitWiseXor", "");
+    addChild($$, $1); // Left operand
+    addChild($$, $3); // Right operand
+}
+| Expr EQ Expr {
+    if (debug)
+        printf("Equal\n");
+    $$ = create("Eq", "");
+    addChild($$, $1); // Left operand
+    addChild($$, $3); // Right operand
+}
+| Expr NE Expr {
+    if (debug)
+        printf("Not Equal\n");
+    $$ = create("Ne", "");
+    addChild($$, $1); // Left operand
+    addChild($$, $3); // Right operand
+}
+| Expr LE Expr {
+    if (debug)
+        printf("Less Than or Equal\n");
+    $$ = create("Le", "");
+    addChild($$, $1); // Left operand
+    addChild($$, $3); // Right operand
+}
+| Expr GE Expr {
+    if (debug)
+        printf("Greater Than or Equal\n");
+    $$ = create("Ge", "");
+    addChild($$, $1); // Left operand
+    addChild($$, $3); // Right operand
+}
+| Expr LT Expr {
+    if (debug)
+        printf("Less Than\n");
+    $$ = create("Lt", "");
+    addChild($$, $1); // Left operand
+    addChild($$, $3); // Right operand
+}
+| Expr GT Expr {
+    if (debug)
+        printf("Greater Than\n");
+    $$ = create("Gt", "");
+    addChild($$, $1); // Left operand
+    addChild($$, $3); // Right operand
+}
+| LPAR Expr COMMA Expr RPAR {
+        if (debug)
+            printf("Comma\n");
+    $$ = create("Comma", "");
+    addChild($$, $2); // Left operand
+    addChild($$, $4); // Right operand
+    }
+    
+| PLUS Expr %prec MAX_PREC {
+    if (debug)
+        printf("Unary Plus\n");
+    $$ = create("Plus", "");
+    addChild($$, $2); // Operand
+}
+| MINUS Expr %prec MAX_PREC {
+    if (debug)
+        printf("Unary Minus\n");
+    $$ = create("Minus", "");
+    addChild($$, $2); // Operand
+}
+| NOT Expr %prec MAX_PREC {
+    if (debug)
+        printf("Logical NOT\n");
+    $$ = create("Not", "");
+    addChild($$, $2); // Operand
+}
+
+| FunctionCall {
+    $$ = $1;
+}
+
+| ID {
+    if (debug)
+        printf("Identifier (%s)\n", $1);
+    $$ = create("Identifier", $1);
+}
+| NATURAL {
+    if (debug)
+        printf("Natural: %s\n", $1);
+    $$ = create("Natural", $1);
+}
+| CHRLIT {
+    if (debug)
+        printf("Char Literal: %s\n", $1);
+    $$ = create("ChrLit", $1);
+}
+| DECIMAL {
+    if (debug)
+        printf("Decimal: %s\n", $1);
+    $$ = create("Decimal", $1);
+}
+
+| LPAR Expr RPAR {
+    $$ = $2; // Parenthesized expression
+}
+| LPAR error RPAR {
+    $$ = NULL;
+    errorflag = 1;
+};
+
+IDToken: ID {
+    if(debug)
+        printf("Identifier (%s)\n", $1); 
+    $$ = create("Identifier", $1); }
 
 %%
 
 void yyerror (char *error) {
-    printf("Line %d, column %d: %s: %s\n", l, c-1 - (int)strlen(yytext) + 1, error, yytext);
+    printf("Line %d, column %d: %s: %s\n", l, c - (int)strlen(yytext) , error, yytext);
+    errFlag=1;
 }

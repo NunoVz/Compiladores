@@ -1,11 +1,173 @@
-Line 10, column 29: syntax error: ;
-Line 13, column 7: syntax error: ,
-Line 18, column 19: syntax error: (
-Line 26, column 2: unrecognized character ($)
-Line 30, column 3: unrecognized character (:)
-Line 30, column 14: syntax error: 'l'
-Line 35, column 2: unrecognized character (@)
-Line 36, column 4: syntax error: (
-Line 36, column 35: syntax error: )
-Line 39, column 16: syntax error: f
-Line 39, column 32: syntax error: )
+Type: void
+Identifier (f)
+Type: int
+Parameter Declaration ID:x
+Type: int
+Parameter Declaration ID:y
+Type: int
+Parameter Declaration ID:z
+Empty Parameter List
+Parameter List
+Parameter List
+Parameter List
+Function Declarator
+Line 5, column 2: syntax error: }
+Statement
+Return Statement
+Statement
+Empty Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Function Body
+Function Definition
+Function Definition
+Type: void
+Identifier (f)
+Type: int
+Parameter Declaration ID:x
+Type: int
+Parameter Declaration ID:y
+Type: int
+Parameter Declaration ID:z
+Empty Parameter List
+Parameter List
+Parameter List
+Parameter List
+Function Declarator
+Function Declarationt
+Function Declaration
+Type: int
+Identifier (main)
+Type: void
+Empty Parameter Declaration
+Empty Parameter List
+Parameter List
+Function Declarator
+Type: int
+Identifier (a)
+Identifier (x)
+Natural: 3
+Identifier (y)
+Natural: 2
+Identifier (z)
+Natural: 4
+Declaration4
+Declaration3
+Identifier (x)
+Natural: 100
+Equal
+Identifier (y)
+Identifier (x)
+Equal
+Identifier (x)
+Identifier (y)
+Identifier (z)
+Comma
+Comma
+FuncCallAUX
+FuncCall ID:f
+Expression Statement
+Statlist
+If Statement
+Statlist
+Line 25, column 2: unrecognized character ($)
+If Statement
+Statement
+Identifier (a)
+Natural: 2
+Store
+Identifier (a)
+Identifier (z)
+Equal
+Line 29, column 3: unrecognized character (:)
+Char Literal: 'l'
+FuncCallAUX
+FuncCall ID:putchar
+Expression Statement
+Statlist
+Statlist
+If-Else Statement
+Statlist
+While Loop
+Statement
+Line 34, column 2: unrecognized character (@)
+Identifier (x)
+Identifier (y)
+Addition
+Identifier (z)
+Natural: 2
+Addition
+Comma
+FuncCallAUX
+Identifier (a)
+Logical NOT
+Natural: 2
+Addition
+Logical NOT
+Natural: 2
+Division
+FuncCallAUXComma
+FuncCall ID:f
+Expression Statement
+Statement
+Identifier (a)
+Identifier (a)
+Natural: 1
+Addition
+Store
+Expression Statement
+Statement
+Natural: 1
+FuncCallAUX
+Natural: 2
+FuncCallAUXComma
+Natural: 3
+FuncCallAUX
+Natural: 4
+FuncCallAUXComma
+Natural: 5
+FuncCallAUXComma
+FuncCall ID:g
+FuncCallAUXComma
+Natural: 6
+FuncCallAUXComma
+FuncCall ID:f
+FuncCallAUX
+FuncCall ID:nesting_depth
+Expression Statement
+Statement
+Identifier (x)
+Identifier (y)
+Bitwise OR
+Identifier (c1)
+Bitwise AND
+Identifier (y)
+Identifier (c2)
+Bitwise AND
+Bitwise OR
+Identifier (x)
+Identifier (x)
+Natural: 2
+Equal
+Store
+Expression Statement
+Identifier (a)
+Identifier (x)
+Identifier (y)
+Bitwise AND
+Store
+Expression Statement
+If-Else Statement
+Statement
+Empty Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Declarations and Statements
+Function Body
+Function Definition
+Function Definition
+Program 1

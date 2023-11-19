@@ -1,86 +1,162 @@
-1,4c1,80
-< Line 2, column 8: syntax error: 1
-< Line 4, column 8: syntax error: (
-< Line 4, column 16: syntax error: )
-< Line 37, column 3: syntax error: ;
+1,133d0
+< Type: int
+< Identifier (main)
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Natural: 1
+< FuncCallAUX
+< Natural: 2
+< FuncCallAUXComma
+< Natural: 3
+< FuncCallAUXComma
+< FuncCall ID:func1
+< Expression Statement
+< Statement
+< Natural: 1
+< Natural: 2
+< Comma
+< FuncCallAUX
+< Natural: 3
+< FuncCallAUXComma
+< FuncCall ID:func2
+< Expression Statement
+< Statement
+< Identifier (a)
+< Identifier (statement1)
+< Natural: 1
+< Store
+< Expression Statement
+< Statlist
+< Identifier (statement2)
+< Natural: 2
+< Store
+< Expression Statement
+< Statlist
+< If-Else Statement
+< Statement
+< Identifier (a)
+< Identifier (statement1)
+< Natural: 1
+< Store
+< Expression Statement
+< Statlist
+< If Statement
+< Statement
+< Identifier (a)
+< Identifier (statement2)
+< Natural: 2
+< Store
+< Expression Statement
+< Statlist
+< If-Else Statement
+< Statement
+< Identifier (a)
+< If-Else Statement
+< Statement
+< Identifier (a)
+< Identifier (statement2)
+< Natural: 2
+< Store
+< Expression Statement
+< Statlist
+< While Loop
+< Statement
+< Identifier (a)
+< While Loop
+< Statement
+< Identifier (a)
+< While Loop
+< Statement
+< Identifier (a)
+< Identifier (statement1)
+< Natural: 1
+< Store
+< Expression Statement
+< Identifier (statement2)
+< Natural: 2
+< Store
+< Expression Statement
+< Identifier (statement3)
+< Natural: 3
+< Store
+< Expression Statement
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< While Loop
+< Statement
+< Statlist
+< Statement
+< Identifier (statement1)
+< Natural: 1
+< Store
+< Expression Statement
+< Statlist
+< Statement
+< Identifier (statement1)
+< Natural: 1
+< Store
+< Expression Statement
+< Identifier (statement2)
+< Natural: 2
+< Store
+< Expression Statement
+< Stat + StatList
+< Statlist
+< Statement
+< Natural: 0
+< Return Statement with Value
+< Statement
+< Return Statement
+< Statement
+< Empty Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Function Body
+< Function Definition
+< Function Definition
+< Program 1
+166c33
+< ........Null3
 ---
-> Program
-> ..FuncDefinition
-> ....Int
-> ....Identifier(main)
-> ....ParamList
-> ......ParamDeclaration
-> ........Void
-> ....FuncBody
-> ......Call
-> ........Identifier(func1)
-> ........Natural(1)
-> ........Natural(2)
-> ........Natural(3)
-> ......Call
-> ........Identifier(func2)
-> ........Comma
-> ..........Natural(1)
-> ..........Natural(2)
-> ........Natural(3)
-> ......If
-> ........Identifier(a)
-> ........Store
-> ..........Identifier(statement1)
-> ..........Natural(1)
-> ........Store
-> ..........Identifier(statement2)
-> ..........Natural(2)
-> ......If
-> ........Identifier(a)
-> ........Store
-> ..........Identifier(statement1)
-> ..........Natural(1)
 > ........Null
-> ......If
-> ........Identifier(a)
+169c36
+< ........Null9
+---
 > ........Null
-> ........Store
-> ..........Identifier(statement2)
-> ..........Natural(2)
-> ......If
-> ........Identifier(a)
+175,176c42,43
+< ........Null9
+< ........Null9
+---
 > ........Null
 > ........Null
-> ......While
-> ........Identifier(a)
-> ........Store
-> ..........Identifier(statement2)
-> ..........Natural(2)
-> ......While
-> ........Identifier(a)
+184c51
+< ........Null9
+---
 > ........Null
-> ......While
-> ........Identifier(a)
+187c54
+< ........Null9
+---
 > ........Null
-> ......While
-> ........Identifier(a)
-> ........StatList
-> ..........Store
-> ............Identifier(statement1)
-> ............Natural(1)
-> ..........Store
-> ............Identifier(statement2)
-> ............Natural(2)
-> ..........Store
-> ............Identifier(statement3)
-> ............Natural(3)
-> ......Store
-> ........Identifier(statement1)
-> ........Natural(1)
-> ......StatList
-> ........Store
-> ..........Identifier(statement1)
-> ..........Natural(1)
-> ........Store
-> ..........Identifier(statement2)
-> ..........Natural(2)
-> ......Return
-> ........Natural(0)
-> ......Return
+200d66
+< ......Null9
+214c80
+< ........Null6
+---
 > ........Null

@@ -1,2 +1,23 @@
+Type: int
+Identifier (main)
+Type: void
+Empty Parameter Declaration
+Empty Parameter List
+Parameter List
+Function Declarator
+Identifier (a)
 Line 4, column 3: syntax error: ==
+Stat + StatList
+Compound Stat
+Stat + StatList
+Stat + StatList
+Statlist
 Line 9, column 8: syntax error: &
+If-Else Statement
+Statement
+Empty Declarations and Statements
+Declarations and Statements
+Function Body
+Function Definition
+Function Definition
+Program 1

@@ -1,43 +1,54 @@
-0a1,42
-> Program
-> ..FuncDefinition
-> ....Int
-> ....Identifier(main)
-> ....ParamList
-> ......ParamDeclaration
-> ........Void
-> ....FuncBody
-> ......Declaration
-> ........Double
-> ........Identifier(x)
-> ........Decimal(1.5)
-> ......Declaration
-> ........Int
-> ........Identifier(a)
-> ........Natural(1)
-> ......Declaration
-> ........Int
-> ........Identifier(b)
-> ........Natural(2)
-> ......Declaration
-> ........Int
-> ........Identifier(c)
-> ........Natural(3)
-> ......Declaration
-> ........Short
-> ........Identifier(d)
-> ........Natural(4)
-> ......Declaration
-> ........Char
-> ........Identifier(c)
-> ........ChrLit('a')
-> ......Store
-> ........Identifier(a)
-> ........Add
-> ..........Mul
-> ............Minus
-> ..............Natural(1)
-> ............Natural(3)
-> ..........Div
-> ............Natural(2)
-> ............Natural(4)
+1,53d0
+< Type: int
+< Identifier (main)
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Type: double
+< Identifier (x)
+< Decimal: 1.5
+< Declaration4
+< Declaration3
+< Type: int
+< Identifier (a)
+< Natural: 1
+< Identifier (b)
+< Natural: 2
+< Identifier (c)
+< Natural: 3
+< Declaration4
+< Declaration3
+< Type: short
+< Identifier (d)
+< Natural: 4
+< Declaration4
+< Declaration3
+< Type: char
+< Identifier (c)
+< Char Literal: 'a'
+< Declaration4
+< Declaration3
+< Identifier (a)
+< Natural: 1
+< Unary Minus
+< Natural: 3
+< Multiplication
+< Natural: 2
+< Natural: 4
+< Division
+< Addition
+< Store
+< Expression Statement
+< Statement
+< Empty Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Declarations and Statements
+< Function Body
+< Function Definition
+< Function Definition
+< Program 1

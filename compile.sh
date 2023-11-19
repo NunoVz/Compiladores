@@ -1,5 +1,5 @@
 echo 'yacc'
-yacc -d -v -Wyacc uccompiler.y
+yacc -d -v -Wyacc -Wcounterexamples uccompiler.y
 echo 'lex'
 lex uccompiler.l
 echo 'cc'

@@ -1,63 +1,69 @@
-0a1,62
-> Program
-> ..Declaration
-> ....Int
-> ....Identifier(a)
-> ....Add
-> ......Natural(1)
-> ......Natural(2)
-> ..Declaration
-> ....Int
-> ....Identifier(b)
-> ....Add
-> ......Add
-> ........Natural(1)
-> ........Natural(1)
-> ......Add
-> ........Natural(1)
-> ........Natural(2)
-> ..Declaration
-> ....Int
-> ....Identifier(c)
-> ....Div
-> ......Mul
-> ........Natural(1)
-> ........Natural(2)
-> ......Natural(2)
-> ..Declaration
-> ....Int
-> ....Identifier(d)
-> ....Div
-> ......Add
-> ........Natural(1)
-> ........Natural(2)
-> ......Mul
-> ........Natural(3)
-> ........Natural(2)
-> ..Declaration
-> ....Int
-> ....Identifier(e)
-> ....Mul
-> ......Sub
-> ........Natural(1)
-> ........Natural(3)
-> ......Natural(2)
-> ..Declaration
-> ....Int
-> ....Identifier(f)
-> ....Sub
-> ......Plus
-> ........Sub
-> ..........Sub
-> ............Natural(2)
-> ............Mul
-> ..............Natural(3)
-> ..............Div
-> ................Natural(1)
-> ................Natural(2)
-> ..........Div
-> ............Natural(6)
-> ............Natural(3)
-> ......Mul
-> ........Natural(3)
-> ........Natural(6)
+1,68d0
+< Type: int
+< Identifier (a)
+< Natural: 1
+< Natural: 2
+< Addition
+< Declaration4
+< Declaration1
+< Type: int
+< Identifier (b)
+< Natural: 1
+< Natural: 1
+< Addition
+< Natural: 1
+< Natural: 2
+< Addition
+< Addition
+< Declaration4
+< Declaration2
+< Type: int
+< Identifier (c)
+< Natural: 1
+< Natural: 2
+< Multiplication
+< Natural: 2
+< Division
+< Declaration4
+< Declaration2
+< Type: int
+< Identifier (d)
+< Natural: 1
+< Natural: 2
+< Addition
+< Natural: 3
+< Natural: 2
+< Multiplication
+< Division
+< Declaration4
+< Declaration2
+< Type: int
+< Identifier (e)
+< Natural: 1
+< Natural: 3
+< Subtraction
+< Natural: 2
+< Multiplication
+< Declaration4
+< Declaration2
+< Type: int
+< Identifier (f)
+< Natural: 2
+< Natural: 3
+< Natural: 1
+< Natural: 2
+< Division
+< Multiplication
+< Subtraction
+< Natural: 6
+< Natural: 3
+< Division
+< Subtraction
+< Unary Plus
+< Natural: 3
+< Natural: 6
+< Multiplication
+< Subtraction
+< Declaration4
+< Declaration2
+< Program 1

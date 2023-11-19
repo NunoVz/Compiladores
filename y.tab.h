@@ -91,7 +91,9 @@ extern int yydebug;
     ID = 292,                      /* ID  */
     NATURAL = 293,                 /* NATURAL  */
     DECIMAL = 294,                 /* DECIMAL  */
-    CHRLIT = 295                   /* CHRLIT  */
+    CHRLIT = 295,                  /* CHRLIT  */
+    NO_ELSE = 296,                 /* NO_ELSE  */
+    MAX_PREC = 297                 /* MAX_PREC  */
   };
   typedef enum yytokentype yytoken_kind_t;
 #endif
@@ -138,17 +140,19 @@ extern int yydebug;
 #define NATURAL 293
 #define DECIMAL 294
 #define CHRLIT 295
+#define NO_ELSE 296
+#define MAX_PREC 297
 
 /* Value type.  */
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
 union YYSTYPE
 {
-#line 27 "uccompiler.y"
+#line 29 "uccompiler.y"
 
     char *value;
    	struct node *no;
 
-#line 152 "y.tab.h"
+#line 156 "y.tab.h"
 
 };
 typedef union YYSTYPE YYSTYPE;

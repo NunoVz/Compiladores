@@ -1,0 +1,24 @@
+1,8d0
+< Type: int
+< Identifier (main)
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (a)
+10,14d1
+< Stat + StatList
+< Compound Stat
+< Stat + StatList
+< Stat + StatList
+< Statlist
+16,23d2
+< If-Else Statement
+< Statement
+< Empty Declarations and Statements
+< Declarations and Statements
+< Function Body
+< Function Definition
+< Function Definition
+< Program 1

@@ -16,8 +16,11 @@ typedef struct node{
 
 }node;
 
+extern  no root;
+
+
 no create(char* type, char* info);
-void addChild(no parent, no child);
+no addChild(no parent, no child);
 void addBrother(no existingNode, no newBrother);
 void printTree(no root, int level);
 int countB(no root);

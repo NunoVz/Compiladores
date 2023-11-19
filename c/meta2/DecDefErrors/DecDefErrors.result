@@ -1,6 +1,43 @@
 Line 1, column 1: syntax error: intttt
+Declaration1
 Line 2, column 1: unrecognized character ($)
-Line 3, column 10: syntax error: ,
+Type: short
+Identifier (abc)
+Identifier (asd)
+Line 3, column 18: syntax error: ;
+Declaration2
+Type: int
+Identifier (a)
+Char Literal: 'c'
+Declaration4
+Declaration2
+Type: char
 Line 5, column 6: syntax error: char
-Line 12, column 5: syntax error: for
+Declaration2
+Type: int
+Declaration2
+Type: void
+Declaration2
+Declaration2
+Type: short
+Declaration2
+Declaration2
+Declaration2
+Type: int
+Identifier (main)
+Line 9, column 10: syntax error: )
+Declaration2
+Type: int
+Declaration2
+Type: int
+Declaration2
+Type: char
+Identifier (main2)
+Type: int
+Parameter Declaration ID:a
 Line 16, column 19: syntax error: )
+Declaration2
+Declaration2
+Type: int
+Declaration2
+Program 1
