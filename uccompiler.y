@@ -38,11 +38,9 @@
     %token <value> CHRLIT DECIMAL NATURAL RESERVED ID 
 
     %type <no> Program FunctionsAndDeclarations FunctionDefinition FunctionBody StatementList DeclarationsAndStatements  FunctionDeclaration FunctionDeclarator ParameterList ParameterListAux ParameterDeclaration Declaration  StatementAux  
-    %type <no> TypeSpec  Declarator DeclaratorAux Statement Expr IDToken ExprAux  FunctionsAndDeclarationsList ExprAuxAux
+    %type <no> TypeSpec  Declarator DeclaratorAux Statement Expr  ExprAux  FunctionsAndDeclarationsList ExprAuxAux
 
     
-    
-    %left SEMI
     %left COMMA
     %right ASSIGN
     %left OR
@@ -51,13 +49,12 @@
     %left BITWISEXOR
     %left BITWISEAND
     %left EQ NE
-    %left GE GT LE LT
+    %left LT GT LE GE
     %left PLUS MINUS
     %left MUL DIV MOD
     %right NOT
-    %nonassoc NO_ELSE
+    %left LPAR RPAR
     %nonassoc ELSE
-    %left MAX_PREC
 
 
 
@@ -86,7 +83,7 @@ DeclarationsAndStatements: Statement DeclarationsAndStatements {if (!$1) {$$ = $
 FunctionDeclaration: TypeSpec FunctionDeclarator RBRACE { if (debug) printf("Function Declaration\n"); $$ = create("FuncDeclaration", ""); addChild($$, $1); addChild($$, $2); } 
 | TypeSpec FunctionDeclarator SEMI { if (debug) printf("Function Declarationt\n"); $$ = create("FuncDeclaration", ""); addChild($$, $1); addChild($$, $2); };
 
-FunctionDeclarator: IDToken LPAR ParameterList RPAR { if (debug) printf("Function Declarator\n"); addBrother($$, $3); };
+FunctionDeclarator: ID LPAR ParameterList RPAR { if (debug) printf("Function Declarator\n");$$ = create("Identifier" , $1);  addBrother($$, $3); };
 
 ParameterList: ParameterListAux { if (debug) printf("Parameter List\n"); $$ = create("ParamList", ""); addChild($$, $1); };
 
@@ -108,11 +105,11 @@ TypeSpec: CHAR { if (debug) printf("Type: char\n"); $$ = create("Char", ""); }
 | SHORT { if (debug) printf("Type: short\n"); $$ = create("Short", ""); } 
 | DOUBLE { if (debug) printf("Type: double\n"); $$ = create("Double", ""); };
 
-Declarator: IDToken {$$ = $1;} 
-| IDToken ASSIGN ExprAux {$1->brother = $3; $$ = $1;} ;
+Declarator: ID {$$ = create("Identifier", $1);} 
+| ID ASSIGN ExprAux {  $$ = create("Identifier" , $1); addBrother($$, $3);} ;
 
 Statement: LBRACE StatementList RBRACE { $$ = $2; if (debug && $2) printf("Statlist\n"); else if (debug) printf("Compound Stat\n"); if ($2 && $2->brother) { $$ = create("StatList", ""); $$ = addChild($$, $2); } else if ($2) { $$ = $2; } } 
-| IF LPAR ExprAux RPAR StatementAux %prec NO_ELSE { if (debug) printf("If Statement\n"); $$ = create("If", ""); addChild($$, $3); if ($5 != NULL) addChild($$, $5); else addChild($$, create("Null","")); addChild($$, create("Null","")); } 
+| IF LPAR ExprAux RPAR StatementAux  { if (debug) printf("If Statement\n"); $$ = create("If", ""); addChild($$, $3); if ($5 != NULL) addChild($$, $5); else addChild($$, create("Null","")); addChild($$, create("Null","")); } 
 | IF LPAR ExprAux RPAR StatementAux ELSE StatementAux { if (debug) printf("If-Else Statement\n"); $$ = create("If", ""); addChild($$, $3); if ($5 != NULL) addChild($$, $5); else addChild($$, create("Null","")); if ($7 != NULL) addChild($$, $7); else addChild($$, create("Null","")); } 
 | WHILE LPAR ExprAux RPAR Statement { if (debug) printf("While Loop\n"); $$ = create("While", ""); addChild($$, $3); if ($5 != NULL) addChild($$, $5); else addChild($$, create("Null",""));} 
 | RETURN SEMI { if (debug) printf("Return Statement\n"); $$ = create("Return", ""); addChild($$, create("Null","")); } 
@@ -145,9 +142,9 @@ Expr: Expr ASSIGN Expr { if (debug) printf("Store\n"); $$ = create("Store", "");
 | Expr GE Expr { if (debug) printf("Greater Than or Equal\n"); $$ = create("Ge", ""); addChild($$, $1); addChild($$, $3); } 
 | Expr LT Expr { if (debug) printf("Less Than\n"); $$ = create("Lt", ""); addChild($$, $1); addChild($$, $3); } 
 | Expr GT Expr { if (debug) printf("Greater Than\n"); $$ = create("Gt", ""); addChild($$, $1); addChild($$, $3); } 
-| PLUS Expr %prec MAX_PREC { if (debug) printf("Unary Plus\n"); $$ = create("Plus", ""); addChild($$, $2); } 
-| MINUS Expr %prec MAX_PREC { if (debug) printf("Unary Minus\n"); $$ = create("Minus", ""); addChild($$, $2); } 
-| NOT Expr %prec MAX_PREC { if (debug) printf("Logical NOT\n"); $$ = create("Not", ""); addChild($$, $2); } 
+| PLUS Expr %prec MUL { if (debug) printf("Unary Plus\n"); $$ = create("Plus", ""); addChild($$, $2); } 
+| MINUS Expr %prec MUL { if (debug) printf("Unary Minus\n"); $$ = create("Minus", ""); addChild($$, $2); } 
+| NOT Expr  { if (debug) printf("Logical NOT\n"); $$ = create("Not", ""); addChild($$, $2); } 
 | ID LPAR Expr ExprAuxAux RPAR { if (debug) printf("CALL w stuff\n"); $$ = create("Call", ""); addChild($$, create("Identifier", $1)); addChild($$, $3); addChild($$, $4); } 
 | ID LPAR RPAR { if (debug) printf("Call wo stuff\n"); $$ = create("Call", ""); aux = create("Identifier", $1); addChild($$, aux); } 
 | ID { if (debug) printf("Identifier (%s)\n", $1); $$ = create("Identifier", $1); } 
@@ -167,7 +164,6 @@ ExprAuxAux: COMMA Expr ExprAuxAux {$$ = $2; addBrother($$, $3);}
 | {$$ = NULL;};
 
 
-IDToken: ID { if(debug) printf("Identifier (%s)\n", $1); $$ = create("Identifier", $1); }
 
 %%
 
