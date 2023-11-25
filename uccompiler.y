@@ -9,11 +9,13 @@
 
 
     extern int yylex(void);
-    void yyerror(char * s);
+    extern int yyparse();
+    extern void yyerror(char *s);
+
     extern char *yytext;
     int debug =0;
     bool errorflag=false;
-    int errFlag= 0;
+    extern int errFlag;
 
     extern bool flagTree;                //-t
 
@@ -21,8 +23,6 @@
 	no aux;
 	no aux1;
 	no aux2;
-    extern int l , c;
-    int count =1;
 
 
 %}
@@ -31,8 +31,12 @@
    	struct node *no;
 }
 
-    %token  RESERVED IF INT SHORT DOUBLE CHAR ELSE WHILE RETURN VOID BITWISEAND BITWISEOR BITWISEXOR AND ASSIGN MUL COMMA DIV EQ GE GT LBRACE LE LPAR LT MINUS MOD NE NOT OR PLUS RBRACE RPAR SEMI 
-    %token <value> ID NATURAL DECIMAL CHRLIT
+    %token CHAR INT VOID SHORT DOUBLE
+    %token PLUS MINUS MUL DIV MOD OR AND BITWISEAND BITWISEOR BITWISEXOR
+    %token EQ NE LE GE LT GT ASSIGN COMMA NOT
+    %token LPAR RPAR LBRACE RBRACE SEMI IF ELSE WHILE RETURN
+    %token <value> CHRLIT DECIMAL NATURAL RESERVED ID 
+
     %type <no> Program FunctionsAndDeclarations FunctionDefinition FunctionBody StatementList DeclarationsAndStatements  FunctionDeclaration FunctionDeclarator ParameterList ParameterListAux ParameterDeclaration Declaration  StatementAux  
     %type <no> TypeSpec  Declarator DeclaratorAux Statement Expr IDToken ExprAux  FunctionsAndDeclarationsList ExprAuxAux
 
@@ -59,7 +63,7 @@
 
     
 %%
-Program: FunctionsAndDeclarations { if (debug) printf("Program %d\n", count); $$ = create("Program", "Program"); addChild($$, $1); if (!errFlag && flagTree) { printTree($$, 0); } };
+Program: FunctionsAndDeclarations { if (debug) printf("Program \n"); $$ = create("Program", "Program"); addChild($$, $1); if (!errFlag && flagTree) { printTree($$, 0); } };
 
 FunctionsAndDeclarations: FunctionDefinition FunctionsAndDeclarationsList {$$ = $1; addBrother($$, $2);} 
 
@@ -67,7 +71,7 @@ FunctionsAndDeclarations: FunctionDefinition FunctionsAndDeclarationsList {$$ = 
 | Declaration FunctionsAndDeclarationsList {if (!$1) {$$ = $2;} else {$$ = $1; addBrother($$, $2);}} ;
 
 FunctionsAndDeclarationsList: FunctionsAndDeclarations {$$ = $1;} 
-| /* empty */ {$$ = NULL;} ;
+| {$$ = NULL;} ;
 
 FunctionDefinition: TypeSpec FunctionDeclarator FunctionBody { if (debug) printf("Function Definition\n"); $$ = create("FuncDefinition", ""); addChild($$, $1); addChild($$, $2); if ($3) { addChild($$, $3); } else { addChild($$, create("FuncBody", "")); } };
 
@@ -167,7 +171,4 @@ IDToken: ID { if(debug) printf("Identifier (%s)\n", $1); $$ = create("Identifier
 
 %%
 
-void yyerror (char *error) {
-    printf("Line %d, column %d: %s: %s\n", l, c - (int)strlen(yytext) , error, yytext);
-    errFlag=1;
-}
+

@@ -8,3 +8,28 @@ INT
 Line 2, column 9: unrecognized character (#)
 ASSIGN
 NATURAL(223)
+SEMI
+INT
+IDENTIFIER(var)
+ASSIGN
+NATURAL(0)
+SEMI
+IF
+LPAR
+IDENTIFIER(var)
+LT
+NATURAL(1)
+RPAR
+LBRACE
+Line 5, column 23: unrecognized character (#)
+RETURN
+NATURAL(0)
+SEMI
+RBRACE
+ELSE
+LBRACE
+RETURN
+NATURAL(1)
+SEMI
+RBRACE
+RBRACE

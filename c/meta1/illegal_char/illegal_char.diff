@@ -1,26 +1,4 @@
-10a11,35
-> SEMI
-> INT
-> IDENTIFIER(var)
-> ASSIGN
-> NATURAL(0)
-> SEMI
-> IF
-> LPAR
-> IDENTIFIER(var)
-> LT
-> NATURAL(1)
-> RPAR
-> LBRACE
+24c24
+< Line 5, column 23: unrecognized character (#)
+---
 > Line 5, column 5: unrecognized character (#)
-> RETURN
-> NATURAL(0)
-> SEMI
-> RBRACE
-> ELSE
-> LBRACE
-> RETURN
-> NATURAL(1)
-> SEMI
-> RBRACE
-> RBRACE

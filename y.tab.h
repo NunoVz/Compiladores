@@ -54,44 +54,44 @@ extern int yydebug;
     YYEOF = 0,                     /* "end of file"  */
     YYerror = 256,                 /* error  */
     YYUNDEF = 257,                 /* "invalid token"  */
-    RESERVED = 258,                /* RESERVED  */
-    IF = 259,                      /* IF  */
-    INT = 260,                     /* INT  */
+    CHAR = 258,                    /* CHAR  */
+    INT = 259,                     /* INT  */
+    VOID = 260,                    /* VOID  */
     SHORT = 261,                   /* SHORT  */
     DOUBLE = 262,                  /* DOUBLE  */
-    CHAR = 263,                    /* CHAR  */
-    ELSE = 264,                    /* ELSE  */
-    WHILE = 265,                   /* WHILE  */
-    RETURN = 266,                  /* RETURN  */
-    VOID = 267,                    /* VOID  */
-    BITWISEAND = 268,              /* BITWISEAND  */
-    BITWISEOR = 269,               /* BITWISEOR  */
-    BITWISEXOR = 270,              /* BITWISEXOR  */
-    AND = 271,                     /* AND  */
-    ASSIGN = 272,                  /* ASSIGN  */
-    MUL = 273,                     /* MUL  */
-    COMMA = 274,                   /* COMMA  */
-    DIV = 275,                     /* DIV  */
-    EQ = 276,                      /* EQ  */
-    GE = 277,                      /* GE  */
+    PLUS = 263,                    /* PLUS  */
+    MINUS = 264,                   /* MINUS  */
+    MUL = 265,                     /* MUL  */
+    DIV = 266,                     /* DIV  */
+    MOD = 267,                     /* MOD  */
+    OR = 268,                      /* OR  */
+    AND = 269,                     /* AND  */
+    BITWISEAND = 270,              /* BITWISEAND  */
+    BITWISEOR = 271,               /* BITWISEOR  */
+    BITWISEXOR = 272,              /* BITWISEXOR  */
+    EQ = 273,                      /* EQ  */
+    NE = 274,                      /* NE  */
+    LE = 275,                      /* LE  */
+    GE = 276,                      /* GE  */
+    LT = 277,                      /* LT  */
     GT = 278,                      /* GT  */
-    LBRACE = 279,                  /* LBRACE  */
-    LE = 280,                      /* LE  */
-    LPAR = 281,                    /* LPAR  */
-    LT = 282,                      /* LT  */
-    MINUS = 283,                   /* MINUS  */
-    MOD = 284,                     /* MOD  */
-    NE = 285,                      /* NE  */
-    NOT = 286,                     /* NOT  */
-    OR = 287,                      /* OR  */
-    PLUS = 288,                    /* PLUS  */
-    RBRACE = 289,                  /* RBRACE  */
-    RPAR = 290,                    /* RPAR  */
-    SEMI = 291,                    /* SEMI  */
-    ID = 292,                      /* ID  */
+    ASSIGN = 279,                  /* ASSIGN  */
+    COMMA = 280,                   /* COMMA  */
+    NOT = 281,                     /* NOT  */
+    LPAR = 282,                    /* LPAR  */
+    RPAR = 283,                    /* RPAR  */
+    LBRACE = 284,                  /* LBRACE  */
+    RBRACE = 285,                  /* RBRACE  */
+    SEMI = 286,                    /* SEMI  */
+    IF = 287,                      /* IF  */
+    ELSE = 288,                    /* ELSE  */
+    WHILE = 289,                   /* WHILE  */
+    RETURN = 290,                  /* RETURN  */
+    CHRLIT = 291,                  /* CHRLIT  */
+    DECIMAL = 292,                 /* DECIMAL  */
     NATURAL = 293,                 /* NATURAL  */
-    DECIMAL = 294,                 /* DECIMAL  */
-    CHRLIT = 295,                  /* CHRLIT  */
+    RESERVED = 294,                /* RESERVED  */
+    ID = 295,                      /* ID  */
     NO_ELSE = 296,                 /* NO_ELSE  */
     MAX_PREC = 297                 /* MAX_PREC  */
   };
@@ -102,44 +102,44 @@ extern int yydebug;
 #define YYEOF 0
 #define YYerror 256
 #define YYUNDEF 257
-#define RESERVED 258
-#define IF 259
-#define INT 260
+#define CHAR 258
+#define INT 259
+#define VOID 260
 #define SHORT 261
 #define DOUBLE 262
-#define CHAR 263
-#define ELSE 264
-#define WHILE 265
-#define RETURN 266
-#define VOID 267
-#define BITWISEAND 268
-#define BITWISEOR 269
-#define BITWISEXOR 270
-#define AND 271
-#define ASSIGN 272
-#define MUL 273
-#define COMMA 274
-#define DIV 275
-#define EQ 276
-#define GE 277
+#define PLUS 263
+#define MINUS 264
+#define MUL 265
+#define DIV 266
+#define MOD 267
+#define OR 268
+#define AND 269
+#define BITWISEAND 270
+#define BITWISEOR 271
+#define BITWISEXOR 272
+#define EQ 273
+#define NE 274
+#define LE 275
+#define GE 276
+#define LT 277
 #define GT 278
-#define LBRACE 279
-#define LE 280
-#define LPAR 281
-#define LT 282
-#define MINUS 283
-#define MOD 284
-#define NE 285
-#define NOT 286
-#define OR 287
-#define PLUS 288
-#define RBRACE 289
-#define RPAR 290
-#define SEMI 291
-#define ID 292
+#define ASSIGN 279
+#define COMMA 280
+#define NOT 281
+#define LPAR 282
+#define RPAR 283
+#define LBRACE 284
+#define RBRACE 285
+#define SEMI 286
+#define IF 287
+#define ELSE 288
+#define WHILE 289
+#define RETURN 290
+#define CHRLIT 291
+#define DECIMAL 292
 #define NATURAL 293
-#define DECIMAL 294
-#define CHRLIT 295
+#define RESERVED 294
+#define ID 295
 #define NO_ELSE 296
 #define MAX_PREC 297
 

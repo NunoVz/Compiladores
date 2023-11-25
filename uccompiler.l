@@ -5,14 +5,16 @@
 
 
     int yyparse(void);
+    int yywrap(void);
+    int yylex();
+    void yyerror(char *s);
 
     int l = 1, c = 1;
     bool flag=false;                //-l
     int string = 0; 
     int comment[2]; 
-    extern int errFlag;
     bool flagTree=false;  
-
+    int errFlag= 0;
     
 
 
@@ -113,11 +115,11 @@ RESERVED    auto|break|const|continue|do|enum|extern|float|for|goto|register|lon
 <SCOMMENT>\n        					{l++; c=1;BEGIN 0;}
 
 
-"/*"									{comment[0]=l; comment[1]=c; c+=yyleng;BEGIN MLCOMMENT;}
+"/*"									{BEGIN MLCOMMENT;c+=yyleng;comment[0]=l; comment[1]=c; }
+<MLCOMMENT>"*/"							{BEGIN 0;c+=yyleng;}
+<MLCOMMENT>\r|\n|(\r\n)                 {l++;  c = 1; }
 <MLCOMMENT>.							{c+=yyleng;}
-<MLCOMMENT>\r|\n|(\r\n)                 {l++;  c += yyleng;}
 <MLCOMMENT><<EOF>>						{printf("Line %d, column %d: unterminated comment\n",comment[0],comment[1]); c+=yyleng;BEGIN 0;}
-<MLCOMMENT>"*/"							{c+=yyleng;BEGIN 0;}
 
 
 " "|"\t"|"\f"          {c += yyleng;}
@@ -140,12 +142,17 @@ int main(int argc, char *argv[]) {
     }else{
         flag = false;
         flagTree=false;
-        yylex();
         yyparse();
+        yylex();
     }
     
     return 0;
 }
 int yywrap() { 
     return 1;
+}
+
+void yyerror (char *error) {
+    printf("Line %d, column %d: %s: %s\n", l, c - (int)strlen(yytext) , error, yytext);
+    errFlag=1;
 }
