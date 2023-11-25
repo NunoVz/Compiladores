@@ -1,139 +1,3 @@
-Type: int
-Identifier (main)
-Type: void
-Empty Parameter Declaration
-Empty Parameter List
-Parameter List
-Function Declarator
-Statlist
-Statlist
-Statlist
-Statlist
-Statement
-Identifier (a)
-Natural: 1
-Unary Minus
-Return Statement with Value
-Stat + StatList
-Stat + StatList
-Stat + StatList
-Statlist
-While Loop
-Statement
-Identifier (a)
-Natural: 2
-Equal
-Statlist
-If Statement
-Statement
-Identifier (a)
-Natural: 2
-Equal
-Identifier (a)
-Return Statement with Value
-Statlist
-Natural: 5
-Return Statement with Value
-Statlist
-If-Else Statement
-Statement
-Identifier (b)
-Natural: 3
-Equal
-Identifier (a)
-Natural: 2
-Equal
-Identifier (a)
-Return Statement with Value
-Statlist
-If Statement
-Identifier (a)
-Natural: 2
-Equal
-Identifier (a)
-Return Statement with Value
-Statlist
-If Statement
-Identifier (a)
-Natural: 2
-Equal
-Identifier (a)
-Return Statement with Value
-Statlist
-Natural: 5
-Return Statement with Value
-Statlist
-If-Else Statement
-Identifier (a)
-Natural: 2
-Equal
-Identifier (a)
-Return Statement with Value
-Statlist
-If Statement
-Identifier (a)
-Natural: 2
-Equal
-Identifier (a)
-Return Statement with Value
-Statlist
-Natural: 5
-Return Statement with Value
-Statlist
-If-Else Statement
-Identifier (a)
-Natural: 2
-Equal
-Identifier (a)
-Return Statement with Value
-Statlist
-Natural: 5
-Return Statement with Value
-Statlist
-If-Else Statement
-Stat + StatList
-Stat + StatList
-Stat + StatList
-Stat + StatList
-Statlist
-Natural: 90
-Return Statement with Value
-Stat + StatList
-Stat + StatList
-Statlist
-While Loop
-Statement
-Empty Declarations and Statements
-Empty Declarations and Statements
-Empty Declarations and Statements
-Empty Declarations and Statements
-Empty Declarations and Statements
-Empty Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Empty Declarations and Statements
-Declarations and Statements
-Empty Declarations and Statements
-Empty Declarations and Statements
-Empty Declarations and Statements
-Empty Declarations and Statements
-Empty Declarations and Statements
-Empty Declarations and Statements
-Empty Declarations and Statements
-Empty Declarations and Statements
-Empty Declarations and Statements
-Empty Declarations and Statements
-Empty Declarations and Statements
-Empty Declarations and Statements
-Empty Declarations and Statements
-Empty Declarations and Statements
-Empty Declarations and Statements
-Function Body
-Function Definition
-Function Definition
-Program 1
 Program
 ..FuncDefinition
 ....Int
@@ -142,3 +6,75 @@ Program
 ......ParamDeclaration
 ........Void
 ....FuncBody
+......While
+........Identifier(a)
+........Return
+..........Minus
+............Natural(1)
+......If
+........Eq
+..........Identifier(a)
+..........Natural(2)
+........Null
+........Null
+......If
+........Eq
+..........Identifier(a)
+..........Natural(2)
+........Return
+..........Identifier(a)
+........Return
+..........Natural(5)
+......While
+........Eq
+..........Identifier(b)
+..........Natural(3)
+........StatList
+..........If
+............Eq
+..............Identifier(a)
+..............Natural(2)
+............Return
+..............Identifier(a)
+............Null
+..........StatList
+............If
+..............Eq
+................Identifier(a)
+................Natural(2)
+..............Return
+................Identifier(a)
+..............Null
+............If
+..............Eq
+................Identifier(a)
+................Natural(2)
+..............Return
+................Identifier(a)
+..............Return
+................Natural(5)
+............If
+..............Eq
+................Identifier(a)
+................Natural(2)
+..............Return
+................Identifier(a)
+..............Null
+............If
+..............Eq
+................Identifier(a)
+................Natural(2)
+..............Return
+................Identifier(a)
+..............Return
+................Natural(5)
+............If
+..............Eq
+................Identifier(a)
+................Natural(2)
+..............Return
+................Identifier(a)
+..............Return
+................Natural(5)
+..........Return
+............Natural(90)

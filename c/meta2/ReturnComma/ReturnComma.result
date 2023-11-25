@@ -1,30 +1,42 @@
-Type: int
-Identifier (x)
-Identifier (y)
-Identifier (z)
-Declaration4
-Declaration1
-Type: int
-Identifier (t)
-Type: int
-Parameter Declaration ID:x
-Empty Parameter List
-Parameter List
-Function Declarator
-Type: double
-Identifier (d)
-Identifier (d)
-Declaration4
-Declaration3
-Identifier (x)
-Identifier (y)
-Greater Than
-Line 4, column 8: syntax error: ,
-Declaration3
-Empty Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Function Body
-Function Definition
-Function Definition
-Declaration2
+Program
+..Declaration
+....Int
+....Identifier(x)
+..Declaration
+....Int
+....Identifier(y)
+..Declaration
+....Int
+....Identifier(z)
+..FuncDefinition
+....Int
+....Identifier(t)
+....ParamList
+......ParamDeclaration
+........Int
+........Identifier(x)
+....FuncBody
+......Declaration
+........Double
+........Identifier(d)
+......Declaration
+........Double
+........Identifier(d)
+......If
+........Comma
+..........Gt
+............Identifier(x)
+............Identifier(y)
+..........Gt
+............Identifier(x)
+............Identifier(z)
+........Call
+..........Identifier(f)
+..........Identifier(x)
+..........Identifier(y)
+..........Identifier(z)
+........Null
+......Return
+........Comma
+..........Identifier(x)
+..........Identifier(y)

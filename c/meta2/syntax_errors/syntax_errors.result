@@ -1,35 +1,5 @@
-Type: int
-Identifier (main)
-Type: void
-Empty Parameter Declaration
-Empty Parameter List
-Parameter List
-Function Declarator
 Line 2, column 2: syntax error: *
-Declaration3
-Type: int
-Identifier (a)
 Line 3, column 7: syntax error: [
-Declaration3
-Identifier (a)
-Identifier (a)
-Store
 Line 4, column 8: syntax error: ++
-Declaration3
 Line 5, column 8: syntax error: int
-Declaration3
-Identifier (a)
-Line 6, column 7: syntax error: ,
-Declaration3
-Declaration3
-Empty Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Function Body
-Function Definition
-Function Definition
-Program 1
+Line 6, column 8: syntax error: ,

@@ -1,33 +1,4 @@
-Type: int
-Identifier (main)
 Line 1, column 10: syntax error: )
-Declaration1
-Declaration2
-Declaration2
-Type: int
-Identifier (res)
-Natural: 5
-Natural: 2
-Subtraction
-Declaration4
-Declaration2
 Line 6, column 5: syntax error: a
-Declaration2
-Type: int
-Identifier (a)
-Identifier (b)
-Identifier (c)
-Natural: 5
 Line 7, column 19: syntax error: 6
-Declaration2
-Type: int
-Identifier (mul)
-Natural: 5
-Natural: 5
-Multiplication
-Declaration4
-Declaration2
 Line 9, column 5: syntax error: float
-Declaration2
-Declaration2
-Declaration2

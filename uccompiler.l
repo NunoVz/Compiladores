@@ -11,7 +11,7 @@
     int string = 0; 
     int comment[2]; 
     extern int errFlag;
-    extern no root;
+    bool flagTree=false;  
 
     
 
@@ -58,8 +58,9 @@ RBRACE      "}"
 RPAR        ")"
 SEMI        ";"
 
+line_end    (\n|\r\n|\r)
 RESERVED    auto|break|const|continue|do|enum|extern|float|for|goto|register|long|signed|unsigned|sizeof|static|struct|switch|case|default|typedef|union|volatile|_Bool|_Imaginary|restrict|inline|_Complex|"["|"]"|"++"|"--"
-%X SCOMMENT MLCOMMENT 
+%X SCOMMENT MLCOMMENT
 
 %%
 {RESERVED}      { if(flag) printf("RESERVED(%s)\n", yytext); c += yyleng; return RESERVED;}
@@ -104,7 +105,7 @@ RESERVED    auto|break|const|continue|do|enum|extern|float|for|goto|register|lon
 
 
 \'([^\n\r\'\\]|\\.)*\' {printf("Line %d, column %d: invalid char constant (%s)\n", l, c, yytext); c += yyleng;}
-\'[^\n\r\']*\'?        {printf("Line %d, column %d: unterminated char constant\n", l, c);}
+\'[^\n\r\']*\'?        {printf("Line %d, column %d: unterminated char constant\n", l, c); c += yyleng;}
 
 
 "//"									{c += yyleng; BEGIN SCOMMENT;}
@@ -114,14 +115,16 @@ RESERVED    auto|break|const|continue|do|enum|extern|float|for|goto|register|lon
 
 "/*"									{comment[0]=l; comment[1]=c; c+=yyleng;BEGIN MLCOMMENT;}
 <MLCOMMENT>.							{c+=yyleng;}
-<MLCOMMENT>\r|\n|(\r\n)					{l++;c=1;}
+<MLCOMMENT>\r|\n|(\r\n)                 {l++;  c += yyleng;}
 <MLCOMMENT><<EOF>>						{printf("Line %d, column %d: unterminated comment\n",comment[0],comment[1]); c+=yyleng;BEGIN 0;}
 <MLCOMMENT>"*/"							{c+=yyleng;BEGIN 0;}
 
 
 " "|"\t"|"\f"          {c += yyleng;}
 "\n"|"\r"|"\r\n"       {l++; c = 1;}
+
 .           {printf("Line %d, column %d: unrecognized character (%s)\n",l,c,yytext); c+=yyleng; }
+
 
 %%
 extern int yylex();
@@ -130,8 +133,15 @@ int main(int argc, char *argv[]) {
         flag = true;
         while(yylex());
     }else if (argc >= 2 && strcmp(argv[1], "-t") == 0) {
+        flagTree=true;
         yyparse();
+    
         
+    }else{
+        flag = false;
+        flagTree=false;
+        yylex();
+        yyparse();
     }
     
     return 0;

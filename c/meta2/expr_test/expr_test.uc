@@ -24,7 +24,7 @@ int main(void) {
 
 int main(void) {
     f(a+b,b-c);
-    (t,h,a+1);
+    (t,h,x);
 
     while ( 1) {
         a=b;

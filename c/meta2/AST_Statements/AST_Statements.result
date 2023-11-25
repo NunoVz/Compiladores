@@ -1,136 +1,3 @@
-Type: int
-Identifier (main)
-Type: void
-Empty Parameter Declaration
-Empty Parameter List
-Parameter List
-Function Declarator
-Natural: 1
-FuncCallAUX
-Natural: 2
-FuncCallAUXComma
-Natural: 3
-FuncCallAUXComma
-FuncCall ID:func1
-Expression Statement
-Statement
-Natural: 1
-Natural: 2
-Comma
-FuncCallAUX
-Natural: 3
-FuncCallAUXComma
-FuncCall ID:func2
-Expression Statement
-Statement
-Identifier (a)
-Identifier (statement1)
-Natural: 1
-Store
-Expression Statement
-Statlist
-Identifier (statement2)
-Natural: 2
-Store
-Expression Statement
-Statlist
-If-Else Statement
-Statement
-Identifier (a)
-Identifier (statement1)
-Natural: 1
-Store
-Expression Statement
-Statlist
-If Statement
-Statement
-Identifier (a)
-Identifier (statement2)
-Natural: 2
-Store
-Expression Statement
-Statlist
-If-Else Statement
-Statement
-Identifier (a)
-If-Else Statement
-Statement
-Identifier (a)
-Identifier (statement2)
-Natural: 2
-Store
-Expression Statement
-Statlist
-While Loop
-Statement
-Identifier (a)
-While Loop
-Statement
-Identifier (a)
-While Loop
-Statement
-Identifier (a)
-Identifier (statement1)
-Natural: 1
-Store
-Expression Statement
-Identifier (statement2)
-Natural: 2
-Store
-Expression Statement
-Identifier (statement3)
-Natural: 3
-Store
-Expression Statement
-Stat + StatList
-Stat + StatList
-Statlist
-While Loop
-Statement
-Statlist
-Statement
-Identifier (statement1)
-Natural: 1
-Store
-Expression Statement
-Statlist
-Statement
-Identifier (statement1)
-Natural: 1
-Store
-Expression Statement
-Identifier (statement2)
-Natural: 2
-Store
-Expression Statement
-Stat + StatList
-Statlist
-Statement
-Natural: 0
-Return Statement with Value
-Statement
-Return Statement
-Statement
-Empty Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Declarations and Statements
-Function Body
-Function Definition
-Function Definition
-Program 1
 Program
 ..FuncDefinition
 ....Int
@@ -163,17 +30,17 @@ Program
 ........Store
 ..........Identifier(statement1)
 ..........Natural(1)
-........Null3
+........Null
 ......If
 ........Identifier(a)
-........Null9
+........Null
 ........Store
 ..........Identifier(statement2)
 ..........Natural(2)
 ......If
 ........Identifier(a)
-........Null9
-........Null9
+........Null
+........Null
 ......While
 ........Identifier(a)
 ........Store
@@ -181,10 +48,10 @@ Program
 ..........Natural(2)
 ......While
 ........Identifier(a)
-........Null9
+........Null
 ......While
 ........Identifier(a)
-........Null9
+........Null
 ......While
 ........Identifier(a)
 ........StatList
@@ -197,7 +64,6 @@ Program
 ..........Store
 ............Identifier(statement3)
 ............Natural(3)
-......Null9
 ......Store
 ........Identifier(statement1)
 ........Natural(1)
@@ -211,4 +77,4 @@ Program
 ......Return
 ........Natural(0)
 ......Return
-........Null6
+........Null
