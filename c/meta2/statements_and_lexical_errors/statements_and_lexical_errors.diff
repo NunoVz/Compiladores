@@ -1,8 +1,0 @@
-1,3c1,3
-< Line 24, column 2: unrecognized character ($)
-< Line 28, column 3: unrecognized character (:)
-< Line 33, column 2: unrecognized character (@)
----
-> Line 26, column 2: unrecognized character ($)
-> Line 30, column 3: unrecognized character (:)
-> Line 35, column 2: unrecognized character (@)
