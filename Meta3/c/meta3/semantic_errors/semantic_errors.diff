@@ -1,0 +1,206 @@
+0a1,24
+> Line 1, column 16: Invalid use of void type in declaration
+> Line 7, column 7: Conflicting types (got double, expected short)
+> Line 8, column 5: Lvalue required
+> Line 9, column 5: Operator - cannot be applied to type void
+> Line 10, column 14: Operator && cannot be applied to types int, double
+> Line 13, column 6: Symbol f already defined
+> Line 15, column 12: Unknown symbol y
+> Line 18, column 5: Wrong number of arguments to function s (got 2, required 1)
+> Line 19, column 9: Conflicting types (got void, expected int)
+> Line 19, column 19: Wrong number of arguments to function dbl (got 1, required 2)
+> Line 20, column 10: Unknown symbol und3f
+> Line 20, column 7: Operator >= cannot be applied to types double, undef
+> Line 20, column 18: Unknown symbol und3f
+> Line 20, column 16: Operator | cannot be applied to types int, undef
+> Line 20, column 27: Unknown symbol und3f
+> Line 20, column 35: Unknown symbol und3f
+> Line 20, column 33: Operator % cannot be applied to types undef, undef
+> Line 21, column 5: Unknown symbol und3f
+> Line 21, column 13: Unknown symbol und3f
+> Line 21, column 11: Operator + cannot be applied to types undef, undef
+> Line 22, column 14: Operator + cannot be applied to types void, int
+> Line 22, column 7: Operator = cannot be applied to types double, undef
+> Line 23, column 8: Conflicting types (got double, expected int)
+> Line 27, column 12: Conflicting types (got double, expected void)
+4c28,29
+< d	()
+---
+> s	void(int)
+> d	double
+6,7c31
+< f	void(void)
+< x	()
+---
+> x	double
+12,16c36,37
+< return	int 
+< i	short param
+< 
+< ===== Function f Symbol Table =====
+< return	void 
+---
+> return	int
+> i	short	param
+19,21c40,42
+< return	double 
+< i	int param
+< d	double param
+---
+> return	double
+> i	int	param
+> d	double	param
+24c45
+< return	void 
+---
+> return	void
+45c66
+< ....int
+---
+> ....Int
+49c70
+< ........short
+---
+> ........Short
+52,68c73,89
+< ......Call
+< ........Identifier(f)
+< ........Identifier(d)
+< ......Store
+< ........Natural(1)
+< ........Natural(2)
+< ......Minus
+< ........Call
+< ..........Identifier(s)
+< ..........Natural(1)
+< ......Store
+< ........Identifier(d)
+< ........And
+< ..........Call
+< ............Identifier(f)
+< ............Natural(1)
+< ..........Identifier(d)
+---
+> ......Call - int
+> ........Identifier(f) - int(short)
+> ........Identifier(d) - double
+> ......Store - int
+> ........Natural(1) - int
+> ........Natural(2) - int
+> ......Minus - void
+> ........Call - void
+> ..........Identifier(s) - void(int)
+> ..........Natural(1) - int
+> ......Store - double
+> ........Identifier(d) - double
+> ........And - int
+> ..........Call - int
+> ............Identifier(f) - int(short)
+> ............Natural(1) - int
+> ..........Identifier(d) - double
+70c91
+< ....void
+---
+> ....Void
+74c95
+< ........void
+---
+> ........Void
+79c100
+< ....Identifier(y)
+---
+> ....Identifier(y) - undef
+81c102
+< ....double
+---
+> ....Double
+85c106
+< ........int
+---
+> ........Int
+88c109
+< ........double
+---
+> ........Double
+91,122c112,143
+< ......Call
+< ........Identifier(s)
+< ........Identifier(i)
+< ........Identifier(d)
+< ......Call
+< ........Identifier(dbl)
+< ........Call
+< ..........Identifier(s)
+< ..........Identifier(i)
+< ........Identifier(d)
+< ......Call
+< ........Identifier(dbl)
+< ........Identifier(i)
+< ......And
+< ........BitWiseOr
+< ..........Ge
+< ............Identifier(d)
+< ............Identifier(und3f)
+< ..........Identifier(und3f)
+< ........Mod
+< ..........Identifier(und3f)
+< ..........Identifier(und3f)
+< ......Add
+< ........Identifier(und3f)
+< ........Identifier(und3f)
+< ......Store
+< ........Identifier(x)
+< ........Add
+< ..........Call
+< ............Identifier(s)
+< ............Identifier(i)
+< ..........Natural(1)
+---
+> ......Call - void
+> ........Identifier(s) - void(int)
+> ........Identifier(i) - int
+> ........Identifier(d) - double
+> ......Call - double
+> ........Identifier(dbl) - double(int,double)
+> ........Call - void
+> ..........Identifier(s) - void(int)
+> ..........Identifier(i) - int
+> ........Identifier(d) - double
+> ......Call - double
+> ........Identifier(dbl) - double(int,double)
+> ........Identifier(i) - int
+> ......And - int
+> ........BitWiseOr - int
+> ..........Ge - int
+> ............Identifier(d) - double
+> ............Identifier(und3f) - undef
+> ..........Identifier(und3f) - undef
+> ........Mod - int
+> ..........Identifier(und3f) - undef
+> ..........Identifier(und3f) - undef
+> ......Add - undef
+> ........Identifier(und3f) - undef
+> ........Identifier(und3f) - undef
+> ......Store - double
+> ........Identifier(x) - double
+> ........Add - undef
+> ..........Call - void
+> ............Identifier(s) - void(int)
+> ............Identifier(i) - int
+> ..........Natural(1) - int
+124c145
+< ........Identifier(x)
+---
+> ........Identifier(x) - double
+128c149
+< ....void
+---
+> ....Void
+132c153
+< ........void
+---
+> ........Void
+135c156
+< ........Identifier(d)
+---
+> ........Identifier(d) - double

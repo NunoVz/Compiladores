@@ -22,6 +22,9 @@ no create(char* type, char* info) {
         new_node->type = (char*)malloc(strlen(type) + 1);
         strcpy(new_node->type, type);
 
+        new_node->auxinfo  = (char *)malloc(20 * sizeof(char));
+
+
         new_node->infor = (char*)malloc(strlen(info) + 1);
         if (new_node->infor == NULL) {
             free(new_node->type);
@@ -100,12 +103,21 @@ void printTree(no root, int size) {
 				printf("..");
 				i++;
 			}
-            
-			if(strcmp(root->infor, "") != 0)
-				printf("%s(%s)\n", root->type, root->infor);
-			else
-				printf("%s\n", root->type);
+            if(strcmp(root->auxinfo, "") == 0){
+                if(strcmp(root->infor, "") != 0)
+				    printf("%s(%s)\n", root->type, root->infor);
+                else
+                    printf("%s\n", root->type);
+                
+            }else{
+                if(strcmp(root->infor, "") != 0)
+				    printf("%s(%s) - %s\n", root->type, root->infor,root->auxinfo);
+                else
+                    printf("%s - %s\n", root->type,root->auxinfo);
                 }
+            }
+            
+			
 		}
 
 		aux = root->child;

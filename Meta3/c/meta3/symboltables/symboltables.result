@@ -1,0 +1,140 @@
+===== Global Symbol Table =====
+putchar	int(int)
+getchar	int(void)
+c1	()
+c2	()
+s	()
+t	()
+i	()
+j	()
+d	()
+e	()
+f1	char(void)
+s	()
+i	()
+d	()
+df	double(double,double)
+ii	int(int,char,double,short)
+dd	()
+sf	short(short)
+
+===== Function f1 Symbol Table =====
+return	char 
+
+===== Function df Symbol Table =====
+return	double 
+d	double param
+dd	double param
+
+===== Function ii Symbol Table =====
+return	int 
+i	int param
+c	char param
+d	double param
+s	short param
+
+===== Function sf Symbol Table =====
+return	short 
+s	short param
+
+Program
+..Declaration
+....Char
+....Identifier(c1)
+..Declaration
+....Char
+....Identifier(c2)
+..Declaration
+....Short
+....Identifier(s)
+..Declaration
+....Short
+....Identifier(t)
+..Declaration
+....Int
+....Identifier(i)
+..Declaration
+....Int
+....Identifier(j)
+..Declaration
+....Double
+....Identifier(d)
+..Declaration
+....Double
+....Identifier(e)
+..FuncDefinition
+....char
+....Identifier(f1)
+....ParamList
+......ParamDeclaration
+........void
+....FuncBody
+......Declaration
+........Short
+........Identifier(s)
+......Declaration
+........Int
+........Identifier(i)
+......Declaration
+........Double
+........Identifier(d)
+......Return
+........Identifier(c1)
+..FuncDeclaration
+....Double
+....Identifier(df)
+....ParamList
+......ParamDeclaration
+........Double
+......ParamDeclaration
+........Double
+..FuncDefinition
+....double
+....Identifier(df)
+....ParamList
+......ParamDeclaration
+........double
+........Identifier(d)
+......ParamDeclaration
+........double
+........Identifier(dd)
+....FuncBody
+......Return
+........Call
+..........Identifier(df)
+..........Identifier(d)
+..........Identifier(e)
+..FuncDefinition
+....int
+....Identifier(ii)
+....ParamList
+......ParamDeclaration
+........int
+........Identifier(i)
+......ParamDeclaration
+........char
+........Identifier(c)
+......ParamDeclaration
+........double
+........Identifier(d)
+......ParamDeclaration
+........short
+........Identifier(s)
+....FuncBody
+......Return
+........Add
+..........Identifier(i)
+..........Identifier(j)
+..Declaration
+....Double
+....Identifier(dd)
+..FuncDefinition
+....short
+....Identifier(sf)
+....ParamList
+......ParamDeclaration
+........short
+........Identifier(s)
+....FuncBody
+......Return
+........Identifier(t)

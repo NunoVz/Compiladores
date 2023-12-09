@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "symtable.h": "c",
+        "funcoes.h": "c"
+    }
+}

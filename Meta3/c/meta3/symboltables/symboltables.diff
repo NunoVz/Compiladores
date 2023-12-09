@@ -1,0 +1,133 @@
+4,11c4,11
+< c1	()
+< c2	()
+< s	()
+< t	()
+< i	()
+< j	()
+< d	()
+< e	()
+---
+> c1	char
+> c2	char
+> s	short
+> t	short
+> i	int
+> j	int
+> d	double
+> e	double
+13,15d12
+< s	()
+< i	()
+< d	()
+18c15
+< dd	()
+---
+> dd	double
+22c19,22
+< return	char 
+---
+> return	char
+> s	short
+> i	int
+> d	double
+25,27c25,27
+< return	double 
+< d	double param
+< dd	double param
+---
+> return	double
+> d	double	param
+> dd	double	param
+30,34c30,34
+< return	int 
+< i	int param
+< c	char param
+< d	double param
+< s	short param
+---
+> return	int
+> i	int	param
+> c	char	param
+> d	double	param
+> s	short	param
+37,38c37,38
+< return	short 
+< s	short param
+---
+> return	short
+> s	short	param
+66c66
+< ....char
+---
+> ....Char
+70c70
+< ........void
+---
+> ........Void
+82c82
+< ........Identifier(c1)
+---
+> ........Identifier(c1) - char
+92c92
+< ....double
+---
+> ....Double
+96c96
+< ........double
+---
+> ........Double
+99c99
+< ........double
+---
+> ........Double
+103,106c103,106
+< ........Call
+< ..........Identifier(df)
+< ..........Identifier(d)
+< ..........Identifier(e)
+---
+> ........Call - double
+> ..........Identifier(df) - double(double,double)
+> ..........Identifier(d) - double
+> ..........Identifier(e) - double
+108c108
+< ....int
+---
+> ....Int
+112c112
+< ........int
+---
+> ........Int
+115c115
+< ........char
+---
+> ........Char
+118c118
+< ........double
+---
+> ........Double
+121c121
+< ........short
+---
+> ........Short
+125,127c125,127
+< ........Add
+< ..........Identifier(i)
+< ..........Identifier(j)
+---
+> ........Add - int
+> ..........Identifier(i) - int
+> ..........Identifier(j) - int
+132c132
+< ....short
+---
+> ....Short
+136c136
+< ........short
+---
+> ........Short
+140c140
+< ........Identifier(t)
+---
+> ........Identifier(t) - short

@@ -1,0 +1,49 @@
+5d4
+< i	()
+8c7,8
+< return	int 
+---
+> return	int
+> i	char
+12c12
+< ....int
+---
+> ....Int
+16c16
+< ........void
+---
+> ........Void
+21c21
+< ........ChrLit('A')
+---
+> ........ChrLit('A') - int
+23,25c23,25
+< ........Le
+< ..........Identifier(i)
+< ..........ChrLit('Z')
+---
+> ........Le - int
+> ..........Identifier(i) - char
+> ..........ChrLit('Z') - int
+27,34c27,34
+< ..........Call
+< ............Identifier(putchar)
+< ............Identifier(i)
+< ..........Store
+< ............Identifier(i)
+< ............Add
+< ..............Identifier(i)
+< ..............Natural(1)
+---
+> ..........Call - int
+> ............Identifier(putchar) - int(int)
+> ............Identifier(i) - char
+> ..........Store - char
+> ............Identifier(i) - char
+> ............Add - int
+> ..............Identifier(i) - char
+> ..............Natural(1) - int
+36c36
+< ........Natural(0)
+---
+> ........Natural(0) - int

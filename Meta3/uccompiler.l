@@ -2,6 +2,8 @@
     #include <stdbool.h>
     #include "y.tab.h"
     #include "funcoes.h"
+    #include "symtable.h"
+
 
 
     int yyparse(void);
@@ -137,7 +139,17 @@ int main(int argc, char *argv[]) {
     }else if (argc >= 2 && strcmp(argv[1], "-t") == 0) {
         flagTree=true;
         yyparse();
-    
+
+        
+    }else if (argc >= 2 && strcmp(argv[1], "-s") == 0) {
+        flagTree=true;
+        yyparse();
+
+        buildSymbolTable(root);
+
+        printGlobalTable();
+        if (!errFlag && flagTree) { printTree(root, 0); }
+ 
         
     }else{
         flag = false;

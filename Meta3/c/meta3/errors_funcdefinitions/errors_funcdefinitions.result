@@ -1,0 +1,109 @@
+===== Global Symbol Table =====
+putchar	int(int)
+getchar	int(void)
+no_function	()
+no_function	void(void)
+soma	int(int,int)
+soma	int(char)
+soma	char(char,char)
+soma	int(int,int)
+no_name	void(int,int,int)
+
+===== Function no_function Symbol Table =====
+return	void 
+
+===== Function soma Symbol Table =====
+return	int 
+i	int param
+j	int param
+
+===== Function soma Symbol Table =====
+return	int 
+j	char param
+
+===== Function soma Symbol Table =====
+return	char 
+i	char param
+j	char param
+
+===== Function soma Symbol Table =====
+return	int 
+i	int param
+j	int param
+
+===== Function no_name Symbol Table =====
+return	void 
+
+Program
+..Declaration
+....Int
+....Identifier(no_function)
+..FuncDefinition
+....void
+....Identifier(no_function)
+....ParamList
+......ParamDeclaration
+........void
+....FuncBody
+..FuncDefinition
+....int
+....Identifier(soma)
+....ParamList
+......ParamDeclaration
+........int
+........Identifier(i)
+......ParamDeclaration
+........int
+........Identifier(j)
+....FuncBody
+......Return
+........Add
+..........Identifier(i)
+..........Identifier(j)
+..FuncDefinition
+....int
+....Identifier(soma)
+....ParamList
+......ParamDeclaration
+........char
+........Identifier(j)
+....FuncBody
+..FuncDefinition
+....char
+....Identifier(soma)
+....ParamList
+......ParamDeclaration
+........char
+........Identifier(i)
+......ParamDeclaration
+........char
+........Identifier(j)
+....FuncBody
+..FuncDefinition
+....int
+....Identifier(soma)
+....ParamList
+......ParamDeclaration
+........int
+........Identifier(i)
+......ParamDeclaration
+........int
+........Identifier(j)
+....FuncBody
+......Return
+........Add
+..........Identifier(i)
+..........Identifier(j)
+..FuncDefinition
+....void
+....Identifier(no_name)
+....ParamList
+......ParamDeclaration
+........int
+......ParamDeclaration
+........int
+......ParamDeclaration
+........int
+....FuncBody
+......Return
+........Null

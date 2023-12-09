@@ -1,0 +1,1650 @@
+0a1,52
+> Line 12, column 5: Operator = cannot be applied to types char, double
+> Line 15, column 5: Operator = cannot be applied to types short, double
+> Line 17, column 5: Operator = cannot be applied to types int, double
+> Line 18, column 5: Conflicting types (got double, expected int)
+> Line 22, column 5: Conflicting types (got double, expected int)
+> Line 25, column 5: Conflicting types (got double, expected int)
+> Line 27, column 5: Conflicting types (got double, expected int)
+> Line 28, column 5: Conflicting types (got double, expected int)
+> Line 32, column 5: Conflicting types (got double, expected int)
+> Line 35, column 5: Conflicting types (got double, expected int)
+> Line 37, column 5: Conflicting types (got double, expected int)
+> Line 38, column 5: Conflicting types (got double, expected int)
+> Line 42, column 5: Conflicting types (got double, expected int)
+> Line 45, column 5: Conflicting types (got double, expected int)
+> Line 47, column 5: Conflicting types (got double, expected int)
+> Line 48, column 5: Conflicting types (got double, expected int)
+> Line 52, column 5: Conflicting types (got double, expected int)
+> Line 55, column 5: Conflicting types (got double, expected int)
+> Line 57, column 5: Conflicting types (got double, expected int)
+> Line 58, column 5: Conflicting types (got double, expected int)
+> Line 62, column 5: Operator % cannot be applied to types char, double
+> Line 65, column 5: Operator % cannot be applied to types short, double
+> Line 67, column 5: Operator % cannot be applied to types int, double
+> Line 68, column 5: Operator % cannot be applied to types double, double
+> Line 72, column 5: Conflicting types (got double, expected int)
+> Line 75, column 5: Conflicting types (got double, expected int)
+> Line 77, column 5: Conflicting types (got double, expected int)
+> Line 78, column 5: Conflicting types (got double, expected int)
+> Line 82, column 5: Operator || cannot be applied to types char, double
+> Line 85, column 5: Operator || cannot be applied to types short, double
+> Line 87, column 5: Operator || cannot be applied to types int, double
+> Line 88, column 5: Operator || cannot be applied to types double, double
+> Line 92, column 5: Operator && cannot be applied to types char, double
+> Line 95, column 5: Operator && cannot be applied to types short, double
+> Line 97, column 5: Operator && cannot be applied to types int, double
+> Line 98, column 5: Operator && cannot be applied to types double, double
+> Line 162, column 5: Operator & cannot be applied to types char, double
+> Line 165, column 5: Operator & cannot be applied to types short, double
+> Line 167, column 5: Operator & cannot be applied to types int, double
+> Line 168, column 5: Operator & cannot be applied to types double, double
+> Line 172, column 5: Operator | cannot be applied to types char, double
+> Line 175, column 5: Operator | cannot be applied to types short, double
+> Line 177, column 5: Operator | cannot be applied to types int, double
+> Line 178, column 5: Operator | cannot be applied to types double, double
+> Line 182, column 5: Operator ^ cannot be applied to types char, double
+> Line 185, column 5: Operator ^ cannot be applied to types short, double
+> Line 187, column 5: Operator ^ cannot be applied to types int, double
+> Line 188, column 5: Operator ^ cannot be applied to types double, double
+> Line 192, column 4: Conflicting types (got double, expected int)
+> Line 196, column 4: Conflicting types (got double, expected int)
+> Line 200, column 4: Wrong number of arguments to function f1 (got 0, required 1)
+> Line 203, column 4: Wrong number of arguments to function f1 (got 2, required 1)
+6,9d57
+< a	()
+< b	()
+< c	()
+< d	()
+12,13c60,61
+< return	int 
+< a	double param
+---
+> return	int
+> a	double	param
+16c64,68
+< return	int 
+---
+> return	int
+> a	char
+> b	short
+> c	int
+> d	double
+20c72
+< ....int
+---
+> ....Int
+24c76
+< ........double
+---
+> ........Double
+28c80
+< ........Natural(0)
+---
+> ........Natural(0) - int
+30c82
+< ....int
+---
+> ....Int
+34c86
+< ........void
+---
+> ........Void
+39c91
+< ........ChrLit('a')
+---
+> ........ChrLit('a') - int
+43c95
+< ........Natural(2)
+---
+> ........Natural(2) - int
+47c99
+< ........Natural(3)
+---
+> ........Natural(3) - int
+51c103
+< ........Decimal(3.0)
+---
+> ........Decimal(3.0) - double
+53,55c105,107
+< ........Store
+< ..........Identifier(a)
+< ..........Identifier(a)
+---
+> ........Store - char
+> ..........Identifier(a) - char
+> ..........Identifier(a) - char
+59,61c111,113
+< ........Store
+< ..........Identifier(a)
+< ..........Identifier(b)
+---
+> ........Store - char
+> ..........Identifier(a) - char
+> ..........Identifier(b) - short
+65,67c117,119
+< ........Store
+< ..........Identifier(a)
+< ..........Identifier(c)
+---
+> ........Store - char
+> ..........Identifier(a) - char
+> ..........Identifier(c) - int
+71,73c123,125
+< ........Store
+< ..........Identifier(a)
+< ..........Identifier(d)
+---
+> ........Store - char
+> ..........Identifier(a) - char
+> ..........Identifier(d) - double
+77,79c129,131
+< ........Store
+< ..........Identifier(b)
+< ..........Identifier(b)
+---
+> ........Store - short
+> ..........Identifier(b) - short
+> ..........Identifier(b) - short
+83,85c135,137
+< ........Store
+< ..........Identifier(b)
+< ..........Identifier(c)
+---
+> ........Store - short
+> ..........Identifier(b) - short
+> ..........Identifier(c) - int
+89,91c141,143
+< ........Store
+< ..........Identifier(b)
+< ..........Identifier(d)
+---
+> ........Store - short
+> ..........Identifier(b) - short
+> ..........Identifier(d) - double
+95,97c147,149
+< ........Store
+< ..........Identifier(c)
+< ..........Identifier(c)
+---
+> ........Store - int
+> ..........Identifier(c) - int
+> ..........Identifier(c) - int
+101,103c153,155
+< ........Store
+< ..........Identifier(c)
+< ..........Identifier(d)
+---
+> ........Store - int
+> ..........Identifier(c) - int
+> ..........Identifier(d) - double
+107,109c159,161
+< ........Store
+< ..........Identifier(d)
+< ..........Identifier(d)
+---
+> ........Store - double
+> ..........Identifier(d) - double
+> ..........Identifier(d) - double
+113,115c165,167
+< ........Comma
+< ..........Identifier(a)
+< ..........Identifier(a)
+---
+> ........Comma - char
+> ..........Identifier(a) - char
+> ..........Identifier(a) - char
+119,121c171,173
+< ........Comma
+< ..........Identifier(a)
+< ..........Identifier(b)
+---
+> ........Comma - short
+> ..........Identifier(a) - char
+> ..........Identifier(b) - short
+125,127c177,179
+< ........Comma
+< ..........Identifier(a)
+< ..........Identifier(c)
+---
+> ........Comma - int
+> ..........Identifier(a) - char
+> ..........Identifier(c) - int
+131,133c183,185
+< ........Comma
+< ..........Identifier(a)
+< ..........Identifier(d)
+---
+> ........Comma - double
+> ..........Identifier(a) - char
+> ..........Identifier(d) - double
+137,139c189,191
+< ........Comma
+< ..........Identifier(b)
+< ..........Identifier(b)
+---
+> ........Comma - short
+> ..........Identifier(b) - short
+> ..........Identifier(b) - short
+143,145c195,197
+< ........Comma
+< ..........Identifier(b)
+< ..........Identifier(c)
+---
+> ........Comma - int
+> ..........Identifier(b) - short
+> ..........Identifier(c) - int
+149,151c201,203
+< ........Comma
+< ..........Identifier(b)
+< ..........Identifier(d)
+---
+> ........Comma - double
+> ..........Identifier(b) - short
+> ..........Identifier(d) - double
+155,157c207,209
+< ........Comma
+< ..........Identifier(c)
+< ..........Identifier(c)
+---
+> ........Comma - int
+> ..........Identifier(c) - int
+> ..........Identifier(c) - int
+161,163c213,215
+< ........Comma
+< ..........Identifier(c)
+< ..........Identifier(d)
+---
+> ........Comma - double
+> ..........Identifier(c) - int
+> ..........Identifier(d) - double
+167,169c219,221
+< ........Comma
+< ..........Identifier(d)
+< ..........Identifier(d)
+---
+> ........Comma - double
+> ..........Identifier(d) - double
+> ..........Identifier(d) - double
+173,175c225,227
+< ........Add
+< ..........Identifier(a)
+< ..........Identifier(a)
+---
+> ........Add - char
+> ..........Identifier(a) - char
+> ..........Identifier(a) - char
+179,181c231,233
+< ........Add
+< ..........Identifier(a)
+< ..........Identifier(b)
+---
+> ........Add - short
+> ..........Identifier(a) - char
+> ..........Identifier(b) - short
+185,187c237,239
+< ........Add
+< ..........Identifier(a)
+< ..........Identifier(c)
+---
+> ........Add - int
+> ..........Identifier(a) - char
+> ..........Identifier(c) - int
+191,193c243,245
+< ........Add
+< ..........Identifier(a)
+< ..........Identifier(d)
+---
+> ........Add - double
+> ..........Identifier(a) - char
+> ..........Identifier(d) - double
+197,199c249,251
+< ........Add
+< ..........Identifier(b)
+< ..........Identifier(b)
+---
+> ........Add - short
+> ..........Identifier(b) - short
+> ..........Identifier(b) - short
+203,205c255,257
+< ........Add
+< ..........Identifier(b)
+< ..........Identifier(c)
+---
+> ........Add - int
+> ..........Identifier(b) - short
+> ..........Identifier(c) - int
+209,211c261,263
+< ........Add
+< ..........Identifier(b)
+< ..........Identifier(d)
+---
+> ........Add - double
+> ..........Identifier(b) - short
+> ..........Identifier(d) - double
+215,217c267,269
+< ........Add
+< ..........Identifier(c)
+< ..........Identifier(c)
+---
+> ........Add - int
+> ..........Identifier(c) - int
+> ..........Identifier(c) - int
+221,223c273,275
+< ........Add
+< ..........Identifier(c)
+< ..........Identifier(d)
+---
+> ........Add - double
+> ..........Identifier(c) - int
+> ..........Identifier(d) - double
+227,229c279,281
+< ........Add
+< ..........Identifier(d)
+< ..........Identifier(d)
+---
+> ........Add - double
+> ..........Identifier(d) - double
+> ..........Identifier(d) - double
+233,235c285,287
+< ........Mul
+< ..........Identifier(a)
+< ..........Identifier(a)
+---
+> ........Mul - char
+> ..........Identifier(a) - char
+> ..........Identifier(a) - char
+239,241c291,293
+< ........Mul
+< ..........Identifier(a)
+< ..........Identifier(b)
+---
+> ........Mul - short
+> ..........Identifier(a) - char
+> ..........Identifier(b) - short
+245,247c297,299
+< ........Mul
+< ..........Identifier(a)
+< ..........Identifier(c)
+---
+> ........Mul - int
+> ..........Identifier(a) - char
+> ..........Identifier(c) - int
+251,253c303,305
+< ........Mul
+< ..........Identifier(a)
+< ..........Identifier(d)
+---
+> ........Mul - double
+> ..........Identifier(a) - char
+> ..........Identifier(d) - double
+257,259c309,311
+< ........Mul
+< ..........Identifier(b)
+< ..........Identifier(b)
+---
+> ........Mul - short
+> ..........Identifier(b) - short
+> ..........Identifier(b) - short
+263,265c315,317
+< ........Mul
+< ..........Identifier(b)
+< ..........Identifier(c)
+---
+> ........Mul - int
+> ..........Identifier(b) - short
+> ..........Identifier(c) - int
+269,271c321,323
+< ........Mul
+< ..........Identifier(b)
+< ..........Identifier(d)
+---
+> ........Mul - double
+> ..........Identifier(b) - short
+> ..........Identifier(d) - double
+275,277c327,329
+< ........Mul
+< ..........Identifier(c)
+< ..........Identifier(c)
+---
+> ........Mul - int
+> ..........Identifier(c) - int
+> ..........Identifier(c) - int
+281,283c333,335
+< ........Mul
+< ..........Identifier(c)
+< ..........Identifier(d)
+---
+> ........Mul - double
+> ..........Identifier(c) - int
+> ..........Identifier(d) - double
+287,289c339,341
+< ........Mul
+< ..........Identifier(d)
+< ..........Identifier(d)
+---
+> ........Mul - double
+> ..........Identifier(d) - double
+> ..........Identifier(d) - double
+293,295c345,347
+< ........Sub
+< ..........Identifier(a)
+< ..........Identifier(a)
+---
+> ........Sub - char
+> ..........Identifier(a) - char
+> ..........Identifier(a) - char
+299,301c351,353
+< ........Sub
+< ..........Identifier(a)
+< ..........Identifier(b)
+---
+> ........Sub - short
+> ..........Identifier(a) - char
+> ..........Identifier(b) - short
+305,307c357,359
+< ........Sub
+< ..........Identifier(a)
+< ..........Identifier(c)
+---
+> ........Sub - int
+> ..........Identifier(a) - char
+> ..........Identifier(c) - int
+311,313c363,365
+< ........Sub
+< ..........Identifier(a)
+< ..........Identifier(d)
+---
+> ........Sub - double
+> ..........Identifier(a) - char
+> ..........Identifier(d) - double
+317,319c369,371
+< ........Sub
+< ..........Identifier(b)
+< ..........Identifier(b)
+---
+> ........Sub - short
+> ..........Identifier(b) - short
+> ..........Identifier(b) - short
+323,325c375,377
+< ........Sub
+< ..........Identifier(b)
+< ..........Identifier(c)
+---
+> ........Sub - int
+> ..........Identifier(b) - short
+> ..........Identifier(c) - int
+329,331c381,383
+< ........Sub
+< ..........Identifier(b)
+< ..........Identifier(d)
+---
+> ........Sub - double
+> ..........Identifier(b) - short
+> ..........Identifier(d) - double
+335,337c387,389
+< ........Sub
+< ..........Identifier(c)
+< ..........Identifier(c)
+---
+> ........Sub - int
+> ..........Identifier(c) - int
+> ..........Identifier(c) - int
+341,343c393,395
+< ........Sub
+< ..........Identifier(c)
+< ..........Identifier(d)
+---
+> ........Sub - double
+> ..........Identifier(c) - int
+> ..........Identifier(d) - double
+347,349c399,401
+< ........Sub
+< ..........Identifier(d)
+< ..........Identifier(d)
+---
+> ........Sub - double
+> ..........Identifier(d) - double
+> ..........Identifier(d) - double
+353,355c405,407
+< ........Mod
+< ..........Identifier(a)
+< ..........Identifier(a)
+---
+> ........Mod - int
+> ..........Identifier(a) - char
+> ..........Identifier(a) - char
+359,361c411,413
+< ........Mod
+< ..........Identifier(a)
+< ..........Identifier(b)
+---
+> ........Mod - int
+> ..........Identifier(a) - char
+> ..........Identifier(b) - short
+365,367c417,419
+< ........Mod
+< ..........Identifier(a)
+< ..........Identifier(c)
+---
+> ........Mod - int
+> ..........Identifier(a) - char
+> ..........Identifier(c) - int
+371,373c423,425
+< ........Mod
+< ..........Identifier(a)
+< ..........Identifier(d)
+---
+> ........Mod - int
+> ..........Identifier(a) - char
+> ..........Identifier(d) - double
+377,379c429,431
+< ........Mod
+< ..........Identifier(b)
+< ..........Identifier(b)
+---
+> ........Mod - int
+> ..........Identifier(b) - short
+> ..........Identifier(b) - short
+383,385c435,437
+< ........Mod
+< ..........Identifier(b)
+< ..........Identifier(c)
+---
+> ........Mod - int
+> ..........Identifier(b) - short
+> ..........Identifier(c) - int
+389,391c441,443
+< ........Mod
+< ..........Identifier(b)
+< ..........Identifier(d)
+---
+> ........Mod - int
+> ..........Identifier(b) - short
+> ..........Identifier(d) - double
+395,397c447,449
+< ........Mod
+< ..........Identifier(c)
+< ..........Identifier(c)
+---
+> ........Mod - int
+> ..........Identifier(c) - int
+> ..........Identifier(c) - int
+401,403c453,455
+< ........Mod
+< ..........Identifier(c)
+< ..........Identifier(d)
+---
+> ........Mod - int
+> ..........Identifier(c) - int
+> ..........Identifier(d) - double
+407,409c459,461
+< ........Mod
+< ..........Identifier(d)
+< ..........Identifier(d)
+---
+> ........Mod - int
+> ..........Identifier(d) - double
+> ..........Identifier(d) - double
+413,415c465,467
+< ........Div
+< ..........Identifier(a)
+< ..........Identifier(a)
+---
+> ........Div - char
+> ..........Identifier(a) - char
+> ..........Identifier(a) - char
+419,421c471,473
+< ........Div
+< ..........Identifier(a)
+< ..........Identifier(b)
+---
+> ........Div - short
+> ..........Identifier(a) - char
+> ..........Identifier(b) - short
+425,427c477,479
+< ........Div
+< ..........Identifier(a)
+< ..........Identifier(c)
+---
+> ........Div - int
+> ..........Identifier(a) - char
+> ..........Identifier(c) - int
+431,433c483,485
+< ........Div
+< ..........Identifier(a)
+< ..........Identifier(d)
+---
+> ........Div - double
+> ..........Identifier(a) - char
+> ..........Identifier(d) - double
+437,439c489,491
+< ........Div
+< ..........Identifier(b)
+< ..........Identifier(b)
+---
+> ........Div - short
+> ..........Identifier(b) - short
+> ..........Identifier(b) - short
+443,445c495,497
+< ........Div
+< ..........Identifier(b)
+< ..........Identifier(c)
+---
+> ........Div - int
+> ..........Identifier(b) - short
+> ..........Identifier(c) - int
+449,451c501,503
+< ........Div
+< ..........Identifier(b)
+< ..........Identifier(d)
+---
+> ........Div - double
+> ..........Identifier(b) - short
+> ..........Identifier(d) - double
+455,457c507,509
+< ........Div
+< ..........Identifier(c)
+< ..........Identifier(c)
+---
+> ........Div - int
+> ..........Identifier(c) - int
+> ..........Identifier(c) - int
+461,463c513,515
+< ........Div
+< ..........Identifier(c)
+< ..........Identifier(d)
+---
+> ........Div - double
+> ..........Identifier(c) - int
+> ..........Identifier(d) - double
+467,469c519,521
+< ........Div
+< ..........Identifier(d)
+< ..........Identifier(d)
+---
+> ........Div - double
+> ..........Identifier(d) - double
+> ..........Identifier(d) - double
+473,475c525,527
+< ........Or
+< ..........Identifier(a)
+< ..........Identifier(a)
+---
+> ........Or - int
+> ..........Identifier(a) - char
+> ..........Identifier(a) - char
+479,481c531,533
+< ........Or
+< ..........Identifier(a)
+< ..........Identifier(b)
+---
+> ........Or - int
+> ..........Identifier(a) - char
+> ..........Identifier(b) - short
+485,487c537,539
+< ........Or
+< ..........Identifier(a)
+< ..........Identifier(c)
+---
+> ........Or - int
+> ..........Identifier(a) - char
+> ..........Identifier(c) - int
+491,493c543,545
+< ........Or
+< ..........Identifier(a)
+< ..........Identifier(d)
+---
+> ........Or - int
+> ..........Identifier(a) - char
+> ..........Identifier(d) - double
+497,499c549,551
+< ........Or
+< ..........Identifier(b)
+< ..........Identifier(b)
+---
+> ........Or - int
+> ..........Identifier(b) - short
+> ..........Identifier(b) - short
+503,505c555,557
+< ........Or
+< ..........Identifier(b)
+< ..........Identifier(c)
+---
+> ........Or - int
+> ..........Identifier(b) - short
+> ..........Identifier(c) - int
+509,511c561,563
+< ........Or
+< ..........Identifier(b)
+< ..........Identifier(d)
+---
+> ........Or - int
+> ..........Identifier(b) - short
+> ..........Identifier(d) - double
+515,517c567,569
+< ........Or
+< ..........Identifier(c)
+< ..........Identifier(c)
+---
+> ........Or - int
+> ..........Identifier(c) - int
+> ..........Identifier(c) - int
+521,523c573,575
+< ........Or
+< ..........Identifier(c)
+< ..........Identifier(d)
+---
+> ........Or - int
+> ..........Identifier(c) - int
+> ..........Identifier(d) - double
+527,529c579,581
+< ........Or
+< ..........Identifier(d)
+< ..........Identifier(d)
+---
+> ........Or - int
+> ..........Identifier(d) - double
+> ..........Identifier(d) - double
+533,535c585,587
+< ........And
+< ..........Identifier(a)
+< ..........Identifier(a)
+---
+> ........And - int
+> ..........Identifier(a) - char
+> ..........Identifier(a) - char
+539,541c591,593
+< ........And
+< ..........Identifier(a)
+< ..........Identifier(b)
+---
+> ........And - int
+> ..........Identifier(a) - char
+> ..........Identifier(b) - short
+545,547c597,599
+< ........And
+< ..........Identifier(a)
+< ..........Identifier(c)
+---
+> ........And - int
+> ..........Identifier(a) - char
+> ..........Identifier(c) - int
+551,553c603,605
+< ........And
+< ..........Identifier(a)
+< ..........Identifier(d)
+---
+> ........And - int
+> ..........Identifier(a) - char
+> ..........Identifier(d) - double
+557,559c609,611
+< ........And
+< ..........Identifier(b)
+< ..........Identifier(b)
+---
+> ........And - int
+> ..........Identifier(b) - short
+> ..........Identifier(b) - short
+563,565c615,617
+< ........And
+< ..........Identifier(b)
+< ..........Identifier(c)
+---
+> ........And - int
+> ..........Identifier(b) - short
+> ..........Identifier(c) - int
+569,571c621,623
+< ........And
+< ..........Identifier(b)
+< ..........Identifier(d)
+---
+> ........And - int
+> ..........Identifier(b) - short
+> ..........Identifier(d) - double
+575,577c627,629
+< ........And
+< ..........Identifier(c)
+< ..........Identifier(c)
+---
+> ........And - int
+> ..........Identifier(c) - int
+> ..........Identifier(c) - int
+581,583c633,635
+< ........And
+< ..........Identifier(c)
+< ..........Identifier(d)
+---
+> ........And - int
+> ..........Identifier(c) - int
+> ..........Identifier(d) - double
+587,589c639,641
+< ........And
+< ..........Identifier(d)
+< ..........Identifier(d)
+---
+> ........And - int
+> ..........Identifier(d) - double
+> ..........Identifier(d) - double
+593,595c645,647
+< ........Le
+< ..........Identifier(a)
+< ..........Identifier(a)
+---
+> ........Le - int
+> ..........Identifier(a) - char
+> ..........Identifier(a) - char
+599,601c651,653
+< ........Le
+< ..........Identifier(a)
+< ..........Identifier(b)
+---
+> ........Le - int
+> ..........Identifier(a) - char
+> ..........Identifier(b) - short
+605,607c657,659
+< ........Le
+< ..........Identifier(a)
+< ..........Identifier(c)
+---
+> ........Le - int
+> ..........Identifier(a) - char
+> ..........Identifier(c) - int
+611,613c663,665
+< ........Le
+< ..........Identifier(a)
+< ..........Identifier(d)
+---
+> ........Le - int
+> ..........Identifier(a) - char
+> ..........Identifier(d) - double
+617,619c669,671
+< ........Le
+< ..........Identifier(b)
+< ..........Identifier(b)
+---
+> ........Le - int
+> ..........Identifier(b) - short
+> ..........Identifier(b) - short
+623,625c675,677
+< ........Le
+< ..........Identifier(b)
+< ..........Identifier(c)
+---
+> ........Le - int
+> ..........Identifier(b) - short
+> ..........Identifier(c) - int
+629,631c681,683
+< ........Le
+< ..........Identifier(b)
+< ..........Identifier(d)
+---
+> ........Le - int
+> ..........Identifier(b) - short
+> ..........Identifier(d) - double
+635,637c687,689
+< ........Le
+< ..........Identifier(c)
+< ..........Identifier(c)
+---
+> ........Le - int
+> ..........Identifier(c) - int
+> ..........Identifier(c) - int
+641,643c693,695
+< ........Le
+< ..........Identifier(c)
+< ..........Identifier(d)
+---
+> ........Le - int
+> ..........Identifier(c) - int
+> ..........Identifier(d) - double
+647,649c699,701
+< ........Le
+< ..........Identifier(d)
+< ..........Identifier(d)
+---
+> ........Le - int
+> ..........Identifier(d) - double
+> ..........Identifier(d) - double
+653,655c705,707
+< ........Lt
+< ..........Identifier(a)
+< ..........Identifier(a)
+---
+> ........Lt - int
+> ..........Identifier(a) - char
+> ..........Identifier(a) - char
+659,661c711,713
+< ........Lt
+< ..........Identifier(a)
+< ..........Identifier(b)
+---
+> ........Lt - int
+> ..........Identifier(a) - char
+> ..........Identifier(b) - short
+665,667c717,719
+< ........Lt
+< ..........Identifier(a)
+< ..........Identifier(c)
+---
+> ........Lt - int
+> ..........Identifier(a) - char
+> ..........Identifier(c) - int
+671,673c723,725
+< ........Lt
+< ..........Identifier(a)
+< ..........Identifier(d)
+---
+> ........Lt - int
+> ..........Identifier(a) - char
+> ..........Identifier(d) - double
+677,679c729,731
+< ........Lt
+< ..........Identifier(b)
+< ..........Identifier(b)
+---
+> ........Lt - int
+> ..........Identifier(b) - short
+> ..........Identifier(b) - short
+683,685c735,737
+< ........Lt
+< ..........Identifier(b)
+< ..........Identifier(c)
+---
+> ........Lt - int
+> ..........Identifier(b) - short
+> ..........Identifier(c) - int
+689,691c741,743
+< ........Lt
+< ..........Identifier(b)
+< ..........Identifier(d)
+---
+> ........Lt - int
+> ..........Identifier(b) - short
+> ..........Identifier(d) - double
+695,697c747,749
+< ........Lt
+< ..........Identifier(c)
+< ..........Identifier(c)
+---
+> ........Lt - int
+> ..........Identifier(c) - int
+> ..........Identifier(c) - int
+701,703c753,755
+< ........Lt
+< ..........Identifier(c)
+< ..........Identifier(d)
+---
+> ........Lt - int
+> ..........Identifier(c) - int
+> ..........Identifier(d) - double
+707,709c759,761
+< ........Lt
+< ..........Identifier(d)
+< ..........Identifier(d)
+---
+> ........Lt - int
+> ..........Identifier(d) - double
+> ..........Identifier(d) - double
+713,715c765,767
+< ........Ge
+< ..........Identifier(a)
+< ..........Identifier(a)
+---
+> ........Ge - int
+> ..........Identifier(a) - char
+> ..........Identifier(a) - char
+719,721c771,773
+< ........Ge
+< ..........Identifier(a)
+< ..........Identifier(b)
+---
+> ........Ge - int
+> ..........Identifier(a) - char
+> ..........Identifier(b) - short
+725,727c777,779
+< ........Ge
+< ..........Identifier(a)
+< ..........Identifier(c)
+---
+> ........Ge - int
+> ..........Identifier(a) - char
+> ..........Identifier(c) - int
+731,733c783,785
+< ........Ge
+< ..........Identifier(a)
+< ..........Identifier(d)
+---
+> ........Ge - int
+> ..........Identifier(a) - char
+> ..........Identifier(d) - double
+737,739c789,791
+< ........Ge
+< ..........Identifier(b)
+< ..........Identifier(b)
+---
+> ........Ge - int
+> ..........Identifier(b) - short
+> ..........Identifier(b) - short
+743,745c795,797
+< ........Ge
+< ..........Identifier(b)
+< ..........Identifier(c)
+---
+> ........Ge - int
+> ..........Identifier(b) - short
+> ..........Identifier(c) - int
+749,751c801,803
+< ........Ge
+< ..........Identifier(b)
+< ..........Identifier(d)
+---
+> ........Ge - int
+> ..........Identifier(b) - short
+> ..........Identifier(d) - double
+755,757c807,809
+< ........Ge
+< ..........Identifier(c)
+< ..........Identifier(c)
+---
+> ........Ge - int
+> ..........Identifier(c) - int
+> ..........Identifier(c) - int
+761,763c813,815
+< ........Ge
+< ..........Identifier(c)
+< ..........Identifier(d)
+---
+> ........Ge - int
+> ..........Identifier(c) - int
+> ..........Identifier(d) - double
+767,769c819,821
+< ........Ge
+< ..........Identifier(d)
+< ..........Identifier(d)
+---
+> ........Ge - int
+> ..........Identifier(d) - double
+> ..........Identifier(d) - double
+773,775c825,827
+< ........Gt
+< ..........Identifier(a)
+< ..........Identifier(a)
+---
+> ........Gt - int
+> ..........Identifier(a) - char
+> ..........Identifier(a) - char
+779,781c831,833
+< ........Gt
+< ..........Identifier(a)
+< ..........Identifier(b)
+---
+> ........Gt - int
+> ..........Identifier(a) - char
+> ..........Identifier(b) - short
+785,787c837,839
+< ........Gt
+< ..........Identifier(a)
+< ..........Identifier(c)
+---
+> ........Gt - int
+> ..........Identifier(a) - char
+> ..........Identifier(c) - int
+791,793c843,845
+< ........Gt
+< ..........Identifier(a)
+< ..........Identifier(d)
+---
+> ........Gt - int
+> ..........Identifier(a) - char
+> ..........Identifier(d) - double
+797,799c849,851
+< ........Gt
+< ..........Identifier(b)
+< ..........Identifier(b)
+---
+> ........Gt - int
+> ..........Identifier(b) - short
+> ..........Identifier(b) - short
+803,805c855,857
+< ........Gt
+< ..........Identifier(b)
+< ..........Identifier(c)
+---
+> ........Gt - int
+> ..........Identifier(b) - short
+> ..........Identifier(c) - int
+809,811c861,863
+< ........Gt
+< ..........Identifier(b)
+< ..........Identifier(d)
+---
+> ........Gt - int
+> ..........Identifier(b) - short
+> ..........Identifier(d) - double
+815,817c867,869
+< ........Gt
+< ..........Identifier(c)
+< ..........Identifier(c)
+---
+> ........Gt - int
+> ..........Identifier(c) - int
+> ..........Identifier(c) - int
+821,823c873,875
+< ........Gt
+< ..........Identifier(c)
+< ..........Identifier(d)
+---
+> ........Gt - int
+> ..........Identifier(c) - int
+> ..........Identifier(d) - double
+827,829c879,881
+< ........Gt
+< ..........Identifier(d)
+< ..........Identifier(d)
+---
+> ........Gt - int
+> ..........Identifier(d) - double
+> ..........Identifier(d) - double
+833,835c885,887
+< ........Eq
+< ..........Identifier(a)
+< ..........Identifier(a)
+---
+> ........Eq - int
+> ..........Identifier(a) - char
+> ..........Identifier(a) - char
+839,841c891,893
+< ........Eq
+< ..........Identifier(a)
+< ..........Identifier(b)
+---
+> ........Eq - int
+> ..........Identifier(a) - char
+> ..........Identifier(b) - short
+845,847c897,899
+< ........Eq
+< ..........Identifier(a)
+< ..........Identifier(c)
+---
+> ........Eq - int
+> ..........Identifier(a) - char
+> ..........Identifier(c) - int
+851,853c903,905
+< ........Eq
+< ..........Identifier(a)
+< ..........Identifier(d)
+---
+> ........Eq - int
+> ..........Identifier(a) - char
+> ..........Identifier(d) - double
+857,859c909,911
+< ........Eq
+< ..........Identifier(b)
+< ..........Identifier(b)
+---
+> ........Eq - int
+> ..........Identifier(b) - short
+> ..........Identifier(b) - short
+863,865c915,917
+< ........Eq
+< ..........Identifier(b)
+< ..........Identifier(c)
+---
+> ........Eq - int
+> ..........Identifier(b) - short
+> ..........Identifier(c) - int
+869,871c921,923
+< ........Eq
+< ..........Identifier(b)
+< ..........Identifier(d)
+---
+> ........Eq - int
+> ..........Identifier(b) - short
+> ..........Identifier(d) - double
+875,877c927,929
+< ........Eq
+< ..........Identifier(c)
+< ..........Identifier(c)
+---
+> ........Eq - int
+> ..........Identifier(c) - int
+> ..........Identifier(c) - int
+881,883c933,935
+< ........Eq
+< ..........Identifier(c)
+< ..........Identifier(d)
+---
+> ........Eq - int
+> ..........Identifier(c) - int
+> ..........Identifier(d) - double
+887,889c939,941
+< ........Eq
+< ..........Identifier(d)
+< ..........Identifier(d)
+---
+> ........Eq - int
+> ..........Identifier(d) - double
+> ..........Identifier(d) - double
+893,895c945,947
+< ........Ne
+< ..........Identifier(a)
+< ..........Identifier(a)
+---
+> ........Ne - int
+> ..........Identifier(a) - char
+> ..........Identifier(a) - char
+899,901c951,953
+< ........Ne
+< ..........Identifier(a)
+< ..........Identifier(b)
+---
+> ........Ne - int
+> ..........Identifier(a) - char
+> ..........Identifier(b) - short
+905,907c957,959
+< ........Ne
+< ..........Identifier(a)
+< ..........Identifier(c)
+---
+> ........Ne - int
+> ..........Identifier(a) - char
+> ..........Identifier(c) - int
+911,913c963,965
+< ........Ne
+< ..........Identifier(a)
+< ..........Identifier(d)
+---
+> ........Ne - int
+> ..........Identifier(a) - char
+> ..........Identifier(d) - double
+917,919c969,971
+< ........Ne
+< ..........Identifier(b)
+< ..........Identifier(b)
+---
+> ........Ne - int
+> ..........Identifier(b) - short
+> ..........Identifier(b) - short
+923,925c975,977
+< ........Ne
+< ..........Identifier(b)
+< ..........Identifier(c)
+---
+> ........Ne - int
+> ..........Identifier(b) - short
+> ..........Identifier(c) - int
+929,931c981,983
+< ........Ne
+< ..........Identifier(b)
+< ..........Identifier(d)
+---
+> ........Ne - int
+> ..........Identifier(b) - short
+> ..........Identifier(d) - double
+935,937c987,989
+< ........Ne
+< ..........Identifier(c)
+< ..........Identifier(c)
+---
+> ........Ne - int
+> ..........Identifier(c) - int
+> ..........Identifier(c) - int
+941,943c993,995
+< ........Ne
+< ..........Identifier(c)
+< ..........Identifier(d)
+---
+> ........Ne - int
+> ..........Identifier(c) - int
+> ..........Identifier(d) - double
+947,949c999,1001
+< ........Ne
+< ..........Identifier(d)
+< ..........Identifier(d)
+---
+> ........Ne - int
+> ..........Identifier(d) - double
+> ..........Identifier(d) - double
+953,955c1005,1007
+< ........BitWiseAnd
+< ..........Identifier(a)
+< ..........Identifier(a)
+---
+> ........BitWiseAnd - int
+> ..........Identifier(a) - char
+> ..........Identifier(a) - char
+959,961c1011,1013
+< ........BitWiseAnd
+< ..........Identifier(a)
+< ..........Identifier(b)
+---
+> ........BitWiseAnd - int
+> ..........Identifier(a) - char
+> ..........Identifier(b) - short
+965,967c1017,1019
+< ........BitWiseAnd
+< ..........Identifier(a)
+< ..........Identifier(c)
+---
+> ........BitWiseAnd - int
+> ..........Identifier(a) - char
+> ..........Identifier(c) - int
+971,973c1023,1025
+< ........BitWiseAnd
+< ..........Identifier(a)
+< ..........Identifier(d)
+---
+> ........BitWiseAnd - int
+> ..........Identifier(a) - char
+> ..........Identifier(d) - double
+977,979c1029,1031
+< ........BitWiseAnd
+< ..........Identifier(b)
+< ..........Identifier(b)
+---
+> ........BitWiseAnd - int
+> ..........Identifier(b) - short
+> ..........Identifier(b) - short
+983,985c1035,1037
+< ........BitWiseAnd
+< ..........Identifier(b)
+< ..........Identifier(c)
+---
+> ........BitWiseAnd - int
+> ..........Identifier(b) - short
+> ..........Identifier(c) - int
+989,991c1041,1043
+< ........BitWiseAnd
+< ..........Identifier(b)
+< ..........Identifier(d)
+---
+> ........BitWiseAnd - int
+> ..........Identifier(b) - short
+> ..........Identifier(d) - double
+995,997c1047,1049
+< ........BitWiseAnd
+< ..........Identifier(c)
+< ..........Identifier(c)
+---
+> ........BitWiseAnd - int
+> ..........Identifier(c) - int
+> ..........Identifier(c) - int
+1001,1003c1053,1055
+< ........BitWiseAnd
+< ..........Identifier(c)
+< ..........Identifier(d)
+---
+> ........BitWiseAnd - int
+> ..........Identifier(c) - int
+> ..........Identifier(d) - double
+1007,1009c1059,1061
+< ........BitWiseAnd
+< ..........Identifier(d)
+< ..........Identifier(d)
+---
+> ........BitWiseAnd - int
+> ..........Identifier(d) - double
+> ..........Identifier(d) - double
+1013,1015c1065,1067
+< ........BitWiseOr
+< ..........Identifier(a)
+< ..........Identifier(a)
+---
+> ........BitWiseOr - int
+> ..........Identifier(a) - char
+> ..........Identifier(a) - char
+1019,1021c1071,1073
+< ........BitWiseOr
+< ..........Identifier(a)
+< ..........Identifier(b)
+---
+> ........BitWiseOr - int
+> ..........Identifier(a) - char
+> ..........Identifier(b) - short
+1025,1027c1077,1079
+< ........BitWiseOr
+< ..........Identifier(a)
+< ..........Identifier(c)
+---
+> ........BitWiseOr - int
+> ..........Identifier(a) - char
+> ..........Identifier(c) - int
+1031,1033c1083,1085
+< ........BitWiseOr
+< ..........Identifier(a)
+< ..........Identifier(d)
+---
+> ........BitWiseOr - int
+> ..........Identifier(a) - char
+> ..........Identifier(d) - double
+1037,1039c1089,1091
+< ........BitWiseOr
+< ..........Identifier(b)
+< ..........Identifier(b)
+---
+> ........BitWiseOr - int
+> ..........Identifier(b) - short
+> ..........Identifier(b) - short
+1043,1045c1095,1097
+< ........BitWiseOr
+< ..........Identifier(b)
+< ..........Identifier(c)
+---
+> ........BitWiseOr - int
+> ..........Identifier(b) - short
+> ..........Identifier(c) - int
+1049,1051c1101,1103
+< ........BitWiseOr
+< ..........Identifier(b)
+< ..........Identifier(d)
+---
+> ........BitWiseOr - int
+> ..........Identifier(b) - short
+> ..........Identifier(d) - double
+1055,1057c1107,1109
+< ........BitWiseOr
+< ..........Identifier(c)
+< ..........Identifier(c)
+---
+> ........BitWiseOr - int
+> ..........Identifier(c) - int
+> ..........Identifier(c) - int
+1061,1063c1113,1115
+< ........BitWiseOr
+< ..........Identifier(c)
+< ..........Identifier(d)
+---
+> ........BitWiseOr - int
+> ..........Identifier(c) - int
+> ..........Identifier(d) - double
+1067,1069c1119,1121
+< ........BitWiseOr
+< ..........Identifier(d)
+< ..........Identifier(d)
+---
+> ........BitWiseOr - int
+> ..........Identifier(d) - double
+> ..........Identifier(d) - double
+1073,1075c1125,1127
+< ........BitWiseXor
+< ..........Identifier(a)
+< ..........Identifier(a)
+---
+> ........BitWiseXor - int
+> ..........Identifier(a) - char
+> ..........Identifier(a) - char
+1079,1081c1131,1133
+< ........BitWiseXor
+< ..........Identifier(a)
+< ..........Identifier(b)
+---
+> ........BitWiseXor - int
+> ..........Identifier(a) - char
+> ..........Identifier(b) - short
+1085,1087c1137,1139
+< ........BitWiseXor
+< ..........Identifier(a)
+< ..........Identifier(c)
+---
+> ........BitWiseXor - int
+> ..........Identifier(a) - char
+> ..........Identifier(c) - int
+1091,1093c1143,1145
+< ........BitWiseXor
+< ..........Identifier(a)
+< ..........Identifier(d)
+---
+> ........BitWiseXor - int
+> ..........Identifier(a) - char
+> ..........Identifier(d) - double
+1097,1099c1149,1151
+< ........BitWiseXor
+< ..........Identifier(b)
+< ..........Identifier(b)
+---
+> ........BitWiseXor - int
+> ..........Identifier(b) - short
+> ..........Identifier(b) - short
+1103,1105c1155,1157
+< ........BitWiseXor
+< ..........Identifier(b)
+< ..........Identifier(c)
+---
+> ........BitWiseXor - int
+> ..........Identifier(b) - short
+> ..........Identifier(c) - int
+1109,1111c1161,1163
+< ........BitWiseXor
+< ..........Identifier(b)
+< ..........Identifier(d)
+---
+> ........BitWiseXor - int
+> ..........Identifier(b) - short
+> ..........Identifier(d) - double
+1115,1117c1167,1169
+< ........BitWiseXor
+< ..........Identifier(c)
+< ..........Identifier(c)
+---
+> ........BitWiseXor - int
+> ..........Identifier(c) - int
+> ..........Identifier(c) - int
+1121,1123c1173,1175
+< ........BitWiseXor
+< ..........Identifier(c)
+< ..........Identifier(d)
+---
+> ........BitWiseXor - int
+> ..........Identifier(c) - int
+> ..........Identifier(d) - double
+1127,1129c1179,1181
+< ........BitWiseXor
+< ..........Identifier(d)
+< ..........Identifier(d)
+---
+> ........BitWiseXor - int
+> ..........Identifier(d) - double
+> ..........Identifier(d) - double
+1133,1134c1185,1186
+< ........Plus
+< ..........Identifier(a)
+---
+> ........Plus - char
+> ..........Identifier(a) - char
+1138,1139c1190,1191
+< ........Plus
+< ..........Identifier(b)
+---
+> ........Plus - short
+> ..........Identifier(b) - short
+1143,1144c1195,1196
+< ........Plus
+< ..........Identifier(c)
+---
+> ........Plus - int
+> ..........Identifier(c) - int
+1148,1149c1200,1201
+< ........Plus
+< ..........Identifier(d)
+---
+> ........Plus - double
+> ..........Identifier(d) - double
+1153,1154c1205,1206
+< ........Minus
+< ..........Identifier(a)
+---
+> ........Minus - char
+> ..........Identifier(a) - char
+1158,1159c1210,1211
+< ........Minus
+< ..........Identifier(b)
+---
+> ........Minus - short
+> ..........Identifier(b) - short
+1163,1164c1215,1216
+< ........Minus
+< ..........Identifier(c)
+---
+> ........Minus - int
+> ..........Identifier(c) - int
+1168,1169c1220,1221
+< ........Minus
+< ..........Identifier(d)
+---
+> ........Minus - double
+> ..........Identifier(d) - double
+1173,1174c1225,1226
+< ........Not
+< ..........Identifier(a)
+---
+> ........Not - int
+> ..........Identifier(a) - char
+1178,1179c1230,1231
+< ........Not
+< ..........Identifier(b)
+---
+> ........Not - int
+> ..........Identifier(b) - short
+1183,1184c1235,1236
+< ........Not
+< ..........Identifier(c)
+---
+> ........Not - int
+> ..........Identifier(c) - int
+1188,1189c1240,1241
+< ........Call
+< ..........Identifier(f1)
+---
+> ........Call - int
+> ..........Identifier(f1) - int(double)
+1193,1195c1245,1247
+< ........Call
+< ..........Identifier(f1)
+< ..........Identifier(a)
+---
+> ........Call - int
+> ..........Identifier(f1) - int(double)
+> ..........Identifier(a) - char
+1199,1201c1251,1253
+< ........Call
+< ..........Identifier(f1)
+< ..........Identifier(b)
+---
+> ........Call - int
+> ..........Identifier(f1) - int(double)
+> ..........Identifier(b) - short
+1205,1208c1257,1260
+< ........Call
+< ..........Identifier(f1)
+< ..........Identifier(a)
+< ..........Identifier(b)
+---
+> ........Call - int
+> ..........Identifier(f1) - int(double)
+> ..........Identifier(a) - char
+> ..........Identifier(b) - short
+1212c1264
+< ........Natural(0)
+---
+> ........Natural(0) - int

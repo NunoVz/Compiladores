@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdarg.h>
-
+#ifndef FUNCOES_H
+#define FUNCOES_H
 
 typedef struct node* no;
 typedef struct node{
@@ -13,6 +14,7 @@ typedef struct node{
 
     char* type;
     char* infor;
+    char* auxinfo;
 
 }node;
 
@@ -24,3 +26,4 @@ no addChild(no parent, no child);
 void addBrother(no existingNode, no newBrother);
 void printTree(no root, int level);
 int countB(no root);
+#endif
