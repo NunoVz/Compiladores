@@ -1,6 +1,23 @@
 Line 1, column 1: syntax error: intttt
 Line 2, column 1: unrecognized character ($)
+Type: short
 Line 3, column 18: syntax error: ;
+Type: int
+Char Literal: 'c'
+Expr from ExprAux
+Declaration4
+Type: char
 Line 5, column 6: syntax error: char
+Type: int
+Type: void
+Type: short
+Type: int
 Line 9, column 10: syntax error: )
+Type: int
+Type: int
+Type: char
+Type: int
+Parameter Declaration ID:a
 Line 16, column 19: syntax error: )
+Type: int
+Program 

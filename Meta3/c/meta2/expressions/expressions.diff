@@ -1,0 +1,20 @@
+1d0
+< Type: int
+3,8d1
+< Type: int
+< Natural: 5
+< Natural: 2
+< Subtraction
+< Expr from ExprAux
+< Declaration4
+10,12d2
+< Type: int
+< Natural: 5
+< Expr from ExprAux
+14,19d3
+< Type: int
+< Natural: 5
+< Natural: 5
+< Multiplication
+< Expr from ExprAux
+< Declaration4

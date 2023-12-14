@@ -3,40 +3,40 @@ putchar	int(int)
 getchar	int(void)
 f1	int(double)
 main	int(void)
-a	()
-b	()
-c	()
-d	()
 
 ===== Function f1 Symbol Table =====
-return	int 
-a	double param
+return	int
+a	double	param
 
 ===== Function main Symbol Table =====
-return	int 
+return	int
+a	char
+b	short
+c	int
+d	double
 
 Program
 ..FuncDefinition
-....int
+....Int
 ....Identifier(f1)
 ....ParamList
 ......ParamDeclaration
-........double
+........Double
 ........Identifier(a)
 ....FuncBody
 ......Return
 ........Natural(0)
 ..FuncDefinition
-....int
+....Int
 ....Identifier(main)
 ....ParamList
 ......ParamDeclaration
-........void
+........Void
 ....FuncBody
 ......Declaration
 ........Char
 ........Identifier(a)
-........ChrLit('a')
+........ChrLit('a') - int
 ......Declaration
 ........Short
 ........Identifier(b)

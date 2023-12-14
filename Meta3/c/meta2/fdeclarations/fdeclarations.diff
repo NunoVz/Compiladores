@@ -1,0 +1,209 @@
+1,111c1,96
+< Type: int
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Function Declarationt
+< Type: int
+< Type: void
+< Empty Parameter Declaration
+< Type: int
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Function Declarationt
+< Type: void
+< Type: int
+< Parameter Declaration ID:integer
+< Type: double
+< Empty Parameter Declaration
+< Type: void
+< Parameter Declaration ID:a
+< Type: double
+< Empty Parameter Declaration
+< Type: int
+< Empty Parameter Declaration
+< Type: char
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Parameter List
+< Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Function Declarationt
+< Type: int
+< Natural: 2
+< Expr from ExprAux
+< Declaration4
+< Type: void
+< Natural: 2
+< Natural: 2
+< Addition
+< Expr from ExprAux
+< Declaration4
+< Type: double
+< Natural: 2
+< Natural: 2
+< Subtraction
+< Natural: 2
+< Subtraction
+< Natural: 2
+< Natural: 2
+< Multiplication
+< Natural: 2
+< Multiplication
+< Subtraction
+< Expr from ExprAux
+< Natural: 2
+< Expr from ExprAux
+< Expr from ExprAux
+< Expr from ExprAux
+< Expr from ExprAux
+< Expr from ExprAux
+< Expr from ExprAux
+< Natural: 2
+< Addition
+< Expr from ExprAux
+< Expr from ExprAux
+< Expr from ExprAux
+< Expr from ExprAux
+< Expr from ExprAux
+< Expr from ExprAux
+< Expr from ExprAux
+< Declaration4
+< Type: void
+< Natural: 2
+< Identifier (as)
+< Identifier (aasd)
+< Expr from ExprAux
+< Subtraction
+< Natural: 2
+< Natural: 2
+< Multiplication
+< Addition
+< Expr from ExprAux
+< Subtraction
+< Expr from ExprAux
+< Declaration4
+< Type: int
+< Type: void
+< Parameter Declaration ID:a
+< Type: int
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Function Declarationt
+< Type: void
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Function Declarationt
+< Program 
+---
+> Program
+> ..FuncDeclaration
+> ....Int
+> ....Identifier(main)
+> ....ParamList
+> ......ParamDeclaration
+> ........Void
+> ..FuncDeclaration
+> ....Int
+> ....Identifier(main)
+> ....ParamList
+> ......ParamDeclaration
+> ........Void
+> ......ParamDeclaration
+> ........Int
+> ..FuncDeclaration
+> ....Void
+> ....Identifier(chara)
+> ....ParamList
+> ......ParamDeclaration
+> ........Int
+> ........Identifier(integer)
+> ......ParamDeclaration
+> ........Double
+> ......ParamDeclaration
+> ........Void
+> ........Identifier(a)
+> ......ParamDeclaration
+> ........Double
+> ......ParamDeclaration
+> ........Int
+> ......ParamDeclaration
+> ........Char
+> ..Declaration
+> ....Int
+> ....Identifier(a)
+> ....Natural(2)
+> ..Declaration
+> ....Void
+> ....Identifier(as)
+> ....Add
+> ......Natural(2)
+> ......Natural(2)
+> ..Declaration
+> ....Double
+> ....Identifier(a)
+> ....Sub
+> ......Sub
+> ........Sub
+> ..........Natural(2)
+> ..........Natural(2)
+> ........Natural(2)
+> ......Mul
+> ........Mul
+> ..........Natural(2)
+> ..........Natural(2)
+> ........Natural(2)
+> ..Declaration
+> ....Double
+> ....Identifier(bs)
+> ....Add
+> ......Natural(2)
+> ......Natural(2)
+> ..Declaration
+> ....Double
+> ....Identifier(test)
+> ..Declaration
+> ....Void
+> ....Identifier(a)
+> ....Sub
+> ......Natural(2)
+> ......Add
+> ........Sub
+> ..........Identifier(as)
+> ..........Identifier(aasd)
+> ........Mul
+> ..........Natural(2)
+> ..........Natural(2)
+> ..Declaration
+> ....Void
+> ....Identifier(b)
+> ..FuncDeclaration
+> ....Int
+> ....Identifier(test)
+> ....ParamList
+> ......ParamDeclaration
+> ........Void
+> ........Identifier(a)
+> ......ParamDeclaration
+> ........Int
+> ..FuncDeclaration
+> ....Void
+> ....Identifier(new)
+> ....ParamList
+> ......ParamDeclaration
+> ........Void

@@ -1,0 +1,22 @@
+3d2
+< Type: short
+5,9d3
+< Type: int
+< Char Literal: 'c'
+< Expr from ExprAux
+< Declaration4
+< Type: char
+11,14d4
+< Type: int
+< Type: void
+< Type: short
+< Type: int
+16,20d5
+< Type: int
+< Type: int
+< Type: char
+< Type: int
+< Parameter Declaration ID:a
+22,23d6
+< Type: int
+< Program 

@@ -1,0 +1,154 @@
+1,76c1,76
+< Type: char
+< Char Literal: 'r'
+< Expr from ExprAux
+< Declaration4
+< Type: char
+< Char Literal: 'b'
+< Expr from ExprAux
+< Declaration4
+< Type: int
+< Natural: 2
+< Expr from ExprAux
+< Declaration4
+< Type: int
+< Natural: 3
+< Expr from ExprAux
+< Declaration4
+< Type: int
+< Identifier (int2)
+< Identifier (int3)
+< Addition
+< Expr from ExprAux
+< Declaration4
+< Type: int
+< Natural: 5
+< Unary Minus
+< Expr from ExprAux
+< Declaration4
+< Type: int
+< Identifier (int3)
+< Unary Minus
+< Expr from ExprAux
+< Declaration4
+< Type: int
+< Natural: 1
+< Expr from ExprAux
+< Declaration4
+< Type: int
+< Identifier (intA)
+< Natural: 2
+< Store
+< Expr from ExprAux
+< Declaration4
+< Type: int
+< Identifier (intB)
+< Expr from ExprAux
+< Declaration4
+< Type: int
+< Identifier (intA)
+< Identifier (intB)
+< Addition
+< Identifier (intC)
+< Addition
+< Expr from ExprAux
+< Declaration4
+< Type: double
+< Decimal: 1.0
+< Expr from ExprAux
+< Declaration4
+< Type: double
+< Identifier (doubleA)
+< Natural: 2
+< Subtraction
+< Expr from ExprAux
+< Declaration4
+< Type: short
+< Natural: 2
+< Expr from ExprAux
+< Declaration4
+< Type: short
+< Identifier (shortA)
+< Unary Minus
+< Natural: 5
+< Addition
+< Expr from ExprAux
+< Declaration4
+< Program 
+---
+> Program
+> ..Declaration
+> ....Char
+> ....Identifier(r)
+> ....ChrLit('r')
+> ..Declaration
+> ....Char
+> ....Identifier(b)
+> ....ChrLit('b')
+> ..Declaration
+> ....Int
+> ....Identifier(int2)
+> ....Natural(2)
+> ..Declaration
+> ....Int
+> ....Identifier(int3)
+> ....Natural(3)
+> ..Declaration
+> ....Int
+> ....Identifier(sum)
+> ....Add
+> ......Identifier(int2)
+> ......Identifier(int3)
+> ..Declaration
+> ....Int
+> ....Identifier(negative)
+> ....Minus
+> ......Natural(5)
+> ..Declaration
+> ....Int
+> ....Identifier(negative)
+> ....Minus
+> ......Identifier(int3)
+> ..Declaration
+> ....Int
+> ....Identifier(intA)
+> ....Natural(1)
+> ..Declaration
+> ....Int
+> ....Identifier(intB)
+> ....Store
+> ......Identifier(intA)
+> ......Natural(2)
+> ..Declaration
+> ....Int
+> ....Identifier(intC)
+> ....Identifier(intB)
+> ..Declaration
+> ....Int
+> ....Identifier(intD)
+> ....Add
+> ......Add
+> ........Identifier(intA)
+> ........Identifier(intB)
+> ......Identifier(intC)
+> ..Declaration
+> ....Double
+> ....Identifier(doubleA)
+> ....Decimal(1.0)
+> ..Declaration
+> ....Double
+> ....Identifier(doubleB)
+> ....Sub
+> ......Identifier(doubleA)
+> ......Natural(2)
+> ..Declaration
+> ....Short
+> ....Identifier(shortA)
+> ....Natural(2)
+> ..Declaration
+> ....Short
+> ....Identifier(shortB)
+> ....Add
+> ......Minus
+> ........Identifier(shortA)
+> ......Natural(5)

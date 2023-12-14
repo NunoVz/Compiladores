@@ -1,0 +1,21 @@
+1,10d0
+< Type: int
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Type: char
+< Char Literal: 'A'
+< Expr from ExprAux
+< Declaration4
+13,14d2
+< Identifier (NULL)
+< Expr from ExprAux
+16,17d3
+< Compound Stat
+< If Statement
+19,21d4
+< Function Body
+< Function Definition
+< Program 

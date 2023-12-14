@@ -1,0 +1,84 @@
+1,25d0
+< Type: int
+< Type: int
+< Parameter Declaration ID:a
+< Type: int
+< Parameter Declaration ID:b
+< Type: int
+< Parameter Declaration ID:c
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (a)
+< Identifier (b)
+< Subtraction
+< Expr from ExprAux
+< Expr from ExprAux
+< Return Statement with Value
+< Function Body
+< Function Definition
+< Type: void
+< Type: char
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+27,29d1
+< Type: int
+< Natural: 5
+< Expr from ExprAux
+31,32d2
+< Type: void
+< Declaration4
+34,52d3
+< Type: int
+< Type: double
+< Parameter Declaration ID:x
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (x)
+< Expr from ExprAux
+< Return Statement with Value
+< Function Body
+< Function Definition
+< Type: void
+< Type: int
+< Parameter Declaration ID:sig
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Parameter List
+54,83d4
+< Type: char
+< Type: int
+< Empty Parameter Declaration
+< Type: void
+< Empty Parameter Declaration
+< Type: char
+< Empty Parameter Declaration
+< Type: double
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Function Declarationt
+< Type: int
+< Type: int
+< Parameter Declaration ID:x
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (x)
+< Natural: 5
+< Addition
+< Expr from ExprAux
+< Return Statement with Value
+< Function Body
+< Function Definition
+< Program 

@@ -1,2 +1,19 @@
+Type: int
+Type: void
+Empty Parameter Declaration
+Empty Parameter List
+Parameter List
+Function Declarator
+Identifier (a)
+Expr from ExprAux
 Line 4, column 3: syntax error: ==
+Stat + StatList
+Compound Stat
+Stat + StatList
+Stat + StatList
+Compound Stat
 Line 9, column 8: syntax error: &
+If-Else Statement
+Function Body
+Function Definition
+Program 

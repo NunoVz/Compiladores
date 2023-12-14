@@ -1,27 +1,25 @@
+Line 13, column 6: Symbol f already defined
 ===== Global Symbol Table =====
 putchar	int(int)
 getchar	int(void)
-d	()
+s	void(int)
+d	double
 f	int(short)
-f	void(void)
-x	()
+x	double
 dbl	double(int,double)
 ret	void(void)
 
 ===== Function f Symbol Table =====
-return	int 
-i	short param
-
-===== Function f Symbol Table =====
-return	void 
+return	int
+i	short	param
 
 ===== Function dbl Symbol Table =====
-return	double 
-i	int param
-d	double param
+return	double
+i	int	param
+d	double	param
 
 ===== Function ret Symbol Table =====
-return	void 
+return	void
 
 Program
 ..FuncDeclaration
@@ -42,11 +40,11 @@ Program
 ....Double
 ....Identifier(d)
 ..FuncDefinition
-....int
+....Int
 ....Identifier(f)
 ....ParamList
 ......ParamDeclaration
-........short
+........Short
 ........Identifier(i)
 ....FuncBody
 ......Call
@@ -67,25 +65,25 @@ Program
 ............Natural(1)
 ..........Identifier(d)
 ..FuncDefinition
-....void
+....Void
 ....Identifier(f)
 ....ParamList
 ......ParamDeclaration
-........void
+........Void
 ....FuncBody
 ..Declaration
 ....Double
 ....Identifier(x)
 ....Identifier(y)
 ..FuncDefinition
-....double
+....Double
 ....Identifier(dbl)
 ....ParamList
 ......ParamDeclaration
-........int
+........Int
 ........Identifier(i)
 ......ParamDeclaration
-........double
+........Double
 ........Identifier(d)
 ....FuncBody
 ......Call
@@ -125,11 +123,11 @@ Program
 ........Null
 ........Null
 ..FuncDefinition
-....void
+....Void
 ....Identifier(ret)
 ....ParamList
 ......ParamDeclaration
-........void
+........Void
 ....FuncBody
 ......Return
 ........Identifier(d)

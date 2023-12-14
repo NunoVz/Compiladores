@@ -1,4 +1,21 @@
+Type: int
+Type: void
+Empty Parameter Declaration
+Empty Parameter List
+Parameter List
+Function Declarator
+Type: char
+Char Literal: 'A'
+Expr from ExprAux
+Declaration4
 Line 3, column 8: unrecognized character ($)
 Line 3, column 9: syntax error: )
+Identifier (NULL)
+Expr from ExprAux
 Line 5, column 9: syntax error: int
+Compound Stat
+If Statement
 Line 7, column 8: syntax error: ;
+Function Body
+Function Definition
+Program 

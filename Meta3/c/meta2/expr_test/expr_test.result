@@ -1,2 +1,178 @@
+Type: void
+Type: int
+Parameter Declaration ID:a
+Type: char
+Parameter Declaration ID:b
 Line 1, column 26: syntax error: ,
+Type: int
+Type: void
+Empty Parameter Declaration
+Empty Parameter List
+Parameter List
+Function Declarator
+Type: char
+Natural: 4
+Unary Minus
+Natural: 3
+Addition
+Natural: 3
+Unary Minus
+Expr from ExprAux
+Subtraction
+Expr from ExprAux
+Declaration4
+Type: int
+Identifier (a)
+Natural: 4
+Addition
+Identifier (a)
+Unary Minus
+Expr from ExprAux
+Subtraction
+Expr from ExprAux
+Declaration4
+Identifier (a)
+Natural: 3
+Equal
+Identifier (b)
+Identifier (a)
+Less Than
+Logical AND
+Expr from ExprAux
+Identifier (a)
+Natural: 3
+Less Than
+Logical OR
+Expr from ExprAux
+Identifier (a)
+Identifier (b)
+Store
+Expr from ExprAux
+Expression Statement
+Identifier (b)
+Natural: 3
+Store
+Expr from ExprAux
+Expression Statement
+Natural: 1
+Expr from ExprAux
+Identifier (a)
+Natural: 0
+Store
+Expr from ExprAux
+Expression Statement
+Statlist
+While Loop
+Identifier (c)
+Natural: 5
+Store
+Expr from ExprAux
+Expression Statement
+Stat + StatList
+Stat + StatList
+Stat + StatList
+Statlist
+While Loop
+Natural: 5
+Natural: 4
 Line 21, column 15: syntax error: )
+Expr from ExprAux
+Expression Statement
+Identifier (a)
+Expr from ExprAux
+Return Statement with Value
+Function Body
+Function Definition
+Type: int
+Type: void
+Empty Parameter Declaration
+Empty Parameter List
+Parameter List
+Function Declarator
+Identifier (a)
+Identifier (b)
+Addition
+Identifier (b)
+Identifier (c)
+Subtraction
+CALL w stuff
+Expr from ExprAux
+Expression Statement
+Identifier (t)
+Expr from ExprAux
+Identifier (h)
+Comma
+Identifier (x)
+Comma
+Expr from ExprAux
+Expression Statement
+Natural: 1
+Expr from ExprAux
+Identifier (a)
+Identifier (b)
+Store
+Expr from ExprAux
+Expression Statement
+Identifier (b)
+Natural: 3
+Store
+Expr from ExprAux
+Expression Statement
+Natural: 1
+Expr from ExprAux
+Identifier (a)
+Natural: 0
+Store
+Expr from ExprAux
+Expression Statement
+Identifier (a)
+CALL w stuff
+Expr from ExprAux
+Expression Statement
+Identifier (a)
+Identifier (b)
+Addition
+Expr from ExprAux
+Expression Statement
+Natural: 1
+Expr from ExprAux
+Natural: 2
+Expr from ExprAux
+Char Literal: 'a'
+CALL w stuff
+Expr from ExprAux
+Expression Statement
+If Statement
+If Statement
+Identifier (i)
+Identifier (i)
+Natural: 1
+Addition
+Store
+Expr from ExprAux
+Expression Statement
+Stat + StatList
+Stat + StatList
+Stat + StatList
+Stat + StatList
+Statlist
+While Loop
+Identifier (c)
+Natural: 5
+Store
+Expr from ExprAux
+Expression Statement
+Stat + StatList
+Stat + StatList
+Stat + StatList
+Statlist
+While Loop
+Identifier (a)
+Natural: 1
+Store
+Expr from ExprAux
+Expression Statement
+Return Statement
+Function Body
+Function Definition
+Program 

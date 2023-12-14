@@ -1,0 +1,63 @@
+1,34c1,27
+< Type: int
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Type: char
+< Char Literal: 'A'
+< Expr from ExprAux
+< Declaration4
+< Identifier (i)
+< Char Literal: 'Z'
+< Less Than or Equal
+< Expr from ExprAux
+< Identifier (i)
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Identifier (i)
+< Identifier (i)
+< Natural: 1
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Stat + StatList
+< Statlist
+< While Loop
+< Natural: 0
+< Expr from ExprAux
+< Return Statement with Value
+< Function Body
+< Function Definition
+< Program 
+---
+> Program
+> ..FuncDefinition
+> ....Int
+> ....Identifier(main)
+> ....ParamList
+> ......ParamDeclaration
+> ........Void
+> ....FuncBody
+> ......Declaration
+> ........Char
+> ........Identifier(i)
+> ........ChrLit('A')
+> ......While
+> ........Le
+> ..........Identifier(i)
+> ..........ChrLit('Z')
+> ........StatList
+> ..........Call
+> ............Identifier(putchar)
+> ............Identifier(i)
+> ..........Store
+> ............Identifier(i)
+> ............Add
+> ..............Identifier(i)
+> ..............Natural(1)
+> ......Return
+> ........Natural(0)

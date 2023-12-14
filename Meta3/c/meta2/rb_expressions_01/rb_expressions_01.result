@@ -1,62 +1,69 @@
-Program
-..Declaration
-....Int
-....Identifier(a)
-....Add
-......Natural(1)
-......Natural(2)
-..Declaration
-....Int
-....Identifier(b)
-....Add
-......Add
-........Natural(1)
-........Natural(1)
-......Add
-........Natural(1)
-........Natural(2)
-..Declaration
-....Int
-....Identifier(c)
-....Div
-......Mul
-........Natural(1)
-........Natural(2)
-......Natural(2)
-..Declaration
-....Int
-....Identifier(d)
-....Div
-......Add
-........Natural(1)
-........Natural(2)
-......Mul
-........Natural(3)
-........Natural(2)
-..Declaration
-....Int
-....Identifier(e)
-....Mul
-......Sub
-........Natural(1)
-........Natural(3)
-......Natural(2)
-..Declaration
-....Int
-....Identifier(f)
-....Sub
-......Plus
-........Sub
-..........Sub
-............Natural(2)
-............Mul
-..............Natural(3)
-..............Div
-................Natural(1)
-................Natural(2)
-..........Div
-............Natural(6)
-............Natural(3)
-......Mul
-........Natural(3)
-........Natural(6)
+Type: int
+Natural: 1
+Natural: 2
+Addition
+Expr from ExprAux
+Declaration4
+Type: int
+Natural: 1
+Natural: 1
+Addition
+Expr from ExprAux
+Natural: 1
+Natural: 2
+Addition
+Expr from ExprAux
+Addition
+Expr from ExprAux
+Declaration4
+Type: int
+Natural: 1
+Natural: 2
+Multiplication
+Natural: 2
+Division
+Expr from ExprAux
+Declaration4
+Type: int
+Natural: 1
+Natural: 2
+Addition
+Expr from ExprAux
+Natural: 3
+Natural: 2
+Multiplication
+Expr from ExprAux
+Division
+Expr from ExprAux
+Declaration4
+Type: int
+Natural: 1
+Natural: 3
+Subtraction
+Expr from ExprAux
+Natural: 2
+Multiplication
+Expr from ExprAux
+Declaration4
+Type: int
+Natural: 2
+Natural: 3
+Natural: 1
+Natural: 2
+Division
+Expr from ExprAux
+Multiplication
+Subtraction
+Natural: 6
+Natural: 3
+Division
+Subtraction
+Expr from ExprAux
+Unary Plus
+Natural: 3
+Natural: 6
+Multiplication
+Subtraction
+Expr from ExprAux
+Declaration4
+Program 

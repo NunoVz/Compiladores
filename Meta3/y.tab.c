@@ -86,6 +86,8 @@
     int debug =0;
     bool errorflag=false;
     extern int errFlag;
+    extern int l;
+    extern int c;
 
     extern bool flagTree;                //-t
 
@@ -96,7 +98,7 @@
 
 
 
-#line 100 "y.tab.c"
+#line 102 "y.tab.c"
 
 # ifndef YY_CAST
 #  ifdef __cplusplus
@@ -229,12 +231,13 @@ extern int yydebug;
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
 union YYSTYPE
 {
-#line 29 "uccompiler.y"
+#line 31 "uccompiler.y"
 
     char *value;
+
    	struct node *no;
 
-#line 238 "y.tab.c"
+#line 241 "y.tab.c"
 
 };
 typedef union YYSTYPE YYSTYPE;
@@ -706,15 +709,15 @@ static const yytype_int8 yytranslate[] =
 /* YYRLINE[YYN] -- Source line where rule number YYN was defined.  */
 static const yytype_uint8 yyrline[] =
 {
-       0,    63,    63,    65,    67,    68,    70,    71,    73,    75,
-      76,    78,    79,    80,    81,    83,    84,    86,    88,    90,
-      91,    93,    94,    96,    97,    99,   100,   102,   103,   104,
-     105,   106,   108,   109,   111,   112,   113,   114,   115,   116,
-     117,   118,   119,   120,   123,   124,   126,   127,   128,   129,
-     130,   131,   132,   133,   134,   135,   136,   137,   138,   139,
-     140,   141,   142,   143,   144,   145,   146,   147,   148,   149,
-     150,   151,   152,   153,   154,   155,   156,   159,   160,   163,
-     164
+       0,    66,    66,    68,    70,    71,    73,    74,    76,    78,
+      79,    81,    82,    83,    84,    86,    87,    89,    91,    93,
+      94,    96,    97,    99,   100,   102,   103,   105,   106,   107,
+     108,   109,   111,   112,   114,   115,   116,   117,   118,   119,
+     120,   121,   122,   123,   126,   127,   129,   130,   131,   132,
+     133,   134,   135,   136,   137,   138,   139,   140,   141,   142,
+     143,   144,   145,   146,   147,   148,   149,   150,   151,   152,
+     153,   154,   155,   156,   157,   158,   159,   162,   163,   166,
+     167
 };
 #endif
 
@@ -1426,481 +1429,481 @@ yyreduce:
   switch (yyn)
     {
   case 2: /* Program: FunctionsAndDeclarations  */
-#line 63 "uccompiler.y"
-                                                                          {if (debug) printf("Program \n"); (yyval.no) = create("Program", "Program"); addChild((yyval.no), (yyvsp[0].no)); root =(yyval.no);}
-#line 1432 "y.tab.c"
+#line 66 "uccompiler.y"
+                                                                          {if (debug) printf("Program \n"); (yyval.no) = create("Program", "Program", l,c); addChild((yyval.no), (yyvsp[0].no)); root =(yyval.no);}
+#line 1435 "y.tab.c"
     break;
 
   case 3: /* FunctionsAndDeclarations: FunctionDefinition FunctionsAndDeclarationsList  */
-#line 65 "uccompiler.y"
+#line 68 "uccompiler.y"
                                                                           { (yyval.no) = (yyvsp[-1].no); addBrother((yyval.no), (yyvsp[0].no));}
-#line 1438 "y.tab.c"
+#line 1441 "y.tab.c"
     break;
 
   case 4: /* FunctionsAndDeclarations: FunctionDeclaration FunctionsAndDeclarationsList  */
-#line 67 "uccompiler.y"
+#line 70 "uccompiler.y"
                                                                           {(yyval.no) = (yyvsp[-1].no); addBrother((yyval.no), (yyvsp[0].no));}
-#line 1444 "y.tab.c"
+#line 1447 "y.tab.c"
     break;
 
   case 5: /* FunctionsAndDeclarations: Declaration FunctionsAndDeclarationsList  */
-#line 68 "uccompiler.y"
+#line 71 "uccompiler.y"
                                                                           {if (!(yyvsp[-1].no)) {(yyval.no) = (yyvsp[0].no);} else {(yyval.no) = (yyvsp[-1].no); addBrother((yyval.no), (yyvsp[0].no));}}
-#line 1450 "y.tab.c"
+#line 1453 "y.tab.c"
     break;
 
   case 6: /* FunctionsAndDeclarationsList: FunctionsAndDeclarations  */
-#line 70 "uccompiler.y"
+#line 73 "uccompiler.y"
                                                                           {(yyval.no) = (yyvsp[0].no);}
-#line 1456 "y.tab.c"
+#line 1459 "y.tab.c"
     break;
 
   case 7: /* FunctionsAndDeclarationsList: %empty  */
-#line 71 "uccompiler.y"
+#line 74 "uccompiler.y"
                                                                           {(yyval.no) = NULL;}
-#line 1462 "y.tab.c"
+#line 1465 "y.tab.c"
     break;
 
   case 8: /* FunctionDefinition: TypeSpec FunctionDeclarator FunctionBody  */
-#line 73 "uccompiler.y"
-                                                                          { if (debug) printf("Function Definition\n"); (yyval.no) = create("FuncDefinition", ""); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[-1].no)); if ((yyvsp[0].no)) { addChild((yyval.no), (yyvsp[0].no)); } else { addChild((yyval.no), create("FuncBody", "")); } }
-#line 1468 "y.tab.c"
+#line 76 "uccompiler.y"
+                                                                          { if (debug) printf("Function Definition\n"); (yyval.no) = create("FuncDefinition", "", l,c); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[-1].no)); if ((yyvsp[0].no)) { addChild((yyval.no), (yyvsp[0].no)); } else { addChild((yyval.no), create("FuncBody", "", l,c)); } }
+#line 1471 "y.tab.c"
     break;
 
   case 9: /* FunctionBody: LBRACE DeclarationsAndStatements RBRACE  */
-#line 75 "uccompiler.y"
-                                                                          { if (debug) printf("Function Body\n"); (yyval.no) = create("FuncBody", ""); addChild((yyval.no), (yyvsp[-1].no));  }
-#line 1474 "y.tab.c"
+#line 78 "uccompiler.y"
+                                                                          { if (debug) printf("Function Body\n"); (yyval.no) = create("FuncBody", "", l,c); addChild((yyval.no), (yyvsp[-1].no));  }
+#line 1477 "y.tab.c"
     break;
 
   case 10: /* FunctionBody: LBRACE RBRACE  */
-#line 76 "uccompiler.y"
-                                                                          {(yyval.no) = create("FuncBody", "");}
-#line 1480 "y.tab.c"
+#line 79 "uccompiler.y"
+                                                                          {(yyval.no) = create("FuncBody", "" ,l,c);}
+#line 1483 "y.tab.c"
     break;
 
   case 11: /* DeclarationsAndStatements: Statement DeclarationsAndStatements  */
-#line 78 "uccompiler.y"
+#line 81 "uccompiler.y"
                                                                           {if (!(yyvsp[-1].no)) {(yyval.no) = (yyvsp[0].no);} else {(yyval.no) = (yyvsp[-1].no); addBrother((yyval.no), (yyvsp[0].no));}}
-#line 1486 "y.tab.c"
+#line 1489 "y.tab.c"
     break;
 
   case 12: /* DeclarationsAndStatements: Declaration DeclarationsAndStatements  */
-#line 79 "uccompiler.y"
+#line 82 "uccompiler.y"
                                                                           {if (!(yyvsp[-1].no)) {(yyval.no) = (yyvsp[0].no);} else {(yyval.no) = (yyvsp[-1].no); addBrother((yyval.no), (yyvsp[0].no));}}
-#line 1492 "y.tab.c"
+#line 1495 "y.tab.c"
     break;
 
   case 13: /* DeclarationsAndStatements: Statement  */
-#line 80 "uccompiler.y"
+#line 83 "uccompiler.y"
                                                                           {(yyval.no) = (yyvsp[0].no);}
-#line 1498 "y.tab.c"
+#line 1501 "y.tab.c"
     break;
 
   case 14: /* DeclarationsAndStatements: Declaration  */
-#line 81 "uccompiler.y"
+#line 84 "uccompiler.y"
                                                                           {(yyval.no) = (yyvsp[0].no);}
-#line 1504 "y.tab.c"
+#line 1507 "y.tab.c"
     break;
 
   case 15: /* FunctionDeclaration: TypeSpec FunctionDeclarator RBRACE  */
-#line 83 "uccompiler.y"
-                                                                          {if (debug) printf("Function Declaration\n"); (yyval.no) = create("FuncDeclaration", ""); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[-1].no)); }
-#line 1510 "y.tab.c"
+#line 86 "uccompiler.y"
+                                                                          {if (debug) printf("Function Declaration\n"); (yyval.no) = create("FuncDeclaration", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[-1].no)); }
+#line 1513 "y.tab.c"
     break;
 
   case 16: /* FunctionDeclaration: TypeSpec FunctionDeclarator SEMI  */
-#line 84 "uccompiler.y"
-                                                                          {if(debug) printf("Function Declarationt\n"); (yyval.no) = create("FuncDeclaration", ""); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[-1].no)); }
-#line 1516 "y.tab.c"
+#line 87 "uccompiler.y"
+                                                                          {if(debug) printf("Function Declarationt\n"); (yyval.no) = create("FuncDeclaration", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[-1].no)); }
+#line 1519 "y.tab.c"
     break;
 
   case 17: /* FunctionDeclarator: ID LPAR ParameterList RPAR  */
-#line 86 "uccompiler.y"
-                                                                          {if (debug) printf("Function Declarator\n");(yyval.no) = create("Identifier" , (yyvsp[-3].value));  addBrother((yyval.no), (yyvsp[-1].no)); }
-#line 1522 "y.tab.c"
+#line 89 "uccompiler.y"
+                                                                          {if (debug) printf("Function Declarator\n");(yyval.no) = create("Identifier" , (yyvsp[-3].value),l,c);  addBrother((yyval.no), (yyvsp[-1].no)); }
+#line 1525 "y.tab.c"
     break;
 
   case 18: /* ParameterList: ParameterListAux  */
-#line 88 "uccompiler.y"
-                                                                          {if (debug) printf("Parameter List\n"); (yyval.no) = create("ParamList", ""); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1528 "y.tab.c"
+#line 91 "uccompiler.y"
+                                                                          {if (debug) printf("Parameter List\n"); (yyval.no) = create("ParamList", "",l,c); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1531 "y.tab.c"
     break;
 
   case 19: /* ParameterListAux: ParameterDeclaration COMMA ParameterListAux  */
-#line 90 "uccompiler.y"
-                                                                          {if (debug) printf("Parameter List\n"); (yyval.no) = create("X", ""); addBrother((yyval.no), (yyvsp[-2].no)); addBrother((yyval.no), (yyvsp[0].no)); }
-#line 1534 "y.tab.c"
+#line 93 "uccompiler.y"
+                                                                          {if (debug) printf("Parameter List\n");(yyval.no) = (yyvsp[-2].no); addBrother((yyval.no), (yyvsp[0].no)); }
+#line 1537 "y.tab.c"
     break;
 
   case 20: /* ParameterListAux: ParameterDeclaration  */
-#line 91 "uccompiler.y"
+#line 94 "uccompiler.y"
                                                                           {if (debug) printf("Empty Parameter List\n"); (yyval.no) = (yyvsp[0].no); }
-#line 1540 "y.tab.c"
+#line 1543 "y.tab.c"
     break;
 
   case 21: /* ParameterDeclaration: TypeSpec ID  */
-#line 93 "uccompiler.y"
-                                                                          {if (debug) printf("Parameter Declaration ID:%s\n",(yyvsp[0].value)); (yyval.no) = create("ParamDeclaration", ""); addChild((yyval.no), (yyvsp[-1].no)); addChild((yyval.no), create("Identifier", (yyvsp[0].value))); }
-#line 1546 "y.tab.c"
+#line 96 "uccompiler.y"
+                                                                          {if (debug) printf("Parameter Declaration ID:%s\n",(yyvsp[0].value)); (yyval.no) = create("ParamDeclaration", "",l,c); addChild((yyval.no), (yyvsp[-1].no)); addChild((yyval.no), create("Identifier", (yyvsp[0].value),l,c)); }
+#line 1549 "y.tab.c"
     break;
 
   case 22: /* ParameterDeclaration: TypeSpec  */
-#line 94 "uccompiler.y"
-                                                                          {if (debug) printf("Empty Parameter Declaration\n"); (yyval.no) = create("ParamDeclaration", ""); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1552 "y.tab.c"
+#line 97 "uccompiler.y"
+                                                                          {if (debug) printf("Empty Parameter Declaration\n"); (yyval.no) = create("ParamDeclaration", "",l,c); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1555 "y.tab.c"
     break;
 
   case 23: /* Declaration: TypeSpec DeclaratorAux SEMI  */
-#line 96 "uccompiler.y"
-                                                                          { if (debug) printf("Declaration4\n"); if((yyvsp[-1].no)) { aux = (yyvsp[-1].no); while(aux) { aux1 = create((yyvsp[-2].no)->type,""); aux2 = aux->child; aux->child = aux1; aux1->brother = aux2; aux = aux->brother; } } (yyval.no) = (yyvsp[-1].no); }
-#line 1558 "y.tab.c"
+#line 99 "uccompiler.y"
+                                                                          { if (debug) printf("Declaration4\n"); if((yyvsp[-1].no)) {aux = (yyvsp[-1].no); while(aux) { aux1 = create((yyvsp[-2].no)->type,"",l,c); aux2 = aux->child; aux->child = aux1;addBrother(aux1,aux2);aux = aux->brother;}}(yyval.no) = (yyvsp[-1].no); }
+#line 1561 "y.tab.c"
     break;
 
   case 24: /* Declaration: error SEMI  */
-#line 97 "uccompiler.y"
+#line 100 "uccompiler.y"
                                                                           { (yyval.no) = NULL; errorflag = 1; }
-#line 1564 "y.tab.c"
+#line 1567 "y.tab.c"
     break;
 
   case 25: /* DeclaratorAux: DeclaratorAux COMMA Declarator  */
-#line 99 "uccompiler.y"
-                                                                          {if((yyvsp[-2].no)) { aux = (yyvsp[-2].no); while(aux->brother) aux = aux->brother; if((yyvsp[0].no)) aux->brother = addChild(create("Declaration",""), (yyvsp[0].no)); (yyval.no) = (yyvsp[-2].no); } else if((yyvsp[0].no)) {(yyval.no) = (yyvsp[0].no);} else {(yyval.no) = NULL;} }
-#line 1570 "y.tab.c"
+#line 102 "uccompiler.y"
+                                                                          {if((yyvsp[-2].no)) { aux = (yyvsp[-2].no);if((yyvsp[0].no)) {(yyval.no)=create("Declaration","",l,c);addBrother(aux,addChild((yyval.no),(yyvsp[0].no)));}(yyval.no) = (yyvsp[-2].no);}else if((yyvsp[0].no)) {(yyval.no) = (yyvsp[0].no);} else {(yyval.no) = NULL;} }
+#line 1573 "y.tab.c"
     break;
 
   case 26: /* DeclaratorAux: Declarator  */
-#line 100 "uccompiler.y"
-                                                                          {if((yyvsp[0].no)) { aux = create("Declaration",""); (yyval.no) = addChild(aux, (yyvsp[0].no)); } else {(yyval.no) = NULL;} }
-#line 1576 "y.tab.c"
+#line 103 "uccompiler.y"
+                                                                          {if((yyvsp[0].no)) { aux = create("Declaration","",l,c); (yyval.no) = addChild(aux, (yyvsp[0].no)); } else {(yyval.no) = NULL;} }
+#line 1579 "y.tab.c"
     break;
 
   case 27: /* TypeSpec: CHAR  */
-#line 102 "uccompiler.y"
-                                                                          {if (debug) printf("Type: char\n"); (yyval.no) = create("Char", ""); }
-#line 1582 "y.tab.c"
+#line 105 "uccompiler.y"
+                                                                          {if (debug) printf("Type: char\n"); (yyval.no) = create("Char", "",l,c); }
+#line 1585 "y.tab.c"
     break;
 
   case 28: /* TypeSpec: INT  */
-#line 103 "uccompiler.y"
-                                                                          {if (debug) printf("Type: int\n"); (yyval.no) = create("Int", ""); }
-#line 1588 "y.tab.c"
+#line 106 "uccompiler.y"
+                                                                          {if (debug) printf("Type: int\n"); (yyval.no) = create("Int", "",l,c); }
+#line 1591 "y.tab.c"
     break;
 
   case 29: /* TypeSpec: VOID  */
-#line 104 "uccompiler.y"
-                                                                          {if (debug) printf("Type: void\n"); (yyval.no) = create("Void", ""); }
-#line 1594 "y.tab.c"
+#line 107 "uccompiler.y"
+                                                                          {if (debug) printf("Type: void\n"); (yyval.no) = create("Void", "",l,c); }
+#line 1597 "y.tab.c"
     break;
 
   case 30: /* TypeSpec: SHORT  */
-#line 105 "uccompiler.y"
-                                                                          {if (debug) printf("Type: short\n"); (yyval.no) = create("Short", ""); }
-#line 1600 "y.tab.c"
+#line 108 "uccompiler.y"
+                                                                          {if (debug) printf("Type: short\n"); (yyval.no) = create("Short", "",l,c); }
+#line 1603 "y.tab.c"
     break;
 
   case 31: /* TypeSpec: DOUBLE  */
-#line 106 "uccompiler.y"
-                                                                          {if (debug) printf("Type: double\n"); (yyval.no) = create("Double", ""); }
-#line 1606 "y.tab.c"
+#line 109 "uccompiler.y"
+                                                                          {if (debug) printf("Type: double\n"); (yyval.no) = create("Double", "",l,c); }
+#line 1609 "y.tab.c"
     break;
 
   case 32: /* Declarator: ID  */
-#line 108 "uccompiler.y"
-                                                                          {(yyval.no) = create("Identifier", (yyvsp[0].value));}
-#line 1612 "y.tab.c"
+#line 111 "uccompiler.y"
+                                                                          {(yyval.no) = create("Identifier", (yyvsp[0].value),l,c);}
+#line 1615 "y.tab.c"
     break;
 
   case 33: /* Declarator: ID ASSIGN ExprAux  */
-#line 109 "uccompiler.y"
-                                                                          {(yyval.no) = create("Identifier" , (yyvsp[-2].value)); addBrother((yyval.no), (yyvsp[0].no));}
-#line 1618 "y.tab.c"
+#line 112 "uccompiler.y"
+                                                                          {(yyval.no) = create("Identifier" , (yyvsp[-2].value),l,c); addBrother((yyval.no), (yyvsp[0].no));}
+#line 1621 "y.tab.c"
     break;
 
   case 34: /* Statement: LBRACE StatementList RBRACE  */
-#line 111 "uccompiler.y"
-                                                                          {(yyval.no) = (yyvsp[-1].no); if (debug && (yyvsp[-1].no)) printf("Statlist\n"); else if (debug) printf("Compound Stat\n"); if ((yyvsp[-1].no) && (yyvsp[-1].no)->brother) { (yyval.no) = create("StatList", ""); (yyval.no) = addChild((yyval.no), (yyvsp[-1].no)); } else if ((yyvsp[-1].no)) { (yyval.no) = (yyvsp[-1].no); } }
-#line 1624 "y.tab.c"
+#line 114 "uccompiler.y"
+                                                                          {(yyval.no) = (yyvsp[-1].no); if (debug && (yyvsp[-1].no)) printf("Statlist\n"); else if (debug) printf("Compound Stat\n"); if ((yyvsp[-1].no) && (yyvsp[-1].no)->brother) { (yyval.no) = create("StatList", "",l,c); (yyval.no) = addChild((yyval.no), (yyvsp[-1].no)); } else if ((yyvsp[-1].no)) { (yyval.no) = (yyvsp[-1].no); } }
+#line 1627 "y.tab.c"
     break;
 
   case 35: /* Statement: IF LPAR ExprAux RPAR StatementAux  */
-#line 112 "uccompiler.y"
-                                                                          {if (debug) printf("If Statement\n"); (yyval.no) = create("If", ""); addChild((yyval.no), (yyvsp[-2].no)); if ((yyvsp[0].no) != NULL) addChild((yyval.no), (yyvsp[0].no)); else addChild((yyval.no), create("Null","")); addChild((yyval.no), create("Null","")); }
-#line 1630 "y.tab.c"
+#line 115 "uccompiler.y"
+                                                                          {if (debug) printf("If Statement\n"); (yyval.no) = create("If", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); if ((yyvsp[0].no) != NULL) addChild((yyval.no), (yyvsp[0].no)); else addChild((yyval.no), create("Null","",l,c)); addChild((yyval.no), create("Null","",l,c)); }
+#line 1633 "y.tab.c"
     break;
 
   case 36: /* Statement: IF LPAR ExprAux RPAR StatementAux ELSE StatementAux  */
-#line 113 "uccompiler.y"
-                                                                          {if (debug) printf("If-Else Statement\n"); (yyval.no) = create("If", ""); addChild((yyval.no), (yyvsp[-4].no)); if ((yyvsp[-2].no) != NULL) addChild((yyval.no), (yyvsp[-2].no)); else addChild((yyval.no), create("Null","")); if ((yyvsp[0].no) != NULL) addChild((yyval.no), (yyvsp[0].no)); else addChild((yyval.no), create("Null","")); }
-#line 1636 "y.tab.c"
+#line 116 "uccompiler.y"
+                                                                          {if (debug) printf("If-Else Statement\n"); (yyval.no) = create("If", "",l,c); addChild((yyval.no), (yyvsp[-4].no)); if ((yyvsp[-2].no) != NULL) addChild((yyval.no), (yyvsp[-2].no)); else addChild((yyval.no), create("Null","",l,c)); if ((yyvsp[0].no) != NULL) addChild((yyval.no), (yyvsp[0].no)); else addChild((yyval.no), create("Null","",l,c)); }
+#line 1639 "y.tab.c"
     break;
 
   case 37: /* Statement: WHILE LPAR ExprAux RPAR Statement  */
-#line 114 "uccompiler.y"
-                                                                          {if (debug) printf("While Loop\n"); (yyval.no) = create("While", ""); addChild((yyval.no), (yyvsp[-2].no)); if ((yyvsp[0].no) != NULL) addChild((yyval.no), (yyvsp[0].no)); else addChild((yyval.no), create("Null",""));}
-#line 1642 "y.tab.c"
+#line 117 "uccompiler.y"
+                                                                          {if (debug) printf("While Loop\n"); (yyval.no) = create("While", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); if ((yyvsp[0].no) != NULL) addChild((yyval.no), (yyvsp[0].no)); else addChild((yyval.no), create("Null","",l,c));}
+#line 1645 "y.tab.c"
     break;
 
   case 38: /* Statement: RETURN SEMI  */
-#line 115 "uccompiler.y"
-                                                                          {if (debug) printf("Return Statement\n"); (yyval.no) = create("Return", ""); addChild((yyval.no), create("Null","")); }
-#line 1648 "y.tab.c"
+#line 118 "uccompiler.y"
+                                                                          {if (debug) printf("Return Statement\n"); (yyval.no) = create("Return", "",l,c); addChild((yyval.no), create("Null","",l,c)); }
+#line 1651 "y.tab.c"
     break;
 
   case 39: /* Statement: RETURN ExprAux SEMI  */
-#line 116 "uccompiler.y"
-                                                                          {if (debug) printf("Return Statement with Value\n"); (yyval.no) = create("Return", ""); addChild((yyval.no), (yyvsp[-1].no)); }
-#line 1654 "y.tab.c"
+#line 119 "uccompiler.y"
+                                                                          {if (debug) printf("Return Statement with Value\n"); (yyval.no) = create("Return", "",l,c); addChild((yyval.no), (yyvsp[-1].no)); }
+#line 1657 "y.tab.c"
     break;
 
   case 40: /* Statement: ExprAux SEMI  */
-#line 117 "uccompiler.y"
+#line 120 "uccompiler.y"
                                                                           {if (debug) printf("Expression Statement\n"); (yyval.no) = (yyvsp[-1].no); }
-#line 1660 "y.tab.c"
+#line 1663 "y.tab.c"
     break;
 
   case 41: /* Statement: LBRACE RBRACE  */
-#line 118 "uccompiler.y"
+#line 121 "uccompiler.y"
                                                                           {(yyval.no) = NULL; }
-#line 1666 "y.tab.c"
+#line 1669 "y.tab.c"
     break;
 
   case 42: /* Statement: LBRACE error RBRACE  */
-#line 119 "uccompiler.y"
-                                                                          {(yyval.no) = create("Null1", ""); }
-#line 1672 "y.tab.c"
+#line 122 "uccompiler.y"
+                                                                          {(yyval.no) = create("Null", "",l,c); }
+#line 1675 "y.tab.c"
     break;
 
   case 43: /* Statement: SEMI  */
-#line 120 "uccompiler.y"
+#line 123 "uccompiler.y"
        { (yyval.no) = NULL; errorflag = 1; }
-#line 1678 "y.tab.c"
+#line 1681 "y.tab.c"
     break;
 
   case 44: /* StatementList: StatementAux StatementList  */
-#line 123 "uccompiler.y"
-                                                                          {if (debug) printf("Stat + StatList\n"); if ((yyvsp[-1].no)) { (yyval.no) = (yyvsp[-1].no); if ((yyvsp[0].no)) { aux = (yyval.no); while (aux->brother) aux = aux->brother; aux->brother = (yyvsp[0].no); } } else { (yyval.no) = (yyvsp[0].no); } }
-#line 1684 "y.tab.c"
+#line 126 "uccompiler.y"
+                                                                          {if (debug) printf("Stat + StatList\n"); if ((yyvsp[-1].no)) { (yyval.no) = (yyvsp[-1].no); if ((yyvsp[0].no)) { aux = (yyval.no); while (aux->brother) aux = aux->brother;addBrother(aux,(yyvsp[0].no)); } } else { (yyval.no) = (yyvsp[0].no); } }
+#line 1687 "y.tab.c"
     break;
 
   case 45: /* StatementList: StatementAux  */
-#line 124 "uccompiler.y"
+#line 127 "uccompiler.y"
                                                                           {(yyval.no) = (yyvsp[0].no);}
-#line 1690 "y.tab.c"
+#line 1693 "y.tab.c"
     break;
 
   case 46: /* StatementAux: Statement  */
-#line 126 "uccompiler.y"
+#line 129 "uccompiler.y"
                                                                           {(yyval.no) = (yyvsp[0].no); }
-#line 1696 "y.tab.c"
+#line 1699 "y.tab.c"
     break;
 
   case 47: /* StatementAux: error SEMI  */
-#line 127 "uccompiler.y"
+#line 130 "uccompiler.y"
                                                                           {(yyval.no) = NULL; errorflag = 1; }
-#line 1702 "y.tab.c"
+#line 1705 "y.tab.c"
     break;
 
   case 48: /* Expr: Expr ASSIGN Expr  */
-#line 128 "uccompiler.y"
-                                                                          {if (debug) printf("Store\n"); (yyval.no) = create("Store", ""); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1708 "y.tab.c"
+#line 131 "uccompiler.y"
+                                                                          {if (debug) printf("Store\n"); (yyval.no) = create("Store", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1711 "y.tab.c"
     break;
 
   case 49: /* Expr: Expr PLUS Expr  */
-#line 129 "uccompiler.y"
-                                                                          {if (debug) printf("Addition\n"); (yyval.no) = create("Add", ""); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1714 "y.tab.c"
+#line 132 "uccompiler.y"
+                                                                          {if (debug) printf("Addition\n"); (yyval.no) = create("Add", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1717 "y.tab.c"
     break;
 
   case 50: /* Expr: Expr MINUS Expr  */
-#line 130 "uccompiler.y"
-                                                                          {if (debug) printf("Subtraction\n"); (yyval.no) = create("Sub", ""); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1720 "y.tab.c"
+#line 133 "uccompiler.y"
+                                                                          {if (debug) printf("Subtraction\n"); (yyval.no) = create("Sub", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1723 "y.tab.c"
     break;
 
   case 51: /* Expr: Expr MUL Expr  */
-#line 131 "uccompiler.y"
-                                                                          {if (debug) printf("Multiplication\n"); (yyval.no) = create("Mul", ""); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1726 "y.tab.c"
+#line 134 "uccompiler.y"
+                                                                          {if (debug) printf("Multiplication\n"); (yyval.no) = create("Mul", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1729 "y.tab.c"
     break;
 
   case 52: /* Expr: Expr DIV Expr  */
-#line 132 "uccompiler.y"
-                                                                          {if (debug) printf("Division\n"); (yyval.no) = create("Div", ""); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1732 "y.tab.c"
+#line 135 "uccompiler.y"
+                                                                          {if (debug) printf("Division\n"); (yyval.no) = create("Div", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1735 "y.tab.c"
     break;
 
   case 53: /* Expr: Expr MOD Expr  */
-#line 133 "uccompiler.y"
-                                                                          {if (debug) printf("Modulo\n"); (yyval.no) = create("Mod", ""); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1738 "y.tab.c"
+#line 136 "uccompiler.y"
+                                                                          {if (debug) printf("Modulo\n"); (yyval.no) = create("Mod", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1741 "y.tab.c"
     break;
 
   case 54: /* Expr: Expr OR Expr  */
-#line 134 "uccompiler.y"
-                                                                          {if (debug) printf("Logical OR\n"); (yyval.no) = create("Or", ""); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1744 "y.tab.c"
+#line 137 "uccompiler.y"
+                                                                          {if (debug) printf("Logical OR\n"); (yyval.no) = create("Or", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1747 "y.tab.c"
     break;
 
   case 55: /* Expr: Expr AND Expr  */
-#line 135 "uccompiler.y"
-                                                                          {if (debug) printf("Logical AND\n"); (yyval.no) = create("And", ""); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1750 "y.tab.c"
+#line 138 "uccompiler.y"
+                                                                          {if (debug) printf("Logical AND\n"); (yyval.no) = create("And", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1753 "y.tab.c"
     break;
 
   case 56: /* Expr: Expr BITWISEAND Expr  */
-#line 136 "uccompiler.y"
-                                                                          {if (debug) printf("Bitwise AND\n"); (yyval.no) = create("BitWiseAnd", ""); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1756 "y.tab.c"
+#line 139 "uccompiler.y"
+                                                                          {if (debug) printf("Bitwise AND\n"); (yyval.no) = create("BitWiseAnd", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1759 "y.tab.c"
     break;
 
   case 57: /* Expr: Expr BITWISEOR Expr  */
-#line 137 "uccompiler.y"
-                                                                          {if (debug) printf("Bitwise OR\n"); (yyval.no) = create("BitWiseOr", ""); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1762 "y.tab.c"
+#line 140 "uccompiler.y"
+                                                                          {if (debug) printf("Bitwise OR\n"); (yyval.no) = create("BitWiseOr", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1765 "y.tab.c"
     break;
 
   case 58: /* Expr: Expr BITWISEXOR Expr  */
-#line 138 "uccompiler.y"
-                                                                          {if (debug) printf("Bitwise XOR\n"); (yyval.no) = create("BitWiseXor", ""); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1768 "y.tab.c"
+#line 141 "uccompiler.y"
+                                                                          {if (debug) printf("Bitwise XOR\n"); (yyval.no) = create("BitWiseXor", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1771 "y.tab.c"
     break;
 
   case 59: /* Expr: Expr EQ Expr  */
-#line 139 "uccompiler.y"
-                                                                          {if (debug) printf("Equal\n"); (yyval.no) = create("Eq", ""); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1774 "y.tab.c"
+#line 142 "uccompiler.y"
+                                                                          {if (debug) printf("Equal\n"); (yyval.no) = create("Eq", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1777 "y.tab.c"
     break;
 
   case 60: /* Expr: Expr NE Expr  */
-#line 140 "uccompiler.y"
-                                                                          {if (debug) printf("Not Equal\n"); (yyval.no) = create("Ne", ""); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1780 "y.tab.c"
+#line 143 "uccompiler.y"
+                                                                          {if (debug) printf("Not Equal\n"); (yyval.no) = create("Ne", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1783 "y.tab.c"
     break;
 
   case 61: /* Expr: Expr LE Expr  */
-#line 141 "uccompiler.y"
-                                                                          {if (debug) printf("Less Than or Equal\n"); (yyval.no) = create("Le", ""); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1786 "y.tab.c"
+#line 144 "uccompiler.y"
+                                                                          {if (debug) printf("Less Than or Equal\n"); (yyval.no) = create("Le", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1789 "y.tab.c"
     break;
 
   case 62: /* Expr: Expr GE Expr  */
-#line 142 "uccompiler.y"
-                                                                          {if (debug) printf("Greater Than or Equal\n"); (yyval.no) = create("Ge", ""); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1792 "y.tab.c"
+#line 145 "uccompiler.y"
+                                                                          {if (debug) printf("Greater Than or Equal\n"); (yyval.no) = create("Ge", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1795 "y.tab.c"
     break;
 
   case 63: /* Expr: Expr LT Expr  */
-#line 143 "uccompiler.y"
-                                                                          {if (debug) printf("Less Than\n"); (yyval.no) = create("Lt", ""); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1798 "y.tab.c"
+#line 146 "uccompiler.y"
+                                                                          {if (debug) printf("Less Than\n"); (yyval.no) = create("Lt", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1801 "y.tab.c"
     break;
 
   case 64: /* Expr: Expr GT Expr  */
-#line 144 "uccompiler.y"
-                                                                          {if (debug) printf("Greater Than\n"); (yyval.no) = create("Gt", ""); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1804 "y.tab.c"
+#line 147 "uccompiler.y"
+                                                                          {if (debug) printf("Greater Than\n"); (yyval.no) = create("Gt", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1807 "y.tab.c"
     break;
 
   case 65: /* Expr: PLUS Expr  */
-#line 145 "uccompiler.y"
-                                                                          {if (debug) printf("Unary Plus\n"); (yyval.no) = create("Plus", ""); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1810 "y.tab.c"
+#line 148 "uccompiler.y"
+                                                                          {if (debug) printf("Unary Plus\n"); (yyval.no) = create("Plus", "",l,c); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1813 "y.tab.c"
     break;
 
   case 66: /* Expr: MINUS Expr  */
-#line 146 "uccompiler.y"
-                                                                          {if (debug) printf("Unary Minus\n"); (yyval.no) = create("Minus", ""); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1816 "y.tab.c"
+#line 149 "uccompiler.y"
+                                                                          {if (debug) printf("Unary Minus\n"); (yyval.no) = create("Minus", "",l,c); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1819 "y.tab.c"
     break;
 
   case 67: /* Expr: NOT Expr  */
-#line 147 "uccompiler.y"
-                                                                          {if (debug) printf("Logical NOT\n"); (yyval.no) = create("Not", ""); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1822 "y.tab.c"
+#line 150 "uccompiler.y"
+                                                                          {if (debug) printf("Logical NOT\n"); (yyval.no) = create("Not", "",l,c); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1825 "y.tab.c"
     break;
 
   case 68: /* Expr: ID LPAR Expr ExprAuxAux RPAR  */
-#line 148 "uccompiler.y"
-                                                                          {if (debug) printf("CALL w stuff\n"); (yyval.no) = create("Call", ""); addChild((yyval.no), create("Identifier", (yyvsp[-4].value))); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[-1].no)); }
-#line 1828 "y.tab.c"
+#line 151 "uccompiler.y"
+                                                                          {if (debug) printf("CALL w stuff\n"); (yyval.no) = create("Call", "",l,c); addChild((yyval.no), create("Identifier", (yyvsp[-4].value),l,c)); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[-1].no)); }
+#line 1831 "y.tab.c"
     break;
 
   case 69: /* Expr: ID LPAR RPAR  */
-#line 149 "uccompiler.y"
-                                                                          {if (debug) printf("Call wo stuff\n"); (yyval.no) = create("Call", ""); aux = create("Identifier", (yyvsp[-2].value)); addChild((yyval.no), aux); }
-#line 1834 "y.tab.c"
+#line 152 "uccompiler.y"
+                                                                          {if (debug) printf("Call wo stuff\n"); (yyval.no) = create("Call", "",l,c); aux = create("Identifier", (yyvsp[-2].value),l,c); addChild((yyval.no), aux); }
+#line 1837 "y.tab.c"
     break;
 
   case 70: /* Expr: ID  */
-#line 150 "uccompiler.y"
-                                                                          {if (debug) printf("Identifier (%s)\n", (yyvsp[0].value)); (yyval.no) = create("Identifier", (yyvsp[0].value)); }
-#line 1840 "y.tab.c"
+#line 153 "uccompiler.y"
+                                                                          {if (debug) printf("Identifier (%s)\n", (yyvsp[0].value)); (yyval.no) = create("Identifier", (yyvsp[0].value),l,c); }
+#line 1843 "y.tab.c"
     break;
 
   case 71: /* Expr: NATURAL  */
-#line 151 "uccompiler.y"
-                                                                          {if (debug) printf("Natural: %s\n", (yyvsp[0].value)); (yyval.no) = create("Natural", (yyvsp[0].value)); }
-#line 1846 "y.tab.c"
+#line 154 "uccompiler.y"
+                                                                          {if (debug) printf("Natural: %s\n", (yyvsp[0].value)); (yyval.no) = create("Natural", (yyvsp[0].value),l,c); }
+#line 1849 "y.tab.c"
     break;
 
   case 72: /* Expr: CHRLIT  */
-#line 152 "uccompiler.y"
-                                                                          {if (debug) printf("Char Literal: %s\n", (yyvsp[0].value)); (yyval.no) = create("ChrLit", (yyvsp[0].value)); }
-#line 1852 "y.tab.c"
+#line 155 "uccompiler.y"
+                                                                          {if (debug) printf("Char Literal: %s\n", (yyvsp[0].value)); (yyval.no) = create("ChrLit", (yyvsp[0].value),l,c); }
+#line 1855 "y.tab.c"
     break;
 
   case 73: /* Expr: DECIMAL  */
-#line 153 "uccompiler.y"
-                                                                          {if (debug) printf("Decimal: %s\n", (yyvsp[0].value)); (yyval.no) = create("Decimal", (yyvsp[0].value)); }
-#line 1858 "y.tab.c"
+#line 156 "uccompiler.y"
+                                                                          {if (debug) printf("Decimal: %s\n", (yyvsp[0].value)); (yyval.no) = create("Decimal", (yyvsp[0].value),l,c); }
+#line 1861 "y.tab.c"
     break;
 
   case 74: /* Expr: LPAR ExprAux RPAR  */
-#line 154 "uccompiler.y"
+#line 157 "uccompiler.y"
                                                                           {(yyval.no) = (yyvsp[-1].no); }
-#line 1864 "y.tab.c"
+#line 1867 "y.tab.c"
     break;
 
   case 75: /* Expr: LPAR error RPAR  */
-#line 155 "uccompiler.y"
+#line 158 "uccompiler.y"
                                                                           {(yyval.no) = NULL; errorflag = 1; }
-#line 1870 "y.tab.c"
+#line 1873 "y.tab.c"
     break;
 
   case 76: /* Expr: ID LPAR error RPAR  */
-#line 156 "uccompiler.y"
+#line 159 "uccompiler.y"
                                                                           {(yyval.no) = NULL;}
-#line 1876 "y.tab.c"
+#line 1879 "y.tab.c"
     break;
 
   case 77: /* ExprAux: ExprAux COMMA Expr  */
-#line 159 "uccompiler.y"
-                                                                          {if (debug) printf("Comma\n"); (yyval.no) = create("Comma", ""); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
-#line 1882 "y.tab.c"
+#line 162 "uccompiler.y"
+                                                                          {if (debug) printf("Comma\n"); (yyval.no) = create("Comma", "",l,c); addChild((yyval.no), (yyvsp[-2].no)); addChild((yyval.no), (yyvsp[0].no)); }
+#line 1885 "y.tab.c"
     break;
 
   case 78: /* ExprAux: Expr  */
-#line 160 "uccompiler.y"
+#line 163 "uccompiler.y"
                                                                           {if (debug) printf("Expr from ExprAux\n"); (yyval.no) = (yyvsp[0].no); }
-#line 1888 "y.tab.c"
+#line 1891 "y.tab.c"
     break;
 
   case 79: /* ExprAuxAux: COMMA Expr ExprAuxAux  */
-#line 163 "uccompiler.y"
+#line 166 "uccompiler.y"
                                                                           {(yyval.no) = (yyvsp[-1].no); addBrother((yyval.no), (yyvsp[0].no));}
-#line 1894 "y.tab.c"
+#line 1897 "y.tab.c"
     break;
 
   case 80: /* ExprAuxAux: %empty  */
-#line 164 "uccompiler.y"
+#line 167 "uccompiler.y"
                                                                           {(yyval.no) = NULL;}
-#line 1900 "y.tab.c"
+#line 1903 "y.tab.c"
     break;
 
 
-#line 1904 "y.tab.c"
+#line 1907 "y.tab.c"
 
       default: break;
     }
@@ -2093,7 +2096,7 @@ yyreturnlab:
   return yyresult;
 }
 
-#line 168 "uccompiler.y"
+#line 171 "uccompiler.y"
 
 
 

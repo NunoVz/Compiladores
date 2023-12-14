@@ -1,0 +1,125 @@
+1,70c1,53
+< Type: int
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Type: int
+< Natural: 0
+< Expr from ExprAux
+< Declaration4
+< Type: int
+< Declaration4
+< Identifier (i)
+< Natural: 32
+< Less Than
+< Expr from ExprAux
+< Identifier (j)
+< Natural: 0
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (j)
+< Natural: 32
+< Less Than
+< Expr from ExprAux
+< Identifier (i)
+< Identifier (j)
+< Bitwise AND
+< Expr from ExprAux
+< Char Literal: ' '
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Char Literal: '+'
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< If-Else Statement
+< Identifier (j)
+< Identifier (j)
+< Natural: 1
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Stat + StatList
+< Statlist
+< While Loop
+< Identifier (i)
+< Identifier (i)
+< Natural: 1
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Char Literal: '\n'
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< While Loop
+< Natural: 0
+< Expr from ExprAux
+< Return Statement with Value
+< Function Body
+< Function Definition
+< Program 
+---
+> Program
+> ..FuncDefinition
+> ....Int
+> ....Identifier(main)
+> ....ParamList
+> ......ParamDeclaration
+> ........Void
+> ....FuncBody
+> ......Declaration
+> ........Int
+> ........Identifier(i)
+> ........Natural(0)
+> ......Declaration
+> ........Int
+> ........Identifier(j)
+> ......While
+> ........Lt
+> ..........Identifier(i)
+> ..........Natural(32)
+> ........StatList
+> ..........Store
+> ............Identifier(j)
+> ............Natural(0)
+> ..........While
+> ............Lt
+> ..............Identifier(j)
+> ..............Natural(32)
+> ............StatList
+> ..............If
+> ................BitWiseAnd
+> ..................Identifier(i)
+> ..................Identifier(j)
+> ................Call
+> ..................Identifier(putchar)
+> ..................ChrLit(' ')
+> ................Call
+> ..................Identifier(putchar)
+> ..................ChrLit('+')
+> ..............Store
+> ................Identifier(j)
+> ................Add
+> ..................Identifier(j)
+> ..................Natural(1)
+> ..........Store
+> ............Identifier(i)
+> ............Add
+> ..............Identifier(i)
+> ..............Natural(1)
+> ..........Call
+> ............Identifier(putchar)
+> ............ChrLit('\n')
+> ......Return
+> ........Natural(0)

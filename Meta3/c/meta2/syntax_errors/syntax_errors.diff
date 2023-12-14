@@ -1,0 +1,21 @@
+1,6d0
+< Type: int
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+8d1
+< Type: int
+10,13d2
+< Identifier (a)
+< Identifier (a)
+< Store
+< Expr from ExprAux
+16,17d4
+< Identifier (a)
+< Expr from ExprAux
+19,21d5
+< Function Body
+< Function Definition
+< Program 

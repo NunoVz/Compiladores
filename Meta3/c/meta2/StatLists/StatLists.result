@@ -1,84 +1,138 @@
-Program
-..FuncDefinition
-....Int
-....Identifier(main)
-....ParamList
-......ParamDeclaration
-........Void
-....FuncBody
-......Store
-........Identifier(a)
-........Natural(1)
-......StatList
-........Store
-..........Identifier(a)
-..........Natural(1)
-........Store
-..........Identifier(b)
-..........Natural(2)
-......StatList
-........Store
-..........Identifier(a)
-..........Natural(1)
-........Store
-..........Identifier(b)
-..........Natural(2)
-........Store
-..........Identifier(c)
-..........Natural(3)
-......StatList
-........Store
-..........Identifier(a)
-..........Natural(1)
-........Store
-..........Identifier(b)
-..........Natural(2)
-........Store
-..........Identifier(c)
-..........Natural(3)
-........Store
-..........Identifier(d)
-..........Natural(4)
-......Store
-........Identifier(e)
-........Natural(4)
-......Store
-........Identifier(f)
-........Natural(5)
-......If
-........Identifier(a)
-........Null
-........StatList
-..........Store
-............Identifier(a)
-............Natural(1)
-..........Store
-............Identifier(b)
-............Natural(2)
-......If
-........Identifier(b)
-........Null
-........StatList
-..........Store
-............Identifier(x)
-............Natural(1)
-..........Store
-............Identifier(y)
-............Natural(2)
-......If
-........Identifier(c)
-........Null
-........Null
-......If
-........Identifier(d)
-........StatList
-..........Store
-............Identifier(a)
-............Natural(1)
-..........Store
-............Identifier(b)
-............Natural(2)
-..........Store
-............Identifier(c)
-............Natural(3)
-........Null
+Type: int
+Type: void
+Empty Parameter Declaration
+Empty Parameter List
+Parameter List
+Function Declarator
+Identifier (a)
+Natural: 1
+Store
+Expr from ExprAux
+Expression Statement
+Statlist
+Identifier (a)
+Natural: 1
+Store
+Expr from ExprAux
+Expression Statement
+Identifier (b)
+Natural: 2
+Store
+Expr from ExprAux
+Expression Statement
+Stat + StatList
+Statlist
+Identifier (a)
+Natural: 1
+Store
+Expr from ExprAux
+Expression Statement
+Identifier (b)
+Natural: 2
+Store
+Expr from ExprAux
+Expression Statement
+Identifier (c)
+Natural: 3
+Store
+Expr from ExprAux
+Expression Statement
+Stat + StatList
+Stat + StatList
+Statlist
+Identifier (a)
+Natural: 1
+Store
+Expr from ExprAux
+Expression Statement
+Identifier (b)
+Natural: 2
+Store
+Expr from ExprAux
+Expression Statement
+Identifier (c)
+Natural: 3
+Store
+Expr from ExprAux
+Expression Statement
+Identifier (d)
+Natural: 4
+Store
+Expr from ExprAux
+Expression Statement
+Stat + StatList
+Stat + StatList
+Stat + StatList
+Statlist
+Compound Stat
+Identifier (e)
+Natural: 4
+Store
+Expr from ExprAux
+Expression Statement
+Statlist
+Compound Stat
+Compound Stat
+Identifier (f)
+Natural: 5
+Store
+Expr from ExprAux
+Expression Statement
+Statlist
+Identifier (a)
+Expr from ExprAux
+Identifier (a)
+Natural: 1
+Store
+Expr from ExprAux
+Expression Statement
+Identifier (b)
+Natural: 2
+Store
+Expr from ExprAux
+Expression Statement
+Stat + StatList
+Statlist
+If-Else Statement
+Identifier (b)
+Expr from ExprAux
+Identifier (x)
+Natural: 1
+Store
+Expr from ExprAux
+Expression Statement
+Identifier (y)
+Natural: 2
+Store
+Expr from ExprAux
+Expression Statement
+Stat + StatList
+Statlist
+If-Else Statement
+Identifier (c)
+Expr from ExprAux
+If Statement
+Identifier (d)
+Expr from ExprAux
+Identifier (a)
+Natural: 1
+Store
+Expr from ExprAux
+Expression Statement
+Identifier (b)
+Natural: 2
+Store
+Expr from ExprAux
+Expression Statement
+Identifier (c)
+Natural: 3
+Store
+Expr from ExprAux
+Expression Statement
+Stat + StatList
+Stat + StatList
+Statlist
+If Statement
+Function Body
+Function Definition
+Program 

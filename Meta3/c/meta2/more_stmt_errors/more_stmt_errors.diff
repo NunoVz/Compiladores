@@ -1,0 +1,148 @@
+1,84c1,62
+< Type: int
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (a)
+< Natural: 1
+< Equal
+< Expr from ExprAux
+< Identifier (a)
+< Natural: 2
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Stat + StatList
+< Statlist
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< Statlist
+< If Statement
+< Function Body
+< Function Definition
+< Type: int
+< Type: char
+< Empty Parameter Declaration
+< Type: int
+< Empty Parameter Declaration
+< Type: short
+< Parameter Declaration ID:a
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (b)
+< Natural: 2
+< Not Equal
+< Expr from ExprAux
+< Compound Stat
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Compound Stat
+< Compound Stat
+< Compound Stat
+< While Loop
+< Function Body
+< Function Definition
+< Type: int
+< Type: char
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Function Declarationt
+< Type: int
+< Type: char
+< Parameter Declaration ID:c
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Natural: 0
+< Expr from ExprAux
+< Return Statement with Value
+< Return Statement
+< Identifier (a)
+< Expr from ExprAux
+< Return Statement with Value
+< Char Literal: 'c'
+< Expr from ExprAux
+< Return Statement with Value
+< Function Body
+< Function Definition
+< Type: int
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Function Body
+< Function Definition
+< Program 
+---
+> Program
+> ..FuncDefinition
+> ....Int
+> ....Identifier(main1)
+> ....ParamList
+> ......ParamDeclaration
+> ........Void
+> ....FuncBody
+> ......If
+> ........Eq
+> ..........Identifier(a)
+> ..........Natural(1)
+> ........Store
+> ..........Identifier(a)
+> ..........Natural(2)
+> ........Null
+> ..FuncDefinition
+> ....Int
+> ....Identifier(main2)
+> ....ParamList
+> ......ParamDeclaration
+> ........Char
+> ......ParamDeclaration
+> ........Int
+> ......ParamDeclaration
+> ........Short
+> ........Identifier(a)
+> ....FuncBody
+> ......While
+> ........Ne
+> ..........Identifier(b)
+> ..........Natural(2)
+> ........Null
+> ..FuncDeclaration
+> ....Int
+> ....Identifier(main3)
+> ....ParamList
+> ......ParamDeclaration
+> ........Char
+> ..FuncDefinition
+> ....Int
+> ....Identifier(main4)
+> ....ParamList
+> ......ParamDeclaration
+> ........Char
+> ........Identifier(c)
+> ....FuncBody
+> ......Return
+> ........Natural(0)
+> ......Return
+> ........Null
+> ......Return
+> ........Identifier(a)
+> ......Return
+> ........ChrLit('c')
+> ..FuncDefinition
+> ....Int
+> ....Identifier(main5)
+> ....ParamList
+> ......ParamDeclaration
+> ........Void
+> ....FuncBody

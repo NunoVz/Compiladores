@@ -51,49 +51,10 @@
 > Line 196, column 4: Conflicting types (got double, expected int)
 > Line 200, column 4: Wrong number of arguments to function f1 (got 0, required 1)
 > Line 203, column 4: Wrong number of arguments to function f1 (got 2, required 1)
-6,9d57
-< a	()
-< b	()
-< c	()
-< d	()
-12,13c60,61
-< return	int 
-< a	double param
----
-> return	int
-> a	double	param
-16c64,68
-< return	int 
----
-> return	int
-> a	char
-> b	short
-> c	int
-> d	double
-20c72
-< ....int
----
-> ....Int
-24c76
-< ........double
----
-> ........Double
 28c80
 < ........Natural(0)
 ---
 > ........Natural(0) - int
-30c82
-< ....int
----
-> ....Int
-34c86
-< ........void
----
-> ........Void
-39c91
-< ........ChrLit('a')
----
-> ........ChrLit('a') - int
 43c95
 < ........Natural(2)
 ---

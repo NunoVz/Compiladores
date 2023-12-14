@@ -1,0 +1,374 @@
+1,210c1,162
+< Type: void
+< Type: int
+< Parameter Declaration ID:a
+< Type: char
+< Parameter Declaration ID:b
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Function Declarationt
+< Type: void
+< Type: int
+< Empty Parameter Declaration
+< Type: char
+< Empty Parameter Declaration
+< Type: double
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Function Declarationt
+< Type: int
+< Natural: 3
+< Expr from ExprAux
+< Natural: 5
+< Expr from ExprAux
+< Declaration4
+< Type: int
+< Natural: 3
+< Expr from ExprAux
+< Natural: 5
+< Expr from ExprAux
+< Declaration4
+< Type: double
+< Natural: 3
+< Expr from ExprAux
+< Declaration4
+< Type: int
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (o)
+< Identifier (e)
+< Equal
+< Expr from ExprAux
+< Natural: 1
+< Expr from ExprAux
+< Stat + StatList
+< Stat + StatList
+< Compound Stat
+< While Loop
+< Identifier (a)
+< Expr from ExprAux
+< Return Statement with Value
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< If Statement
+< Identifier (c)
+< Expr from ExprAux
+< Return Statement with Value
+< Natural: 4
+< CALL w stuff
+< Expr from ExprAux
+< Expr from ExprAux
+< Expression Statement
+< Identifier (b)
+< Expr from ExprAux
+< Return Statement with Value
+< Function Body
+< Function Definition
+< Type: int
+< Type: void
+< Empty Parameter Declaration
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Type: char
+< Natural: 4
+< Unary Minus
+< Natural: 3
+< Addition
+< Natural: 3
+< Unary Minus
+< Expr from ExprAux
+< Subtraction
+< Expr from ExprAux
+< Declaration4
+< Type: int
+< Identifier (a)
+< Natural: 4
+< Addition
+< Identifier (a)
+< Unary Minus
+< Expr from ExprAux
+< Subtraction
+< Expr from ExprAux
+< Declaration4
+< Type: char
+< Natural: 5
+< Expr from ExprAux
+< Declaration4
+< Identifier (a)
+< Natural: 5
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (a)
+< Natural: 5
+< Equal
+< Expr from ExprAux
+< Expression Statement
+< Identifier (a)
+< Natural: 5
+< Less Than
+< Expr from ExprAux
+< Expression Statement
+< Identifier (a)
+< Logical NOT
+< Expr from ExprAux
+< Natural: 2
+< Expr from ExprAux
+< Identifier (a)
+< Natural: 3
+< Natural: 3
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (a)
+< Identifier (r)
+< Store
+< Expr from ExprAux
+< Expression Statement
+< If-Else Statement
+< While Loop
+< Identifier (a)
+< Natural: 3
+< Equal
+< Identifier (b)
+< Identifier (a)
+< Less Than
+< Logical AND
+< Expr from ExprAux
+< Identifier (a)
+< Natural: 3
+< Less Than
+< Logical OR
+< Expr from ExprAux
+< Identifier (a)
+< Identifier (b)
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (b)
+< Natural: 3
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Natural: 1
+< Expr from ExprAux
+< Identifier (a)
+< Natural: 0
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Statlist
+< While Loop
+< Identifier (c)
+< Natural: 5
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< While Loop
+< Identifier (a)
+< Natural: 3
+< Equal
+< Identifier (e)
+< Natural: 3
+< Equal
+< Natural: 5
+< Bitwise AND
+< Logical AND
+< Expr from ExprAux
+< Expr from ExprAux
+< Identifier (b)
+< Expr from ExprAux
+< Return Statement with Value
+< If-Else Statement
+< Identifier (a)
+< Expr from ExprAux
+< Return Statement with Value
+< Function Body
+< Function Definition
+< Program 
+---
+> Program
+> ..FuncDeclaration
+> ....Void
+> ....Identifier(soma)
+> ....ParamList
+> ......ParamDeclaration
+> ........Int
+> ........Identifier(a)
+> ......ParamDeclaration
+> ........Char
+> ........Identifier(b)
+> ..FuncDeclaration
+> ....Void
+> ....Identifier(subt)
+> ....ParamList
+> ......ParamDeclaration
+> ........Int
+> ......ParamDeclaration
+> ........Char
+> ......ParamDeclaration
+> ........Double
+> ..Declaration
+> ....Int
+> ....Identifier(a)
+> ....Natural(3)
+> ..Declaration
+> ....Int
+> ....Identifier(b)
+> ....Natural(5)
+> ..Declaration
+> ....Int
+> ....Identifier(d)
+> ....Natural(3)
+> ..Declaration
+> ....Int
+> ....Identifier(c)
+> ....Natural(5)
+> ..Declaration
+> ....Double
+> ....Identifier(t)
+> ....Natural(3)
+> ..FuncDefinition
+> ....Int
+> ....Identifier(chama)
+> ....ParamList
+> ......ParamDeclaration
+> ........Void
+> ....FuncBody
+> ......If
+> ........Eq
+> ..........Identifier(o)
+> ..........Identifier(e)
+> ........StatList
+> ..........While
+> ............Natural(1)
+> ............Null
+> ..........Return
+> ............Identifier(a)
+> ........Null
+> ......Return
+> ........Identifier(c)
+> ......Call
+> ........Identifier(chama)
+> ........Natural(4)
+> ......Return
+> ........Identifier(b)
+> ..FuncDefinition
+> ....Int
+> ....Identifier(main)
+> ....ParamList
+> ......ParamDeclaration
+> ........Void
+> ......ParamDeclaration
+> ........Void
+> ....FuncBody
+> ......Declaration
+> ........Char
+> ........Identifier(a)
+> ........Sub
+> ..........Add
+> ............Minus
+> ..............Natural(4)
+> ............Natural(3)
+> ..........Minus
+> ............Natural(3)
+> ......Declaration
+> ........Int
+> ........Identifier(b)
+> ........Sub
+> ..........Add
+> ............Identifier(a)
+> ............Natural(4)
+> ..........Minus
+> ............Identifier(a)
+> ......Declaration
+> ........Char
+> ........Identifier(a)
+> ........Natural(5)
+> ......Store
+> ........Identifier(a)
+> ........Natural(5)
+> ......Eq
+> ........Identifier(a)
+> ........Natural(5)
+> ......Lt
+> ........Identifier(a)
+> ........Natural(5)
+> ......While
+> ........Not
+> ..........Identifier(a)
+> ........If
+> ..........Natural(2)
+> ..........Store
+> ............Identifier(a)
+> ............Add
+> ..............Natural(3)
+> ..............Natural(3)
+> ..........Store
+> ............Identifier(a)
+> ............Identifier(r)
+> ......While
+> ........Or
+> ..........And
+> ............Eq
+> ..............Identifier(a)
+> ..............Natural(3)
+> ............Lt
+> ..............Identifier(b)
+> ..............Identifier(a)
+> ..........Lt
+> ............Identifier(a)
+> ............Natural(3)
+> ........StatList
+> ..........Store
+> ............Identifier(a)
+> ............Identifier(b)
+> ..........Store
+> ............Identifier(b)
+> ............Natural(3)
+> ..........While
+> ............Natural(1)
+> ............Store
+> ..............Identifier(a)
+> ..............Natural(0)
+> ..........Store
+> ............Identifier(c)
+> ............Natural(5)
+> ......If
+> ........And
+> ..........Eq
+> ............Identifier(a)
+> ............Natural(3)
+> ..........BitWiseAnd
+> ............Eq
+> ..............Identifier(e)
+> ..............Natural(3)
+> ............Natural(5)
+> ........Return
+> ..........Identifier(b)
+> ........Null
+> ......Return
+> ........Identifier(a)

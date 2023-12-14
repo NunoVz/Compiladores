@@ -1,0 +1,86 @@
+1,42c1,42
+< Type: int
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Type: double
+< Decimal: 1.5
+< Expr from ExprAux
+< Declaration4
+< Type: int
+< Natural: 1
+< Expr from ExprAux
+< Natural: 2
+< Expr from ExprAux
+< Natural: 3
+< Expr from ExprAux
+< Declaration4
+< Type: short
+< Natural: 4
+< Expr from ExprAux
+< Declaration4
+< Type: char
+< Char Literal: 'a'
+< Expr from ExprAux
+< Declaration4
+< Identifier (a)
+< Natural: 1
+< Unary Minus
+< Natural: 3
+< Multiplication
+< Natural: 2
+< Natural: 4
+< Division
+< Addition
+< Expr from ExprAux
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Function Body
+< Function Definition
+< Program 
+---
+> Program
+> ..FuncDefinition
+> ....Int
+> ....Identifier(main)
+> ....ParamList
+> ......ParamDeclaration
+> ........Void
+> ....FuncBody
+> ......Declaration
+> ........Double
+> ........Identifier(x)
+> ........Decimal(1.5)
+> ......Declaration
+> ........Int
+> ........Identifier(a)
+> ........Natural(1)
+> ......Declaration
+> ........Int
+> ........Identifier(b)
+> ........Natural(2)
+> ......Declaration
+> ........Int
+> ........Identifier(c)
+> ........Natural(3)
+> ......Declaration
+> ........Short
+> ........Identifier(d)
+> ........Natural(4)
+> ......Declaration
+> ........Char
+> ........Identifier(c)
+> ........ChrLit('a')
+> ......Store
+> ........Identifier(a)
+> ........Add
+> ..........Mul
+> ............Minus
+> ..............Natural(1)
+> ............Natural(3)
+> ..........Div
+> ............Natural(2)
+> ............Natural(4)

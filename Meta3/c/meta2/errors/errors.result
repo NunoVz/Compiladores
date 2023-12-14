@@ -1,5 +1,49 @@
+Type: int
+Type: void
+Empty Parameter Declaration
+Empty Parameter List
+Parameter List
+Function Declarator
 Line 2, column 3: syntax error: =
+Type: char
+Char Literal: 'A'
+Expr from ExprAux
+Declaration4
+Identifier (i)
+Char Literal: 'Z'
+Less Than or Equal
+Expr from ExprAux
+Identifier (i)
+CALL w stuff
+Expr from ExprAux
+Expression Statement
+Identifier (i)
+Identifier (i)
+Natural: 1
+Addition
+Store
+Expr from ExprAux
+Expression Statement
+Stat + StatList
+Statlist
+While Loop
 Line 9, column 3: syntax error: =
+Natural: 0
+Expr from ExprAux
+Return Statement with Value
+Function Body
+Function Definition
+Type: char
+Type: void
+Empty Parameter Declaration
+Empty Parameter List
+Parameter List
+Function Declarator
 Line 14, column 9: syntax error: ==
 Line 15, column 8: syntax error: ==
+Expr from ExprAux
+Expression Statement
 Line 16, column 5: syntax error: ==
+Function Body
+Function Definition
+Program 

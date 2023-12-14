@@ -1,0 +1,405 @@
+1,219c1,184
+< Type: int
+< Type: int
+< Parameter Declaration ID:number
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Type: int
+< Natural: 1
+< Expr from ExprAux
+< Declaration4
+< Identifier (number)
+< Natural: 0
+< Not Equal
+< Expr from ExprAux
+< Identifier (answer)
+< Identifier (answer)
+< Identifier (number)
+< Multiplication
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (number)
+< Identifier (number)
+< Natural: 1
+< Subtraction
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Stat + StatList
+< Statlist
+< While Loop
+< Identifier (answer)
+< Expr from ExprAux
+< Return Statement with Value
+< Function Body
+< Function Definition
+< Type: int
+< Type: int
+< Parameter Declaration ID:number
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (num)
+< Natural: 0
+< Equal
+< Expr from ExprAux
+< Natural: 1
+< Expr from ExprAux
+< Return Statement with Value
+< Statlist
+< If Statement
+< Identifier (number)
+< Identifier (number)
+< CALL w stuff
+< Multiplication
+< Expr from ExprAux
+< Return Statement with Value
+< Function Body
+< Function Definition
+< Type: int
+< Type: int
+< Parameter Declaration ID:number
+< Type: int
+< Parameter Declaration ID:k
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (number)
+< Natural: 0
+< Equal
+< Expr from ExprAux
+< Natural: 1
+< Expr from ExprAux
+< Return Statement with Value
+< Statlist
+< If Statement
+< Identifier (number)
+< Natural: 1
+< Subtraction
+< Identifier (k)
+< Identifier (number)
+< Multiplication
+< CALL w stuff
+< Expr from ExprAux
+< Return Statement with Value
+< Function Body
+< Function Definition
+< Type: void
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Char Literal: '#'
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Char Literal: '#'
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Char Literal: '\t'
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Char Literal: 'F'
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Char Literal: 'A'
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Char Literal: 'C'
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Char Literal: 'T'
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Char Literal: 'O'
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Char Literal: 'R'
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Char Literal: 'I'
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Char Literal: 'A'
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Char Literal: 'L'
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Char Literal: 'S'
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Char Literal: '#'
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Char Literal: '#'
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Char Literal: '\t'
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Char Literal: '\n'
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Function Body
+< Function Definition
+< Type: int
+< Type: char
+< Parameter Declaration ID:c
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (c)
+< Char Literal: '0'
+< Greater Than or Equal
+< Identifier (c)
+< Char Literal: '9'
+< Less Than or Equal
+< Logical AND
+< Expr from ExprAux
+< Identifier (c)
+< Char Literal: '0'
+< Subtraction
+< Expr from ExprAux
+< Return Statement with Value
+< Statlist
+< If Statement
+< Function Body
+< Function Definition
+< Type: int
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Call wo stuff
+< Expr from ExprAux
+< Expression Statement
+< Type: int
+< Call wo stuff
+< CALL w stuff
+< Expr from ExprAux
+< Declaration4
+< Identifier (i)
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Identifier (i)
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Identifier (i)
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Natural: 0
+< Expr from ExprAux
+< Return Statement with Value
+< Function Body
+< Function Definition
+< Program 
+---
+> Program
+> ..FuncDefinition
+> ....Int
+> ....Identifier(factorial)
+> ....ParamList
+> ......ParamDeclaration
+> ........Int
+> ........Identifier(number)
+> ....FuncBody
+> ......Declaration
+> ........Int
+> ........Identifier(answer)
+> ........Natural(1)
+> ......While
+> ........Ne
+> ..........Identifier(number)
+> ..........Natural(0)
+> ........StatList
+> ..........Store
+> ............Identifier(answer)
+> ............Mul
+> ..............Identifier(answer)
+> ..............Identifier(number)
+> ..........Store
+> ............Identifier(number)
+> ............Sub
+> ..............Identifier(number)
+> ..............Natural(1)
+> ......Return
+> ........Identifier(answer)
+> ..FuncDefinition
+> ....Int
+> ....Identifier(recursive_factorial)
+> ....ParamList
+> ......ParamDeclaration
+> ........Int
+> ........Identifier(number)
+> ....FuncBody
+> ......If
+> ........Eq
+> ..........Identifier(num)
+> ..........Natural(0)
+> ........Return
+> ..........Natural(1)
+> ........Null
+> ......Return
+> ........Mul
+> ..........Identifier(number)
+> ..........Call
+> ............Identifier(recursive_factorial)
+> ............Identifier(number)
+> ..FuncDefinition
+> ....Int
+> ....Identifier(tail_recursive_factorial)
+> ....ParamList
+> ......ParamDeclaration
+> ........Int
+> ........Identifier(number)
+> ......ParamDeclaration
+> ........Int
+> ........Identifier(k)
+> ....FuncBody
+> ......If
+> ........Eq
+> ..........Identifier(number)
+> ..........Natural(0)
+> ........Return
+> ..........Natural(1)
+> ........Null
+> ......Return
+> ........Call
+> ..........Identifier(factorial)
+> ..........Sub
+> ............Identifier(number)
+> ............Natural(1)
+> ..........Mul
+> ............Identifier(k)
+> ............Identifier(number)
+> ..FuncDefinition
+> ....Void
+> ....Identifier(i_have_no_life_xD)
+> ....ParamList
+> ......ParamDeclaration
+> ........Void
+> ....FuncBody
+> ......Call
+> ........Identifier(putchar)
+> ........ChrLit('#')
+> ......Call
+> ........Identifier(putchar)
+> ........ChrLit('#')
+> ......Call
+> ........Identifier(putchar)
+> ........ChrLit('\t')
+> ......Call
+> ........Identifier(putchar)
+> ........ChrLit('F')
+> ......Call
+> ........Identifier(putchar)
+> ........ChrLit('A')
+> ......Call
+> ........Identifier(putchar)
+> ........ChrLit('C')
+> ......Call
+> ........Identifier(putchar)
+> ........ChrLit('T')
+> ......Call
+> ........Identifier(putchar)
+> ........ChrLit('O')
+> ......Call
+> ........Identifier(putchar)
+> ........ChrLit('R')
+> ......Call
+> ........Identifier(putchar)
+> ........ChrLit('I')
+> ......Call
+> ........Identifier(putchar)
+> ........ChrLit('A')
+> ......Call
+> ........Identifier(putchar)
+> ........ChrLit('L')
+> ......Call
+> ........Identifier(putchar)
+> ........ChrLit('S')
+> ......Call
+> ........Identifier(putchar)
+> ........ChrLit('#')
+> ......Call
+> ........Identifier(putchar)
+> ........ChrLit('#')
+> ......Call
+> ........Identifier(putchar)
+> ........ChrLit('\t')
+> ......Call
+> ........Identifier(putchar)
+> ........ChrLit('\n')
+> ..FuncDefinition
+> ....Int
+> ....Identifier(ctoi)
+> ....ParamList
+> ......ParamDeclaration
+> ........Char
+> ........Identifier(c)
+> ....FuncBody
+> ......If
+> ........And
+> ..........Ge
+> ............Identifier(c)
+> ............ChrLit('0')
+> ..........Le
+> ............Identifier(c)
+> ............ChrLit('9')
+> ........Return
+> ..........Sub
+> ............Identifier(c)
+> ............ChrLit('0')
+> ........Null
+> ..FuncDefinition
+> ....Int
+> ....Identifier(main)
+> ....ParamList
+> ......ParamDeclaration
+> ........Void
+> ....FuncBody
+> ......Call
+> ........Identifier(i_have_no_life_xD)
+> ......Declaration
+> ........Int
+> ........Identifier(i)
+> ........Call
+> ..........Identifier(ctoi)
+> ..........Call
+> ............Identifier(getchar)
+> ......Call
+> ........Identifier(recursive_factorial)
+> ........Identifier(i)
+> ......Call
+> ........Identifier(tail_recursive_factorial)
+> ........Identifier(i)
+> ......Call
+> ........Identifier(factorial)
+> ........Identifier(i)
+> ......Return
+> ........Natural(0)

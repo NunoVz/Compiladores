@@ -1,0 +1,235 @@
+1,124c1,109
+< Type: int
+< Type: int
+< Parameter Declaration ID:a
+< Type: int
+< Parameter Declaration ID:b
+< Type: int
+< Parameter Declaration ID:c
+< Type: int
+< Parameter Declaration ID:d
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (a)
+< Identifier (b)
+< Identifier (d)
+< Unary Minus
+< Identifier (c)
+< Division
+< Natural: 3
+< Addition
+< Expr from ExprAux
+< Multiplication
+< Identifier (d)
+< Multiplication
+< Identifier (c)
+< Addition
+< Expr from ExprAux
+< Addition
+< Identifier (d)
+< Addition
+< Expr from ExprAux
+< Return Statement with Value
+< Function Body
+< Function Definition
+< Type: char
+< Type: char
+< Parameter Declaration ID:a
+< Type: char
+< Parameter Declaration ID:b
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (a)
+< Identifier (b)
+< Less Than
+< Expr from ExprAux
+< Identifier (a)
+< Identifier (a)
+< Natural: 1
+< Subtraction
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (a)
+< Expr from ExprAux
+< Return Statement with Value
+< Stat + StatList
+< Statlist
+< Identifier (b)
+< Identifier (b)
+< Natural: 1
+< Subtraction
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (b)
+< Expr from ExprAux
+< Return Statement with Value
+< Stat + StatList
+< Statlist
+< If-Else Statement
+< Function Body
+< Function Definition
+< Type: char
+< Type: char
+< Parameter Declaration ID:a
+< Type: char
+< Parameter Declaration ID:b
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (a)
+< Identifier (b)
+< CALL w stuff
+< Identifier (b)
+< Less Than
+< Expr from ExprAux
+< Identifier (a)
+< Expr from ExprAux
+< Return Statement with Value
+< Identifier (b)
+< Expr from ExprAux
+< Return Statement with Value
+< If-Else Statement
+< Function Body
+< Function Definition
+< Type: double
+< Type: double
+< Parameter Declaration ID:a
+< Type: double
+< Parameter Declaration ID:b
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Type: double
+< Decimal: 3.14
+< Expr from ExprAux
+< Declaration4
+< Identifier (a)
+< Identifier (b)
+< Identifier (PI)
+< Multiplication
+< Subtraction
+< Expr from ExprAux
+< Return Statement with Value
+< Function Body
+< Function Definition
+< Program 
+---
+> Program
+> ..FuncDefinition
+> ....Int
+> ....Identifier(check_your_priorities)
+> ....ParamList
+> ......ParamDeclaration
+> ........Int
+> ........Identifier(a)
+> ......ParamDeclaration
+> ........Int
+> ........Identifier(b)
+> ......ParamDeclaration
+> ........Int
+> ........Identifier(c)
+> ......ParamDeclaration
+> ........Int
+> ........Identifier(d)
+> ....FuncBody
+> ......Return
+> ........Add
+> ..........Add
+> ............Identifier(a)
+> ............Add
+> ..............Mul
+> ................Mul
+> ..................Identifier(b)
+> ..................Add
+> ....................Div
+> ......................Minus
+> ........................Identifier(d)
+> ......................Identifier(c)
+> ....................Natural(3)
+> ................Identifier(d)
+> ..............Identifier(c)
+> ..........Identifier(d)
+> ..FuncDefinition
+> ....Char
+> ....Identifier(block)
+> ....ParamList
+> ......ParamDeclaration
+> ........Char
+> ........Identifier(a)
+> ......ParamDeclaration
+> ........Char
+> ........Identifier(b)
+> ....FuncBody
+> ......If
+> ........Lt
+> ..........Identifier(a)
+> ..........Identifier(b)
+> ........StatList
+> ..........Store
+> ............Identifier(a)
+> ............Sub
+> ..............Identifier(a)
+> ..............Natural(1)
+> ..........Return
+> ............Identifier(a)
+> ........StatList
+> ..........Store
+> ............Identifier(b)
+> ............Sub
+> ..............Identifier(b)
+> ..............Natural(1)
+> ..........Return
+> ............Identifier(b)
+> ..FuncDefinition
+> ....Char
+> ....Identifier(not_block)
+> ....ParamList
+> ......ParamDeclaration
+> ........Char
+> ........Identifier(a)
+> ......ParamDeclaration
+> ........Char
+> ........Identifier(b)
+> ....FuncBody
+> ......If
+> ........Lt
+> ..........Call
+> ............Identifier(weird_char)
+> ............Identifier(a)
+> ............Identifier(b)
+> ..........Identifier(b)
+> ........Return
+> ..........Identifier(a)
+> ........Return
+> ..........Identifier(b)
+> ..FuncDefinition
+> ....Double
+> ....Identifier(check_your_decimal_places)
+> ....ParamList
+> ......ParamDeclaration
+> ........Double
+> ........Identifier(a)
+> ......ParamDeclaration
+> ........Double
+> ........Identifier(b)
+> ....FuncBody
+> ......Declaration
+> ........Double
+> ........Identifier(PI)
+> ........Decimal(3.14)
+> ......Return
+> ........Sub
+> ..........Identifier(a)
+> ..........Mul
+> ............Identifier(b)
+> ............Identifier(PI)

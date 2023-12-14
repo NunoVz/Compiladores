@@ -1,158 +1,161 @@
+Line 5, column 16: Invalid use of void type in declaration
+Line 7, column 34: Invalid use of void type in declaration
+Line 7, column 34: Invalid use of void type in declaration
+Line 156, column 15: Conflicting types (got Char, expected Function)
+Line 275, column 8: Conflicting types (got double(double), expected double)
+Line 276, column 8: Conflicting types (got double(int), expected double)
+Line 277, column 5: Conflicting types (got int(int), expected double)
+Line 280, column 13: Conflicting types (got Short, expected Double)
+Line 287, column 18: Conflicting types (got Double, expected Function)
+Line 288, column 19: Conflicting types (got Int, expected Function)
+Line 289, column 16: Conflicting types (got Double, expected Function)
+Line 289, column 16: Conflicting types (got Double, expected Function)
+Line 293, column 9: Conflicting types (got Char, expected Int)
+Line 293, column 21: Conflicting types (got Char, expected Int)
+Line 293, column 29: Conflicting types (got Char, expected Int)
+Line 309, column 19: Conflicting types (got Double, expected Function)
+Line 312, column 19: Conflicting types (got Int, expected Function)
+Line 312, column 19: Conflicting types (got Int, expected Function)
+Line 312, column 19: Conflicting types (got Int, expected Function)
+Line 314, column 13: Conflicting types (got Short, expected Function)
+Line 316, column 16: Conflicting types (got Char, expected Function)
+Line 319, column 18: Conflicting types (got Short, expected Function)
+Line 320, column 13: Conflicting types (got Char, expected Function)
 ===== Global Symbol Table =====
 putchar	int(int)
 getchar	int(void)
-a	()
-as	()
-p	()
-bs	()
-test	()
-a	()
-b	()
+main	int(void)
+a	int
+p	double
+bs	double
+test	double
 abcde	int(int,int,int)
 okokok	int(void)
-i	()
+new	void(void)
 factorial	int(int)
-answer	()
 recursive_factorial	int(int)
 tail_recursive_fac	int(int,int)
-bola	()
-i	()
-main	int(void)
-i	()
-a	()
-b	()
-d	()
-c	()
-t	()
+soma	void(int,char)
+subt	void(int,char,double)
+a	int
+b	int
+d	int
+c	int
+t	double
 chama	int(void)
 uauu	int(void)
-a	()
-b	()
-a	()
 ctoi	int(char)
 block	char(char,char)
 check_your_priorities	int(int,int,int)
 not_block	char(char,char)
-x	()
-y	()
-z	()
+x	int
+y	int
+z	int
 check_your_decimal	double(double,double)
-PI	()
 main_0	int(void)
-i	()
-j	()
-k	()
-ch0	()
-ch1	()
-ch2	()
-pow	int(int)
-c1	()
-c2	()
-s	()
-t	()
-i	()
-j	()
+i	int
+j	int
+k	int
+ch0	char
+ch1	char
+ch2	char
+pow	double(double)
+c1	char
+c2	char
+s	short
+i	int
+j	int
 f1	char(void)
-s	()
-i	()
-d	()
-d	()
-e	()
-a	()
-a	()
-b	()
-b	()
-a	()
-a	()
-a	()
-b	()
+blah	int(void)
 df	double(double,double)
-ch0	()
-calc	()
-ch1	()
-a	()
-b	()
-c	()
-d	()
-x	()
-a	()
-b	()
-c	()
-d	()
-c	()
-a	()
-c	()
-
-===== Function abcde Symbol Table =====
-return	int 
-a	int param
-b	int param
-i	int param
-
-===== Function okokok Symbol Table =====
-return	int 
-
-===== Function factorial Symbol Table =====
-return	int 
-number	int param
-
-===== Function recursive_factorial Symbol Table =====
-return	int 
-number	int param
-
-===== Function tail_recursive_fac Symbol Table =====
-return	int 
-number	int param
-k	int param
 
 ===== Function main Symbol Table =====
-return	int 
+return	int
+i	int
+
+===== Function abcde Symbol Table =====
+return	int
+a	int	param
+b	int	param
+i	int	param
+
+===== Function okokok Symbol Table =====
+return	int
+i	int
+
+===== Function factorial Symbol Table =====
+return	int
+number	int	param
+answer	int
+
+===== Function recursive_factorial Symbol Table =====
+return	int
+number	int	param
+
+===== Function tail_recursive_fac Symbol Table =====
+return	int
+number	int	param
+k	int	param
+bola	int
+i	int
 
 ===== Function chama Symbol Table =====
-return	int 
+return	int
 
 ===== Function uauu Symbol Table =====
-return	int 
+return	int
+a	char
+b	int
 
 ===== Function ctoi Symbol Table =====
-return	int 
-c	char param
+return	int
+c	char	param
 
 ===== Function block Symbol Table =====
-return	char 
-a	char param
-b	char param
+return	char
+a	char	param
+b	char	param
 
 ===== Function check_your_priorities Symbol Table =====
-return	int 
-a	int param
-b	int param
-d	int param
+return	int
+a	int	param
+b	int	param
+d	int	param
 
 ===== Function not_block Symbol Table =====
-return	char 
-a	char param
-b	char param
+return	char
+a	char	param
+b	char	param
 
 ===== Function check_your_decimal Symbol Table =====
-return	double 
-a	double param
-b	double param
+return	double
+a	double	param
+b	double	param
+PI	double
 
 ===== Function main_0 Symbol Table =====
-return	int 
-
-===== Function pow Symbol Table =====
-return	int 
-i	int param
+return	int
 
 ===== Function f1 Symbol Table =====
-return	char 
+return	char
+s	short
+i	int
+d	double
+e	double
+a	int
+b	double
 
 ===== Function df Symbol Table =====
-return	double 
-d	double param
-dd	double param
+return	double
+d	double	param
+dd	double	param
+ch0	int
+calc	int
+ch1	char
+a	char
+b	short
+c	int
+x	double
 
 Program
 ..FuncDeclaration
@@ -237,17 +240,17 @@ Program
 ......ParamDeclaration
 ........Int
 ..FuncDefinition
-....int
+....Int
 ....Identifier(abcde)
 ....ParamList
 ......ParamDeclaration
-........int
+........Int
 ........Identifier(a)
 ......ParamDeclaration
-........int
+........Int
 ........Identifier(b)
 ......ParamDeclaration
-........int
+........Int
 ........Identifier(i)
 ....FuncBody
 ......Return
@@ -380,11 +383,11 @@ Program
 ............Natural(3)
 ........Null
 ..FuncDefinition
-....int
+....Int
 ....Identifier(okokok)
 ....ParamList
 ......ParamDeclaration
-........void
+........Void
 ....FuncBody
 ......Declaration
 ........Int
@@ -399,11 +402,11 @@ Program
 ......ParamDeclaration
 ........Void
 ..FuncDefinition
-....int
+....Int
 ....Identifier(factorial)
 ....ParamList
 ......ParamDeclaration
-........int
+........Int
 ........Identifier(number)
 ....FuncBody
 ......Declaration
@@ -428,11 +431,11 @@ Program
 ......Return
 ........Identifier(answer)
 ..FuncDefinition
-....int
+....Int
 ....Identifier(recursive_factorial)
 ....ParamList
 ......ParamDeclaration
-........int
+........Int
 ........Identifier(number)
 ....FuncBody
 ......If
@@ -449,14 +452,14 @@ Program
 ............Identifier(recursive_factorial)
 ............Identifier(number)
 ..FuncDefinition
-....int
+....Int
 ....Identifier(tail_recursive_fac)
 ....ParamList
 ......ParamDeclaration
-........int
+........Int
 ........Identifier(number)
 ......ParamDeclaration
-........int
+........Int
 ........Identifier(k)
 ....FuncBody
 ......Declaration
@@ -486,11 +489,11 @@ Program
 ............Identifier(k)
 ............Identifier(number)
 ..FuncDefinition
-....int
+....Int
 ....Identifier(main)
 ....ParamList
 ......ParamDeclaration
-........void
+........Void
 ....FuncBody
 ......Call
 ........Identifier(func1)
@@ -621,11 +624,11 @@ Program
 ....Identifier(t)
 ....Natural(3)
 ..FuncDefinition
-....int
+....Int
 ....Identifier(chama)
 ....ParamList
 ......ParamDeclaration
-........void
+........Void
 ....FuncBody
 ......If
 ........Eq
@@ -646,11 +649,11 @@ Program
 ......Return
 ........Identifier(b)
 ..FuncDefinition
-....int
+....Int
 ....Identifier(uauu)
 ....ParamList
 ......ParamDeclaration
-........void
+........Void
 ....FuncBody
 ......Declaration
 ........Char
@@ -740,11 +743,11 @@ Program
 ......Return
 ........Identifier(a)
 ..FuncDefinition
-....int
+....Int
 ....Identifier(ctoi)
 ....ParamList
 ......ParamDeclaration
-........char
+........Char
 ........Identifier(c)
 ....FuncBody
 ......If
@@ -761,14 +764,14 @@ Program
 ............ChrLit('0')
 ........Null
 ..FuncDefinition
-....char
+....Char
 ....Identifier(block)
 ....ParamList
 ......ParamDeclaration
-........char
+........Char
 ........Identifier(a)
 ......ParamDeclaration
-........char
+........Char
 ........Identifier(b)
 ....FuncBody
 ......If
@@ -792,17 +795,17 @@ Program
 ..........Return
 ............Identifier(b)
 ..FuncDefinition
-....int
+....Int
 ....Identifier(check_your_priorities)
 ....ParamList
 ......ParamDeclaration
-........int
+........Int
 ........Identifier(a)
 ......ParamDeclaration
-........int
+........Int
 ........Identifier(b)
 ......ParamDeclaration
-........int
+........Int
 ........Identifier(d)
 ....FuncBody
 ......Return
@@ -823,14 +826,14 @@ Program
 ..............Identifier(c)
 ..........Identifier(d)
 ..FuncDefinition
-....char
+....Char
 ....Identifier(not_block)
 ....ParamList
 ......ParamDeclaration
-........char
+........Char
 ........Identifier(a)
 ......ParamDeclaration
-........char
+........Char
 ........Identifier(b)
 ....FuncBody
 ......If
@@ -854,14 +857,14 @@ Program
 ....Int
 ....Identifier(z)
 ..FuncDefinition
-....double
+....Double
 ....Identifier(check_your_decimal)
 ....ParamList
 ......ParamDeclaration
-........double
+........Double
 ........Identifier(a)
 ......ParamDeclaration
-........double
+........Double
 ........Identifier(b)
 ....FuncBody
 ......Declaration
@@ -875,11 +878,11 @@ Program
 ............Identifier(b)
 ............Identifier(PI)
 ..FuncDefinition
-....int
+....Int
 ....Identifier(main_0)
 ....ParamList
 ......ParamDeclaration
-........void
+........Void
 ....FuncBody
 ......While
 ........Identifier(a)
@@ -974,7 +977,7 @@ Program
 ..Declaration
 ....Char
 ....Identifier(ch2)
-....ChrLit('0')
+....ChrLit('0') - int
 ..FuncDeclaration
 ....Double
 ....Identifier(pow)
@@ -997,11 +1000,11 @@ Program
 ........Int
 ........Identifier(i)
 ..FuncDefinition
-....int
+....Int
 ....Identifier(pow)
 ....ParamList
 ......ParamDeclaration
-........int
+........Int
 ........Identifier(i)
 ....FuncBody
 ..Declaration
@@ -1023,11 +1026,11 @@ Program
 ....Int
 ....Identifier(j)
 ..FuncDefinition
-....char
+....Char
 ....Identifier(f1)
 ....ParamList
 ......ParamDeclaration
-........void
+........Void
 ....FuncBody
 ......Declaration
 ........Short
@@ -1086,14 +1089,14 @@ Program
 ......ParamDeclaration
 ........Double
 ..FuncDefinition
-....double
+....Double
 ....Identifier(df)
 ....ParamList
 ......ParamDeclaration
-........double
+........Double
 ........Identifier(d)
 ......ParamDeclaration
-........double
+........Double
 ........Identifier(dd)
 ....FuncBody
 ......Declaration
@@ -1135,7 +1138,7 @@ Program
 ......Declaration
 ........Char
 ........Identifier(a)
-........ChrLit('a')
+........ChrLit('a') - int
 ......Declaration
 ........Short
 ........Identifier(b)
@@ -1171,7 +1174,7 @@ Program
 ......Declaration
 ........Char
 ........Identifier(c)
-........ChrLit('a')
+........ChrLit('a') - int
 ......Store
 ........Identifier(a)
 ........Add

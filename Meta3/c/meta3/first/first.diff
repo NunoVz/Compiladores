@@ -1,22 +1,3 @@
-5d4
-< i	()
-8c7,8
-< return	int 
----
-> return	int
-> i	char
-12c12
-< ....int
----
-> ....Int
-16c16
-< ........void
----
-> ........Void
-21c21
-< ........ChrLit('A')
----
-> ........ChrLit('A') - int
 23,25c23,25
 < ........Le
 < ..........Identifier(i)

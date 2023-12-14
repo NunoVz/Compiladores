@@ -1,4 +1,83 @@
+Type: int
+Type: int
+Parameter Declaration ID:a
+Type: int
+Parameter Declaration ID:b
+Type: int
+Parameter Declaration ID:c
+Empty Parameter List
+Parameter List
+Parameter List
+Parameter List
+Function Declarator
+Identifier (a)
+Identifier (b)
+Subtraction
+Expr from ExprAux
+Expr from ExprAux
+Return Statement with Value
+Function Body
+Function Definition
+Type: void
+Type: char
+Empty Parameter Declaration
+Empty Parameter List
+Parameter List
 Line 5, column 19: syntax error: *
+Type: int
+Natural: 5
+Expr from ExprAux
 Line 7, column 20: syntax error: 6
+Type: void
+Declaration4
 Line 13, column 1: syntax error: }
+Type: int
+Type: double
+Parameter Declaration ID:x
+Empty Parameter List
+Parameter List
+Function Declarator
+Identifier (x)
+Expr from ExprAux
+Return Statement with Value
+Function Body
+Function Definition
+Type: void
+Type: int
+Parameter Declaration ID:sig
+Type: void
+Empty Parameter Declaration
+Empty Parameter List
+Parameter List
+Parameter List
 Line 19, column 27: syntax error: (
+Type: char
+Type: int
+Empty Parameter Declaration
+Type: void
+Empty Parameter Declaration
+Type: char
+Empty Parameter Declaration
+Type: double
+Empty Parameter Declaration
+Empty Parameter List
+Parameter List
+Parameter List
+Parameter List
+Parameter List
+Function Declarator
+Function Declarationt
+Type: int
+Type: int
+Parameter Declaration ID:x
+Empty Parameter List
+Parameter List
+Function Declarator
+Identifier (x)
+Natural: 5
+Addition
+Expr from ExprAux
+Return Statement with Value
+Function Body
+Function Definition
+Program 

@@ -1,10 +1,10 @@
-0a1,24
+0a1,5
 > Line 1, column 16: Invalid use of void type in declaration
 > Line 7, column 7: Conflicting types (got double, expected short)
 > Line 8, column 5: Lvalue required
 > Line 9, column 5: Operator - cannot be applied to type void
 > Line 10, column 14: Operator && cannot be applied to types int, double
-> Line 13, column 6: Symbol f already defined
+1a7,24
 > Line 15, column 12: Unknown symbol y
 > Line 18, column 5: Wrong number of arguments to function s (got 2, required 1)
 > Line 19, column 9: Conflicting types (got void, expected int)
@@ -23,46 +23,7 @@
 > Line 22, column 7: Operator = cannot be applied to types double, undef
 > Line 23, column 8: Conflicting types (got double, expected int)
 > Line 27, column 12: Conflicting types (got double, expected void)
-4c28,29
-< d	()
----
-> s	void(int)
-> d	double
-6,7c31
-< f	void(void)
-< x	()
----
-> x	double
-12,16c36,37
-< return	int 
-< i	short param
-< 
-< ===== Function f Symbol Table =====
-< return	void 
----
-> return	int
-> i	short	param
-19,21c40,42
-< return	double 
-< i	int param
-< d	double param
----
-> return	double
-> i	int	param
-> d	double	param
-24c45
-< return	void 
----
-> return	void
-45c66
-< ....int
----
-> ....Int
-49c70
-< ........short
----
-> ........Short
-52,68c73,89
+50,66c73,89
 < ......Call
 < ........Identifier(f)
 < ........Identifier(d)
@@ -98,31 +59,11 @@
 > ............Identifier(f) - int(short)
 > ............Natural(1) - int
 > ..........Identifier(d) - double
-70c91
-< ....void
----
-> ....Void
-74c95
-< ........void
----
-> ........Void
-79c100
+77c100
 < ....Identifier(y)
 ---
 > ....Identifier(y) - undef
-81c102
-< ....double
----
-> ....Double
-85c106
-< ........int
----
-> ........Int
-88c109
-< ........double
----
-> ........Double
-91,122c112,143
+89,120c112,143
 < ......Call
 < ........Identifier(s)
 < ........Identifier(i)
@@ -188,19 +129,11 @@
 > ............Identifier(s) - void(int)
 > ............Identifier(i) - int
 > ..........Natural(1) - int
-124c145
+122c145
 < ........Identifier(x)
 ---
 > ........Identifier(x) - double
-128c149
-< ....void
----
-> ....Void
-132c153
-< ........void
----
-> ........Void
-135c156
+133c156
 < ........Identifier(d)
 ---
 > ........Identifier(d) - double

@@ -7,7 +7,7 @@
 
 
 
-no create(char* type, char* info) {
+no create(char* type, char* info,int l,int c) {
     if( type==NULL || info==NULL ){
         return NULL;
     }
@@ -18,6 +18,8 @@ no create(char* type, char* info) {
         new_node->child = NULL;
         new_node->brother = NULL;
         new_node->nchildren = 0;
+        new_node-> line=l;
+        new_node-> col=c+1;
 
         new_node->type = (char*)malloc(strlen(type) + 1);
         strcpy(new_node->type, type);
@@ -75,7 +77,8 @@ void addBrother(no existingNode, no newBrother) {
     }
 
     existingNode->brother = newBrother;
-}
+    newBrother->parent = existingNode->parent;
+    }
 int countB(no root) {
 		int count = 0;
 		no aux = root;

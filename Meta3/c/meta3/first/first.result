@@ -2,23 +2,23 @@
 putchar	int(int)
 getchar	int(void)
 main	int(void)
-i	()
 
 ===== Function main Symbol Table =====
-return	int 
+return	int
+i	char
 
 Program
 ..FuncDefinition
-....int
+....Int
 ....Identifier(main)
 ....ParamList
 ......ParamDeclaration
-........void
+........Void
 ....FuncBody
 ......Declaration
 ........Char
 ........Identifier(i)
-........ChrLit('A')
+........ChrLit('A') - int
 ......While
 ........Le
 ..........Identifier(i)

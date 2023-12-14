@@ -1,0 +1,289 @@
+1,63d0
+< Type: void
+< Type: int
+< Parameter Declaration ID:x
+< Type: int
+< Parameter Declaration ID:y
+< Type: int
+< Parameter Declaration ID:z
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Return Statement
+< Function Body
+< Function Definition
+< Type: void
+< Type: int
+< Parameter Declaration ID:x
+< Type: int
+< Parameter Declaration ID:y
+< Type: int
+< Parameter Declaration ID:z
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Function Declarationt
+< Type: int
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Type: int
+< Natural: 3
+< Expr from ExprAux
+< Natural: 2
+< Expr from ExprAux
+< Natural: 4
+< Expr from ExprAux
+< Declaration4
+< Identifier (x)
+< Natural: 100
+< Equal
+< Expr from ExprAux
+< Identifier (y)
+< Identifier (x)
+< Equal
+< Expr from ExprAux
+< Identifier (x)
+< Expr from ExprAux
+< Identifier (y)
+< Expr from ExprAux
+< Identifier (z)
+< Comma
+< Comma
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Statlist
+< If Statement
+< Statlist
+65,73d1
+< If Statement
+< Identifier (a)
+< Natural: 2
+< Store
+< Expr from ExprAux
+< Identifier (a)
+< Identifier (z)
+< Equal
+< Expr from ExprAux
+75,83d2
+< Char Literal: 'l'
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Statlist
+< Statlist
+< If-Else Statement
+< Statlist
+< While Loop
+85,153c4,137
+< Identifier (x)
+< Identifier (y)
+< Addition
+< Expr from ExprAux
+< Identifier (z)
+< Natural: 2
+< Addition
+< Comma
+< Identifier (a)
+< Logical NOT
+< Natural: 2
+< Addition
+< Expr from ExprAux
+< Logical NOT
+< Natural: 2
+< Division
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Identifier (a)
+< Identifier (a)
+< Natural: 1
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Natural: 1
+< Natural: 2
+< Natural: 3
+< Natural: 4
+< Natural: 5
+< CALL w stuff
+< Natural: 6
+< CALL w stuff
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Identifier (x)
+< Identifier (y)
+< Bitwise OR
+< Expr from ExprAux
+< Identifier (c1)
+< Bitwise AND
+< Expr from ExprAux
+< Identifier (y)
+< Identifier (c2)
+< Bitwise AND
+< Expr from ExprAux
+< Bitwise OR
+< Expr from ExprAux
+< Identifier (x)
+< Identifier (x)
+< Natural: 2
+< Equal
+< Expr from ExprAux
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (a)
+< Identifier (x)
+< Identifier (y)
+< Bitwise AND
+< Store
+< Expr from ExprAux
+< Expression Statement
+< If-Else Statement
+< Function Body
+< Function Definition
+< Program 
+---
+> Program
+> ..FuncDefinition
+> ....Void
+> ....Identifier(f)
+> ....ParamList
+> ......ParamDeclaration
+> ........Int
+> ........Identifier(x)
+> ......ParamDeclaration
+> ........Int
+> ........Identifier(y)
+> ......ParamDeclaration
+> ........Int
+> ........Identifier(z)
+> ....FuncBody
+> ......Return
+> ........Null
+> ..FuncDeclaration
+> ....Void
+> ....Identifier(f)
+> ....ParamList
+> ......ParamDeclaration
+> ........Int
+> ........Identifier(x)
+> ......ParamDeclaration
+> ........Int
+> ........Identifier(y)
+> ......ParamDeclaration
+> ........Int
+> ........Identifier(z)
+> ..FuncDefinition
+> ....Int
+> ....Identifier(main)
+> ....ParamList
+> ......ParamDeclaration
+> ........Void
+> ....FuncBody
+> ......Declaration
+> ........Int
+> ........Identifier(a)
+> ......Declaration
+> ........Int
+> ........Identifier(x)
+> ........Natural(3)
+> ......Declaration
+> ........Int
+> ........Identifier(y)
+> ........Natural(2)
+> ......Declaration
+> ........Int
+> ........Identifier(z)
+> ........Natural(4)
+> ......If
+> ........Eq
+> ..........Identifier(x)
+> ..........Natural(100)
+> ........If
+> ..........Eq
+> ............Identifier(y)
+> ............Identifier(x)
+> ..........Call
+> ............Identifier(f)
+> ............Comma
+> ..............Identifier(x)
+> ..............Comma
+> ................Identifier(y)
+> ................Identifier(z)
+> ..........Null
+> ........Null
+> ......While
+> ........Store
+> ..........Identifier(a)
+> ..........Natural(2)
+> ........If
+> ..........Eq
+> ............Identifier(a)
+> ............Identifier(z)
+> ..........Call
+> ............Identifier(putchar)
+> ............ChrLit('l')
+> ..........Null
+> ......Call
+> ........Identifier(f)
+> ........Comma
+> ..........Add
+> ............Identifier(x)
+> ............Identifier(y)
+> ..........Add
+> ............Identifier(z)
+> ............Natural(2)
+> ........Div
+> ..........Not
+> ............Add
+> ..............Not
+> ................Identifier(a)
+> ..............Natural(2)
+> ..........Natural(2)
+> ......Store
+> ........Identifier(a)
+> ........Add
+> ..........Identifier(a)
+> ..........Natural(1)
+> ......Call
+> ........Identifier(nesting_depth)
+> ........Call
+> ..........Identifier(f)
+> ..........Natural(1)
+> ..........Natural(2)
+> ..........Call
+> ............Identifier(g)
+> ............Natural(3)
+> ............Natural(4)
+> ............Natural(5)
+> ..........Natural(6)
+> ......If
+> ........BitWiseOr
+> ..........BitWiseAnd
+> ............BitWiseOr
+> ..............Identifier(x)
+> ..............Identifier(y)
+> ............Identifier(c1)
+> ..........BitWiseAnd
+> ............Identifier(y)
+> ............Identifier(c2)
+> ........Store
+> ..........Identifier(x)
+> ..........Eq
+> ............Identifier(x)
+> ............Natural(2)
+> ........Store
+> ..........Identifier(a)
+> ..........BitWiseAnd
+> ............Identifier(x)
+> ............Identifier(y)

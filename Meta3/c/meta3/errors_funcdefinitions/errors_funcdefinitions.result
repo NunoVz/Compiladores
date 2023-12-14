@@ -1,59 +1,45 @@
+Line 3, column 6: Conflicting types (got void(void), expected int)
+Line 11, column 5: Symbol soma already defined
+Line 15, column 6: Symbol soma already defined
+Line 19, column 5: Symbol soma already defined
+Unexpected error: Parameter symbol required
+Unexpected error: Parameter symbol required
+Unexpected error: Parameter symbol required
 ===== Global Symbol Table =====
 putchar	int(int)
 getchar	int(void)
-no_function	()
-no_function	void(void)
-soma	int(int,int)
-soma	int(char)
-soma	char(char,char)
+no_function	int
 soma	int(int,int)
 no_name	void(int,int,int)
 
-===== Function no_function Symbol Table =====
-return	void 
-
 ===== Function soma Symbol Table =====
-return	int 
-i	int param
-j	int param
-
-===== Function soma Symbol Table =====
-return	int 
-j	char param
-
-===== Function soma Symbol Table =====
-return	char 
-i	char param
-j	char param
-
-===== Function soma Symbol Table =====
-return	int 
-i	int param
-j	int param
+return	int
+i	int	param
+j	int	param
 
 ===== Function no_name Symbol Table =====
-return	void 
+return	void
 
 Program
 ..Declaration
 ....Int
 ....Identifier(no_function)
 ..FuncDefinition
-....void
+....Void
 ....Identifier(no_function)
 ....ParamList
 ......ParamDeclaration
-........void
+........Void
 ....FuncBody
 ..FuncDefinition
-....int
+....Int
 ....Identifier(soma)
 ....ParamList
 ......ParamDeclaration
-........int
+........Int
 ........Identifier(i)
 ......ParamDeclaration
-........int
+........Int
 ........Identifier(j)
 ....FuncBody
 ......Return
@@ -61,33 +47,33 @@ Program
 ..........Identifier(i)
 ..........Identifier(j)
 ..FuncDefinition
-....int
+....Int
 ....Identifier(soma)
 ....ParamList
 ......ParamDeclaration
-........char
+........Char
 ........Identifier(j)
 ....FuncBody
 ..FuncDefinition
-....char
+....Char
 ....Identifier(soma)
 ....ParamList
 ......ParamDeclaration
-........char
+........Char
 ........Identifier(i)
 ......ParamDeclaration
-........char
+........Char
 ........Identifier(j)
 ....FuncBody
 ..FuncDefinition
-....int
+....Int
 ....Identifier(soma)
 ....ParamList
 ......ParamDeclaration
-........int
+........Int
 ........Identifier(i)
 ......ParamDeclaration
-........int
+........Int
 ........Identifier(j)
 ....FuncBody
 ......Return
@@ -95,15 +81,15 @@ Program
 ..........Identifier(i)
 ..........Identifier(j)
 ..FuncDefinition
-....void
+....Void
 ....Identifier(no_name)
 ....ParamList
 ......ParamDeclaration
-........int
+........Int
 ......ParamDeclaration
-........int
+........Int
 ......ParamDeclaration
-........int
+........Int
 ....FuncBody
 ......Return
 ........Null

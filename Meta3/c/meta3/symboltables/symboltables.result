@@ -1,41 +1,41 @@
 ===== Global Symbol Table =====
 putchar	int(int)
 getchar	int(void)
-c1	()
-c2	()
-s	()
-t	()
-i	()
-j	()
-d	()
-e	()
+c1	char
+c2	char
+s	short
+t	short
+i	int
+j	int
+d	double
+e	double
 f1	char(void)
-s	()
-i	()
-d	()
 df	double(double,double)
 ii	int(int,char,double,short)
-dd	()
+dd	double
 sf	short(short)
 
 ===== Function f1 Symbol Table =====
-return	char 
+return	char
+s	short
+i	int
+d	double
 
 ===== Function df Symbol Table =====
-return	double 
-d	double param
-dd	double param
+return	double
+d	double	param
+dd	double	param
 
 ===== Function ii Symbol Table =====
-return	int 
-i	int param
-c	char param
-d	double param
-s	short param
+return	int
+i	int	param
+c	char	param
+d	double	param
+s	short	param
 
 ===== Function sf Symbol Table =====
-return	short 
-s	short param
+return	short
+s	short	param
 
 Program
 ..Declaration
@@ -63,11 +63,11 @@ Program
 ....Double
 ....Identifier(e)
 ..FuncDefinition
-....char
+....Char
 ....Identifier(f1)
 ....ParamList
 ......ParamDeclaration
-........void
+........Void
 ....FuncBody
 ......Declaration
 ........Short
@@ -89,14 +89,14 @@ Program
 ......ParamDeclaration
 ........Double
 ..FuncDefinition
-....double
+....Double
 ....Identifier(df)
 ....ParamList
 ......ParamDeclaration
-........double
+........Double
 ........Identifier(d)
 ......ParamDeclaration
-........double
+........Double
 ........Identifier(dd)
 ....FuncBody
 ......Return
@@ -105,20 +105,20 @@ Program
 ..........Identifier(d)
 ..........Identifier(e)
 ..FuncDefinition
-....int
+....Int
 ....Identifier(ii)
 ....ParamList
 ......ParamDeclaration
-........int
+........Int
 ........Identifier(i)
 ......ParamDeclaration
-........char
+........Char
 ........Identifier(c)
 ......ParamDeclaration
-........double
+........Double
 ........Identifier(d)
 ......ParamDeclaration
-........short
+........Short
 ........Identifier(s)
 ....FuncBody
 ......Return
@@ -129,11 +129,11 @@ Program
 ....Double
 ....Identifier(dd)
 ..FuncDefinition
-....short
+....Short
 ....Identifier(sf)
 ....ParamList
 ......ParamDeclaration
-........short
+........Short
 ........Identifier(s)
 ....FuncBody
 ......Return

@@ -3,6 +3,8 @@
     #include "y.tab.h"
     #include "funcoes.h"
     #include "symtable.h"
+    #include "semantic.h"
+
 
 
 
@@ -67,7 +69,7 @@ RESERVED    auto|break|const|continue|do|enum|extern|float|for|goto|register|lon
 %X SCOMMENT MLCOMMENT
 
 %%
-{RESERVED}      { if(flag) printf("RESERVED(%s)\n", yytext); c += yyleng; return RESERVED;}
+{RESERVED}      { if(flag) printf("RESERVED(%s)\n", yytext);   c += yyleng; return RESERVED;}
 {IF}            { if(flag) printf("IF\n"); c+=yyleng; return IF;}
 {INT}           { if(flag) printf("INT\n"); c+=yyleng; return INT;}
 {SHORT}         { if(flag) printf("SHORT\n"); c+=yyleng; return SHORT;}
@@ -144,9 +146,7 @@ int main(int argc, char *argv[]) {
     }else if (argc >= 2 && strcmp(argv[1], "-s") == 0) {
         flagTree=true;
         yyparse();
-
         buildSymbolTable(root);
-
         printGlobalTable();
         if (!errFlag && flagTree) { printTree(root, 0); }
  

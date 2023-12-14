@@ -1,0 +1,2353 @@
+1,1297c1,1054
+< Type: short
+< Natural: 0
+< Expr from ExprAux
+< Natural: 0
+< Expr from ExprAux
+< Natural: 1
+< Expr from ExprAux
+< Identifier (a)
+< Identifier (b)
+< Multiplication
+< Natural: 1
+< Multiplication
+< Natural: 3
+< Unary Plus
+< Expr from ExprAux
+< Subtraction
+< Identifier (d)
+< Natural: 1
+< Expr from ExprAux
+< Division
+< Addition
+< Expr from ExprAux
+< Declaration4
+< Type: double
+< Declaration4
+< Type: double
+< Natural: 1
+< Natural: 1
+< Unary Minus
+< Natural: 2
+< Multiplication
+< Natural: 3
+< Natural: 33
+< Division
+< Natural: 2
+< Multiplication
+< Addition
+< Expr from ExprAux
+< Multiplication
+< Natural: 3
+< Multiplication
+< Natural: 2
+< Division
+< Expr from ExprAux
+< Declaration4
+< Type: int
+< Natural: 10
+< Natural: 2
+< Modulo
+< Expr from ExprAux
+< Natural: 9
+< Natural: 2
+< Modulo
+< Natural: 2
+< Multiplication
+< Expr from ExprAux
+< Declaration4
+< Type: int
+< Type: int
+< Parameter Declaration ID:argc
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Type: int
+< Natural: 0
+< Expr from ExprAux
+< Declaration4
+< Identifier (Count)
+< Identifier (Number)
+< CALL w stuff
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (FirstDigit)
+< Identifier (Number)
+< Natural: 10
+< Identifier (Count)
+< CALL w stuff
+< Division
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (LastDigit)
+< Identifier (Number)
+< Natural: 10
+< Modulo
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Sum)
+< Identifier (FirstDigit)
+< Identifier (LastDigit)
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (area)
+< Identifier (PI)
+< Identifier (radius)
+< Multiplication
+< Identifier (radius)
+< Multiplication
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (circumference)
+< Natural: 2
+< Identifier (PI)
+< Multiplication
+< Identifier (radius)
+< Multiplication
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (diameter)
+< Natural: 2
+< Identifier (radius)
+< Multiplication
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (circumference)
+< Natural: 2
+< Identifier (PI)
+< Multiplication
+< Identifier (radius)
+< Multiplication
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (area)
+< Identifier (PI)
+< Identifier (radius)
+< Multiplication
+< Identifier (radius)
+< Multiplication
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Perimeter)
+< Identifier (a)
+< Identifier (b)
+< Addition
+< Identifier (c)
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (s)
+< Identifier (a)
+< Identifier (b)
+< Addition
+< Identifier (c)
+< Addition
+< Expr from ExprAux
+< Natural: 2
+< Division
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Area)
+< Identifier (s)
+< Identifier (s)
+< Identifier (a)
+< Subtraction
+< Expr from ExprAux
+< Multiplication
+< Identifier (s)
+< Identifier (b)
+< Subtraction
+< Expr from ExprAux
+< Multiplication
+< Identifier (s)
+< Identifier (c)
+< Subtraction
+< Expr from ExprAux
+< Multiplication
+< CALL w stuff
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (area)
+< Identifier (base)
+< Identifier (height)
+< Multiplication
+< Expr from ExprAux
+< Natural: 2
+< Division
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (c)
+< Natural: 180
+< Identifier (a)
+< Identifier (b)
+< Addition
+< Expr from ExprAux
+< Subtraction
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (side1)
+< Identifier (side2)
+< Equal
+< Identifier (side2)
+< Identifier (side3)
+< Equal
+< Logical AND
+< Expr from ExprAux
+< Identifier (Count)
+< Identifier (Number)
+< CALL w stuff
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (FirstDigit)
+< Identifier (Number)
+< Natural: 10
+< Identifier (Count)
+< CALL w stuff
+< Division
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (i)
+< Natural: 2
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< If Statement
+< Identifier (side1)
+< Identifier (side2)
+< Equal
+< Identifier (side2)
+< Identifier (side3)
+< Equal
+< Logical OR
+< Identifier (side1)
+< Identifier (side3)
+< Equal
+< Logical OR
+< Expr from ExprAux
+< Identifier (side1)
+< Identifier (side2)
+< Addition
+< Identifier (side3)
+< Greater Than
+< Expr from ExprAux
+< Identifier (side2)
+< Identifier (side3)
+< Addition
+< Identifier (side1)
+< Greater Than
+< Expr from ExprAux
+< Logical AND
+< Identifier (side1)
+< Identifier (side3)
+< Addition
+< Identifier (side2)
+< Greater Than
+< Expr from ExprAux
+< Logical AND
+< Expr from ExprAux
+< Identifier (i)
+< Natural: 1
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Statlist
+< Identifier (i)
+< Natural: 1
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Statlist
+< If-Else Statement
+< Identifier (i)
+< Natural: 1
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Sum)
+< Identifier (angle1)
+< Identifier (angle2)
+< Addition
+< Identifier (angle3)
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< Call wo stuff
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Sum)
+< Identifier (angle1)
+< Identifier (angle2)
+< Addition
+< Identifier (angle3)
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Sum)
+< Natural: 180
+< Equal
+< Expr from ExprAux
+< Identifier (Sum)
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Statlist
+< If Statement
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< If-Else Statement
+< Identifier (Sum)
+< Identifier (angle1)
+< Identifier (angle2)
+< Addition
+< Identifier (angle3)
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (CIFuture)
+< Identifier (PAmount)
+< Natural: 1
+< Identifier (ROI)
+< Natural: 100
+< Division
+< Addition
+< Expr from ExprAux
+< Identifier (Time_Period)
+< CALL w stuff
+< Expr from ExprAux
+< Multiplication
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (CI)
+< Identifier (CIFuture)
+< Identifier (PAmount)
+< Subtraction
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (cube)
+< Identifier (number)
+< Identifier (number)
+< Multiplication
+< Identifier (number)
+< Multiplication
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (cube)
+< Identifier (number)
+< CALL w stuff
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Temp)
+< Identifier (Number)
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Temp)
+< Natural: 0
+< Not Equal
+< Expr from ExprAux
+< Identifier (Units)
+< Natural: 50
+< Less Than
+< Expr from ExprAux
+< Identifier (Amount)
+< Identifier (Units)
+< Decimal: 2.60
+< Multiplication
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Sur_Charge)
+< Natural: 25
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Stat + StatList
+< Statlist
+< Identifier (Units)
+< Natural: 100
+< Less Than or Equal
+< Expr from ExprAux
+< Identifier (FirstDigit)
+< Natural: 10
+< Greater Than or Equal
+< Expr from ExprAux
+< Identifier (FirstDigit)
+< Identifier (FirstDigit)
+< Natural: 10
+< Division
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Statlist
+< While Loop
+< Identifier (Amount)
+< Natural: 130
+< Identifier (Units)
+< Natural: 50
+< Subtraction
+< Expr from ExprAux
+< Decimal: 3.25
+< Multiplication
+< Expr from ExprAux
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Sur_Charge)
+< Natural: 35
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< If Statement
+< If-Else Statement
+< Identifier (Units)
+< Natural: 200
+< Less Than or Equal
+< Expr from ExprAux
+< Identifier (Amount)
+< Natural: 130
+< Decimal: 162.50
+< Addition
+< Identifier (Units)
+< Natural: 100
+< Subtraction
+< Expr from ExprAux
+< Decimal: 5.26
+< Multiplication
+< Expr from ExprAux
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Sur_Charge)
+< Natural: 45
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Stat + StatList
+< Statlist
+< Identifier (Num1)
+< Identifier (i)
+< Modulo
+< Natural: 0
+< Equal
+< Identifier (Num2)
+< Identifier (i)
+< Modulo
+< Natural: 0
+< Equal
+< Logical AND
+< Expr from ExprAux
+< Identifier (GCD)
+< Identifier (i)
+< Store
+< Expr from ExprAux
+< Expression Statement
+< If Statement
+< Identifier (Amount)
+< Natural: 130
+< Decimal: 162.50
+< Addition
+< Natural: 526
+< Addition
+< Identifier (Units)
+< Natural: 200
+< Subtraction
+< Expr from ExprAux
+< Decimal: 7.75
+< Multiplication
+< Expr from ExprAux
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Sur_Charge)
+< Natural: 55
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< If-Else Statement
+< Identifier (Number)
+< Natural: 0
+< Greater Than
+< Expr from ExprAux
+< Identifier (Num2)
+< Natural: 0
+< Not Equal
+< Expr from ExprAux
+< Identifier (Temp)
+< Identifier (Num2)
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Num2)
+< Identifier (Num1)
+< Identifier (Num2)
+< Modulo
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Num1)
+< Identifier (Temp)
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< While Loop
+< Identifier (GCD)
+< Identifier (Num1)
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Number)
+< Identifier (Number)
+< Natural: 10
+< Division
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Count)
+< Identifier (Count)
+< Natural: 1
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< While Loop
+< Identifier (Times)
+< Identifier (Times)
+< Natural: 1
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Temp)
+< Identifier (Temp)
+< Natural: 10
+< Division
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< While Loop
+< Identifier (Temp)
+< Identifier (Number)
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Temp)
+< Natural: 0
+< Greater Than
+< Expr from ExprAux
+< Identifier (Reminder)
+< Identifier (Temp)
+< Natural: 10
+< Modulo
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Sum)
+< Identifier (Sum)
+< Identifier (Reminder)
+< Identifier (Times)
+< CALL w stuff
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Temp)
+< Identifier (Temp)
+< Natural: 10
+< Division
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< While Loop
+< Function Body
+< Function Definition
+< Type: int
+< Type: int
+< Parameter Declaration ID:Number
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (Number)
+< Identifier (Number)
+< Multiplication
+< Identifier (Number)
+< Multiplication
+< Expr from ExprAux
+< Return Statement with Value
+< Function Body
+< Function Definition
+< Type: int
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Type: int
+< Identifier (i)
+< Natural: 1
+< Addition
+< Expr from ExprAux
+< Declaration4
+< Type: int
+< Identifier (i)
+< Natural: 23
+< Addition
+< Expr from ExprAux
+< Declaration4
+< Identifier (j)
+< Natural: 1
+< Addition
+< Natural: 2
+< Natural: 4
+< Natural: 5
+< Identifier (j)
+< Natural: 4
+< Natural: 3
+< Multiplication
+< Natural: 2
+< Multiplication
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Natural: 3
+< Expr from ExprAux
+< Natural: 4
+< Comma
+< Natural: 5
+< Expr from ExprAux
+< Natural: 6
+< Comma
+< Natural: 2
+< Expr from ExprAux
+< Natural: 5
+< Comma
+< Natural: 2
+< Comma
+< Comma
+< Comma
+< Natural: 0
+< Natural: 4
+< Multiplication
+< Comma
+< Expression Statement
+< Natural: 10
+< Natural: 2
+< Unary Minus
+< Multiplication
+< Natural: 7
+< Unary Minus
+< Multiplication
+< Natural: 2
+< Division
+< Expr from ExprAux
+< Identifier (Area)
+< Decimal: 0.5
+< Identifier (width)
+< Multiplication
+< Identifier (height)
+< Multiplication
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (c)
+< Identifier (width)
+< Identifier (width)
+< Multiplication
+< Expr from ExprAux
+< Identifier (height)
+< Identifier (height)
+< Multiplication
+< Expr from ExprAux
+< Addition
+< CALL w stuff
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Perimeter)
+< Identifier (width)
+< Identifier (height)
+< Addition
+< Identifier (c)
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Area)
+< Decimal: 0.5
+< Identifier (base1)
+< Identifier (base2)
+< Addition
+< Expr from ExprAux
+< Multiplication
+< Identifier (height)
+< Multiplication
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Median)
+< Decimal: 0.5
+< Identifier (base1)
+< Identifier (base2)
+< Addition
+< Expr from ExprAux
+< Multiplication
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Natural: 1
+< Unary Minus
+< Natural: 8
+< Multiplication
+< Natural: 3
+< Modulo
+< Natural: 1
+< Addition
+< Natural: 1
+< Subtraction
+< Expr from ExprAux
+< Identifier (a)
+< Natural: 2
+< Greater Than
+< Identifier (a)
+< Natural: 2
+< Less Than
+< Logical AND
+< Identifier (z)
+< Natural: 9
+< Greater Than
+< Logical AND
+< Natural: 3
+< Natural: 3
+< Multiplication
+< Natural: 3
+< Multiplication
+< Natural: 2
+< Equal
+< Natural: 1
+< Logical AND
+< Logical OR
+< Natural: 1
+< Natural: 1
+< Natural: 1
+< Multiplication
+< Natural: 1
+< Multiplication
+< Natural: 1
+< Multiplication
+< Natural: 1
+< Multiplication
+< Natural: 1
+< Multiplication
+< Natural: 1
+< Multiplication
+< Expr from ExprAux
+< Natural: 1
+< Division
+< Expr from ExprAux
+< Logical AND
+< Logical OR
+< Expr from ExprAux
+< Identifier (abc)
+< Expr from ExprAux
+< Natural: 1
+< Expr from ExprAux
+< Char Literal: 'a'
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< While Loop
+< Identifier (a)
+< Identifier (a)
+< Identifier (a)
+< Division
+< Identifier (a)
+< Subtraction
+< Identifier (a)
+< Identifier (a)
+< Multiplication
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Perimeter)
+< Natural: 2
+< Identifier (length)
+< Identifier (width)
+< Addition
+< Expr from ExprAux
+< Multiplication
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< Decimal: 111111.2e2
+< Identifier (inforestudante)
+< Identifier (i)
+< Natural: 2
+< Modulo
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< If-Else Statement
+< If Statement
+< Statlist
+< While Loop
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< While Loop
+< Identifier (e)
+< Identifier (a)
+< Greater Than or Equal
+< Expr from ExprAux
+< Identifier (e)
+< Identifier (b)
+< Less Than or Equal
+< Comma
+< Identifier (a)
+< Identifier (d)
+< Less Than
+< Comma
+< Identifier (a)
+< Identifier (a)
+< Greater Than
+< Comma
+< Identifier (a)
+< Identifier (a)
+< Equal
+< Comma
+< Identifier (i)
+< Identifier (a)
+< Not Equal
+< Comma
+< Identifier (i)
+< Natural: 1
+< Addition
+< CALL w stuff
+< Logical NOT
+< Comma
+< Identifier (a)
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< If Statement
+< Natural: 1
+< Natural: 1
+< Bitwise AND
+< Natural: 2
+< Natural: 1
+< Bitwise OR
+< Natural: 24
+< Natural: 2
+< Bitwise XOR
+< Logical AND
+< Logical OR
+< Expr from ExprAux
+< Natural: 1
+< Expr from ExprAux
+< Return Statement with Value
+< Statlist
+< If Statement
+< Identifier (side1)
+< Identifier (side2)
+< Addition
+< Identifier (side3)
+< Greater Than
+< Expr from ExprAux
+< Identifier (side2)
+< Identifier (side3)
+< Addition
+< Identifier (side1)
+< Greater Than
+< Expr from ExprAux
+< Identifier (i)
+< Natural: 2
+< Modulo
+< Natural: 0
+< Not Equal
+< Expr from ExprAux
+< Identifier (i)
+< CALL w stuff
+< Expr from ExprAux
+< Expression Statement
+< Statlist
+< If Statement
+< Identifier (Area)
+< Identifier (width)
+< Identifier (height)
+< Multiplication
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Perimeter)
+< Natural: 2
+< Identifier (width)
+< Identifier (height)
+< Addition
+< Expr from ExprAux
+< Multiplication
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Area)
+< Identifier (length)
+< Identifier (width)
+< Multiplication
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (side1)
+< Identifier (side3)
+< Addition
+< Identifier (side2)
+< Greater Than
+< Expr from ExprAux
+< Call wo stuff
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Area)
+< Natural: 3
+< CALL w stuff
+< Natural: 4
+< Division
+< Expr from ExprAux
+< Identifier (side)
+< Identifier (side)
+< Multiplication
+< Expr from ExprAux
+< Multiplication
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Perimeter)
+< Natural: 3
+< Identifier (side)
+< Multiplication
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Semi)
+< Identifier (Perimeter)
+< Natural: 2
+< Division
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Altitude)
+< Natural: 3
+< CALL w stuff
+< Natural: 2
+< Division
+< Expr from ExprAux
+< Identifier (side)
+< Multiplication
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< Call wo stuff
+< Expr from ExprAux
+< Expression Statement
+< Statlist
+< If-Else Statement
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< Call wo stuff
+< Expr from ExprAux
+< Expression Statement
+< Statlist
+< If-Else Statement
+< Statlist
+< Identifier (number)
+< Natural: 5
+< Modulo
+< Natural: 0
+< Equal
+< Expr from ExprAux
+< Identifier (number)
+< Natural: 11
+< Modulo
+< Natural: 0
+< Equal
+< Expr from ExprAux
+< Logical AND
+< Expr from ExprAux
+< Identifier (a)
+< Identifier (a)
+< Natural: 1
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< If Statement
+< Identifier (cube)
+< Identifier (number)
+< CALL w stuff
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Call wo stuff
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Total)
+< Identifier (english)
+< Identifier (chemistry)
+< Addition
+< Identifier (computers)
+< Addition
+< Identifier (physics)
+< Addition
+< Identifier (maths)
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Percentage)
+< Identifier (Total)
+< Natural: 500
+< Division
+< Expr from ExprAux
+< Natural: 100
+< Multiplication
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< If-Else Statement
+< Identifier (Number)
+< Identifier (Number)
+< Multiplication
+< Natural: 111
+< Subtraction
+< Expr from ExprAux
+< Return Statement with Value
+< Function Body
+< Function Definition
+< Type: int
+< Type: int
+< Parameter Declaration ID:Number
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Type: int
+< Declaration4
+< Type: double
+< Declaration4
+< Identifier (Total)
+< Identifier (english)
+< Identifier (chemistry)
+< Addition
+< Identifier (computers)
+< Addition
+< Identifier (physics)
+< Addition
+< Identifier (maths)
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Average)
+< Identifier (Total)
+< Natural: 5
+< Division
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Percentage)
+< Identifier (Total)
+< Natural: 500
+< Division
+< Expr from ExprAux
+< Natural: 100
+< Multiplication
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Type: char
+< Char Literal: 'a'
+< Expr from ExprAux
+< Declaration4
+< Identifier (result)
+< Identifier (number)
+< CALL w stuff
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (Number)
+< Identifier (Number)
+< Multiplication
+< Identifier (result)
+< Division
+< Expr from ExprAux
+< Return Statement with Value
+< Function Body
+< Function Definition
+< Type: int
+< Type: int
+< Parameter Declaration ID:a
+< Type: int
+< Parameter Declaration ID:b
+< Empty Parameter List
+< Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (discriminant)
+< Identifier (b)
+< Identifier (b)
+< Multiplication
+< Expr from ExprAux
+< Natural: 4
+< Identifier (a)
+< Multiplication
+< Identifier (c)
+< Multiplication
+< Expr from ExprAux
+< Subtraction
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (si)
+< Identifier (PAmount)
+< Identifier (ROI)
+< Multiplication
+< Identifier (Time_Period)
+< Multiplication
+< Expr from ExprAux
+< Natural: 100
+< Division
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (discriminant)
+< Natural: 0
+< Greater Than
+< Expr from ExprAux
+< Identifier (i)
+< Natural: 2
+< Modulo
+< Natural: 0
+< Equal
+< Expr from ExprAux
+< Identifier (Even_Sum)
+< Identifier (Even_Sum)
+< Identifier (i)
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Statlist
+< Identifier (Odd_Sum)
+< Identifier (Odd_Sum)
+< Identifier (i)
+< Addition
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Statlist
+< If-Else Statement
+< Identifier (root1)
+< Identifier (b)
+< Unary Minus
+< Identifier (discriminant)
+< CALL w stuff
+< Natural: 2
+< Identifier (a)
+< Multiplication
+< Expr from ExprAux
+< Division
+< Addition
+< Expr from ExprAux
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (root2)
+< Identifier (b)
+< Unary Minus
+< Identifier (discriminant)
+< CALL w stuff
+< Natural: 2
+< Identifier (a)
+< Multiplication
+< Expr from ExprAux
+< Division
+< Subtraction
+< Expr from ExprAux
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (root1)
+< Identifier (root2)
+< Identifier (b)
+< Unary Minus
+< Natural: 2
+< Identifier (a)
+< Multiplication
+< Expr from ExprAux
+< Division
+< Store
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (root1)
+< Identifier (root2)
+< Identifier (b)
+< Unary Minus
+< Natural: 2
+< Identifier (a)
+< Multiplication
+< Expr from ExprAux
+< Division
+< Store
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Identifier (imaginary)
+< Identifier (discriminant)
+< Unary Minus
+< CALL w stuff
+< Natural: 2
+< Identifier (a)
+< Multiplication
+< Expr from ExprAux
+< Division
+< Store
+< Expr from ExprAux
+< Expression Statement
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Stat + StatList
+< Statlist
+< If Statement
+< Identifier (discriminant)
+< Expr from ExprAux
+< Return Statement with Value
+< Function Body
+< Function Definition
+< Program 
+---
+> Program
+> ..Declaration
+> ....Short
+> ....Identifier(a)
+> ....Natural(0)
+> ..Declaration
+> ....Short
+> ....Identifier(b)
+> ....Natural(0)
+> ..Declaration
+> ....Short
+> ....Identifier(c)
+> ....Natural(1)
+> ..Declaration
+> ....Short
+> ....Identifier(d)
+> ....Add
+> ......Sub
+> ........Mul
+> ..........Mul
+> ............Identifier(a)
+> ............Identifier(b)
+> ..........Natural(1)
+> ........Plus
+> ..........Natural(3)
+> ......Div
+> ........Identifier(d)
+> ........Natural(1)
+> ..Declaration
+> ....Double
+> ....Identifier(d)
+> ..Declaration
+> ....Double
+> ....Identifier(p)
+> ....Div
+> ......Mul
+> ........Mul
+> ..........Natural(1)
+> ..........Add
+> ............Mul
+> ..............Minus
+> ................Natural(1)
+> ..............Natural(2)
+> ............Mul
+> ..............Div
+> ................Natural(3)
+> ................Natural(33)
+> ..............Natural(2)
+> ........Natural(3)
+> ......Natural(2)
+> ..Declaration
+> ....Int
+> ....Identifier(h)
+> ....Mod
+> ......Natural(10)
+> ......Natural(2)
+> ..Declaration
+> ....Int
+> ....Identifier(l)
+> ....Mul
+> ......Mod
+> ........Natural(9)
+> ........Natural(2)
+> ......Natural(2)
+> ..FuncDefinition
+> ....Int
+> ....Identifier(main)
+> ....ParamList
+> ......ParamDeclaration
+> ........Int
+> ........Identifier(argc)
+> ....FuncBody
+> ......Declaration
+> ........Int
+> ........Identifier(Number)
+> ......Declaration
+> ........Int
+> ........Identifier(FirstDigit)
+> ......Declaration
+> ........Int
+> ........Identifier(Count)
+> ......Declaration
+> ........Int
+> ........Identifier(LastDigit)
+> ......Declaration
+> ........Int
+> ........Identifier(Sum)
+> ........Natural(0)
+> ......Store
+> ........Identifier(Count)
+> ........Call
+> ..........Identifier(log10)
+> ..........Identifier(Number)
+> ......Store
+> ........Identifier(FirstDigit)
+> ........Div
+> ..........Identifier(Number)
+> ..........Call
+> ............Identifier(pow)
+> ............Natural(10)
+> ............Identifier(Count)
+> ......Store
+> ........Identifier(LastDigit)
+> ........Mod
+> ..........Identifier(Number)
+> ..........Natural(10)
+> ......Store
+> ........Identifier(Sum)
+> ........Add
+> ..........Identifier(FirstDigit)
+> ..........Identifier(LastDigit)
+> ......Store
+> ........Identifier(area)
+> ........Mul
+> ..........Mul
+> ............Identifier(PI)
+> ............Identifier(radius)
+> ..........Identifier(radius)
+> ......Store
+> ........Identifier(circumference)
+> ........Mul
+> ..........Mul
+> ............Natural(2)
+> ............Identifier(PI)
+> ..........Identifier(radius)
+> ......Store
+> ........Identifier(diameter)
+> ........Mul
+> ..........Natural(2)
+> ..........Identifier(radius)
+> ......Store
+> ........Identifier(circumference)
+> ........Mul
+> ..........Mul
+> ............Natural(2)
+> ............Identifier(PI)
+> ..........Identifier(radius)
+> ......Store
+> ........Identifier(area)
+> ........Mul
+> ..........Mul
+> ............Identifier(PI)
+> ............Identifier(radius)
+> ..........Identifier(radius)
+> ......Store
+> ........Identifier(Perimeter)
+> ........Add
+> ..........Add
+> ............Identifier(a)
+> ............Identifier(b)
+> ..........Identifier(c)
+> ......Store
+> ........Identifier(s)
+> ........Div
+> ..........Add
+> ............Add
+> ..............Identifier(a)
+> ..............Identifier(b)
+> ............Identifier(c)
+> ..........Natural(2)
+> ......Store
+> ........Identifier(Area)
+> ........Call
+> ..........Identifier(sqrt)
+> ..........Mul
+> ............Mul
+> ..............Mul
+> ................Identifier(s)
+> ................Sub
+> ..................Identifier(s)
+> ..................Identifier(a)
+> ..............Sub
+> ................Identifier(s)
+> ................Identifier(b)
+> ............Sub
+> ..............Identifier(s)
+> ..............Identifier(c)
+> ......Store
+> ........Identifier(area)
+> ........Div
+> ..........Mul
+> ............Identifier(base)
+> ............Identifier(height)
+> ..........Natural(2)
+> ......Store
+> ........Identifier(c)
+> ........Sub
+> ..........Natural(180)
+> ..........Add
+> ............Identifier(a)
+> ............Identifier(b)
+> ......If
+> ........And
+> ..........Eq
+> ............Identifier(side1)
+> ............Identifier(side2)
+> ..........Eq
+> ............Identifier(side2)
+> ............Identifier(side3)
+> ........StatList
+> ..........Store
+> ............Identifier(Count)
+> ............Call
+> ..............Identifier(log10)
+> ..............Identifier(Number)
+> ..........Store
+> ............Identifier(FirstDigit)
+> ............Div
+> ..............Identifier(Number)
+> ..............Call
+> ................Identifier(pow)
+> ................Natural(10)
+> ................Identifier(Count)
+> ..........Store
+> ............Identifier(i)
+> ............Natural(2)
+> ........Null
+> ......If
+> ........Or
+> ..........Or
+> ............Eq
+> ..............Identifier(side1)
+> ..............Identifier(side2)
+> ............Eq
+> ..............Identifier(side2)
+> ..............Identifier(side3)
+> ..........Eq
+> ............Identifier(side1)
+> ............Identifier(side3)
+> ........StatList
+> ..........If
+> ............And
+> ..............And
+> ................Gt
+> ..................Add
+> ....................Identifier(side1)
+> ....................Identifier(side2)
+> ..................Identifier(side3)
+> ................Gt
+> ..................Add
+> ....................Identifier(side2)
+> ....................Identifier(side3)
+> ..................Identifier(side1)
+> ..............Gt
+> ................Add
+> ..................Identifier(side1)
+> ..................Identifier(side3)
+> ................Identifier(side2)
+> ............Store
+> ..............Identifier(i)
+> ..............Natural(1)
+> ............Store
+> ..............Identifier(i)
+> ..............Natural(1)
+> ..........Store
+> ............Identifier(i)
+> ............Natural(1)
+> ..........Store
+> ............Identifier(Sum)
+> ............Add
+> ..............Add
+> ................Identifier(angle1)
+> ................Identifier(angle2)
+> ..............Identifier(angle3)
+> ........StatList
+> ..........Call
+> ............Identifier(putchar)
+> ..........Store
+> ............Identifier(Sum)
+> ............Add
+> ..............Add
+> ................Identifier(angle1)
+> ................Identifier(angle2)
+> ..............Identifier(angle3)
+> ..........If
+> ............Eq
+> ..............Identifier(Sum)
+> ..............Natural(180)
+> ............Call
+> ..............Identifier(func)
+> ..............Identifier(Sum)
+> ............Null
+> ......Store
+> ........Identifier(Sum)
+> ........Add
+> ..........Add
+> ............Identifier(angle1)
+> ............Identifier(angle2)
+> ..........Identifier(angle3)
+> ......Store
+> ........Identifier(CIFuture)
+> ........Mul
+> ..........Identifier(PAmount)
+> ..........Call
+> ............Identifier(pow)
+> ............Add
+> ..............Natural(1)
+> ..............Div
+> ................Identifier(ROI)
+> ................Natural(100)
+> ............Identifier(Time_Period)
+> ......Store
+> ........Identifier(CI)
+> ........Sub
+> ..........Identifier(CIFuture)
+> ..........Identifier(PAmount)
+> ......Store
+> ........Identifier(cube)
+> ........Mul
+> ..........Mul
+> ............Identifier(number)
+> ............Identifier(number)
+> ..........Identifier(number)
+> ......Store
+> ........Identifier(cube)
+> ........Call
+> ..........Identifier(Calculte_Cude)
+> ..........Identifier(number)
+> ......Store
+> ........Identifier(Temp)
+> ........Identifier(Number)
+> ......While
+> ........Ne
+> ..........Identifier(Temp)
+> ..........Natural(0)
+> ........StatList
+> ..........If
+> ............Lt
+> ..............Identifier(Units)
+> ..............Natural(50)
+> ............StatList
+> ..............Store
+> ................Identifier(Amount)
+> ................Mul
+> ..................Identifier(Units)
+> ..................Decimal(2.60)
+> ..............Store
+> ................Identifier(Sur_Charge)
+> ................Natural(25)
+> ............If
+> ..............Le
+> ................Identifier(Units)
+> ................Natural(100)
+> ..............StatList
+> ................While
+> ..................Ge
+> ....................Identifier(FirstDigit)
+> ....................Natural(10)
+> ..................Store
+> ....................Identifier(FirstDigit)
+> ....................Div
+> ......................Identifier(FirstDigit)
+> ......................Natural(10)
+> ................Store
+> ..................Identifier(Amount)
+> ..................Add
+> ....................Natural(130)
+> ....................Mul
+> ......................Sub
+> ........................Identifier(Units)
+> ........................Natural(50)
+> ......................Decimal(3.25)
+> ................Store
+> ..................Identifier(Sur_Charge)
+> ..................Natural(35)
+> ..............Null
+> ..........If
+> ............Le
+> ..............Identifier(Units)
+> ..............Natural(200)
+> ............StatList
+> ..............Store
+> ................Identifier(Amount)
+> ................Add
+> ..................Add
+> ....................Natural(130)
+> ....................Decimal(162.50)
+> ..................Mul
+> ....................Sub
+> ......................Identifier(Units)
+> ......................Natural(100)
+> ....................Decimal(5.26)
+> ..............Store
+> ................Identifier(Sur_Charge)
+> ................Natural(45)
+> ............StatList
+> ..............If
+> ................And
+> ..................Eq
+> ....................Mod
+> ......................Identifier(Num1)
+> ......................Identifier(i)
+> ....................Natural(0)
+> ..................Eq
+> ....................Mod
+> ......................Identifier(Num2)
+> ......................Identifier(i)
+> ....................Natural(0)
+> ................Store
+> ..................Identifier(GCD)
+> ..................Identifier(i)
+> ................Null
+> ..............Store
+> ................Identifier(Amount)
+> ................Add
+> ..................Add
+> ....................Add
+> ......................Natural(130)
+> ......................Decimal(162.50)
+> ....................Natural(526)
+> ..................Mul
+> ....................Sub
+> ......................Identifier(Units)
+> ......................Natural(200)
+> ....................Decimal(7.75)
+> ..............Store
+> ................Identifier(Sur_Charge)
+> ................Natural(55)
+> ..........While
+> ............Gt
+> ..............Identifier(Number)
+> ..............Natural(0)
+> ............StatList
+> ..............While
+> ................Ne
+> ..................Identifier(Num2)
+> ..................Natural(0)
+> ................StatList
+> ..................Store
+> ....................Identifier(Temp)
+> ....................Identifier(Num2)
+> ..................Store
+> ....................Identifier(Num2)
+> ....................Mod
+> ......................Identifier(Num1)
+> ......................Identifier(Num2)
+> ..................Store
+> ....................Identifier(Num1)
+> ....................Identifier(Temp)
+> ..............Store
+> ................Identifier(GCD)
+> ................Identifier(Num1)
+> ..............Store
+> ................Identifier(Number)
+> ................Div
+> ..................Identifier(Number)
+> ..................Natural(10)
+> ..............Store
+> ................Identifier(Count)
+> ................Add
+> ..................Identifier(Count)
+> ..................Natural(1)
+> ..........Store
+> ............Identifier(Times)
+> ............Add
+> ..............Identifier(Times)
+> ..............Natural(1)
+> ..........Store
+> ............Identifier(Temp)
+> ............Div
+> ..............Identifier(Temp)
+> ..............Natural(10)
+> ......Store
+> ........Identifier(Temp)
+> ........Identifier(Number)
+> ......While
+> ........Gt
+> ..........Identifier(Temp)
+> ..........Natural(0)
+> ........StatList
+> ..........Store
+> ............Identifier(Reminder)
+> ............Mod
+> ..............Identifier(Temp)
+> ..............Natural(10)
+> ..........Store
+> ............Identifier(Sum)
+> ............Add
+> ..............Identifier(Sum)
+> ..............Call
+> ................Identifier(pow)
+> ................Identifier(Reminder)
+> ................Identifier(Times)
+> ..........Store
+> ............Identifier(Temp)
+> ............Div
+> ..............Identifier(Temp)
+> ..............Natural(10)
+> ..FuncDefinition
+> ....Int
+> ....Identifier(Calculte_Cude)
+> ....ParamList
+> ......ParamDeclaration
+> ........Int
+> ........Identifier(Number)
+> ....FuncBody
+> ......Return
+> ........Mul
+> ..........Mul
+> ............Identifier(Number)
+> ............Identifier(Number)
+> ..........Identifier(Number)
+> ..FuncDefinition
+> ....Int
+> ....Identifier(func)
+> ....ParamList
+> ......ParamDeclaration
+> ........Void
+> ....FuncBody
+> ......Declaration
+> ........Int
+> ........Identifier(i)
+> ........Add
+> ..........Identifier(i)
+> ..........Natural(1)
+> ......Declaration
+> ........Int
+> ........Identifier(j)
+> ........Add
+> ..........Identifier(i)
+> ..........Natural(23)
+> ......Declaration
+> ........Int
+> ........Identifier(var)
+> ......Declaration
+> ........Int
+> ........Identifier(v)
+> ......Call
+> ........Identifier(func)
+> ........Add
+> ..........Identifier(j)
+> ..........Natural(1)
+> ........Natural(2)
+> ........Natural(4)
+> ........Natural(5)
+> ........Identifier(j)
+> ........Mul
+> ..........Mul
+> ............Natural(4)
+> ............Natural(3)
+> ..........Natural(2)
+> ......Comma
+> ........Comma
+> ..........Comma
+> ............Natural(3)
+> ............Natural(4)
+> ..........Comma
+> ............Comma
+> ..............Natural(5)
+> ..............Natural(6)
+> ............Comma
+> ..............Comma
+> ................Natural(2)
+> ................Natural(5)
+> ..............Natural(2)
+> ........Mul
+> ..........Natural(0)
+> ..........Natural(4)
+> ......While
+> ........Div
+> ..........Mul
+> ............Mul
+> ..............Natural(10)
+> ..............Minus
+> ................Natural(2)
+> ............Minus
+> ..............Natural(7)
+> ..........Natural(2)
+> ........StatList
+> ..........Store
+> ............Identifier(Area)
+> ............Mul
+> ..............Mul
+> ................Decimal(0.5)
+> ................Identifier(width)
+> ..............Identifier(height)
+> ..........Store
+> ............Identifier(c)
+> ............Call
+> ..............Identifier(sqrt)
+> ..............Add
+> ................Mul
+> ..................Identifier(width)
+> ..................Identifier(width)
+> ................Mul
+> ..................Identifier(height)
+> ..................Identifier(height)
+> ..........Store
+> ............Identifier(Perimeter)
+> ............Add
+> ..............Add
+> ................Identifier(width)
+> ................Identifier(height)
+> ..............Identifier(c)
+> ..........Store
+> ............Identifier(Area)
+> ............Mul
+> ..............Mul
+> ................Decimal(0.5)
+> ................Add
+> ..................Identifier(base1)
+> ..................Identifier(base2)
+> ..............Identifier(height)
+> ..........Store
+> ............Identifier(Median)
+> ............Mul
+> ..............Decimal(0.5)
+> ..............Add
+> ................Identifier(base1)
+> ................Identifier(base2)
+> ..........While
+> ............Sub
+> ..............Add
+> ................Mod
+> ..................Mul
+> ....................Minus
+> ......................Natural(1)
+> ....................Natural(8)
+> ..................Natural(3)
+> ................Natural(1)
+> ..............Natural(1)
+> ............If
+> ..............Or
+> ................Or
+> ..................And
+> ....................And
+> ......................Gt
+> ........................Identifier(a)
+> ........................Natural(2)
+> ......................Lt
+> ........................Identifier(a)
+> ........................Natural(2)
+> ....................Gt
+> ......................Identifier(z)
+> ......................Natural(9)
+> ..................And
+> ....................Eq
+> ......................Mul
+> ........................Mul
+> ..........................Natural(3)
+> ..........................Natural(3)
+> ........................Natural(3)
+> ......................Natural(2)
+> ....................Natural(1)
+> ................And
+> ..................Natural(1)
+> ..................Div
+> ....................Mul
+> ......................Mul
+> ........................Mul
+> ..........................Mul
+> ............................Mul
+> ..............................Mul
+> ................................Natural(1)
+> ................................Natural(1)
+> ..............................Natural(1)
+> ............................Natural(1)
+> ..........................Natural(1)
+> ........................Natural(1)
+> ......................Natural(1)
+> ....................Natural(1)
+> ..............If
+> ................Identifier(abc)
+> ................StatList
+> ..................While
+> ....................Natural(1)
+> ....................Call
+> ......................Identifier(putchar)
+> ......................ChrLit('a')
+> ..................Store
+> ....................Identifier(a)
+> ....................Add
+> ......................Sub
+> ........................Div
+> ..........................Identifier(a)
+> ..........................Identifier(a)
+> ........................Identifier(a)
+> ......................Mul
+> ........................Identifier(a)
+> ........................Identifier(a)
+> ..................Store
+> ....................Identifier(Perimeter)
+> ....................Mul
+> ......................Natural(2)
+> ......................Add
+> ........................Identifier(length)
+> ........................Identifier(width)
+> ................Call
+> ..................Identifier(func)
+> ..................Decimal(111111.2e2)
+> ..................Identifier(inforestudante)
+> ..................Mod
+> ....................Identifier(i)
+> ....................Natural(2)
+> ..............Null
+> ......If
+> ........Comma
+> ..........Comma
+> ............Comma
+> ..............Comma
+> ................Comma
+> ..................Comma
+> ....................Ge
+> ......................Identifier(e)
+> ......................Identifier(a)
+> ....................Le
+> ......................Identifier(e)
+> ......................Identifier(b)
+> ..................Lt
+> ....................Identifier(a)
+> ....................Identifier(d)
+> ................Gt
+> ..................Identifier(a)
+> ..................Identifier(a)
+> ..............Eq
+> ................Identifier(a)
+> ................Identifier(a)
+> ............Ne
+> ..............Identifier(i)
+> ..............Identifier(a)
+> ..........Not
+> ............Call
+> ..............Identifier(func)
+> ..............Add
+> ................Identifier(i)
+> ................Natural(1)
+> ........Call
+> ..........Identifier(getchar)
+> ..........Identifier(a)
+> ........Null
+> ......If
+> ........Or
+> ..........BitWiseAnd
+> ............Natural(1)
+> ............Natural(1)
+> ..........And
+> ............BitWiseOr
+> ..............Natural(2)
+> ..............Natural(1)
+> ............BitWiseXor
+> ..............Natural(24)
+> ..............Natural(2)
+> ........Return
+> ..........Natural(1)
+> ........Null
+> ......If
+> ........Gt
+> ..........Add
+> ............Identifier(side1)
+> ............Identifier(side2)
+> ..........Identifier(side3)
+> ........If
+> ..........Gt
+> ............Add
+> ..............Identifier(side2)
+> ..............Identifier(side3)
+> ............Identifier(side1)
+> ..........StatList
+> ............If
+> ..............Ne
+> ................Mod
+> ..................Identifier(i)
+> ..................Natural(2)
+> ................Natural(0)
+> ..............Call
+> ................Identifier(putchar)
+> ................Identifier(i)
+> ..............Null
+> ............Store
+> ..............Identifier(Area)
+> ..............Mul
+> ................Identifier(width)
+> ................Identifier(height)
+> ............Store
+> ..............Identifier(Perimeter)
+> ..............Mul
+> ................Natural(2)
+> ................Add
+> ..................Identifier(width)
+> ..................Identifier(height)
+> ............Store
+> ..............Identifier(Area)
+> ..............Mul
+> ................Identifier(length)
+> ................Identifier(width)
+> ............If
+> ..............Gt
+> ................Add
+> ..................Identifier(side1)
+> ..................Identifier(side3)
+> ................Identifier(side2)
+> ..............StatList
+> ................Call
+> ..................Identifier(getchar)
+> ................Store
+> ..................Identifier(Area)
+> ..................Mul
+> ....................Div
+> ......................Call
+> ........................Identifier(sqrt)
+> ........................Natural(3)
+> ......................Natural(4)
+> ....................Mul
+> ......................Identifier(side)
+> ......................Identifier(side)
+> ................Store
+> ..................Identifier(Perimeter)
+> ..................Mul
+> ....................Natural(3)
+> ....................Identifier(side)
+> ................Store
+> ..................Identifier(Semi)
+> ..................Div
+> ....................Identifier(Perimeter)
+> ....................Natural(2)
+> ................Store
+> ..................Identifier(Altitude)
+> ..................Mul
+> ....................Div
+> ......................Call
+> ........................Identifier(sqrt)
+> ........................Natural(3)
+> ......................Natural(2)
+> ....................Identifier(side)
+> ..............Call
+> ................Identifier(getchar)
+> ..........Call
+> ............Identifier(getchar)
+> ........StatList
+> ..........If
+> ............And
+> ..............Eq
+> ................Mod
+> ..................Identifier(number)
+> ..................Natural(5)
+> ................Natural(0)
+> ..............Eq
+> ................Mod
+> ..................Identifier(number)
+> ..................Natural(11)
+> ................Natural(0)
+> ............Store
+> ..............Identifier(a)
+> ..............Add
+> ................Identifier(a)
+> ................Natural(1)
+> ............Null
+> ..........Store
+> ............Identifier(cube)
+> ............Call
+> ..............Identifier(Calculte_Cude)
+> ..............Identifier(number)
+> ..........Call
+> ............Identifier(getchar)
+> ..........Store
+> ............Identifier(Total)
+> ............Add
+> ..............Add
+> ................Add
+> ..................Add
+> ....................Identifier(english)
+> ....................Identifier(chemistry)
+> ..................Identifier(computers)
+> ................Identifier(physics)
+> ..............Identifier(maths)
+> ..........Store
+> ............Identifier(Percentage)
+> ............Mul
+> ..............Div
+> ................Identifier(Total)
+> ................Natural(500)
+> ..............Natural(100)
+> ......Return
+> ........Sub
+> ..........Mul
+> ............Identifier(Number)
+> ............Identifier(Number)
+> ..........Natural(111)
+> ..FuncDefinition
+> ....Int
+> ....Identifier(calc)
+> ....ParamList
+> ......ParamDeclaration
+> ........Int
+> ........Identifier(Number)
+> ....FuncBody
+> ......Declaration
+> ........Int
+> ........Identifier(english)
+> ......Declaration
+> ........Int
+> ........Identifier(chemistry)
+> ......Declaration
+> ........Int
+> ........Identifier(computers)
+> ......Declaration
+> ........Int
+> ........Identifier(physics)
+> ......Declaration
+> ........Int
+> ........Identifier(maths)
+> ......Declaration
+> ........Double
+> ........Identifier(number)
+> ......Declaration
+> ........Double
+> ........Identifier(result)
+> ......Store
+> ........Identifier(Total)
+> ........Add
+> ..........Add
+> ............Add
+> ..............Add
+> ................Identifier(english)
+> ................Identifier(chemistry)
+> ..............Identifier(computers)
+> ............Identifier(physics)
+> ..........Identifier(maths)
+> ......Store
+> ........Identifier(Average)
+> ........Div
+> ..........Identifier(Total)
+> ..........Natural(5)
+> ......Store
+> ........Identifier(Percentage)
+> ........Mul
+> ..........Div
+> ............Identifier(Total)
+> ............Natural(500)
+> ..........Natural(100)
+> ......Declaration
+> ........Char
+> ........Identifier(a)
+> ........ChrLit('a')
+> ......Store
+> ........Identifier(result)
+> ........Call
+> ..........Identifier(sqrt)
+> ..........Identifier(number)
+> ......Return
+> ........Div
+> ..........Mul
+> ............Identifier(Number)
+> ............Identifier(Number)
+> ..........Identifier(result)
+> ..FuncDefinition
+> ....Int
+> ....Identifier(anotherone)
+> ....ParamList
+> ......ParamDeclaration
+> ........Int
+> ........Identifier(a)
+> ......ParamDeclaration
+> ........Int
+> ........Identifier(b)
+> ....FuncBody
+> ......Store
+> ........Identifier(discriminant)
+> ........Sub
+> ..........Mul
+> ............Identifier(b)
+> ............Identifier(b)
+> ..........Mul
+> ............Mul
+> ..............Natural(4)
+> ..............Identifier(a)
+> ............Identifier(c)
+> ......Store
+> ........Identifier(si)
+> ........Div
+> ..........Mul
+> ............Mul
+> ..............Identifier(PAmount)
+> ..............Identifier(ROI)
+> ............Identifier(Time_Period)
+> ..........Natural(100)
+> ......If
+> ........Gt
+> ..........Identifier(discriminant)
+> ..........Natural(0)
+> ........StatList
+> ..........If
+> ............Eq
+> ..............Mod
+> ................Identifier(i)
+> ................Natural(2)
+> ..............Natural(0)
+> ............Store
+> ..............Identifier(Even_Sum)
+> ..............Add
+> ................Identifier(Even_Sum)
+> ................Identifier(i)
+> ............Store
+> ..............Identifier(Odd_Sum)
+> ..............Add
+> ................Identifier(Odd_Sum)
+> ................Identifier(i)
+> ..........Store
+> ............Identifier(root1)
+> ............Add
+> ..............Minus
+> ................Identifier(b)
+> ..............Div
+> ................Call
+> ..................Identifier(sqrt)
+> ..................Identifier(discriminant)
+> ................Mul
+> ..................Natural(2)
+> ..................Identifier(a)
+> ..........Store
+> ............Identifier(root2)
+> ............Sub
+> ..............Minus
+> ................Identifier(b)
+> ..............Div
+> ................Call
+> ..................Identifier(sqrt)
+> ..................Identifier(discriminant)
+> ................Mul
+> ..................Natural(2)
+> ..................Identifier(a)
+> ..........Store
+> ............Identifier(root1)
+> ............Store
+> ..............Identifier(root2)
+> ..............Div
+> ................Minus
+> ..................Identifier(b)
+> ................Mul
+> ..................Natural(2)
+> ..................Identifier(a)
+> ..........Store
+> ............Identifier(root1)
+> ............Store
+> ..............Identifier(root2)
+> ..............Div
+> ................Minus
+> ..................Identifier(b)
+> ................Mul
+> ..................Natural(2)
+> ..................Identifier(a)
+> ..........Store
+> ............Identifier(imaginary)
+> ............Div
+> ..............Call
+> ................Identifier(sqrt)
+> ................Minus
+> ..................Identifier(discriminant)
+> ..............Mul
+> ................Natural(2)
+> ................Identifier(a)
+> ........Null
+> ......Return
+> ........Identifier(discriminant)

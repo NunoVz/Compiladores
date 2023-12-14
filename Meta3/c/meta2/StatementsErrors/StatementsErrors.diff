@@ -1,0 +1,20 @@
+1,8d0
+< Type: int
+< Type: void
+< Empty Parameter Declaration
+< Empty Parameter List
+< Parameter List
+< Function Declarator
+< Identifier (a)
+< Expr from ExprAux
+10,14d1
+< Stat + StatList
+< Compound Stat
+< Stat + StatList
+< Stat + StatList
+< Compound Stat
+16,19d2
+< If-Else Statement
+< Function Body
+< Function Definition
+< Program 
