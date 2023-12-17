@@ -32,9 +32,9 @@ typedef struct tab
 void createglobal();
 char* toLowerCase(const char* str);
 void insert(tab *table, char *id, char *type, char *params, bool decl);
-noTab *findNoTab(tab *tabletosearch, const char *id,const char *type);
+noTab *findNoTab(tab *tabletosearch, const char *id);
 tab *findTable(tab *globalTable, const char *tableName);
-
+tab *findFunc(tab* globalTable, const char* id);
 void printTable(tab *table);
 void printGlobalTable();
 #endif

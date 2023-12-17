@@ -1,30 +1,14 @@
-1,23c1,130
-< Line 5, column 16: Invalid use of void type in declaration
-< Line 7, column 34: Invalid use of void type in declaration
-< Line 7, column 34: Invalid use of void type in declaration
-< Line 156, column 15: Conflicting types (got Char, expected Function)
-< Line 275, column 8: Conflicting types (got double(double), expected double)
-< Line 276, column 8: Conflicting types (got double(int), expected double)
-< Line 277, column 5: Conflicting types (got int(int), expected double)
-< Line 280, column 13: Conflicting types (got Short, expected Double)
-< Line 287, column 18: Conflicting types (got Double, expected Function)
-< Line 288, column 19: Conflicting types (got Int, expected Function)
-< Line 289, column 16: Conflicting types (got Double, expected Function)
-< Line 289, column 16: Conflicting types (got Double, expected Function)
-< Line 293, column 9: Conflicting types (got Char, expected Int)
-< Line 293, column 21: Conflicting types (got Char, expected Int)
-< Line 293, column 29: Conflicting types (got Char, expected Int)
-< Line 309, column 19: Conflicting types (got Double, expected Function)
-< Line 312, column 19: Conflicting types (got Int, expected Function)
-< Line 312, column 19: Conflicting types (got Int, expected Function)
-< Line 312, column 19: Conflicting types (got Int, expected Function)
-< Line 314, column 13: Conflicting types (got Short, expected Function)
-< Line 316, column 16: Conflicting types (got Char, expected Function)
-< Line 319, column 18: Conflicting types (got Short, expected Function)
-< Line 320, column 13: Conflicting types (got Char, expected Function)
+1c1
+< (null)|main
 ---
 > Line 3, column 33: Invalid use of void type in declaration
-> Line 5, column 6: Invalid use of void type in declaration
+3,7c3,89
+< Line 7, column 21: Invalid use of void type in declaration
+< Line 7, column 24: Invalid use of void type in declaration
+< (null)|new
+< (null)|soma
+< (null)|subt
+---
 > Line 7, column 13: Unknown symbol as
 > Line 7, column 17: Unknown symbol aasd
 > Line 7, column 15: Operator - cannot be applied to types undef, undef
@@ -112,7 +96,11 @@
 > Line 141, column 16: Unknown symbol abcd
 > Line 141, column 16: Conflicting types (got undef, expected int)
 > Line 149, column 6: Wrong number of arguments to function chama (got 1, required 0)
-> Line 156, column 10: Symbol a already defined
+9,11c91,98
+< (null)|pow
+<  ¤fÔ$V|pow
+<  ¤fÔ$V|pow
+---
 > Line 163, column 16: Unknown symbol r
 > Line 163, column 15: Operator = cannot be applied to types char, undef
 > Line 174, column 18: Unknown symbol e
@@ -121,7 +109,19 @@
 > Line 201, column 9: Wrong number of arguments to function weird_char (got 2, required 0)
 > Line 201, column 26: Operator < cannot be applied to types undef, char
 > Line 276, column 8: Conflicting types (got double(int), expected double(double))
-> Line 277, column 5: Conflicting types (got int(int), expected double(double))
+13,23c100,109
+< Line 280, column 13: Conflicting types (got short, expected double)
+< Line 287, column 8: Symbol d already defined
+< Line 288, column 15: Symbol a already defined
+< Line 289, column 7: Symbol b already defined
+< Line 289, column 12: Symbol a already defined
+< Line 293, column 9: Conflicting types (got char, expected int)
+< Line 293, column 21: Conflicting types (got char, expected int)
+< Line 293, column 29: Conflicting types (got char, expected int)
+< (null)|blah
+< (null)|df
+< Line 309, column 12: Symbol d already defined
+---
 > Line 280, column 10: Conflicting types (got short, expected double)
 > Line 287, column 12: Symbol d already defined
 > Line 288, column 16: Symbol a already defined
@@ -132,7 +132,14 @@
 > Line 303, column 12: Unknown symbol infinite_putchar
 > Line 303, column 12: Wrong number of arguments to function infinite_putchar (got 1, required 0)
 > Line 309, column 10: Symbol d already defined
-> Line 312, column 6: Symbol a already defined
+25,30c111,130
+< Line 312, column 9: Symbol b already defined
+< Line 312, column 15: Symbol c already defined
+< Line 314, column 6: Symbol d already defined
+< Line 316, column 12: Symbol c already defined
+< Line 319, column 13: Symbol a already defined
+< Line 320, column 9: Symbol c already defined
+---
 > Line 312, column 10: Symbol b already defined
 > Line 312, column 14: Symbol c already defined
 > Line 314, column 8: Symbol d already defined
@@ -153,16 +160,10 @@
 > Line 344, column 7: Operator = cannot be applied to types int, double
 > Line 345, column 15: Unknown symbol e
 > Line 345, column 15: Conflicting types (got undef, expected double)
-40d146
-< a	int
-66,67d171
-< i	int
-< j	int
-188c292
-< ....Natural(2)
----
-> ....Natural(2) - int
-192,194c296,298
+69,70d168
+< pow	double(double)
+< pow	double(int)
+198,200c296,298
 < ....Add
 < ......Natural(2)
 < ......Natural(2)
@@ -170,7 +171,7 @@
 > ....Add - int
 > ......Natural(2) - int
 > ......Natural(2) - int
-198,208c302,312
+204,214c302,312
 < ....Sub
 < ......Sub
 < ........Sub
@@ -194,7 +195,7 @@
 > ..........Natural(2) - int
 > ..........Natural(2) - int
 > ........Natural(2) - int
-212,214c316,318
+218,220c316,318
 < ....Add
 < ......Natural(2)
 < ......Natural(2)
@@ -202,7 +203,7 @@
 > ....Add - int
 > ......Natural(2) - int
 > ......Natural(2) - int
-221,229c325,333
+227,235c325,333
 < ....Sub
 < ......Natural(2)
 < ......Add
@@ -222,11 +223,11 @@
 > ........Mul - int
 > ..........Natural(2) - int
 > ..........Natural(2) - int
-257c361
+263c361
 < ........Identifier(b)
 ---
 > ........Identifier(b) - int
-259,261c363,365
+265,267c363,365
 < ........Eq
 < ..........Identifier(i)
 < ..........Natural(0)
@@ -234,7 +235,7 @@
 > ........Eq - int
 > ..........Identifier(i) - int
 > ..........Natural(0) - int
-263,280c367,384
+269,286c367,384
 < ..........Or
 < ............Store
 < ..............Identifier(i)
@@ -272,7 +273,7 @@
 > ..........Store - int
 > ............Identifier(i) - int
 > ............Natural(0123) - int
-282,304c386,408
+288,310c386,408
 < ............Or
 < ..............Eq
 < ................Identifier(a)
@@ -320,7 +321,7 @@
 > ....................BitWiseAnd - int
 > ......................Identifier(x) - undef
 > ......................Natural(0) - int
-306,320c410,424
+312,326c410,424
 < ..............Store
 < ................Identifier(b)
 < ................Not
@@ -352,7 +353,7 @@
 > ....................Identifier(c) - undef
 > ..................Minus - undef
 > ....................Identifier(d) - undef
-323,328c427,432
+329,334c427,432
 < ........Store
 < ..........Identifier(a)
 < ..........Natural(1)
@@ -366,7 +367,7 @@
 > ........Store - int
 > ..........Identifier(b) - int
 > ..........Natural(2) - int
-330,347c434,451
+336,353c434,451
 < ........Store
 < ..........Identifier(a)
 < ..........Natural(1)
@@ -404,11 +405,11 @@
 > ......Store - undef
 > ........Identifier(f) - undef
 > ........Natural(5) - int
-349c453
+355c453
 < ........Identifier(a)
 ---
 > ........Identifier(a) - int
-352,357c456,461
+358,363c456,461
 < ..........Store
 < ............Identifier(a)
 < ............Natural(1)
@@ -422,11 +423,11 @@
 > ..........Store - int
 > ............Identifier(b) - int
 > ............Natural(2) - int
-359c463
+365c463
 < ........Identifier(b)
 ---
 > ........Identifier(b) - int
-362,367c466,471
+368,373c466,471
 < ..........Store
 < ............Identifier(x)
 < ............Natural(1)
@@ -440,15 +441,15 @@
 > ..........Store - undef
 > ............Identifier(y) - undef
 > ............Natural(2) - int
-369c473
+375c473
 < ........Identifier(c)
 ---
 > ........Identifier(c) - undef
-373c477
+379c477
 < ........Identifier(d)
 ---
 > ........Identifier(d) - undef
-375,383c479,487
+381,389c479,487
 < ..........Store
 < ............Identifier(a)
 < ............Natural(1)
@@ -468,7 +469,7 @@
 > ..........Store - undef
 > ............Identifier(c) - undef
 > ............Natural(3) - int
-395,397c499,501
+401,403c499,501
 < ........Add
 < ..........Identifier(i)
 < ..........Identifier(i)
@@ -476,11 +477,7 @@
 > ........Add - undef
 > ..........Identifier(i) - undef
 > ..........Identifier(i) - undef
-415c519
-< ........Natural(1)
----
-> ........Natural(1) - int
-417,419c521,523
+423,425c521,523
 < ........Ne
 < ..........Identifier(number)
 < ..........Natural(0)
@@ -488,7 +485,7 @@
 > ........Ne - int
 > ..........Identifier(number) - int
 > ..........Natural(0) - int
-421,430c525,534
+427,436c525,534
 < ..........Store
 < ............Identifier(answer)
 < ............Mul
@@ -510,11 +507,11 @@
 > ............Sub - int
 > ..............Identifier(number) - int
 > ..............Natural(1) - int
-432c536
+438c536
 < ........Identifier(answer)
 ---
 > ........Identifier(answer) - int
-442,444c546,548
+448,450c546,548
 < ........Eq
 < ..........Identifier(num)
 < ..........Natural(0)
@@ -522,11 +519,11 @@
 > ........Eq - int
 > ..........Identifier(num) - undef
 > ..........Natural(0) - int
-446c550
+452c550
 < ..........Natural(1)
 ---
 > ..........Natural(1) - int
-449,453c553,557
+455,459c553,557
 < ........Mul
 < ..........Identifier(number)
 < ..........Call
@@ -538,7 +535,7 @@
 > ..........Call - int
 > ............Identifier(recursive_factorial) - int(int)
 > ............Identifier(number) - int
-471,474c575,578
+477,480c575,578
 < ........Call
 < ..........Identifier(bola)
 < ..........Natural(2)
@@ -548,7 +545,7 @@
 > ..........Identifier(bola) - int
 > ..........Natural(2) - int
 > ..........Natural(3) - int
-476,478c580,582
+482,484c580,582
 < ........Eq
 < ..........Identifier(number)
 < ..........Natural(0)
@@ -556,11 +553,11 @@
 > ........Eq - int
 > ..........Identifier(number) - int
 > ..........Natural(0) - int
-480c584
+486c584
 < ..........Natural(1)
 ---
 > ..........Natural(1) - int
-483,490c587,594
+489,496c587,594
 < ........Call
 < ..........Identifier(factorial)
 < ..........Sub
@@ -578,7 +575,7 @@
 > ..........Mul - int
 > ............Identifier(k) - int
 > ............Identifier(number) - int
-498,508c602,612
+504,514c602,612
 < ......Call
 < ........Identifier(func1)
 < ........Natural(1)
@@ -602,7 +599,7 @@
 > ..........Natural(1) - int
 > ..........Natural(2) - int
 > ........Natural(3) - int
-510,516c614,620
+516,522c614,620
 < ........Identifier(a)
 < ........Store
 < ..........Identifier(statement1)
@@ -618,7 +615,7 @@
 > ........Store - undef
 > ..........Identifier(statement2) - undef
 > ..........Natural(2) - int
-518,521c622,625
+524,527c622,625
 < ........Identifier(a)
 < ........Store
 < ..........Identifier(statement1)
@@ -628,11 +625,11 @@
 > ........Store - undef
 > ..........Identifier(statement1) - undef
 > ..........Natural(1) - int
-524c628
+530c628
 < ........Identifier(a)
 ---
 > ........Identifier(a) - int
-526,528c630,632
+532,534c630,632
 < ........Store
 < ..........Identifier(statement2)
 < ..........Natural(2)
@@ -640,11 +637,11 @@
 > ........Store - undef
 > ..........Identifier(statement2) - undef
 > ..........Natural(2) - int
-530c634
+536c634
 < ........Identifier(a)
 ---
 > ........Identifier(a) - int
-534,537c638,641
+540,543c638,641
 < ........Identifier(a)
 < ........Store
 < ..........Identifier(statement2)
@@ -654,19 +651,19 @@
 > ........Store - undef
 > ..........Identifier(statement2) - undef
 > ..........Natural(2) - int
-539c643
+545c643
 < ........Identifier(a)
 ---
 > ........Identifier(a) - int
-542c646
+548c646
 < ........Identifier(a)
 ---
 > ........Identifier(a) - int
-545c649
+551c649
 < ........Identifier(a)
 ---
 > ........Identifier(a) - int
-547,558c651,662
+553,564c651,662
 < ..........Store
 < ............Identifier(statement1)
 < ............Natural(1)
@@ -692,7 +689,7 @@
 > ......Store - undef
 > ........Identifier(statement1) - undef
 > ........Natural(1) - int
-560,565c664,669
+566,571c664,669
 < ........Store
 < ..........Identifier(statement1)
 < ..........Natural(1)
@@ -706,7 +703,7 @@
 > ........Store - undef
 > ..........Identifier(statement2) - undef
 > ..........Natural(2) - int
-569,581c673,685
+575,587c673,685
 < ........Call
 < ..........Identifier(ctoi)
 < ..........Call
@@ -734,31 +731,11 @@
 > ......Call - int
 > ........Identifier(factorial) - int(int)
 > ........Identifier(i) - int
-583c687
+589c687
 < ........Natural(0)
 ---
 > ........Natural(0) - int
-609c713
-< ....Natural(3)
----
-> ....Natural(3) - int
-613c717
-< ....Natural(5)
----
-> ....Natural(5) - int
-617c721
-< ....Natural(3)
----
-> ....Natural(3) - int
-621c725
-< ....Natural(5)
----
-> ....Natural(5) - int
-625c729
-< ....Natural(3)
----
-> ....Natural(3) - int
-634,636c738,740
+640,642c738,740
 < ........Eq
 < ..........Identifier(o)
 < ..........Identifier(e)
@@ -766,15 +743,15 @@
 > ........Eq - int
 > ..........Identifier(o) - undef
 > ..........Identifier(e) - undef
-639c743
+645c743
 < ............Identifier(abcd)
 ---
 > ............Identifier(abcd) - undef
-642c746
+648c746
 < ............Identifier(a)
 ---
 > ............Identifier(a) - int
-645,648c749,752
+651,654c749,752
 < ........Identifier(c)
 < ......Call
 < ........Identifier(chama)
@@ -784,11 +761,11 @@
 > ......Call - int
 > ........Identifier(chama) - int(void)
 > ........Natural(4) - int
-650c754
+656c754
 < ........Identifier(b)
 ---
 > ........Identifier(b) - int
-661,667c765,771
+667,673c765,771
 < ........Sub
 < ..........Add
 < ............Minus
@@ -804,7 +781,7 @@
 > ............Natural(3) - int
 > ..........Minus - int
 > ............Natural(3) - int
-671,676c775,780
+677,682c775,780
 < ........Sub
 < ..........Add
 < ............Identifier(a)
@@ -818,8 +795,7 @@
 > ............Natural(4) - int
 > ..........Minus - char
 > ............Identifier(a) - char
-680,689c784,793
-< ........Natural(5)
+687,695c785,793
 < ......Store
 < ........Identifier(a)
 < ........Natural(5)
@@ -830,7 +806,6 @@
 < ........Identifier(a)
 < ........Natural(5)
 ---
-> ........Natural(5) - int
 > ......Store - char
 > ........Identifier(a) - char
 > ........Natural(5) - int
@@ -840,13 +815,13 @@
 > ......Lt - int
 > ........Identifier(a) - char
 > ........Natural(5) - int
-691,692c795,796
+697,698c795,796
 < ........Not
 < ..........Identifier(a)
 ---
 > ........Not - int
 > ..........Identifier(a) - char
-694,702c798,806
+700,708c798,806
 < ..........Natural(2)
 < ..........Store
 < ............Identifier(a)
@@ -866,7 +841,7 @@
 > ..........Store - char
 > ............Identifier(a) - char
 > ............Identifier(r) - undef
-704,714c808,818
+710,720c808,818
 < ........Or
 < ..........And
 < ............Eq
@@ -890,7 +865,7 @@
 > ..........Lt - int
 > ............Identifier(a) - char
 > ............Natural(3) - int
-716,721c820,825
+722,727c820,825
 < ..........Store
 < ............Identifier(a)
 < ............Identifier(b)
@@ -904,7 +879,7 @@
 > ..........Store - int
 > ............Identifier(b) - int
 > ............Natural(3) - int
-723,729c827,833
+729,735c827,833
 < ............Natural(1)
 < ............Store
 < ..............Identifier(a)
@@ -920,7 +895,7 @@
 > ..........Store - int
 > ............Identifier(c) - int
 > ............Natural(5) - int
-731,739c835,843
+737,745c835,843
 < ........And
 < ..........Eq
 < ............Identifier(a)
@@ -940,15 +915,15 @@
 > ..............Identifier(e) - undef
 > ..............Natural(3) - int
 > ............Natural(5) - int
-741c845
+747c845
 < ..........Identifier(b)
 ---
 > ..........Identifier(b) - int
-744c848
+750c848
 < ........Identifier(a)
 ---
 > ........Identifier(a) - char
-754,760c858,864
+760,766c858,864
 < ........And
 < ..........Ge
 < ............Identifier(c)
@@ -964,7 +939,7 @@
 > ..........Le - int
 > ............Identifier(c) - char
 > ............ChrLit('9') - int
-762,764c866,868
+768,770c866,868
 < ..........Sub
 < ............Identifier(c)
 < ............ChrLit('0')
@@ -972,7 +947,7 @@
 > ..........Sub - int
 > ............Identifier(c) - char
 > ............ChrLit('0') - int
-778,780c882,884
+784,786c882,884
 < ........Lt
 < ..........Identifier(a)
 < ..........Identifier(b)
@@ -980,7 +955,7 @@
 > ........Lt - int
 > ..........Identifier(a) - char
 > ..........Identifier(b) - char
-782,786c886,890
+788,792c886,890
 < ..........Store
 < ............Identifier(a)
 < ............Sub
@@ -992,11 +967,11 @@
 > ............Sub - int
 > ..............Identifier(a) - char
 > ..............Natural(1) - int
-788c892
+794c892
 < ............Identifier(a)
 ---
 > ............Identifier(a) - char
-790,794c894,898
+796,800c894,898
 < ..........Store
 < ............Identifier(b)
 < ............Sub
@@ -1008,11 +983,11 @@
 > ............Sub - int
 > ..............Identifier(b) - char
 > ..............Natural(1) - int
-796c900
+802c900
 < ............Identifier(b)
 ---
 > ............Identifier(b) - char
-812,827c916,931
+818,833c916,931
 < ........Add
 < ..........Add
 < ............Identifier(a)
@@ -1046,7 +1021,7 @@
 > ................Identifier(d) - int
 > ..............Identifier(c) - int
 > ..........Identifier(d) - int
-840,845c944,949
+846,851c944,949
 < ........Lt
 < ..........Call
 < ............Identifier(weird_char)
@@ -1060,19 +1035,15 @@
 > ............Identifier(a) - char
 > ............Identifier(b) - char
 > ..........Identifier(b) - char
-847c951
+853c951
 < ..........Identifier(a)
 ---
 > ..........Identifier(a) - char
-849c953
+855c953
 < ..........Identifier(b)
 ---
 > ..........Identifier(b) - char
-873c977
-< ........Decimal(3.14)
----
-> ........Decimal(3.14) - double
-875,879c979,983
+881,885c979,983
 < ........Sub
 < ..........Identifier(a)
 < ..........Mul
@@ -1084,17 +1055,17 @@
 > ..........Mul - double
 > ............Identifier(b) - double
 > ............Identifier(PI) - double
-888c992
+894c992
 < ........Identifier(a)
 ---
 > ........Identifier(a) - int
-890,891c994,995
+896,897c994,995
 < ..........Minus
 < ............Natural(1)
 ---
 > ..........Minus - int
 > ............Natural(1) - int
-893,895c997,999
+899,901c997,999
 < ........Eq
 < ..........Identifier(a)
 < ..........Natural(2)
@@ -1102,7 +1073,7 @@
 > ........Eq - int
 > ..........Identifier(a) - int
 > ..........Natural(2) - int
-899,901c1003,1005
+905,907c1003,1005
 < ........Eq
 < ..........Identifier(a)
 < ..........Natural(2)
@@ -1110,15 +1081,15 @@
 > ........Eq - int
 > ..........Identifier(a) - int
 > ..........Natural(2) - int
-903c1007
+909c1007
 < ..........Identifier(a)
 ---
 > ..........Identifier(a) - int
-905c1009
+911c1009
 < ..........Natural(5)
 ---
 > ..........Natural(5) - int
-907,909c1011,1013
+913,915c1011,1013
 < ........Eq
 < ..........Identifier(b)
 < ..........Natural(3)
@@ -1126,7 +1097,7 @@
 > ........Eq - int
 > ..........Identifier(b) - int
 > ..........Natural(3) - int
-912,914c1016,1018
+918,920c1016,1018
 < ............Eq
 < ..............Identifier(a)
 < ..............Natural(2)
@@ -1134,11 +1105,11 @@
 > ............Eq - int
 > ..............Identifier(a) - int
 > ..............Natural(2) - int
-916c1020
+922c1020
 < ..............Identifier(a)
 ---
 > ..............Identifier(a) - int
-920,922c1024,1026
+926,928c1024,1026
 < ..............Eq
 < ................Identifier(a)
 < ................Natural(2)
@@ -1146,11 +1117,11 @@
 > ..............Eq - int
 > ................Identifier(a) - int
 > ................Natural(2) - int
-924c1028
+930c1028
 < ................Identifier(a)
 ---
 > ................Identifier(a) - int
-927,929c1031,1033
+933,935c1031,1033
 < ..............Eq
 < ................Identifier(a)
 < ................Natural(2)
@@ -1158,15 +1129,15 @@
 > ..............Eq - int
 > ................Identifier(a) - int
 > ................Natural(2) - int
-931c1035
+937c1035
 < ................Identifier(a)
 ---
 > ................Identifier(a) - int
-933c1037
+939c1037
 < ................Natural(5)
 ---
 > ................Natural(5) - int
-935,937c1039,1041
+941,943c1039,1041
 < ..............Eq
 < ................Identifier(a)
 < ................Natural(2)
@@ -1174,11 +1145,11 @@
 > ..............Eq - int
 > ................Identifier(a) - int
 > ................Natural(2) - int
-939c1043
+945c1043
 < ................Identifier(a)
 ---
 > ................Identifier(a) - int
-942,944c1046,1048
+948,950c1046,1048
 < ..............Eq
 < ................Identifier(a)
 < ................Natural(2)
@@ -1186,15 +1157,15 @@
 > ..............Eq - int
 > ................Identifier(a) - int
 > ................Natural(2) - int
-946c1050
+952c1050
 < ................Identifier(a)
 ---
 > ................Identifier(a) - int
-948c1052
+954c1052
 < ................Natural(5)
 ---
 > ................Natural(5) - int
-950,952c1054,1056
+956,958c1054,1056
 < ..............Eq
 < ................Identifier(a)
 < ................Natural(2)
@@ -1202,43 +1173,27 @@
 > ..............Eq - int
 > ................Identifier(a) - int
 > ................Natural(2) - int
-954c1058
+960c1058
 < ................Identifier(a)
 ---
 > ................Identifier(a) - int
-956c1060
+962c1060
 < ................Natural(5)
 ---
 > ................Natural(5) - int
-958c1062
+964c1062
 < ............Natural(90)
 ---
 > ............Natural(90) - int
-962c1066
-< ....Natural(0)
----
-> ....Natural(0) - int
-966c1070
-< ....Natural(2)
----
-> ....Natural(2) - int
-976c1080
-< ....Natural(0)
----
-> ....Natural(0) - int
-1066c1170
+1072c1170
 < ........Identifier(c1)
 ---
 > ........Identifier(c1) - char
-1073c1177
+1079c1177
 < ....ChrLit('a')
 ---
 > ....ChrLit('a') - int
-1105c1209
-< ........Natural(20)
----
-> ........Natural(20) - int
-1113,1137c1217,1241
+1119,1143c1217,1241
 < ........Store
 < ..........Identifier(ch0)
 < ..........Or
@@ -1290,39 +1245,7 @@
 > ........Identifier(ch1) - char
 > ........Call - int
 > ..........Identifier(getchar) - int(void)
-1145c1249
-< ........Natural(2)
----
-> ........Natural(2) - int
-1149c1253
-< ........Natural(3)
----
-> ........Natural(3) - int
-1153c1257
-< ........Decimal(3.0)
----
-> ........Decimal(3.0) - double
-1157c1261
-< ........Decimal(1.5)
----
-> ........Decimal(1.5) - double
-1161c1265
-< ........Natural(1)
----
-> ........Natural(1) - int
-1165c1269
-< ........Natural(2)
----
-> ........Natural(2) - int
-1169c1273
-< ........Natural(3)
----
-> ........Natural(3) - int
-1173c1277
-< ........Natural(4)
----
-> ........Natural(4) - int
-1178,1187c1282,1291
+1184,1193c1282,1291
 < ......Store
 < ........Identifier(a)
 < ........Add
@@ -1344,7 +1267,7 @@
 > ..........Div - int
 > ............Natural(2) - int
 > ............Natural(4) - int
-1194,1238c1298,1342
+1200,1244c1298,1342
 < ......Add
 < ........Call
 < ..........Identifier(function)
@@ -1436,7 +1359,7 @@
 > ......Store - int
 > ........Identifier(c) - int
 > ........Decimal(5.5) - double
-1240,1243c1344,1347
+1246,1249c1344,1347
 < ........Call
 < ..........Identifier(df)
 < ..........Identifier(d)

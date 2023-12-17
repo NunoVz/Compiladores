@@ -50,18 +50,24 @@ void insert(tab *table, char *id, char *type, char *params, bool decl) {
     }
 }
 
-noTab *findNoTab(tab *tabletosearch, const char *id,const char *type) {
+noTab *findNoTab(tab *tabletosearch, const char *id) {
     tab *globalTable = tabletosearch;
     if (globalTable != NULL) {
         noTab *currentNode = globalTable->table;
+
         while (currentNode != NULL) {
+
             if (strcmp(currentNode->id, id) == 0) {
-                
+
+
                 return currentNode;  
             } 
             currentNode = currentNode->next;
         }
+
     }
+
+
     return NULL;
 }
 
@@ -114,7 +120,7 @@ void printTable(tab *table) {
     if (strcmp(table->type, "Global") == 0)
         printf("===== %s Symbol Table =====\n", table->type);
     else
-        printf("===== %s %s Symbol Table =====\n", table->type,table->name);
+        printf("===== Function %s Symbol Table =====\n",table->name);
     while (currentEntry != NULL) {
         if (strcmp(table->type, "Global") == 0)
         printf("%s\t%s%s\n", currentEntry->id, toLowerCase(currentEntry->type), toLowerCase(currentEntry->params));

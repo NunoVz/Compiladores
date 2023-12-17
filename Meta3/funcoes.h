@@ -28,5 +28,6 @@ no create(char* type, char* info,int l,int c);
 no addChild(no parent, no child);
 void addBrother(no existingNode, no newBrother);
 void printTree(no root, int level);
+void printTreeAnot(no root, int size);
 int countB(no root);
 #endif

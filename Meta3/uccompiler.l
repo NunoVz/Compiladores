@@ -148,14 +148,17 @@ int main(int argc, char *argv[]) {
         yyparse();
         buildSymbolTable(root);
         printGlobalTable();
-        if (!errFlag && flagTree) { printTree(root, 0); }
+        if (!errFlag && flagTree) { printTreeAnot(root, 0); }
  
         
     }else{
         flag = false;
         flagTree=false;
         yyparse();
-        yylex();
+        buildSymbolTable(root);
+           if (!errFlag && flagTree) {  printGlobalTable();}
+        
+
     }
     
     return 0;

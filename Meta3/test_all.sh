@@ -4,6 +4,7 @@ executable="./uccompiler" # Change this to your executable
 
 for file in "./c/$meta/"*; do
     for file2 in $file/*c; do
+        
         "$executable" -s < $file2 > $file/$(basename "${file}").result
         diff $file/$(basename "${file}").result $file/$(basename "${file}").out >   $file/$(basename "${file}").diff
         echo $file2

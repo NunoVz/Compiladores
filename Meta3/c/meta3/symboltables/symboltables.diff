@@ -1,8 +1,10 @@
-82c82
+1d0
+< (null)|df
+83c82
 < ........Identifier(c1)
 ---
 > ........Identifier(c1) - char
-103,106c103,106
+104,107c103,106
 < ........Call
 < ..........Identifier(df)
 < ..........Identifier(d)
@@ -12,7 +14,7 @@
 > ..........Identifier(df) - double(double,double)
 > ..........Identifier(d) - double
 > ..........Identifier(e) - double
-125,127c125,127
+126,128c125,127
 < ........Add
 < ..........Identifier(i)
 < ..........Identifier(j)
@@ -20,7 +22,7 @@
 > ........Add - int
 > ..........Identifier(i) - int
 > ..........Identifier(j) - int
-140c140
+141c140
 < ........Identifier(t)
 ---
 > ........Identifier(t) - short

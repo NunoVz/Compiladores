@@ -4,6 +4,7 @@
 #include <stdarg.h>
 #include "y.tab.h"
 #include "funcoes.h"
+#include "symtable.h"
 
 
 
@@ -91,6 +92,38 @@ int countB(no root) {
 		return count;
 	}
 
+void printTreeAnot(no root, int size) {
+    if(root == NULL){
+        return;
+    }
+    int i = 0;
+    no aux;
+    if(strcmp(root->type, "Program") == 0)
+        printf("%s\n", root->type);
+    else {
+        while(i < size) {
+            printf("..");
+            i++;
+        } 
+        if(strcmp(root->infor, "") != 0)
+            printf("%s(%s)\n", root->type, root->infor);
+        else
+            printf("%s\n", root->type);
+        
+    }
+
+    aux = root->child;
+
+    while(aux!= NULL){
+        no free_n = aux;
+        printTree(aux, size+1);
+        aux = aux->brother;
+        
+        free(free_n);
+    }
+}
+
+
 void printTree(no root, int size) {
 		if(root == NULL){
         	return;
@@ -106,17 +139,17 @@ void printTree(no root, int size) {
 				printf("..");
 				i++;
 			}
-            if(strcmp(root->auxinfo, "") == 0){
+            if(strcmp(root->auxinfo, "") == 0 || strcmp(root->auxinfo, "Void") == 0 ){
                 if(strcmp(root->infor, "") != 0)
 				    printf("%s(%s)\n", root->type, root->infor);
                 else
                     printf("%s\n", root->type);
                 
             }else{
-                if(strcmp(root->infor, "") != 0)
-				    printf("%s(%s) - %s\n", root->type, root->infor,root->auxinfo);
+                if(strcmp(root->infor, "") != 0 )
+				    printf("%s(%s) - %s\n", root->type, root->infor,toLowerCase(root->auxinfo));
                 else
-                    printf("%s - %s\n", root->type,root->auxinfo);
+                    printf("%s - %s\n", root->type,toLowerCase(root->auxinfo));
                 }
             }
             

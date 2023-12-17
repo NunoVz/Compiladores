@@ -40,15 +40,15 @@ Program
 ......Declaration
 ........Short
 ........Identifier(b)
-........Natural(2)
+........Natural(2) - int
 ......Declaration
 ........Int
 ........Identifier(c)
-........Natural(3)
+........Natural(3) - int
 ......Declaration
 ........Double
 ........Identifier(d)
-........Decimal(3.0)
+........Decimal(3.0) - double
 ......If
 ........Store
 ..........Identifier(a)

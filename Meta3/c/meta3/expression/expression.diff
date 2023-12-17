@@ -55,18 +55,6 @@
 < ........Natural(0)
 ---
 > ........Natural(0) - int
-43c95
-< ........Natural(2)
----
-> ........Natural(2) - int
-47c99
-< ........Natural(3)
----
-> ........Natural(3) - int
-51c103
-< ........Decimal(3.0)
----
-> ........Decimal(3.0) - double
 53,55c105,107
 < ........Store
 < ..........Identifier(a)
